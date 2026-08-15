@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="803">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_17" y="344.54102" x="1110.16398" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">mention these organisms</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="e79078adf67b4d50a9861b13ca644b93-ao-1">
+   <g>
+    <rect height="37.70492" width="270.49181" y="146.18035" x="387.21314" stroke="#2D2D2D" fill="#FFEBA2"/>
+    <rect height="34.42623" width="45.90164" y="188.80331" x="482.29511" stroke="#2D2D2D" fill="#FFEBA2"/>
+   </g>
+   <g>
+    <rect height="42.62295" width="224.59017" y="375.68856" x="408.52461" stroke="#2D2D2D" fill="#FFEBA2"/>
+    <rect height="36.06557" width="40.98361" y="424.86889" x="483.93445" stroke="#2D2D2D" fill="#FFEBA2"/>
+   </g>
+  </g>
+  <g id="e79078adf67b4d50a9861b13ca644b93-ao-2">
+   <g>
+    <rect height="42.62295" width="280.32788" y="139.62298" x="739.67216" stroke="#2D2D2D" fill="#FFEBA2"/>
+    <rect height="34.42623" width="172.13115" y="260.93446" x="785.5738" stroke="#2D2D2D" fill="#FFEBA2"/>
+    <rect height="31.14754" width="44.2623" y="301.91806" x="834.75413" stroke="#2D2D2D" fill="#FFEBA2"/>
+   </g>
+   <rect height="36.06557" width="213.11476" y="567.49184" x="770.81971" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="27.86885" width="31.14754" y="610.11479" x="844.5902" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  
+ </g>
+</svg>
