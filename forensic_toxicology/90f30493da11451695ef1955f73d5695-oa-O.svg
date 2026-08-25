@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="684" height="585">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="90f30493da11451695ef1955f73d5695-oa-1" height="56.47059" width="339.41176" y="61.47059" x="317.17643" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect stroke="#2D2D2D" id="90f30493da11451695ef1955f73d5695-oa-2" height="53.52941" width="368.82351" y="126.17647" x="301.29409" fill="#FFEBA2"/>
+  <rect id="90f30493da11451695ef1955f73d5695-oa-3" height="11.17647" width="227.64706" y="190.29412" x="314.23525" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="90f30493da11451695ef1955f73d5695-oa-4">
+   <rect height="35.88235" width="274.70588" y="312.64706" x="389.52937" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="33.52941" width="111.76471" y="331.47059" x="300.70584" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <rect stroke="#2D2D2D" id="90f30493da11451695ef1955f73d5695-oa-5" height="32.35294" width="357.05882" y="272.64706" x="307.17643" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+  <rect id="90f30493da11451695ef1955f73d5695-oa-6" height="75.29412" width="369.41176" y="453.82353" x="301.88231" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text transform="matrix(0.7142896056175232,0,0,0.577190101146698,33.35222431924194,247.84549049004636) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="90f30493da11451695ef1955f73d5695-oa-7" y="583.19419" x="605.29252" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">union of lateral epicondyle of humerus</text>
+  <g id="90f30493da11451695ef1955f73d5695-oa-8">
+   <rect stroke="#2D2D2D" height="30" width="335.29412" y="537.94118" x="298.94113" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+   <rect height="11.17647" width="307.64706" y="576.76471" x="307.17643" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

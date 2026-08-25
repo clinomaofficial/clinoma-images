@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1188" height="352">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="afddf53acdb8403f9431f39f104226fa-oa-1">
+   <rect height="25.4902" width="194.11765" y="43.09803" x="111.99999" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="26.47059" width="280.39215" y="149.96077" x="116.90195" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="27.45098" width="114.70588" y="250.94116" x="118.86273" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="afddf53acdb8403f9431f39f104226fa-oa-2">
+   <rect height="22.54902" width="24.5098" y="43.09803" x="322.7843" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="25.4902" width="26.47059" y="41.13724" x="462.98038" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <rect id="afddf53acdb8403f9431f39f104226fa-oa-3" height="24.5098" width="277.45098" y="81.33332" x="400.23528" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="afddf53acdb8403f9431f39f104226fa-oa-4" height="27.45098" width="98.03921" y="146.0392" x="863.96077" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="afddf53acdb8403f9431f39f104226fa-oa-5" height="26.47059" width="172.54902" y="250.94116" x="300.23528" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="afddf53acdb8403f9431f39f104226fa-oa-6" height="23.52941" width="18.62745" y="321.5294" x="538.47057" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>
