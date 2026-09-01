@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="781" height="309">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="110.99999" x="85.06059" stroke-width="0" fill="#000000">2,3 DPG</text>
+  <text transform="matrix(0.771376371383667,0,0,1,-15.853619746863842,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="160.69696" x="135.93159" stroke-width="0" fill="#000000">carbonic anhydrase</text>
+  <text transform="matrix(0.906325101852417,0,0,1,0.42885539308190346,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="214.63636" x="98.39392" stroke-width="0" fill="#000000">affinity for oxygen</text>
+  <text transform="matrix(0.8615378141403198,0,0,1,0.5754834599792957,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="274.63636" x="102.63635" stroke-width="0" fill="#000000">effect of alkali/acid</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="a073d02cf07d43899994f1819d07efcd-ao-1" class="qshape">
+   <rect height="37.57576" width="288.48485" y="87.96969" x="183.2424" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="37.57576" width="288.48485" y="89.18181" x="480.81815" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+  <g id="a073d02cf07d43899994f1819d07efcd-ao-2">
+   <rect height="37.57576" width="288.48485" y="138.27272" x="185.06059" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="37.57576" width="288.48485" y="139.48484" x="482.63633" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="a073d02cf07d43899994f1819d07efcd-ao-3">
+   <rect height="37.57576" width="288.48485" y="187.36363" x="186.27271" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="37.57576" width="288.48485" y="188.57575" x="483.84845" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="a073d02cf07d43899994f1819d07efcd-ao-4">
+   <rect stroke="#2D2D2D" height="69.69698" width="288.48485" y="232.81817" x="185.06059" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+   <rect stroke="#2D2D2D" height="69.69698" width="288.48485" y="234.03029" x="482.63633" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

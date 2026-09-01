@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="889" height="467">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <line id="svg_1" y2="137.82756" x2="588.24132" y1="141.27584" x1="390.3103" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_2" y2="175.7586" x2="579.27581" y1="175.7586" x1="374.44823" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_3" y2="235.7586" x2="619.27581" y1="233.68963" x1="364.79306" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_4" y2="368.86204" x2="610.99994" y1="361.96549" x1="256.5172" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_5" y2="319.89652" x2="624.10339" y1="315.75859" x1="381.34478" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_6" y2="435.75859" x2="618.58615" y1="437.82755" x1="224.10341" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_7" y="146.79308" x="677.8965" stroke-width="0" fill="#000000">round ligament</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_8" y="183.3448" x="657.20684" stroke-width="0" fill="#000000">fallopian tube</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_9" y="244.03446" x="717.89649" stroke-width="0" fill="#000000">ovarian ligament</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_10" y="329.5517" x="663.41374" stroke-width="0" fill="#000000">ovary</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_11" y="374.37928" x="706.86202" stroke-width="0" fill="#000000">pouch of douglas</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_12" y="442.65514" x="702.72408" stroke-width="0" fill="#000000">loops of bowel</text>
+  <line id="svg_19" y2="73.68964" x2="686.17235" y1="103.34481" x1="282.72409" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_20" y="79.20688" x="734.44822" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">uterus</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="ed3baf2fe80b4deda0662402f7b43fc6-ao-1" height="26.89655" width="177.24137" y="124.03446" x="596.51719" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="ed3baf2fe80b4deda0662402f7b43fc6-ao-2" height="28.27586" width="177.93103" y="161.27584" x="580.65512" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="ed3baf2fe80b4deda0662402f7b43fc6-ao-3" height="34.48276" width="202.75861" y="224.72411" x="628.93098" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="ed3baf2fe80b4deda0662402f7b43fc6-ao-4" height="31.72414" width="204.13792" y="354.37928" x="610.99994" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="ed3baf2fe80b4deda0662402f7b43fc6-ao-5" height="31.72414" width="204.13792" y="419.89652" x="624.10339" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

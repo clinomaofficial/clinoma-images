@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="692" height="413">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <line id="svg_1" y2="264.98744" x2="574.66664" y1="266.87423" x1="460.83016" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="352.40882" x="211.77355" stroke-width="0" fill="#000000">ecto</text>
+  <text transform="matrix(0.9566429853439331,0,0,1,24.90860491991043,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="270.01889" x="632.52828" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">endocervix</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  
+ </g>
+</svg>

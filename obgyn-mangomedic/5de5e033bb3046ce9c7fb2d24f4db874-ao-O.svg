@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="179">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text transform="matrix(0.9057158827781677,0,0,1,0.387448794208467,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="123.98507" x="122.8358" stroke-width="0" fill="#000000">motility and secretions</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="5de5e033bb3046ce9c7fb2d24f4db874-ao-1">
+   <rect height="72.38806" width="372.38806" y="98.61194" x="222.83579" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect stroke="#2D2D2D" height="72.38806" width="343.28359" y="98.61194" x="609.40295" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1001" height="727.0000000000001">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="489.66669" x="167.88884" stroke-width="0" fill="#000000">seperation direction</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="557.44447" x="217.88884" stroke-width="0" fill="#000000">bleeding</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="681.88892" x="147.88884" stroke-width="0" fill="#000000">side coming out first</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="fe9175ed0f794050a92f694cf9c0988d-ao-1">
+   <rect height="32.22222" width="272.22223" y="459.66669" x="302.33329" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="32.22222" width="272.22223" y="464.11113" x="675.66662" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="fe9175ed0f794050a92f694cf9c0988d-ao-2">
+   <rect stroke="#2D2D2D" height="148.88888" width="267.77778" y="497.44447" x="302.33329" fill="#FFEBA2"/>
+   <rect stroke="#2D2D2D" height="148.8889" width="304.44446" y="500.7778" x="680.11108" fill="#FFEBA2"/>
+  </g>
+  
+ </g>
+</svg>

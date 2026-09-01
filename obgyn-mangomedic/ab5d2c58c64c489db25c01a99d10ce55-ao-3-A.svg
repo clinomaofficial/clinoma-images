@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="973" height="467.99999999999994">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text fill="#000000" stroke-width="0" x="156.54547" y="179.72726" id="svg_1" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve">LOCATION</text>
+  <text fill="#000000" stroke-width="0" x="135.33334" y="222.90908" id="svg_2" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve">SIZE GROWTH</text>
+  <text fill="#000000" stroke-width="0" x="168.12199" y="270.63635" id="svg_3" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(0.680867075920105,0,0,1,4.577562879770994,0) ">DOUBLE DECIDUAL SIGN</text>
+  <text fill="#000000" stroke-width="0" x="156.54547" y="356.99999" id="svg_4" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve">YOLK SAC</text>
+  <text fill="#000000" stroke-width="0" x="125.91145" y="400.93938" id="svg_5" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(0.898779034614563,0,0,1,0.575694240629673,0) ">DOUBLE BLEB SIGN</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="ab5d2c58c64c489db25c01a99d10ce55-ao-1">
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="234.57577" y="156.99999" width="363.63637" height="29.54545"/>
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="607.30306" y="157.75756" width="363.63637" height="29.54545"/>
+  </g>
+  <g id="ab5d2c58c64c489db25c01a99d10ce55-ao-2">
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="237.60607" y="201.69695" width="363.63637" height="29.54545"/>
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="610.33336" y="202.45453" width="363.63637" height="29.54545"/>
+  </g>
+  
+ </g>
+</svg>

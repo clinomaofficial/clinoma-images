@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900.9999999999999" height="435">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="190.87414" x="137.46148" stroke-width="0" fill="#000000">LH</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="227.93708" x="128.37056" stroke-width="0" fill="#000000">FSH</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="262.90211" x="93.40553" stroke-width="0" fill="#000000">testosterone</text>
+  <text transform="matrix(0.8228245973587036,0,0,1,0.5093792825937271,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_5" y="308.35666" x="97.60134" stroke-width="0" fill="#000000">spermatogenesis</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="b9642b9face54ef5b7c00992f2f14385-ao-1" height="106.99301" width="159.44056" y="167.09791" x="192.70623" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect transform="translate(231.46853637695312,-13.986014366149902) " id="b9642b9face54ef5b7c00992f2f14385-ao-2" height="106.99301" width="159.44056" y="181.08393" x="206.69225" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect stroke="#2D2D2D" id="b9642b9face54ef5b7c00992f2f14385-ao-3" height="106.99301" width="225.17483" y="169.19582" x="634.66427" fill="#FFEBA2"/>
+  <g id="b9642b9face54ef5b7c00992f2f14385-ao-4" class="qshape">
+   <rect height="62.23776" width="183.91609" y="283.18183" x="193.40553" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="62.23776" width="183.91609" y="285.27973" x="425.57337" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="62.23776" width="183.91609" y="282.48253" x="636.06288" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="914.9999999999999" height="562">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="412.38014" x="167.64461" stroke-width="0" fill="#000000">advantage</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="499.98344" x="162.68593" stroke-width="0" fill="#000000">disadvantage</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="7306152f4084487498c1caaeecde6013-ao-1" height="76.03306" width="302.47933" y="386.7603" x="250.28923" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="7306152f4084487498c1caaeecde6013-ao-2" height="76.03306" width="302.47933" y="389.23964" x="585.82643" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="7306152f4084487498c1caaeecde6013-ao-3" height="76.03306" width="302.47933" y="474.36361" x="586.65287" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="7306152f4084487498c1caaeecde6013-ao-4" height="76.03306" width="302.47933" y="474.36361" x="251.94214" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

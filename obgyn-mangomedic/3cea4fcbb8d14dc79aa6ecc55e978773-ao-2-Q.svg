@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="718" height="356">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text transform="matrix(0.969717800617218,0,0,0.8519130945205688,0.7267727851867676,22.564134382804696) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="175.84358" x="116.07823" stroke-width="0" fill="#000000">dont induce labor</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="320.53632" x="169.15086" stroke-width="0" fill="#000000">induce labor</text>
+ </g>
+ <g display="inline">
+  <title>Masks</title>
+  <rect stroke="#2D2D2D" id="3cea4fcbb8d14dc79aa6ecc55e978773-ao-1" height="43.01676" width="257.54191" y="131.7095" x="1.55309" fill="#FFEBA2"/>
+  <rect id="3cea4fcbb8d14dc79aa6ecc55e978773-ao-2" height="53.63129" width="211.17319" y="280.31286" x="69.15086" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="3cea4fcbb8d14dc79aa6ecc55e978773-ao-3" height="48.60335" width="145.81006" y="301.54191" x="331.16204" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="3cea4fcbb8d14dc79aa6ecc55e978773-ao-4" height="210.61453" width="211.17319" y="129.47487" x="503.78774" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

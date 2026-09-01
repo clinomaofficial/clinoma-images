@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="953" height="569">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="153.50001" x="188.66669" stroke-width="0" fill="#000000">age</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="238.50001" x="152.83336" stroke-width="0" fill="#000000">uni/multifocal</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="286.00002" x="174.50003" stroke-width="0" fill="#000000">prognosis</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="510.16669" x="149.50003" stroke-width="0" fill="#000000">HPV association</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_5" y="330.16668" x="149.50003" stroke-width="0" fill="#000000">associated with</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="508.50002" x="377.00003" stroke-width="0" fill="#000000">associated with HPV</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="78ff3dea3ed34584be8efeba87c89bf7-ao-1" height="166.66667" width="309.16667" y="301.83335" x="256.16669" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="78ff3dea3ed34584be8efeba87c89bf7-ao-2" height="161.66667" width="312.50001" y="304.33335" x="612.83337" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="78ff3dea3ed34584be8efeba87c89bf7-ao-3">
+   <rect height="58.33333" width="290.83334" y="483.50002" x="259.50003" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="67.5" width="333.33334" y="480.16669" x="611.1667" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="78ff3dea3ed34584be8efeba87c89bf7-ao-4">
+   <rect height="79.16667" width="325.83334" y="217.66668" x="259.50003" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="79.16667" width="325.83334" y="217.66668" x="612.83338" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="78ff3dea3ed34584be8efeba87c89bf7-ao-5">
+   <rect height="82.5" width="298.33334" y="127.66668" x="259.50003" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="82.5" width="298.33334" y="131.83334" x="612.00004" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="585" height="391">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <line stroke="#2D2D2D" id="svg_1" y2="200.954" x2="203.50573" y1="203.25285" x1="393.1609" stroke-width="3" fill="#FFEBA2"/>
+  <line id="svg_2" y2="252.67814" x2="204.65515" y1="254.40227" x1="362.12641" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_3" y2="283.13791" x2="197.7586" y1="283.13791" x1="382.81607" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_5" y="209.57469" x="127.06895" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Gartner's cyst</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="258.99998" x="111.55171" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">paraurethral cyst</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_7" y="290.60917" x="112.12642" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Bartholin's cyst</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="c7efb6d815da4e01a7bfab6320b6f98a-ao-1" height="23.56322" width="189.08046" y="192.33331" x="14.42527" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect transform="translate(-14.94252872467041,38.50574493408203) " id="c7efb6d815da4e01a7bfab6320b6f98a-ao-2" height="23.56322" width="189.08046" y="203.82756" x="25.91953" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="c7efb6d815da4e01a7bfab6320b6f98a-ao-3" height="23.56322" width="189.08046" y="271.64365" x="13.27585" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

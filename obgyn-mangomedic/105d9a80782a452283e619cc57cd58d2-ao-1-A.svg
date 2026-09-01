@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="724" height="327">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="291.53933" x="131.61799" stroke-width="0" fill="#000000">pH</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  
+  <rect transform="translate(155.61798095703125,-13.483146667480469) " id="105d9a80782a452283e619cc57cd58d2-ao-2" height="106.17978" width="148.31461" y="104.46067" x="167.57305" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="105d9a80782a452283e619cc57cd58d2-ao-3" height="67.41573" width="221.34832" y="91.53933" x="486.67418" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="105d9a80782a452283e619cc57cd58d2-ao-4" height="34.26966" width="94.94382" y="265.13484" x="158.58429" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="105d9a80782a452283e619cc57cd58d2-ao-5" height="57.30337" width="112.35955" y="265.13484" x="326.00002" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="105d9a80782a452283e619cc57cd58d2-ao-6" height="33.14607" width="59.55056" y="227.49439" x="482.1798" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

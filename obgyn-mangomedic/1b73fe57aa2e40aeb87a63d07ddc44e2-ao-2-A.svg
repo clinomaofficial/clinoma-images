@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="943" height="404">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text transform="matrix(0.7568417191505432,0,0,1,10.740757186897099,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_12" y="128.35294" x="163.61766" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">length in non pregnant</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_13" y="232.02941" x="137.14708" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">lining epithelium</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="1b73fe57aa2e40aeb87a63d07ddc44e2-ao-1">
+   <rect height="35.29412" width="176.47059" y="154.08823" x="354.05884" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="29.41177" width="178.67647" y="162.91176" x="709.9412" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  
+  <g id="1b73fe57aa2e40aeb87a63d07ddc44e2-ao-3">
+   <rect height="55.88235" width="299.26471" y="96" x="237.14708" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="57.35294" width="382.35295" y="93.79411" x="552.58826" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

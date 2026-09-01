@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="756.0000000000001" height="295">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="618.1177" y="60.29411" id="svg_5" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(1,0,0,0.782763659954071,0,8.366993409581482) ">days after fertilisatoin</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="2c923cedc76f434ea5c9bbc6d59c9f2a-ao-1" class="qshape">
+   <rect fill="#FF7E7E" stroke="#2D2D2D" x="572.82358" y="113.82353" width="49.41177" height="33.52941" class="qshape"/>
+   <rect fill="#FF7E7E" stroke="#2D2D2D" x="573.41181" y="70.88235" width="49.41177" height="33.52941" class="qshape"/>
+   <rect fill="#FF7E7E" stroke="#2D2D2D" x="572.23534" y="160.88235" width="49.41177" height="33.52941" class="qshape"/>
+  </g>
+ </g>
+</svg>

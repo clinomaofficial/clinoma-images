@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1365" height="362">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="216.72341" x="489.25535" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">vesicovaginal fistula</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect stroke="#2D2D2D" id="ace3c7fdeb2c4eddb4b2aae693c8de74-ao-1" height="96.80852" width="323.40426" y="76.29787" x="25.42556" fill="#FFEBA2"/>
+  <rect id="ace3c7fdeb2c4eddb4b2aae693c8de74-ao-2" height="92.55319" width="276.59575" y="181.61702" x="37.12769" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  
+ </g>
+</svg>

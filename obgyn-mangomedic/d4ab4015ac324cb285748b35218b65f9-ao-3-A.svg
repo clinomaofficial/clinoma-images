@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="715" height="544">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_8" y="402.66668" x="337.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">engagement has</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_9" y="429.33335" x="320" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">not happened</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="d4ab4015ac324cb285748b35218b65f9-ao-1" height="37.5" width="133.33334" y="505.16669" x="243.33333" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="d4ab4015ac324cb285748b35218b65f9-ao-2">
+   <rect height="94.16667" width="213.33334" y="63.50001" x="246.66666" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="120.83334" width="213.33334" y="62.66668" x="476.66667" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  
+  <rect id="d4ab4015ac324cb285748b35218b65f9-ao-4" height="201.66667" width="219.16667" y="285.16668" x="479.16667" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

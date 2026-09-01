@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="821">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="165.25002" x="228.74999" stroke-width="0" fill="#000000">B/L OR U/L</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="216.50002" x="246.24999" stroke-width="0" fill="#000000">Mutation</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="301.50002" x="182.49999" stroke-width="0" fill="#000000">smoking risk factor</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="87.75002" x="191.24999" stroke-width="0" fill="#000000">benign/malignant</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_7" y="357.75002" x="177.49999" stroke-width="0" fill="#000000">malignant counterpart</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_8" y="427.75002" x="227.49999" stroke-width="0" fill="#000000">tumor marker</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="fbb458f823b74b9ba4cab9a0b77f69c9-ao-1" stroke="#2D2D2D" height="67.5" width="368.75" y="177.75002" x="665" fill="#FFEBA2"/>
+  <rect stroke="#2D2D2D" id="fbb458f823b74b9ba4cab9a0b77f69c9-ao-2" height="67.5" width="343.75001" y="192.75002" x="303.75" fill="#FFEBA2"/>
+  <g id="fbb458f823b74b9ba4cab9a0b77f69c9-ao-5" class="qshape">
+   <rect height="33.75" width="312.50001" y="284.00002" x="311.25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="33.75" width="312.50001" y="274.00002" x="671.25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+  <g id="fbb458f823b74b9ba4cab9a0b77f69c9-ao-3">
+   <rect height="66.25" width="376.25001" y="326.50002" x="663.75" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect stroke="#2D2D2D" height="66.25" width="330" y="332.75002" x="315" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+  </g>
+  <rect id="fbb458f823b74b9ba4cab9a0b77f69c9-ao-4" height="33.75" width="312.50001" y="407.75002" x="306.25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="fbb458f823b74b9ba4cab9a0b77f69c9-ao-6" height="33.75" width="312.50001" y="397.75002" x="666.25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="fbb458f823b74b9ba4cab9a0b77f69c9-ao-7">
+   <rect height="67.5" width="328.75001" y="55.25002" x="312.5" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect stroke="#2D2D2D" height="67.5" width="368.75" y="49.00002" x="666.25" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

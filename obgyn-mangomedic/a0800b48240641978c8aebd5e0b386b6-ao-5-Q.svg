@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="801" height="704">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="70.19358" x="129.10753" stroke-width="0" fill="#000000">site of collection</text>
+  <text transform="matrix(1,0,0,0.9955970638435331,8.602150917053223,4.268416209767622) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="366.96779" x="171.04301" stroke-width="0" fill="#000000">cause</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="434.70973" x="178.56989" stroke-width="0" fill="#000000">pitting</text>
+  <text transform="matrix(0.9189432263374329,0,0,1,-0.25836846604943275,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="478.79575" x="125.56522" stroke-width="0" fill="#000000">can cross suture lines</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_5" y="519.65597" x="106.52688" stroke-width="0" fill="#000000">presentation at birth</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="620.73124" x="166.74194" stroke-width="0" fill="#000000">fracture</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_7" y="687.39791" x="162.44086" stroke-width="0" fill="#000000">jaundice</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="a0800b48240641978c8aebd5e0b386b6-ao-1">
+   <rect height="56.98925" width="264.51614" y="43.31186" x="224.80646" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="55.91398" width="273.11829" y="43.31186" x="516.20432" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <rect id="a0800b48240641978c8aebd5e0b386b6-ao-2" height="58.06452" width="200.00001" y="342.23661" x="301.15055" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="a0800b48240641978c8aebd5e0b386b6-ao-3" height="58.06452" width="200.00001" y="342.23661" x="591.47315" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="a0800b48240641978c8aebd5e0b386b6-ao-4">
+   <rect stroke="#2D2D2D" height="27.95699" width="268.81721" y="669.11834" x="223.73119" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+   <rect stroke="#2D2D2D" height="27.95699" width="268.81721" y="669.11834" x="520.5054" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+  </g>
+  <g id="a0800b48240641978c8aebd5e0b386b6-ao-5" class="qshape">
+   <rect height="27.95699" width="236.55915" y="414.27962" x="224.80646" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect stroke="#2D2D2D" height="27.95699" width="268.81721" y="413.20435" x="515.12906" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FF7E7E" class="qshape"/>
+  </g>
+  <g id="a0800b48240641978c8aebd5e0b386b6-ao-6">
+   <rect stroke="#2D2D2D" height="27.95699" width="268.81721" y="451.91403" x="515.12906" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+   <rect stroke="#2D2D2D" height="27.95699" width="268.81721" y="456.2151" x="224.80646" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

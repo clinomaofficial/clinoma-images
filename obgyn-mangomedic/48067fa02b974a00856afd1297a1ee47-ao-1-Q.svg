@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="915" height="472">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="88.43163" x="117.37412" stroke-width="0" fill="#000000">bone felt first</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="115.76976" x="110.17988" stroke-width="0" fill="#000000">on P/V</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="171.88487" x="95.79139" stroke-width="0" fill="#000000">deflection toward</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="48067fa02b974a00856afd1297a1ee47-ao-1" class="qshape">
+   <rect stroke="#2D2D2D" height="79.1367" width="347.48202" y="145.98559" x="558.38131" fill="#FF7E7E" class="qshape"/>
+   <rect stroke="#2D2D2D" height="79.1367" width="347.48202" y="144.54674" x="195.79138" fill="#FF7E7E" class="qshape"/>
+  </g>
+  <g id="48067fa02b974a00856afd1297a1ee47-ao-2">
+   <rect height="65.46763" width="347.48202" y="65.41005" x="194.35254" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="65.46763" width="347.48202" y="63.9712" x="559.10074" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1031" height="292">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="137.6" x="236.99999" stroke-width="0" fill="#000000">reagent</text>
+  <text style="cursor: move;" transform="matrix(1,0,0,1.030277967453003,0,-5.474634990096092) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="175.22351" x="254.6" stroke-width="0" fill="#000000">Use</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="100" x="153.8" stroke-width="0" fill="#000000">Qualitative/quantitative</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="5dd15f3c93604adf9c1179c685686bbf-ao-1" height="32.8" width="321.6" y="112.8" x="296.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5dd15f3c93604adf9c1179c685686bbf-ao-2" height="32.8" width="321.6" y="116" x="666.59999" stroke="#2D2D2D" fill="#FFEBA2"/>
+  
+  <rect id="5dd15f3c93604adf9c1179c685686bbf-ao-4" height="63.2" width="344" y="155.2" x="672.20001" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="5dd15f3c93604adf9c1179c685686bbf-ao-5">
+   <rect height="32" width="232.8" y="75.2" x="294.6" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="26.4" width="287.2" y="81.6" x="665" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

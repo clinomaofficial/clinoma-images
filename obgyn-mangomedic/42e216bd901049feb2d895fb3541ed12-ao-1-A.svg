@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="958" height="480">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="155.07461" x="139.76122" stroke-width="0" fill="#000000">cervical mucus</text>
+  <text transform="matrix(0.9484051044221076,0,0,1,-20.454109841745932,0) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="265.52237" x="153.19406" stroke-width="0" fill="#000000">permeable to sperm</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="347.61193" x="114.38809" stroke-width="0" fill="#000000">fern like appearance</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  
+  <g id="42e216bd901049feb2d895fb3541ed12-ao-2">
+   <rect stroke="#2D2D2D" height="65.67164" width="355.97016" y="249.85073" x="242.00003" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#FFEBA2"/>
+   <rect height="33.58209" width="299.25374" y="248.3582" x="627.82093" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="42e216bd901049feb2d895fb3541ed12-ao-3">
+   <rect height="108.20896" width="360.44777" y="330.44775" x="236.02988" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="180.59702" width="326.11941" y="290.89551" x="619.61198" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

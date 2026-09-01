@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705.9999999999999" height="460">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="152.83785" x="120.35134" stroke-width="0" fill="#000000">size of ectopic</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="248.7838" x="125.75675" stroke-width="0" fill="#000000">ß HCG levels</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="b222814cd616498bbda7a417a1694a76-ao-1" class="qshape">
+   <rect height="62.83784" width="164.86487" y="126.4865" x="239.27026" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="62.83784" width="164.86487" y="127.16217" x="479.13513" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+  <g id="b222814cd616498bbda7a417a1694a76-ao-2">
+   <rect height="101.35135" width="178.37838" y="228.51353" x="240.62161" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="101.35135" width="178.37838" y="226.4865" x="473.72973" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

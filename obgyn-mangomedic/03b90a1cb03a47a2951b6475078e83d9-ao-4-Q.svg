@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="753">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="03b90a1cb03a47a2951b6475078e83d9-ao-1">
+   <rect height="79.12088" width="580.2198" y="12.93409" x="152.00001" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="79.12088" width="580.2198" y="95.35167" x="150.9011" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <rect id="03b90a1cb03a47a2951b6475078e83d9-ao-2" height="34.06594" width="367.03298" y="429.41762" x="147.6044" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="03b90a1cb03a47a2951b6475078e83d9-ao-3" height="34.06594" width="367.03298" y="608.5385" x="143.20879" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="03b90a1cb03a47a2951b6475078e83d9-ao-4" height="34.06594" width="367.03298" y="655.79125" x="145.4066" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="03b90a1cb03a47a2951b6475078e83d9-ao-5" height="34.06594" width="367.03298" y="696.45059" x="145.40659" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="03b90a1cb03a47a2951b6475078e83d9-ao-6">
+   <rect height="124.17583" width="584.6154" y="190.95607" x="148.7033" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="84.61539" width="586.8132" y="323.92311" x="148.7033" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="03b90a1cb03a47a2951b6475078e83d9-ao-7">
+   <rect height="34.06594" width="367.03298" y="489.85718" x="146.5055" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="34.06594" width="367.03298" y="548.09894" x="150.9011" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

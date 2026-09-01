@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="728" height="437">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <line id="svg_5" y2="208.51285" x2="553.41021" y1="190.56413" x1="387.38456" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="219.41028" x="644.43586" stroke-width="0" fill="#000000">ejaculatory duct</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="d26a8d7fa7b94260be6c0de65710a2af-ao-1" height="29.48718" width="173.71796" y="198.89746" x="554.05124" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="d26a8d7fa7b94260be6c0de65710a2af-ao-2">
+   <rect height="33.97436" width="117.94872" y="311.07696" x="37.38455" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="28.20513" width="148.07693" y="107.23079" x="11.1025" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="d26a8d7fa7b94260be6c0de65710a2af-ao-3" class="qshape">
+   <rect height="33.97436" width="157.69231" y="187.359" x="2.12814" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="29.48718" width="162.17949" y="150.17951" x="564.94867" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+ </g>
+</svg>

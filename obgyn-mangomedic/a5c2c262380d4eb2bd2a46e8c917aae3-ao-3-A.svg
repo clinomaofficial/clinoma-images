@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="877" height="479.99999999999994">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_1" y="91.12678" x="687.78877" stroke-width="0" fill="#000000">estrogen from mother</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_2" y="145.35214" x="662.43666" stroke-width="0" fill="#000000">estrogen absent</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_3" y="206.61974" x="651.16906" stroke-width="0" fill="#000000">HPA activated</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_4" y="328.45073" x="653.98596" stroke-width="0" fill="#000000">estrogen absent</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_5" y="396.05637" x="667.36624" stroke-width="0" fill="#000000">lactobacilli increase</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="456.61975" x="656.09864" stroke-width="0" fill="#000000">blood is alkaline</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="a5c2c262380d4eb2bd2a46e8c917aae3-ao-1" height="39.43662" width="435.91551" y="65.77467" x="375.11271" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect transform="translate(-16.19718360900879,43.66197204589844) " id="a5c2c262380d4eb2bd2a46e8c917aae3-ao-2" height="39.43662" width="435.91551" y="127.04227" x="389.19722" stroke="#2D2D2D" fill="#FFEBA2"/>
+  
+  <rect transform="translate(-11.971831321716309,45.0704231262207) " id="a5c2c262380d4eb2bd2a46e8c917aae3-ao-4" height="39.43662" width="435.91551" y="312.95777" x="389.90144" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="a5c2c262380d4eb2bd2a46e8c917aae3-ao-5" height="39.43662" width="435.91551" y="417.88735" x="378.63383" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="a5c2c262380d4eb2bd2a46e8c917aae3-ao-6">
+   <rect height="39.43662" width="435.91551" y="112.95777" x="375.11271" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="39.43662" width="435.91551" y="298.87326" x="375.81693" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

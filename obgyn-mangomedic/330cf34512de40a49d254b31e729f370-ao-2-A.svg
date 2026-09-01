@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="821">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="364.71446" y="727.80056" id="svg_4" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(0.8601939082145691,0,0,0.8582336902618408,39.82944486755878,105.00525172067864) ">most likely</text>
+  <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="189.0964" y="729.75994" id="svg_5" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(0.8150615692138672,0,0,0.8214795589447021,24.729735791683197,132.8312809386407) ">(theoretical)</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="118.01206" y="539.24098" width="297.59037" height="33.73494" id="330cf34512de40a49d254b31e729f370-ao-1"/>
+  
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="5.96387" y="769.36146" width="218.07229" height="48.19277" id="330cf34512de40a49d254b31e729f370-ao-3"/>
+ </g>
+</svg>
