@@ -1,0 +1,30 @@
+<svg height="1514" width="1068" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#bfbfbf" height="202.43903" id="9f70b4bd318549beae50d02bee96abb5-ao-1" stroke="#2D2D2D" width="268.29269" x="80.78048" y="322.58539">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect fill="#ffffff" height="2.43902" id="9f70b4bd318549beae50d02bee96abb5-ao-2" stroke="#2D2D2D" width="2.43902" x="200.29267" y="415.26832">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect fill="#bfbfbf" height="217.07317" id="9f70b4bd318549beae50d02bee96abb5-ao-3" stroke="#2D2D2D" width="363.41464" x="73.4634" y="573.80491">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect class="qshape" fill="#FF0000" height="224.39025" id="9f70b4bd318549beae50d02bee96abb5-ao-4" stroke="#2D2D2D" width="375.60976" x="73.4634" y="834.78052">
+   <animate attributeName="opacity" begin="indefinite" class="qshape" dur="0.2" fill="#FF0000" to="1"/>
+  </rect>
+  <rect fill="#bfbfbf" height="219.5122" id="9f70b4bd318549beae50d02bee96abb5-ao-5" stroke="#2D2D2D" width="348.78049" x="90.53657" y="1105.51223">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <path d="m353.9512,1300.63416l204.58536,-7.95117l7.31708,80.48779l251.21954,-4.87805c0,0 10.04877,134.78052 -11.90247,137.21948c-21.95123,2.43909 -656.09755,0 -656.39023,-0.63416c-0.29268,-0.63416 -14.34148,-121.31702 -14.34148,-121.31702c0,0 207.31706,-4.87805 207.0244,-5.51221c-0.29266,-0.63428 12.48779,-77.41467 12.48779,-77.41467z" fill="#bfbfbf" id="9f70b4bd318549beae50d02bee96abb5-ao-6" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <rect fill="#bfbfbf" height="160.97561" id="9f70b4bd318549beae50d02bee96abb5-ao-7" stroke="#2D2D2D" width="180.48781" x="595.41463" y="559.17076">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+ </g>
+</svg>

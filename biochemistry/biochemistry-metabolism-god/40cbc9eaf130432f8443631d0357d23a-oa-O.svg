@@ -1,0 +1,21 @@
+<svg height="220" width="789" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#FFEBA2" height="24" id="40cbc9eaf130432f8443631d0357d23a-oa-1" stroke="#2D2D2D" width="67" x="170" y="97">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect fill="#FFEBA2" height="22" id="40cbc9eaf130432f8443631d0357d23a-oa-2" stroke="#2D2D2D" width="111" x="172" y="129">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect fill="#FFEBA2" height="26" id="40cbc9eaf130432f8443631d0357d23a-oa-3" stroke="#2D2D2D" width="36" x="337" y="160">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect fill="#FFEBA2" height="21" id="40cbc9eaf130432f8443631d0357d23a-oa-4" stroke="#2D2D2D" width="21" x="316" y="195">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+ </g>
+</svg>

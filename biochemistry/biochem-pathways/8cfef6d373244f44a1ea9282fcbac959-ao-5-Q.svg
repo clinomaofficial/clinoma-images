@@ -1,0 +1,24 @@
+<svg height="812" width="1052" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <path d="m281,98c4,1 248,0 247,0c-1,0 -2,-34 -2,-34c0,0 204,7 204,8c0,1 -25,119 -28,119c-3,0 -422,0 -422,0c0,0 1,-93 1,-93z" fill="#ffd4aa" id="8cfef6d373244f44a1ea9282fcbac959-ao-1" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path d="m390,233c1,0 175,10 175,10c0,0 -21,53 -22,53c-1,0 -200,-4 -199,-4c1,0 46,-59 46,-59z" fill="#ffaaaa" id="8cfef6d373244f44a1ea9282fcbac959-ao-2" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path d="m92,293l214,-4c0,0 62,6 66,12c4,6 27,66 27,66c0,0 50,-3 50,-3c0,0 21,111 20,112c-1,1 -106,8 -108,8c-2,0 -81,-29 -81,-29c0,0 -187,0 -187,0c0,0 -1,-162 -1,-162z" fill="#ffaaaa" id="8cfef6d373244f44a1ea9282fcbac959-ao-3" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path d="m460,324l233,-39c0,0 170,114 169,114c-1,0 -136,55 -136,55c0,0 -164,16 -173,11c-9,-5 -93,-141 -93,-141z" fill="#ffaaaa" id="8cfef6d373244f44a1ea9282fcbac959-ao-4" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path class="qshape" d="m388,579l139,4c0,0 13,103 12,103c-1,0 -117,3 -117,3c0,0 -34,-110 -34,-110z" fill="#FF0000" id="8cfef6d373244f44a1ea9282fcbac959-ao-5" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" class="qshape" dur="0.2" fill="#FF0000" to="1"/>
+  </path>
+ </g>
+</svg>

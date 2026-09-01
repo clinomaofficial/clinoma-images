@@ -1,0 +1,14 @@
+<svg height="955" width="1293" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  
+  <rect class="qshape" fill="#FF7E7E" height="46" id="42dfe18cefd54dbfa99483698b7a9a18-oa-2" width="178" x="904" y="675">
+   <animate attributeName="opacity" begin="indefinite" class="qshape" dur="0.2" fill="#FF7E7E" style="vector-effect: non-scaling-stroke; " to="1"/>
+  </rect>
+  
+ </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg height="1799.9999999999998" width="1312" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#ffffff" height="138.23529" id="aa752617b6f447a2a666d633de8ce0dd-ao-1" stroke="#2D2D2D" width="164.70588" x="199.76474" y="167.64706">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect class="qshape" fill="#FF0000" height="105.88235" id="aa752617b6f447a2a666d633de8ce0dd-ao-2" stroke="#2D2D2D" width="217.64706" x="585.05886" y="135.29412">
+   <animate attributeName="opacity" begin="indefinite" class="qshape" dur="0.2" fill="#FF0000" to="1"/>
+  </rect>
+  <rect fill="#ffffff" height="176.47059" id="aa752617b6f447a2a666d633de8ce0dd-ao-3" stroke="#2D2D2D" width="435.29411" x="655.64709" y="241.17647">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect fill="#ffffff" height="147.05882" id="aa752617b6f447a2a666d633de8ce0dd-ao-4" stroke="#2D2D2D" width="585.29411" x="599.76474" y="476.47058">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <rect fill="#ffffff" height="452.94117" id="aa752617b6f447a2a666d633de8ce0dd-ao-5" stroke="#2D2D2D" width="352.94117" x="638.00003" y="717.64705">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+  <path d="m711.52942,1241.17651c-41.17645,2.94116 -291.17645,2.94116 -293.88235,0c-2.7059,-2.94116 -353.17644,-8.82361 -353.17644,-5.88245c0,2.94116 -8.82353,167.64709 -11.52945,164.70593c-2.70592,-2.94116 514.47063,-29.41174 511.76469,-32.35291c-2.70593,-2.94116 105.64709,23.52942 102.94116,20.58826c-2.70593,-2.94116 43.88239,-147.05884 43.88239,-147.05884z" fill="#ffffff" id="aa752617b6f447a2a666d633de8ce0dd-ao-6" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path d="m132.11769,1450c0,0 352.94118,-26.47058 358.82353,-26.47058c5.88235,0 161.76471,123.52942 159.05878,120.58826c-2.70593,-2.94116 -56.11761,2.94116 -58.82355,0c-2.70593,-2.94116 -67.88232,17.64697 -73.76465,17.64697c-5.88229,0 -402.94118,11.76477 -405.64709,8.82361c-2.70592,-2.94116 20.35298,-120.58826 20.35298,-120.58826z" fill="#ffffff" id="aa752617b6f447a2a666d633de8ce0dd-ao-7" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path d="m764.47064,1247.05884c8.82349,0 217.64703,-14.70593 214.9411,-17.64709c-2.70587,-2.94116 8.58832,-88.23523 5.88239,-91.17639c-2.70593,-2.94116 99.76471,-50.00012 102.70587,-47.05884c2.94116,2.94128 194.11768,11.76465 197.05884,14.70581c2.94116,2.94116 -29.41174,247.05884 -32.35291,252.94116c-2.94116,5.88232 -223.52942,-8.82349 -226.23535,-11.76465c-2.70593,-2.94116 -97.29407,8.82349 -97.29407,8.82349c0,0 -50,67.64709 -50,67.64709c0,0 -64.70587,-2.94116 -64.70587,-2.94116c0,0 -55.88239,-114.70593 -58.58832,-117.64709c-2.70587,-2.94116 8.58832,-55.88232 8.58832,-55.88232z" fill="#ffffff" id="aa752617b6f447a2a666d633de8ce0dd-ao-8" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <rect fill="#ffffff" height="135.29412" id="aa752617b6f447a2a666d633de8ce0dd-ao-9" stroke="#2D2D2D" width="388.23529" x="893.88238" y="1399.99999">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </rect>
+ </g>
+</svg>

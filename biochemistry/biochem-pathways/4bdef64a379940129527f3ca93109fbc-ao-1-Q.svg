@@ -1,0 +1,21 @@
+<svg height="688" width="1066" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect class="qshape" fill="#FF0000" height="146.37681" id="4bdef64a379940129527f3ca93109fbc-ao-1" stroke="#2D2D2D" width="273.91304" x="564.43482" y="20.69562">
+   <animate attributeName="opacity" begin="indefinite" class="qshape" dur="0.2" fill="#FF0000" to="1"/>
+  </rect>
+  <path d="m55.73916,461.27533l190.63765,-6.20288c0,0 -3.68114,-70.6087 5.01453,-70.6087c8.69566,0.00003 184.05797,5.79709 183.39128,5.39133c-0.66669,-0.40576 12.26089,75.7681 15.15945,75.7681c2.89856,0 230.43475,1.44925 230.43475,1.44925c0,0 -18.84058,78.26089 -18.84058,79.71017c0,1.44928 -208.69565,28.98547 -211.59418,26.08691c-2.89853,-2.89856 -402.89857,-59.42029 -403.56527,-59.82605c-0.6667,-0.40576 9.36235,-51.76813 9.36235,-51.76813z" fill="#7f00ff" id="4bdef64a379940129527f3ca93109fbc-ao-2" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path d="m707.91309,407.65213l116.72461,-1.85504l13.04346,79.71014l163.76813,-14.49274c0,0 -10.92749,46.78256 -15.27533,52.57968c-4.34784,5.79712 -249.27539,24.6377 -250.72467,21.73914c-1.44928,-2.89856 -27.53619,-137.68118 -27.53619,-137.68118z" fill="#7f00ff" id="4bdef64a379940129527f3ca93109fbc-ao-3" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+  <path d="m193.42032,552.57965l119.62317,-0.40576l2.89853,68.11597l37.68118,-4.34784c0,0 -2.23187,36.63763 -5.1304,36.63763c-2.89853,0 -156.52176,1.44928 -157.18845,1.04352c-0.66669,-0.40576 2.11597,-101.04352 2.11597,-101.04352z" fill="#7f00ff" id="4bdef64a379940129527f3ca93109fbc-ao-4" stroke="#2D2D2D" stroke-width="3">
+   <animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1"/>
+  </path>
+ </g>
+</svg>
