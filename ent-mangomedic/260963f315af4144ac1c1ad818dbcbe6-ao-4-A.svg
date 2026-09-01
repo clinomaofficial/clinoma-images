@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1268" height="622">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <line id="svg_2" y2="240.37628" x2="960.71281" y1="235.42578" x1="555.76229" stroke-width="3" stroke="#ffffff" fill="#ffffff"/>
+  <line id="svg_3" y2="307.70301" x2="965.6633" y1="315.62381" x1="613.18804" stroke-width="3" stroke="#ffffff" fill="#ffffff"/>
+  <line id="svg_4" y2="299.78222" x2="353.78209" y1="295.82182" x1="588.43556" stroke-width="3" stroke="#ffffff" fill="#ffffff"/>
+  <line id="svg_5" y2="217.604" x2="360.71278" y1="214.6337" x1="532.99001" stroke-width="3" stroke="#ffffff" fill="#ffffff"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_11" y="82.95053" x="153.78208" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">left nose</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="260963f315af4144ac1c1ad818dbcbe6-ao-1" height="40.59406" width="293.06932" y="211.66341" x="964.6732" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="260963f315af4144ac1c1ad818dbcbe6-ao-2" height="40.59406" width="293.06932" y="281.96044" x="969.6237" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="260963f315af4144ac1c1ad818dbcbe6-ao-3" height="40.59406" width="293.06932" y="268.09905" x="48.83156" stroke="#2D2D2D" fill="#FFEBA2"/>
+  
+ </g>
+</svg>

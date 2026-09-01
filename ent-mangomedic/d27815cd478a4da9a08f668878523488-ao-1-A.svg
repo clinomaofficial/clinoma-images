@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="551" height="316">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  
+  <rect id="d27815cd478a4da9a08f668878523488-ao-2" height="45.19231" width="169.71154" y="59.48074" x="348.0385" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="d27815cd478a4da9a08f668878523488-ao-3" height="48.07692" width="211.53847" y="157.0769" x="335.5385" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="d27815cd478a4da9a08f668878523488-ao-4" height="46.15385" width="145.19231" y="146.49998" x="25.44233" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="d27815cd478a4da9a08f668878523488-ao-5" height="76.92308" width="179.8077" y="217.17306" x="11.50002" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="d27815cd478a4da9a08f668878523488-ao-6" y2="43.13459" x2="341.7885" y1="87.36536" x1="242.26926" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text transform="matrix(1,0,0,0.8203470270931986,1.442307710647583,6.077588027733293) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="d27815cd478a4da9a08f668878523488-ao-7" y="46.01921" x="381.69234" stroke-width="0" fill="#000000">nasion</text>
+  <line id="d27815cd478a4da9a08f668878523488-ao-8" y2="55.15382" x2="81.69233" y1="129.67305" x1="223.51926" stroke-width="3" stroke="#2D2D2D" fill="#000000"/>
+  <text transform="matrix(0.8865835070610046,0,0,0.8750669360160828,0.9799893843010068,4.005666363984346) " xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="d27815cd478a4da9a08f668878523488-ao-9" y="57.00796" x="52.2649" stroke-width="0" fill="#000000">rhinion</text>
+  <rect id="d27815cd478a4da9a08f668878523488-ao-10" height="28.84615" width="70.19231" y="31.59613" x="10.53848" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="d27815cd478a4da9a08f668878523488-ao-11" height="19.71154" width="72.11539" y="29.67305" x="348.0385" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

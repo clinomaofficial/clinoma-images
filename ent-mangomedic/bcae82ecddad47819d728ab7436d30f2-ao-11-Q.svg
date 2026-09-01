@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="526" height="331">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g display="inline">
+  <title>Masks</title>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="54.30304" y="10.41413" width="113.63637" height="45.9596" id="bcae82ecddad47819d728ab7436d30f2-ao-1"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="13.39395" y="68.99999" width="113.63637" height="45.9596" id="bcae82ecddad47819d728ab7436d30f2-ao-2"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="-2.76767" y="125.0606" width="113.63637" height="45.9596" id="bcae82ecddad47819d728ab7436d30f2-ao-3"/>
+  <rect fill="#FFEBA2" x="5.81819" y="190.21212" width="102.02021" height="38.38384" id="bcae82ecddad47819d728ab7436d30f2-ao-4" stroke="#2D2D2D"/>
+  <rect fill="#FFEBA2" x="19.9596" y="250.31313" width="121.21213" height="38.38384" id="bcae82ecddad47819d728ab7436d30f2-ao-5" stroke="#2D2D2D"/>
+  <rect fill="#FFEBA2" x="227.53537" y="268.49495" width="115.65657" height="29.29293" id="bcae82ecddad47819d728ab7436d30f2-ao-6" stroke="#2D2D2D"/>
+  <rect fill="#FFEBA2" x="291.67679" y="302.83838" width="162.12121" height="29.29293" id="bcae82ecddad47819d728ab7436d30f2-ao-7" stroke="#2D2D2D"/>
+  <rect fill="#FFEBA2" x="418.44447" y="160.91919" width="102.02021" height="38.38384" stroke="#2D2D2D" id="bcae82ecddad47819d728ab7436d30f2-ao-8"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="321.47476" y="155.36363" width="58.08081" height="24.24242" id="bcae82ecddad47819d728ab7436d30f2-ao-9"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="266.42426" y="78.0909" width="107.07071" height="41.91919" id="bcae82ecddad47819d728ab7436d30f2-ao-10"/>
+  <rect fill="#FF7E7E" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="170.96971" y="148.79798" width="90.40404" height="21.21212" id="bcae82ecddad47819d728ab7436d30f2-ao-11" class="qshape"/>
+ </g>
+</svg>

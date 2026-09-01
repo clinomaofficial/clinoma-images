@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="863.0000000000001" height="563">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <line id="svg_1" y2="42.98288" x2="572.0427" y1="208.79485" x1="378.88031" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_2" y2="89.99143" x2="607.94014" y1="258.36749" x1="379.73502" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_3" y2="303.66664" x2="589.13672" y1="326.74356" x1="381.44442" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_4" y2="372.89741" x2="143.83758" y1="343.83758" x1="377.17091" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <line id="svg_5" y2="454.09399" x2="131.87177" y1="432.72646" x1="371.18801" stroke-width="3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="46.40169" x="601.95723" stroke-width="0" fill="#000000">inlet</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_7" y="96.82904" x="664.35039" stroke-width="0" fill="#000000">vestibule</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_8" y="313.06835" x="666.91449" stroke-width="0" fill="#000000">rima vestibuli</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_9" y="377.17091" x="71.18802" stroke-width="0" fill="#000000">rima glottidis</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_10" y="462.64099" x="71.30821" stroke-width="0" fill="#000000">subglottis</text>
+  <line fill="#FFEBA2" stroke="#2D2D2D" stroke-width="3" x1="432.31248" y1="388.56248" x2="496.37498" y2="522.93748" id="svg_12"/>
+  <text fill="#000000" stroke-width="0" x="560.43748" y="547.93748" id="svg_13" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve">conus elasticus</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="3a5a90d2612249a3be0691dd9d09487b-ao-1" height="27.35043" width="67.52137" y="20.76066" x="567.7692" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="3a5a90d2612249a3be0691dd9d09487b-ao-2" height="34.18803" width="138.46154" y="65.2051" x="615.63245" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="3a5a90d2612249a3be0691dd9d09487b-ao-3" height="34.18803" width="138.46154" y="289.13672" x="597.68373" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="3a5a90d2612249a3be0691dd9d09487b-ao-4" height="34.18803" width="138.46154" y="352.82529" x="1.10257" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="3a5a90d2612249a3be0691dd9d09487b-ao-5" height="34.18803" width="138.46154" y="444.95937" x="-7.27082" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="3a5a90d2612249a3be0691dd9d09487b-ao-6" height="34.18803" width="138.46154" y="334.43587" x="591.70088" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="469.81248" y="521.37498" width="185.9375" height="34.375" id="3a5a90d2612249a3be0691dd9d09487b-ao-7"/>
+ </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="370">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="238.61268" y="28.4831" id="svg_5" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(0.5898131132125854,0,0,0.7449157238006592,107.2510525546968,8.951863817870617) ">anterior end</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="392.33899" y="39.6045" width="115.25424" height="20.90395" id="86df6591fced4e96b79f11af3dd5d503-ao-1"/>
+  <rect fill="#FF7E7E" stroke="#2D2D2D" x="410.41808" y="62.76834" width="115.25424" height="20.90395" id="86df6591fced4e96b79f11af3dd5d503-ao-2" class="qshape"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="433.58192" y="256.55365" width="85.31073" height="40.67797" id="86df6591fced4e96b79f11af3dd5d503-ao-3"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="3.07345" y="10.22597" width="97.17514" height="21.46893" id="86df6591fced4e96b79f11af3dd5d503-ao-4"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="203.63842" y="13.05083" width="55.9322" height="18.64407" id="86df6591fced4e96b79f11af3dd5d503-ao-5"/>
+ </g>
+</svg>

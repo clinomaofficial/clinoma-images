@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="891" height="698">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_15" y="108.38298" x="428.14897" stroke-width="0" fill="#000000">high grade</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_16" y="108.38298" x="734.53195" stroke-width="0" fill="#000000">low grade</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  
+  
+  
+  
+  <g id="bd52eefd19834f339b680175242b3e05-oa-5" class="qshape">
+   <rect height="45.74468" width="112.76596" y="420.08512" x="368.57449" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="35.10638" width="169.14894" y="426.46809" x="639.8511" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+  
+  
+  
+  
+ </g>
+</svg>
