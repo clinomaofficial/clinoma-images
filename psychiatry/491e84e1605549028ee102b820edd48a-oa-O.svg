@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="947" height="352">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect stroke="#2D2D2D" id="491e84e1605549028ee102b820edd48a-oa-1" height="28.90625" width="197.65625" y="58.9375" x="199.09371" fill="#7f00ff"/>
+  <g id="491e84e1605549028ee102b820edd48a-oa-2">
+   <rect height="27.34375" width="66.40625" y="130.03125" x="303.78121" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#7f00ff"/>
+   <rect height="28.90625" width="68.75" y="128.46875" x="388.93746" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#7f00ff"/>
+   <rect height="28.90625" width="81.25" y="129.25" x="513.93746" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#7f00ff"/>
+  </g>
+  <rect stroke="#2D2D2D" id="491e84e1605549028ee102b820edd48a-oa-3" height="26.5625" width="100.78125" y="233.9375" x="684.24996" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#7f00ff"/>
+  <g id="491e84e1605549028ee102b820edd48a-oa-4">
+   <rect height="27.34375" width="117.1875" y="280.8125" x="217.84371" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#7f00ff"/>
+   <rect height="27.34375" width="428.125" y="283.15625" x="355.34371" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#7f00ff"/>
+   <rect height="28.90625" width="61.71875" y="278.46875" x="800.65621" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#7f00ff"/>
+   <rect stroke="#2D2D2D" height="27.34375" width="186.71875" y="319.09375" x="48.31246" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#7f00ff"/>
+   <rect height="28.90625" width="256.25" y="315.96875" x="256.90621" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#7f00ff"/>
+  </g>
+ </g>
+</svg>

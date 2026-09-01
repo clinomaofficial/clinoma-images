@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1285" height="584">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="svg_6" y="350.11766" x="259.70588" stroke-width="0" fill="#000000">gender</text>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="0f7294671eda467aaa58b1928c8d0110-ao-1" class="qshape">
+   <rect height="38.82353" width="472.94118" y="140.70589" x="502.05882" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="38.82353" width="567.05883" y="197.17648" x="56.17646" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+  <rect id="0f7294671eda467aaa58b1928c8d0110-ao-2" height="37.64706" width="144.70588" y="265.41178" x="444.41176" stroke="#2D2D2D" fill="#d4ffaa"/>
+  <rect id="0f7294671eda467aaa58b1928c8d0110-ao-3" height="29.41177" width="103.52941" y="326.58825" x="99.70588" stroke="#2D2D2D" fill="#d4ffaa"/>
+  <rect id="0f7294671eda467aaa58b1928c8d0110-ao-4" height="38.82353" width="275.29412" y="458.35295" x="125.58823" stroke="#2D2D2D" fill="#d4ffaa"/>
+  <rect id="0f7294671eda467aaa58b1928c8d0110-ao-5" height="28.23529" width="945.88236" y="517.17648" x="87.94117" stroke="#2D2D2D" fill="#d4ffaa"/>
+ </g>
+</svg>
