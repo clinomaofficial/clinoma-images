@@ -1,0 +1,15 @@
+<svg viewBox="0 0 714 814" height="814" width="714" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="231cd7f4811341ca876ae9851c0cf47e-ao-1" stroke-width="0" text-anchor="middle" transform="matrix(1.197062202570914,0,0,0.8200173470477239,-234.24507643812458,97.59187878553581) " x="307.22448" xml:space="preserve" y="619.33539">P-R interval</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="231cd7f4811341ca876ae9851c0cf47e-ao-2" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(0.9135273840881887,0,0,1,347.2458652259882,0) " x="82.14721" xml:space="preserve" y="140.83872">S-T Segment</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="231cd7f4811341ca876ae9851c0cf47e-ao-3" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.1657614256863225,0,0,1.3949373960494995,-319.7768396549851,-251.91869078462332) " x="627.56152" xml:space="preserve" y="629.09176">Q-T interval</text>
+  <rect class="qshape" fill="#FF7E7E" height="46.77419" id="231cd7f4811341ca876ae9851c0cf47e-ao-4" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="177.41936" x="53.74195" y="579.54841"/>
+  <rect fill="#FFEBA2" height="53.22581" id="231cd7f4811341ca876ae9851c0cf47e-ao-5" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="161.29033" x="344.06453" y="97.29034"/>
+  <rect fill="#FFEBA2" height="51.6129" id="231cd7f4811341ca876ae9851c0cf47e-ao-6" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="191.93549" x="313.41937" y="584.38712"/>
+ </g>
+</svg>
