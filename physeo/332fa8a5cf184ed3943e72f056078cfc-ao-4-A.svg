@@ -1,0 +1,16 @@
+<svg viewBox="0 0 868 816" height="816" width="868" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#FFEBA2" height="57.37705" id="332fa8a5cf184ed3943e72f056078cfc-ao-1" stroke="#2D2D2D" width="167.21312" x="346.75414" y="15.1475"/>
+  <rect fill="#FFEBA2" height="54.09836" id="332fa8a5cf184ed3943e72f056078cfc-ao-2" stroke="#2D2D2D" width="95.08197" x="707.40989" y="8.59013"/>
+  <rect fill="#FFEBA2" height="49.18033" id="332fa8a5cf184ed3943e72f056078cfc-ao-3" stroke="#2D2D2D" width="154.09837" x="361.50824" y="105.31144"/>
+  
+  <rect fill="#FFEBA2" height="52.45902" id="332fa8a5cf184ed3943e72f056078cfc-ao-5" stroke="#2D2D2D" width="109.83607" x="282.81971" y="495.47539"/>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="332fa8a5cf184ed3943e72f056078cfc-ao-6" stroke-width="0" text-anchor="middle" x="486.09841" xml:space="preserve" y="316.78686">Tidal Volume</text>
+  <rect fill="#FFEBA2" height="40.98361" id="332fa8a5cf184ed3943e72f056078cfc-ao-7" stroke="#2D2D2D" width="165.57378" x="405.77054" y="285.63932"/>
+ </g>
+</svg>
