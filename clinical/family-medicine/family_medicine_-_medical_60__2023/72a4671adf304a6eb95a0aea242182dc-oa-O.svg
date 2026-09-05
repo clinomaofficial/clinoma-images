@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1079" height="818">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="72a4671adf304a6eb95a0aea242182dc-oa-1">
+   <rect height="109.01639" width="289.34426" y="141.83604" x="233.29508" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="98.36066" width="472.95082" y="144.29506" x="555.42622" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-2" height="103.27869" width="320.4918" y="267.24588" x="227.55737" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-3" height="106.55738" width="445.08197" y="271.34424" x="563.62294" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-4" height="72.13115" width="319.67213" y="404.13112" x="224.27868" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-5" height="63.11475" width="467.21311" y="409.04915" x="566.90163" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-6" height="73.77049" width="308.19672" y="497.57374" x="236.57377" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-7" height="69.67213" width="452.45901" y="502.49178" x="562.80327" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-8" height="94.26229" width="269.67213" y="594.29505" x="230.83606" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="72a4671adf304a6eb95a0aea242182dc-oa-9" height="113.11475" width="449.18033" y="589.37702" x="563.62294" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

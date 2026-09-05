@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="978.0000000000001" height="429">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="de0cb78a8fdf49ef83437cb7bf1b5e75-ao-1">
+   <rect height="18.10345" width="48.27586" y="146.86205" x="443.55175" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="17.24138" width="50.86207" y="147.72412" x="635.79313" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="17.24138" width="50" y="147.72412" x="848.72417" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="de0cb78a8fdf49ef83437cb7bf1b5e75-ao-2">
+   <rect height="18.10345" width="46.55172" y="195.13791" x="444.41382" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="15.51724" width="49.13793" y="196.86205" x="636.6552" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="15.51724" width="47.41379" y="196.86205" x="851.31038" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  
+  <g id="de0cb78a8fdf49ef83437cb7bf1b5e75-ao-4">
+   <rect height="18.10345" width="50" y="291.68964" x="443.55175" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="17.24138" width="49.13793" y="290.82757" x="636.6552" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="17.24138" width="43.10345" y="291.68964" x="854.75865" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="de0cb78a8fdf49ef83437cb7bf1b5e75-ao-5">
+   <rect height="18.96552" width="81.89655" y="345.13791" x="428.03451" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="18.96552" width="123.27586" y="345.99998" x="598.72417" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="17.24138" width="88.7931" y="345.99998" x="828.89658" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+  <g id="de0cb78a8fdf49ef83437cb7bf1b5e75-ao-6">
+   <rect height="19.82759" width="87.06897" y="399.44826" x="424.58623" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="18.96552" width="58.62069" y="400.31033" x="630.62072" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <rect height="18.96552" width="86.2069" y="399.44826" x="828.03451" stroke="#2D2D2D" fill="#FFEBA2"/>
+  </g>
+ </g>
+</svg>

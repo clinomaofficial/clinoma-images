@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1096" height="692">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="662.33335" y="71.8889" width="40.27778" height="20.83333" id="4aef1651668348edbef9cd3f15de5799-ao-1"/>
+  <g id="4aef1651668348edbef9cd3f15de5799-ao-2">
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="1016.50002" y="70.50001" width="20.83333" height="26.38889"/>
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="104" y="112.16668" width="34.72222" height="26.38889"/>
+  </g>
+  <g id="4aef1651668348edbef9cd3f15de5799-ao-3">
+   <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="760.94446" y="108.00002" width="29.16667" height="37.5"/>
+   <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="934.55557" y="113.55557" width="29.16667" height="25"/>
+  </g>
+  
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="640.11112" y="358.00002" width="105.55556" height="22.22222" id="4aef1651668348edbef9cd3f15de5799-ao-5"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="904.00002" y="519.11113" width="97.22222" height="25" id="4aef1651668348edbef9cd3f15de5799-ao-6"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="755.3889" y="555.22225" width="126.38889" height="26.38889" id="4aef1651668348edbef9cd3f15de5799-ao-7"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="749.83335" y="594.11114" width="130.55556" height="34.72222" id="4aef1651668348edbef9cd3f15de5799-ao-8"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="909.55557" y="635.7778" width="101.38889" height="34.72222" id="4aef1651668348edbef9cd3f15de5799-ao-9"/>
+ </g>
+</svg>
