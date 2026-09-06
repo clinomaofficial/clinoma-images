@@ -1,0 +1,14 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" height="442" width="661">
+ <ns0:g>
+  <ns0:title>Shapes</ns0:title>
+  <ns0:rect fill="#000000" height="44" opacity="0.5" stroke-width="0" width="182" x="457" y="80">
+   <ns0:animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1" />
+  </ns0:rect>
+  <ns0:rect fill="#000000" height="34" opacity="0.5" stroke-width="0" width="180" x="458" y="258">
+   <ns0:animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1" />
+  </ns0:rect>
+  <ns0:rect fill="#000000" height="35" opacity="0.5" stroke-width="0" width="199" x="455" y="385">
+   <ns0:animate attributeName="opacity" begin="indefinite" dur="0.2" fill="freeze" to="1" />
+  </ns0:rect>
+ </ns0:g>
+</ns0:svg>
