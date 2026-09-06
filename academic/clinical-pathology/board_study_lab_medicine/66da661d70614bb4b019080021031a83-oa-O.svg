@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="334">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect stroke="#2D2D2D" fill="#FFEBA2" x="100.19254" y="259.93763" width="227.91765" height="64.25262" id="66da661d70614bb4b019080021031a83-oa-18"/>
+  <g id="66da661d70614bb4b019080021031a83-oa-3">
+   <rect stroke="#2D2D2D" fill="#FFEBA2" x="7.29167" y="260.79162" width="82.78535" height="63.48245"/>
+   <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="14" y="294.90996" x="52.36967" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">ethnicity</text>
+  </g>
+  <rect id="66da661d70614bb4b019080021031a83-oa-1" height="116.75127" width="84.77158" y="86.8122" x="6.85279" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="66da661d70614bb4b019080021031a83-oa-2" height="117.25889" width="88.83249" y="86.8122" x="98.22335" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="66da661d70614bb4b019080021031a83-oa-4" height="119.79696" width="247.71574" y="87.31981" x="194.16244" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

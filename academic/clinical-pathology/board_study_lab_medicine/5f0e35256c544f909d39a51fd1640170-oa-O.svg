@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768.0000000000001">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-1" height="18.5567" width="121.64948" y="86.63915" x="807.95871" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-2" height="34.02062" width="145.36082" y="47.46389" x="828.57726" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-3" height="34.02062" width="205.15463" y="111.38142" x="804.86593" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-4" height="20.61856" width="119.58763" y="154.68039" x="812.08242" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-5" height="29.89691" width="215.46391" y="183.54636" x="800.74221" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-6" height="17.52577" width="117.52577" y="220.65976" x="813.11335" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-7" height="12.37113" width="141.23711" y="246.43296" x="803.835" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-8" height="16.49484" width="127.83505" y="269.11337" x="806.92778" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-10" height="15.46392" width="76.28866" y="24.78348" x="634.76284" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-11" height="26.80412" width="88.65979" y="50.55668" x="659.5051" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="5f0e35256c544f909d39a51fd1640170-oa-12" height="87.62886" width="177.31958" y="82.51544" x="607.95871" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <g id="5f0e35256c544f909d39a51fd1640170-oa-9">
+   <rect height="57.73196" width="203.09278" y="291.25824" x="808.76204" stroke="#2D2D2D" fill="#FFEBA2"/>
+   <text fill="#000000" stroke-width="0" x="905.87018" y="330.70133" font-size="24" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" text-anchor="middle" xml:space="preserve">Biochem &amp;Cx</text>
+  </g>
+ </g>
+</svg>

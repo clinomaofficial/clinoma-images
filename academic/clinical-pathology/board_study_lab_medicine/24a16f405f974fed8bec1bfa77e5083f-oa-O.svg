@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768.0000000000001">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="24a16f405f974fed8bec1bfa77e5083f-oa-1">
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="48.16492" y="295.91749" width="139.17525" height="30.92783"/>
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="83.21646" y="338.18553" width="74.2268" height="13.40206"/>
+  </g>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="54.35048" y="363.95873" width="67.01031" height="14.43299" id="24a16f405f974fed8bec1bfa77e5083f-oa-2"/>
+  <g id="24a16f405f974fed8bec1bfa77e5083f-oa-3">
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="40.94842" y="391.79378" width="138.14433" height="48.45361"/>
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="133.73192" y="364.98966" width="62.8866" height="16.49484"/>
+  </g>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="46.10306" y="451.58759" width="92.7835" height="13.40206" id="24a16f405f974fed8bec1bfa77e5083f-oa-4"/>
+  <g id="24a16f405f974fed8bec1bfa77e5083f-oa-5">
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="38.88657" y="474.268" width="115.46391" height="48.45361"/>
+   <rect fill="#FFEBA2" stroke="#2D2D2D" x="150.22677" y="452.61852" width="52.57732" height="16.49484"/>
+  </g>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="44.04121" y="525.81439" width="234.02061" height="80.41237" id="24a16f405f974fed8bec1bfa77e5083f-oa-6"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="52.28863" y="615.50511" width="72.16495" height="14.43299" id="24a16f405f974fed8bec1bfa77e5083f-oa-7"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="23.42265" y="641.27831" width="73.19587" height="16.49484" id="24a16f405f974fed8bec1bfa77e5083f-oa-8"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="53.31956" y="669.11336" width="63.91752" height="13.40206" id="24a16f405f974fed8bec1bfa77e5083f-oa-9"/>
+  <rect fill="#FFEBA2" stroke="#2D2D2D" x="50.22677" y="694.88655" width="50.51546" height="15.46392" id="24a16f405f974fed8bec1bfa77e5083f-oa-10"/>
+ </g>
+</svg>
