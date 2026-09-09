@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1324 638" height="638" width="1324" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="fef484175d2f4e3ca26205d60d45e370-ao-1" stroke-width="0" text-anchor="middle" transform="matrix(1.2688003761610054,0,0,1,-253.7171026634353,0) " x="430.82681" xml:space="preserve" y="64">A-Wave</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="fef484175d2f4e3ca26205d60d45e370-ao-2" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="454" xml:space="preserve" y="112">C-Wave</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="fef484175d2f4e3ca26205d60d45e370-ao-3" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="572" xml:space="preserve" y="240">X-Wave</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="fef484175d2f4e3ca26205d60d45e370-ao-4" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="754" xml:space="preserve" y="180">V-Wave</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="fef484175d2f4e3ca26205d60d45e370-ao-5" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="930" xml:space="preserve" y="260">Y-Wave</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="fef484175d2f4e3ca26205d60d45e370-ao-6" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="1110" xml:space="preserve" y="90">A-Wave</text>
+  <rect class="qshape" fill="#FF7E7E" height="38" id="fef484175d2f4e3ca26205d60d45e370-ao-7" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="124" x="238" y="34"/>
+  <rect fill="#FFEBA2" height="40" id="fef484175d2f4e3ca26205d60d45e370-ao-8" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="114" x="402" y="78"/>
+  <rect fill="#FFEBA2" height="42" id="fef484175d2f4e3ca26205d60d45e370-ao-9" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="112" x="520" y="202"/>
+  <rect fill="#FFEBA2" height="44" id="fef484175d2f4e3ca26205d60d45e370-ao-10" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="100" x="704" y="142"/>
+  <rect fill="#FFEBA2" height="46" id="fef484175d2f4e3ca26205d60d45e370-ao-11" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="116" x="872" y="224"/>
+  <rect fill="#FFEBA2" height="42" id="fef484175d2f4e3ca26205d60d45e370-ao-12" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="108" x="1056" y="52"/>
+ </g>
+</svg>

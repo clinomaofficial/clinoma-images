@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1266 902" height="902" width="1266" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="f601dd1ae0b94837b3cc90f74def5de3-ao-1" stroke-width="0" text-anchor="middle" transform="matrix(3.121571540832519,0,0,2.904989004135132,-1383.6894828081129,-1138.0465448738105) " x="628.6428" xml:space="preserve" y="580.14287">FN</text>
+  <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="f601dd1ae0b94837b3cc90f74def5de3-ao-2" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(3.3882336616516113,0,0,3.000333309173584,-1695.0115252062678,-613.9460498765111) " x="725.07137" xml:space="preserve" y="328.35715">FP</text>
+  <rect fill="#FFEBA2" height="92.85714" id="f601dd1ae0b94837b3cc90f74def5de3-ao-3" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="142.85714" x="503.6428" y="292.64287"/>
+  <rect fill="#FFEBA2" height="87.5" id="f601dd1ae0b94837b3cc90f74def5de3-ao-4" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="128.57143" x="696.49994" y="296.2143"/>
+  <rect fill="#FFEBA2" height="94.64286" id="f601dd1ae0b94837b3cc90f74def5de3-ao-5" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="141.07143" x="508.99994" y="471.2143"/>
+  <rect fill="#FFEBA2" height="89.28572" id="f601dd1ae0b94837b3cc90f74def5de3-ao-6" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="139.28572" x="703.6428" y="465.85716"/>
+  <rect fill="#FFEBA2" height="144.64286" id="f601dd1ae0b94837b3cc90f74def5de3-ao-7" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="171.42857" x="962.57137" y="594.42859"/>
+  
+ </g>
+</svg>

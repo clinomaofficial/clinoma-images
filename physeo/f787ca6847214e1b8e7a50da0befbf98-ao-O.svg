@@ -1,0 +1,15 @@
+<svg viewBox="0 0 654 322" height="322" width="654" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect fill="#FFEBA2" height="109" id="f787ca6847214e1b8e7a50da0befbf98-ao-1" stroke="#2D2D2D" width="145" x="29" y="11"/>
+  <rect fill="#FFEBA2" height="102" id="f787ca6847214e1b8e7a50da0befbf98-ao-2" stroke="#2D2D2D" width="125" x="200" y="17"/>
+  <text fill="#ffffff" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="f787ca6847214e1b8e7a50da0befbf98-ao-3" stroke-width="0" style="cursor: move;" text-anchor="middle" x="158" xml:space="preserve" y="209">Systole</text>
+  <text fill="#ffffff" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" id="f787ca6847214e1b8e7a50da0befbf98-ao-4" stroke-width="0" text-anchor="middle" x="351" xml:space="preserve" y="207">Diastole</text>
+  <rect fill="#FFEBA2" height="36" id="f787ca6847214e1b8e7a50da0befbf98-ao-5" stroke="#2D2D2D" width="94" x="116" y="182"/>
+  <rect fill="#FFEBA2" height="37" id="f787ca6847214e1b8e7a50da0befbf98-ao-6" stroke="#2D2D2D" width="106" x="303" y="182"/>
+ </g>
+</svg>
