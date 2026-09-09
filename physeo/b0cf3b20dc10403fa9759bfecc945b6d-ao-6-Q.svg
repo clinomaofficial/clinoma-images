@@ -1,0 +1,17 @@
+<svg viewBox="0 0 860 734" height="734" width="860" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <text fill="#ffffff" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-1" stroke-width="0" text-anchor="middle" transform="matrix(0.752232132975152,0,0,1.0826787948608398,16.666513139979344,-22.383535161061445) " x="212.8246" xml:space="preserve" y="291.44921">Superior Vena Cava</text>
+  <text fill="#ffffff" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-2" stroke-width="0" text-anchor="middle" transform="matrix(0.8092401371382194,0,0,1,-72.76389300144643,0) " x="497.07994" xml:space="preserve" y="179.2353">Ascending Aorta</text>
+  <text fill="#ffffff" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-3" stroke-width="0" text-anchor="middle" transform="matrix(0.8174858948052304,0,0,1,97.68312450114867,0) " x="595.03528" xml:space="preserve" y="218.94118">Pulmonary Trunk</text>
+  <text fill="#ffffff" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" font-weight="bold" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-4" stroke-width="0" text-anchor="middle" x="609.11768" xml:space="preserve" y="529.23531">Descending Aorta</text>
+  <rect fill="#FFEBA2" height="35.29412" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-5" stroke="#2D2D2D" width="173.52942" x="242.9412" y="149.82354"/>
+  <rect class="qshape" fill="#FF7E7E" height="35.29412" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-6" stroke="#2D2D2D" width="179.41177" x="498.82356" y="192.4706"/>
+  <rect fill="#FFEBA2" height="35.29412" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-7" stroke="#2D2D2D" width="216.17648" x="501.76473" y="504.23531"/>
+  <rect fill="#FFEBA2" height="33.82353" id="b0cf3b20dc10403fa9759bfecc945b6d-ao-8" stroke="#2D2D2D" width="179.41177" x="90.00002" y="264.52942"/>
+ </g>
+</svg>
