@@ -1,0 +1,662 @@
+[
+  {
+    "index": 1,
+    "topicId": "RESP-ANAT-01",
+    "title": "LUNGS: GROSS MORPHOLOGY, LOBES & HILAR ARCHITECTURE",
+    "filename": "01_RESP-ANAT-01_LUNGS_GROSS_MORPHOLOGY_LOBES_HILAR_ARCHITECTURE.jpg",
+    "sizeBytes": 476284,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 2,
+    "topicId": "RESP-ANAT-02",
+    "title": "TRACHEOBRONCHIAL TREE & AIRWAY HYDRODYNAMICS",
+    "filename": "02_RESP-ANAT-02_TRACHEOBRONCHIAL_TREE_AIRWAY_HYDRODYNAMICS.jpg",
+    "sizeBytes": 410167,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 3,
+    "topicId": "RESP-ANAT-03",
+    "title": "BRONCHOPULMONARY SEGMENTS & SURGICAL ANATOMY",
+    "filename": "03_RESP-ANAT-03_BRONCHOPULMONARY_SEGMENTS_SURGICAL_ANATOMY.jpg",
+    "sizeBytes": 481181,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 4,
+    "topicId": "RESP-ANAT-04",
+    "title": "PLEURA, PLEURAL CAVITY & THORACENTESIS ANATOMY",
+    "filename": "04_RESP-ANAT-04_PLEURA_PLEURAL_CAVITY_THORACENTESIS_ANATOMY.jpg",
+    "sizeBytes": 478749,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 5,
+    "topicId": "RESP-ANAT-05",
+    "title": "MEDIASTINUM: FOUR COMPARTMENTS & MEDIASTINAL MASSES",
+    "filename": "05_RESP-ANAT-05_MEDIASTINUM_FOUR_COMPARTMENTS_MEDIASTINAL_MASSES.jpg",
+    "sizeBytes": 467264,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 6,
+    "topicId": "RESP-ANAT-06",
+    "title": "DIAPHRAGM: OPENINGS, CRURA & INNERVATION",
+    "filename": "06_RESP-ANAT-06_DIAPHRAGM_OPENINGS_CRURA_INNERVATION.jpg",
+    "sizeBytes": 410015,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 7,
+    "topicId": "RESP-ANAT-07",
+    "title": "THORACIC WALL, RIBS & RESPIRATORY MUSCULATURE",
+    "filename": "07_RESP-ANAT-07_THORACIC_WALL_RIBS_RESPIRATORY_MUSCULATURE.jpg",
+    "sizeBytes": 501150,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 8,
+    "topicId": "RESP-ANAT-08",
+    "title": "EMBRYOLOGY OF THE RESPIRATORY SYSTEM & TEF",
+    "filename": "08_RESP-ANAT-08_EMBRYOLOGY_OF_THE_RESPIRATORY_SYSTEM_TEF.jpg",
+    "sizeBytes": 493976,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 9,
+    "topicId": "RESP-PHYS-01",
+    "title": "MECHANICS OF BREATHING & RESPIRATORY PRESSURES",
+    "filename": "09_RESP-PHYS-01_MECHANICS_OF_BREATHING_RESPIRATORY_PRESSURES.jpg",
+    "sizeBytes": 478419,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 10,
+    "topicId": "RESP-PHYS-02",
+    "title": "LUNG COMPLIANCE, SURFACTANT & LAPLACE LAW",
+    "filename": "10_RESP-PHYS-02_LUNG_COMPLIANCE_SURFACTANT_LAPLACE_LAW.jpg",
+    "sizeBytes": 488132,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 11,
+    "topicId": "RESP-PHYS-03",
+    "title": "LUNG VOLUMES, CAPACITIES & SPIROMETRY",
+    "filename": "11_RESP-PHYS-03_LUNG_VOLUMES_CAPACITIES_SPIROMETRY.jpg",
+    "sizeBytes": 470964,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 12,
+    "topicId": "RESP-PHYS-04",
+    "title": "DEAD SPACE, ALVEOLAR VENTILATION & V/Q RATIOS",
+    "filename": "12_RESP-PHYS-04_DEAD_SPACE_ALVEOLAR_VENTILATION_V_Q_RATIOS.jpg",
+    "sizeBytes": 486555,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 13,
+    "topicId": "RESP-PHYS-05",
+    "title": "PULMONARY CIRCULATION & HYPOXIC VASOCONSTRICTION",
+    "filename": "13_RESP-PHYS-05_PULMONARY_CIRCULATION_HYPOXIC_VASOCONSTRICTION.jpg",
+    "sizeBytes": 476478,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 14,
+    "topicId": "RESP-PHYS-06",
+    "title": "GAS TRANSPORT: O2-HB CURVE & CARBON DIOXIDE",
+    "filename": "14_RESP-PHYS-06_GAS_TRANSPORT_O2_HB_CURVE_CARBON_DIOXIDE.jpg",
+    "sizeBytes": 475634,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 15,
+    "topicId": "RESP-PHYS-07",
+    "title": "NEURAL & CHEMICAL CONTROL OF RESPIRATION",
+    "filename": "15_RESP-PHYS-07_NEURAL_CHEMICAL_CONTROL_OF_RESPIRATION.jpg",
+    "sizeBytes": 516402,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 16,
+    "topicId": "RESP-PHYS-08",
+    "title": "HIGH ALTITUDE & DIVING HYPERBARIC PHYSIOLOGY",
+    "filename": "16_RESP-PHYS-08_HIGH_ALTITUDE_DIVING_HYPERBARIC_PHYSIOLOGY.jpg",
+    "sizeBytes": 479404,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 17,
+    "topicId": "RESP-PATH-01",
+    "title": "COPD: EMPHYSEMA SUBTYPES VS CHRONIC BRONCHITIS",
+    "filename": "17_RESP-PATH-01_COPD_EMPHYSEMA_SUBTYPES_VS_CHRONIC_BRONCHITIS.jpg",
+    "sizeBytes": 404504,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 18,
+    "topicId": "RESP-PATH-02",
+    "title": "BRONCHIAL ASTHMA & AIRWAY REMODELING",
+    "filename": "18_RESP-PATH-02_BRONCHIAL_ASTHMA_AIRWAY_REMODELING.jpg",
+    "sizeBytes": 548140,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 19,
+    "topicId": "RESP-PATH-03",
+    "title": "BRONCHIECTASIS & CYSTIC FIBROSIS",
+    "filename": "19_RESP-PATH-03_BRONCHIECTASIS_CYSTIC_FIBROSIS.jpg",
+    "sizeBytes": 524375,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 20,
+    "topicId": "RESP-PATH-04",
+    "title": "RESTRICTIVE LUNG DISEASES: IPF VS SARCOIDOSIS",
+    "filename": "20_RESP-PATH-04_RESTRICTIVE_LUNG_DISEASES_IPF_VS_SARCOIDOSIS.jpg",
+    "sizeBytes": 552676,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 21,
+    "topicId": "RESP-PATH-05",
+    "title": "PNEUMOCONIOSES: SILICOSIS, ASBESTOSIS & COAL",
+    "filename": "21_RESP-PATH-05_PNEUMOCONIOSES_SILICOSIS_ASBESTOSIS_COAL.jpg",
+    "sizeBytes": 561329,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 22,
+    "topicId": "RESP-PATH-06",
+    "title": "PNEUMONIAS: LOBAR, BRONCHO & LUNG ABSCESS",
+    "filename": "22_RESP-PATH-06_PNEUMONIAS_LOBAR_BRONCHO_LUNG_ABSCESS.jpg",
+    "sizeBytes": 416028,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 23,
+    "topicId": "RESP-PATH-07",
+    "title": "PULMONARY TUBERCULOSIS: PRIMARY VS REACTIVATION",
+    "filename": "23_RESP-PATH-07_PULMONARY_TUBERCULOSIS_PRIMARY_VS_REACTIVATION.jpg",
+    "sizeBytes": 467733,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 24,
+    "topicId": "RESP-PATH-08",
+    "title": "PULMONARY EMBOLISM, INFARCTION & ARDS",
+    "filename": "24_RESP-PATH-08_PULMONARY_EMBOLISM_INFARCTION_ARDS.jpg",
+    "sizeBytes": 533081,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 25,
+    "topicId": "RESP-PATH-09",
+    "title": "BRONCHOGENIC CARCINOMA & THORACIC TUMORS",
+    "filename": "25_RESP-PATH-09_BRONCHOGENIC_CARCINOMA_THORACIC_TUMORS.jpg",
+    "sizeBytes": 403213,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 26,
+    "topicId": "RESP-HIST-01",
+    "title": "RESPIRATORY EPITHELIUM: THE FIVE CELL TYPES",
+    "filename": "26_RESP-HIST-01_RESPIRATORY_EPITHELIUM_THE_FIVE_CELL_TYPES.jpg",
+    "sizeBytes": 561493,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 27,
+    "topicId": "RESP-HIST-02",
+    "title": "TRACHEOBRONCHIAL TREE: HISTOLOGICAL GRADIENT",
+    "filename": "27_RESP-HIST-02_TRACHEOBRONCHIAL_TREE_HISTOLOGICAL_GRADIENT.jpg",
+    "sizeBytes": 562772,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 28,
+    "topicId": "RESP-HIST-03",
+    "title": "BRONCHIOLES & CLUB (CLARA) CELLS",
+    "filename": "28_RESP-HIST-03_BRONCHIOLES_CLUB_CLARA_CELLS.jpg",
+    "sizeBytes": 479853,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 29,
+    "topicId": "RESP-HIST-04",
+    "title": "ALVEOLAR SEPTUM & PNEUMOCYTES (TYPE I & II)",
+    "filename": "29_RESP-HIST-04_ALVEOLAR_SEPTUM_PNEUMOCYTES_TYPE_I_II.jpg",
+    "sizeBytes": 421320,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 30,
+    "topicId": "RESP-HIST-05",
+    "title": "BLOOD-AIR BARRIER & ALVEOLAR MACROPHAGES",
+    "filename": "30_RESP-HIST-05_BLOOD_AIR_BARRIER_ALVEOLAR_MACROPHAGES.jpg",
+    "sizeBytes": 519072,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 31,
+    "topicId": "RESP-HIST-06",
+    "title": "SPECIALIZED UPPER RESPIRATORY HISTOLOGY",
+    "filename": "31_RESP-HIST-06_SPECIALIZED_UPPER_RESPIRATORY_HISTOLOGY.jpg",
+    "sizeBytes": 526110,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 32,
+    "topicId": "RESP-MICR-01",
+    "title": "TYPICAL COMMUNITY-ACQUIRED PNEUMONIAS",
+    "filename": "32_RESP-MICR-01_TYPICAL_COMMUNITY_ACQUIRED_PNEUMONIAS.jpg",
+    "sizeBytes": 467406,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 33,
+    "topicId": "RESP-MICR-02",
+    "title": "ATYPICAL (WALKING) PNEUMONIAS",
+    "filename": "33_RESP-MICR-02_ATYPICAL_WALKING_PNEUMONIAS.jpg",
+    "sizeBytes": 484633,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 34,
+    "topicId": "RESP-MICR-03",
+    "title": "MYCOBACTERIA & TUBERCULOSIS DIAGNOSTICS",
+    "filename": "34_RESP-MICR-03_MYCOBACTERIA_TUBERCULOSIS_DIAGNOSTICS.jpg",
+    "sizeBytes": 491583,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 35,
+    "topicId": "RESP-MICR-04",
+    "title": "HOSPITAL-ACQUIRED & CYSTIC FIBROSIS PATHOGENS",
+    "filename": "35_RESP-MICR-04_HOSPITAL_ACQUIRED_CYSTIC_FIBROSIS_PATHOGENS.jpg",
+    "sizeBytes": 462951,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 36,
+    "topicId": "RESP-MICR-05",
+    "title": "RESPIRATORY VIRUSES: INFLUENZA, RSV & SARS-COV-2",
+    "filename": "36_RESP-MICR-05_RESPIRATORY_VIRUSES_INFLUENZA_RSV_SARS_COV_2.jpg",
+    "sizeBytes": 473998,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 37,
+    "topicId": "RESP-MICR-06",
+    "title": "PULMONARY FUNGAL INFECTIONS: OPPORTUNISTIC & DIMORPHIC",
+    "filename": "37_RESP-MICR-06_PULMONARY_FUNGAL_INFECTIONS_OPPORTUNISTIC_DIMORPHIC.jpg",
+    "sizeBytes": 414602,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 38,
+    "topicId": "RESP-PARA-01",
+    "title": "PARAGONIMUS WESTERMANI (ORIENTAL LUNG FLUKE)",
+    "filename": "38_RESP-PARA-01_PARAGONIMUS_WESTERMANI_ORIENTAL_LUNG_FLUKE.jpg",
+    "sizeBytes": 423929,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 39,
+    "topicId": "RESP-PARA-02",
+    "title": "ECHINOCOCCUS GRANULOSUS (PULMONARY HYDATID DISEASE)",
+    "filename": "39_RESP-PARA-02_ECHINOCOCCUS_GRANULOSUS_PULMONARY_HYDATID_DISEASE.jpg",
+    "sizeBytes": 469514,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 40,
+    "topicId": "RESP-PARA-03",
+    "title": "PULMONARY PARASITIC EOSINOPHILIAS",
+    "filename": "40_RESP-PARA-03_PULMONARY_PARASITIC_EOSINOPHILIAS.jpg",
+    "sizeBytes": 491019,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 41,
+    "topicId": "RESP-PARA-04",
+    "title": "OPPORTUNISTIC & AMOEBIC THORACIC PARASITOSES",
+    "filename": "41_RESP-PARA-04_OPPORTUNISTIC_AMOEBIC_THORACIC_PARASITOSES.jpg",
+    "sizeBytes": 502902,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 42,
+    "topicId": "RESP-PARA-05",
+    "title": "HOUSE DUST MITES & RESPIRATORY ARTHROPOD ALLERGIES",
+    "filename": "42_RESP-PARA-05_HOUSE_DUST_MITES_RESPIRATORY_ARTHROPOD_ALLERGIES.jpg",
+    "sizeBytes": 419913,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 43,
+    "topicId": "RESP-BIOC-01",
+    "title": "PULMONARY SURFACTANT BIOCHEMISTRY & L/S RATIO",
+    "filename": "43_RESP-BIOC-01_PULMONARY_SURFACTANT_BIOCHEMISTRY_L_S_RATIO.jpg",
+    "sizeBytes": 500368,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 44,
+    "topicId": "RESP-BIOC-02",
+    "title": "HEMOGLOBIN ALLOSTERY, OXYGEN TRANSPORT & 2,3-BPG",
+    "filename": "44_RESP-BIOC-02_HEMOGLOBIN_ALLOSTERY_OXYGEN_TRANSPORT_2_3_BPG.jpg",
+    "sizeBytes": 495331,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 45,
+    "topicId": "RESP-BIOC-03",
+    "title": "DYSHEMOGLOBINEMIAS & CELLULAR HYPOXIC TOXINS",
+    "filename": "45_RESP-BIOC-03_DYSHEMOGLOBINEMIAS_CELLULAR_HYPOXIC_TOXINS.jpg",
+    "sizeBytes": 510332,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 46,
+    "topicId": "RESP-BIOC-04",
+    "title": "ACID-BASE EQUILIBRIA, ABG & HENDERSON-HASSELBALCH",
+    "filename": "46_RESP-BIOC-04_ACID_BASE_EQUILIBRIA_ABG_HENDERSON_HASSELBALCH.jpg",
+    "sizeBytes": 479185,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 47,
+    "topicId": "RESP-BIOC-05",
+    "title": "MOLECULAR GENETICS: CFTR & ALPHA-1 ANTITRYPSIN",
+    "filename": "47_RESP-BIOC-05_MOLECULAR_GENETICS_CFTR_ALPHA_1_ANTITRYPSIN.jpg",
+    "sizeBytes": 494496,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 48,
+    "topicId": "RESP-PHAR-01",
+    "title": "BETA-2 ADRENERGIC AGONISTS: SABA, LABA & ULTRA-LABA",
+    "filename": "48_RESP-PHAR-01_BETA_2_ADRENERGIC_AGONISTS_SABA_LABA_ULTRA_LABA.jpg",
+    "sizeBytes": 491394,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 49,
+    "topicId": "RESP-PHAR-02",
+    "title": "ANTIMUSCARINIC BRONCHODILATORS: SAMA VS LAMA",
+    "filename": "49_RESP-PHAR-02_ANTIMUSCARINIC_BRONCHODILATORS_SAMA_VS_LAMA.jpg",
+    "sizeBytes": 487801,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 50,
+    "topicId": "RESP-PHAR-03",
+    "title": "CORTICOSTEROIDS: MOLECULAR GENOMICS & TRANSREPRESSION",
+    "filename": "50_RESP-PHAR-03_CORTICOSTEROIDS_MOLECULAR_GENOMICS_TRANSREPRESSION.jpg",
+    "sizeBytes": 491230,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 51,
+    "topicId": "RESP-PHAR-04",
+    "title": "LEUKOTRIENE MODIFIERS & MAST CELL STABILIZERS",
+    "filename": "51_RESP-PHAR-04_LEUKOTRIENE_MODIFIERS_MAST_CELL_STABILIZERS.jpg",
+    "sizeBytes": 474816,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 52,
+    "topicId": "RESP-PHAR-05",
+    "title": "TARGETED BIOLOGICS FOR SEVERE REFRACTORY ASTHMA",
+    "filename": "52_RESP-PHAR-05_TARGETED_BIOLOGICS_FOR_SEVERE_REFRACTORY_ASTHMA.jpg",
+    "sizeBytes": 495208,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 53,
+    "topicId": "RESP-PHAR-06",
+    "title": "METHYLXANTHINES, PDE-4 INHIBITORS & CFTR MODULATORS",
+    "filename": "53_RESP-PHAR-06_METHYLXANTHINES_PDE_4_INHIBITORS_CFTR_MODULATORS.jpg",
+    "sizeBytes": 478034,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 54,
+    "topicId": "RESP-PHAR-07",
+    "title": "TUBERCULOSIS PHARMACOTHERAPY: THE FIRST-LINE RIPE REGIMEN",
+    "filename": "54_RESP-PHAR-07_TUBERCULOSIS_PHARMACOTHERAPY_THE_FIRST_LINE_RIPE_REGIMEN.jpg",
+    "sizeBytes": 417445,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "index": 55,
+    "topicId": "RESP-PHAR-08",
+    "title": "PULMONARY ARTERIAL HYPERTENSION (PAH) PHARMACOTHERAPY",
+    "filename": "55_RESP-PHAR-08_PULMONARY_ARTERIAL_HYPERTENSION_PAH_PHARMACOTHERAPY.jpg",
+    "sizeBytes": 486739,
+    "dimensions": {
+      "width": 1376,
+      "height": 768
+    },
+    "status": "SUCCESS"
+  }
+]
