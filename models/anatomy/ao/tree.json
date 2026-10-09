@@ -1,0 +1,3436 @@
+{
+  "label": "AO Surgery Reference",
+  "slug": "",
+  "children": [
+    {
+      "label": "AO Surgery Reference",
+      "slug": "cmf",
+      "children": []
+    },
+    {
+      "label": "Orthopedic Trauma",
+      "slug": "orthopedic-trauma",
+      "children": [
+        {
+          "label": "Adult Trauma",
+          "slug": "orthopedic-trauma/adult-trauma",
+          "children": [
+            {
+              "label": "Acetabulum",
+              "slug": "orthopedic-trauma/adult-trauma/acetabulum",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/acetabulum/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/acetabulum/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the acetabulum",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Extended iliofemoral approach to the acetabulum",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/extended-iliofemoral-approach-to-the-acetabulum",
+                      "children": []
+                    },
+                    {
+                      "label": "Ilioinguinal approach to the acetabulum",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/ilioinguinal-approach-to-the-acetabulum",
+                      "children": []
+                    },
+                    {
+                      "label": "Kocher-Langenbeck approach to the acetabulum",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum",
+                      "children": []
+                    },
+                    {
+                      "label": "Modified Stoppa approach to the acetabulum",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/modified-stoppa-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Trochanter osteotomy of the acetabulum",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/trochanter-osteotomy",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading",
+                  "children": [
+                    {
+                      "label": "Acetabular fractures in the obese",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/acetabular-fractures-in-the-obese",
+                      "children": []
+                    },
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "ATLS in acetabular fractures",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/atls-in-acetabular-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Characteristics of associated fracture types",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/characteristics-of-associated-fracture-types",
+                      "children": []
+                    },
+                    {
+                      "label": "Characteristics of elemental fracture types",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/characteristics-of-elemental-fracture-types",
+                      "children": []
+                    },
+                    {
+                      "label": "Decision making: choice of exposure",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/decision-making-choice-of-exposure",
+                      "children": []
+                    },
+                    {
+                      "label": "Decision making: nonoperative vs surgical treatment",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/decision-making-nonoperative-vs-surgical-treatment",
+                      "children": []
+                    },
+                    {
+                      "label": "General stabilization principles and screw directions",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/general-stabilization-principles-and-screw-directions",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient assessment and diagnosis",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/patient-assessment-and-diagnosis",
+                      "children": []
+                    },
+                    {
+                      "label": "Planning/templating",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/planningtemplating",
+                      "children": []
+                    },
+                    {
+                      "label": "Principles of acetabular fracture reduction",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/principles-of-acetabular-fracture-reduction",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiology of the intact acetabulum",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/radiology-of-the-intact-acetabulum",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/references",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral position",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation/lateral-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Basic Technique",
+              "slug": "orthopedic-trauma/adult-trauma/basic-technique",
+              "children": [
+                {
+                  "label": "Intramedullary nailing",
+                  "slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-im-nailing",
+                  "children": []
+                },
+                {
+                  "label": "Plating",
+                  "slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating",
+                  "children": []
+                },
+                {
+                  "label": "Modular external fixation",
+                  "slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-technique-modular-external-fixation",
+                  "children": []
+                },
+                {
+                  "label": "Basic techniques of fracture management",
+                  "slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-techniques-of-fracture-management",
+                  "children": []
+                },
+                {
+                  "label": "Cancellous lag screw insertion",
+                  "slug": "orthopedic-trauma/adult-trauma/basic-technique/cancellous-lag-screws",
+                  "children": []
+                },
+                {
+                  "label": "Casting of the wrist and forearm",
+                  "slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm",
+                  "children": []
+                },
+                {
+                  "label": "Headless compression screw insertion",
+                  "slug": "orthopedic-trauma/adult-trauma/basic-technique/headless-compression-screw",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Carpal Bones",
+              "slug": "orthopedic-trauma/adult-trauma/carpal-bones",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/adult-trauma/carpal-bones/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach",
+                  "children": [
+                    {
+                      "label": "Dorsal approach to the scaphoid",
+                      "slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-scaphoid",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive palmar approach to the scaphoid",
+                      "slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/minimally-invasive-palmar-approach-to-the-scaphoid",
+                      "children": []
+                    },
+                    {
+                      "label": "Palmar approach to the scaphoid",
+                      "slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/palmar-approach-to-the-scaphoid",
+                      "children": []
+                    },
+                    {
+                      "label": "Ulnar approach to the hamate hook",
+                      "slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/ulnar-approach-to-the-hamate-hook",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes of Carpal bones",
+                  "slug": "orthopedic-trauma/adult-trauma/carpal-bones/release-notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Distal femur",
+              "slug": "orthopedic-trauma/adult-trauma/distal-femur",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-femur/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Antegrade nailing approach to the distal femur with piriformis entry point",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/antegrade-nailing-approach-with-piriformis-entry-point",
+                      "children": []
+                    },
+                    {
+                      "label": "Antegrade nailing approach to the distal femur with trochanteric entry point",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+                      "children": []
+                    },
+                    {
+                      "label": "Arthroscopic approach to the knee",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/arthroscopic-approach-to-the-knee",
+                      "children": []
+                    },
+                    {
+                      "label": "Gerdy's tubercle osteotomy approach to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/gerdytubercle-osteotomy-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral/anterolateral approach to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral parapatellar approach to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-parapatellar-approach-to-the-distal-femur",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial approach to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/medial-approach-to-the-distal-femur",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial parapatellar approach to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/medial-parapatellar-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "MIPO approach to the distal femur from lateral/anterolateral",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/mipo-approach-to-the-distal-femur-from-lateral-anterolateral",
+                      "children": []
+                    },
+                    {
+                      "label": "Retrograde nailing approach to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/retrograde-nailing-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the femur for pin insertion",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/safe-zones-for-pin-insertion",
+                      "children": []
+                    },
+                    {
+                      "label": "Swashbuckler approach to the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/swashbuckler-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Considerations involving preexisting arthroplasty in the femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading/considerations-involving-preexisting-arthroplasty-in-the-femur",
+                      "children": []
+                    },
+                    {
+                      "label": "Intraoperative imaging of the distal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading/intraoperative-imaging-of-the-knee-distal-femur",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient examination",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading/patient-examination",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading/references",
+                      "children": []
+                    },
+                    {
+                      "label": "Webinar: Distal femur fractures - Tips and pitfalls",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading/webinar-distal-femur-fractures-tips-and-pitfalls",
+                      "children": []
+                    },
+                    {
+                      "label": "Webinar: High energy distal femur fractures",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/further-reading/webinar-high-energy-distal-femur-fractures",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral decubitus position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation/lateral-decubitus",
+                      "children": []
+                    },
+                    {
+                      "label": "Scissor position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation/scissor-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation/supine-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position knee flexed 30°",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation/supine-position-knee-flexed-30",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position knee flexed 90°",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation/supine-position-knee-flexed-90",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Distal Forearm",
+              "slug": "orthopedic-trauma/adult-trauma/distal-forearm",
+              "children": [
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-forearm/further-reading",
+                  "children": [
+                    {
+                      "label": "Intraoperative imaging of the distal forearm",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-forearm/further-reading/intraoperative-imaging",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Distal humerus",
+              "slug": "orthopedic-trauma/adult-trauma/distal-humerus",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-humerus/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "AO Surgery Reference",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterior approach to the capitellum to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/anterior-approach-to-the-capitellum",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral paraolecranon approach to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-paraolecranon-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial approach to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/medial-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior paratricipital approach (Alonso-Llames) to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-paratricipital-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior triceps-elevating approach (after Bryan and Morrey) to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-triceps-elevating-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior triceps-split approach (Campbell) to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-triceps-split-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the humerus for percutaneous pins or screws",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/safe-zones-for-percutaneous-pins-or-screws",
+                      "children": []
+                    },
+                    {
+                      "label": "Transolecranon approach to the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/transolecranon-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Basic Technique",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-humerus/basic-technique",
+                  "children": [
+                    {
+                      "label": "Cerclage compression wire fixation of olecranon osteotomy",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/basic-technique/cerclage-compression-wire-fixation-of-olecranon-osteotomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Intramedullary screw fixation of olecranon osteotomy",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/basic-technique/intramedullary-screw-fixation-of-olecranon-osteotomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Plate fixation of olecranon osteotomy",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/basic-technique/plate-fixation-of-olecranon-osteotomy",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Anatomical concepts",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/anatomical-concepts",
+                      "children": []
+                    },
+                    {
+                      "label": "Assessment of elbow stability",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/assessment-of-elbow-stability",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/complications",
+                      "children": []
+                    },
+                    {
+                      "label": "Heterotopic ossification",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/heterotopic-ossification",
+                      "children": []
+                    },
+                    {
+                      "label": "Intraoperative imaging of the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/intraoperative-imaging",
+                      "children": []
+                    },
+                    {
+                      "label": "Neurological anatomy, protection, and handling",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/neurological-anatomy-protection-handling",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient assessment",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/patient-assessment",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/references",
+                      "children": []
+                    },
+                    {
+                      "label": "Vascularization of the distal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/vascularization-of-the-distal-humerus",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-humerus/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral decubitus position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-humerus/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Distal tibia",
+              "slug": "orthopedic-trauma/adult-trauma/distal-tibia",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-tibia/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anterolateral-approach-to-the-distal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Anteromedial approach to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Anteromedial or anterolateral approach to the distal tibia?",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-or-anterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial approach to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/medial-approach-to-the-distal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive approach to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/minimally-invasive-approach-to-the-distal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Nailing limited open approach to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/nailing-limited-open-approach-to-the-distal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterolateral limited open approach to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Posteromedial approach to the distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-tibia/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Recommended literature - distal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/further-reading/recommended-literature-distal-tibia",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/lateral-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/supine-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position, figure-of-four",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/supine-position-figure-of-four",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position for MIO",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/supine-position-for-mio",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position (fracture table)",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/supine-position-fracture-table",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position with knee flexed",
+                      "slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation/supine-position-with-knee-flexed",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Femur shaft",
+              "slug": "orthopedic-trauma/adult-trauma/femoral-shaft",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the femoral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Antegrade nailing approach to the femoral shaft with piriformis entry point",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-piriformis-entry-point",
+                      "children": []
+                    },
+                    {
+                      "label": "Antegrade nailing approach to the femoral shaft with trochanteric entry point",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the femoral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Locations for pin placement in the femur",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/locations-for-pin-placement",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive osteosynthesis approach to the femoral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Retrograde nailing approach to the femoral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/retrograde-nailing-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/further-reading/femoral-shaft-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Infection",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/further-reading/infection",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral decubitus position",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Scissor position",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/preparation/scissor-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine knee flexed 30°",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/preparation/supine-knee-flexed-30",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine with manual traction",
+                      "slug": "orthopedic-trauma/adult-trauma/femoral-shaft/preparation/supine-with-manual-traction",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Further Reading",
+              "slug": "orthopedic-trauma/adult-trauma/further-reading",
+              "children": [
+                {
+                  "label": "Chronic infection",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/chronic-infection",
+                  "children": []
+                },
+                {
+                  "label": "Classification of fracture wound infection",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/classification-of-fracture-wound-infection",
+                  "children": []
+                },
+                {
+                  "label": "Compartment syndrome in the arm",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/compartment-syndrome-arm",
+                  "children": []
+                },
+                {
+                  "label": "Compartment syndrome in the leg",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/compartment-syndrome-leg",
+                  "children": []
+                },
+                {
+                  "label": "Compendium of intraoperative imaging for orthopedic trauma in the adult patient",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/compendium-of-intraoperative-imaging",
+                  "children": []
+                },
+                {
+                  "label": "Delayed presentation of infection",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/delayed-presentation-of-infection",
+                  "children": []
+                },
+                {
+                  "label": "Early infection",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/early-infection",
+                  "children": []
+                },
+                {
+                  "label": "Digital nerve lesions in the hand",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/hand-digital-nerve-lesions",
+                  "children": []
+                },
+                {
+                  "label": "Extensor tendon mechanism",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/hand-extensor-tendon-mechanism",
+                  "children": []
+                },
+                {
+                  "label": "Flexor tendon mechanism",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/hand-flexor-tendon-mechanism",
+                  "children": []
+                },
+                {
+                  "label": "Functional anatomy and biomechanical concepts in the hand",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/hand-functional-anatomy-and-biomechanical-concepts",
+                  "children": []
+                },
+                {
+                  "label": "General concepts in hand and wrist",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/hand-general-concepts",
+                  "children": []
+                },
+                {
+                  "label": "Ligament injuries of the hand",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/hand-ligament-injuries",
+                  "children": []
+                },
+                {
+                  "label": "Ulnar and median nerve lesions",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/hand-ulnar-and-median-nerve-lesions",
+                  "children": []
+                },
+                {
+                  "label": "Highlights of intraoperative imaging",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/highlights-of-intraoperative-imaging",
+                  "children": []
+                },
+                {
+                  "label": "Infection",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/infection",
+                  "children": []
+                },
+                {
+                  "label": "Principles of management of open fractures",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/principles-of-management-of-open-fractures",
+                  "children": []
+                },
+                {
+                  "label": "Recurrent osteomyelitis",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/recurrent-osteomyelitis",
+                  "children": []
+                },
+                {
+                  "label": "Tension band principles",
+                  "slug": "orthopedic-trauma/adult-trauma/further-reading/tension-band-principles",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Humeral shaft",
+              "slug": "orthopedic-trauma/adult-trauma/humeral-shaft",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "AO Surgery Reference",
+                  "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the humeral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the humerus (after Henry)",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-approach-to-the-humerus-after-henry",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral transdeltoid approach to the humerus for antegrade nailing",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Extended deltopectoral approach to the humeral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the humeral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/lateral-approach-to-the-humeral-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Limited approaches for anterior MIO of the humeral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/limited-approaches-for-anterior-mio",
+                      "children": []
+                    },
+                    {
+                      "label": "MIO transdeltoid lateral approach to the humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/mio-transdeltoid-lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior triceps-sparing approach (triceps-on) to the humeral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-sparing-approach-triceps-on",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior triceps-split approach to the humeral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-split-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Retrograde nailing approach to the humeral",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/retrograde-nailing-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the humerus for percutaneous pins or screws",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/safe-zones-for-percutaneous-pins-or-screws",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Bent vs straight nails",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/bent-vs-straight-nails",
+                      "children": []
+                    },
+                    {
+                      "label": "Neurovascular injuries",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/neurovascular-injuries",
+                      "children": []
+                    },
+                    {
+                      "label": "Open fractures in the humeral shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/open-fractures-in-the-humeral-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient assessment and radiology",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/patient-assessment-and-radiology",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/references",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Beach chair position",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/preparation/beach-chair-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral position",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/preparation/lateral-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/adult-trauma/humeral-shaft/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Malleoli",
+              "slug": "orthopedic-trauma/adult-trauma/malleoli",
+              "children": [
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading",
+                  "children": [
+                    {
+                      "label": "Intraoperative imaging of the ankle",
+                      "slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading/intraoperative-imaging",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Patella",
+              "slug": "orthopedic-trauma/adult-trauma/patella",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/patella/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/patella/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the patella",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Mid-axial longitudinal approach to the patella",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/patella/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Intraoperative imaging of the patella",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/further-reading/intraoperative-imaging-of-the-knee-patella",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/further-reading/patella-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient examination",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/further-reading/patient-examination",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/patella/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine knee flexed 30°",
+                      "slug": "orthopedic-trauma/adult-trauma/patella/preparation/supine-knee-flexed-30",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Proximal femur",
+              "slug": "orthopedic-trauma/adult-trauma/proximal-femur",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-femur/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the proximal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterior approach (Smith-Petersen) to the proximal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/anterior-approach-smith-petersen",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach (Watson-Jones) to the proximal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach for proximal femoral nailing",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/approach-for-proximal-femoral-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Direct lateral approach to the proximal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/direct-lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Limited lateral approach for implant insertion in the proximal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/limited-lateral-approach-for-implant-insertion",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterolateral (posterior) approach to the hip",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Trochanteric flip osteotomy through the Gibson interval",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/trochanteric-flip-osteotomy-through-the-gibson-interval",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Basic Technique",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-femur/basic-technique",
+                  "children": [
+                    {
+                      "label": "Percutaneous reduction techniques (femoral neck fractures)",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/basic-technique/percutaneous-reduction-techniques-femoral-neck-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Percutaneous reduction techniques (trochanteric fractures)",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/basic-technique/percutaneous-reduction-techniques-trochanteric-fractures",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading on proximal femoral fracture management",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Assessment of reduction quality (femoral neck fractures)",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/assessment-of-reduction-quality-femoral-neck-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Assessment of reduction quality (trochanteric fractures)",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/assessment-of-reduction-quality-trochanteric-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures in femoral neck fracture management",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/complications-and-technical-failures-femoral-neck-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures in trochanteric fracture management",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/complications-and-technical-failures-trochanteric-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Intraoperative imaging of the proximal femur",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/intraoperative-imaging-of-the-proximal-femur",
+                      "children": []
+                    },
+                    {
+                      "label": "Assessment of patients with a proximal femoral fracture",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/patient-assessment",
+                      "children": []
+                    },
+                    {
+                      "label": "Perioperative care for elderly hip fracture patients",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/perioperative-care-for-elderly-hip-fracture-patients",
+                      "children": []
+                    },
+                    {
+                      "label": "Prognosis of proximal femoral fractures in elderly patients",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/prognosis-of-proximal-femoral-fractures-in-elderly-patients",
+                      "children": []
+                    },
+                    {
+                      "label": "References on proximal femoral fracture management",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/further-reading/references",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-femur/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral decubitus position",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine patient position for arthroplasty",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/preparation/supine-position-for-arthroplasty",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine patient position on a fracture table",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/preparation/supine-position-on-fracture-table",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine patient position on a radiolucent table",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-femur/preparation/supine-position-on-radiolucent-table",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes of Proximal femur",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-femur/release-notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Proximal Forearm",
+              "slug": "orthopedic-trauma/adult-trauma/proximal-forearm",
+              "children": [
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-forearm/further-reading",
+                  "children": [
+                    {
+                      "label": "Intraoperative imaging of the proximal forearm",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-forearm/further-reading/intraoperative-imaging",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Proximal humerus",
+              "slug": "orthopedic-trauma/adult-trauma/proximal-humerus",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "AO Surgery Reference",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the proximal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the proximal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Deltopectoral approach to the proximal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/safe-zones-in-the-proximal-humerus",
+                      "children": []
+                    },
+                    {
+                      "label": "Transdeltoid lateral approach to the proximal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/transdeltoid-lateral-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical and radiographic assessment of patients with suspected proximal humeral fractures",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading/clinical-and-radiographic-assessment-of-patients-with-suspected-proximal-humeral-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Intraoperative imaging of the proximal humerus",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading/intraoperative-imaging",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading/references",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Preparation/Positioning",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-humerus/preparation/preparationpositioning",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Proximal tibia",
+              "slug": "orthopedic-trauma/adult-trauma/proximal-tibia",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the proximal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral and extended anterolateral approach to the proximal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach for minimally invasive osteosynthesis (MIO) of the proximal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/approach-for-minimally-invasive-osteosynthesis-of-proximal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Arthroscopic approach to the knee",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial and posteromedial approach to the proximal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/medial-and-posteromedial-approach-to-proximal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone posteromedial approach to the proximal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/prone-posteromedial-approach-to-proximal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the tibia for wire and Schanz screw insertion",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion",
+                      "children": []
+                    },
+                    {
+                      "label": "Semi-extended suprapatellar approach for intramedullary nailing of the tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Straight lateral approach to the proximal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/straight-lateral-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading for the management of proximal tibia fractures",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Intraoperative imaging of the proximal tibia",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/further-reading/intraoperative-imaging-of-the-proximal-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Operative vs nonoperative treatment",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/further-reading/operative-vs-nonoperative-treatment",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/further-reading/references",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/preparation",
+                  "children": [
+                    {
+                      "label": "All patient preparations for the management of proximal tibia fractures",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Semi-extended knee position for intramedullary nailing",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/preparation/semi-extended-knee-position-for-suprapatellar-intramedullary-nailing-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/preparation/supine-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position for ring fixation",
+                      "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/preparation/supine-position-for-ring-fixation",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes for proximal tibia fractures",
+                  "slug": "orthopedic-trauma/adult-trauma/proximal-tibia/release-notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Scapula",
+              "slug": "orthopedic-trauma/adult-trauma/scapula",
+              "children": [
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/scapula/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the scapula",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Arthroscopic entry points in the scapula",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/approach/arthroscopic-entry-points",
+                      "children": []
+                    },
+                    {
+                      "label": "Deltopectoral approach to the scapula",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/approach/deltopectoral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior approach to the scapular body",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body",
+                      "children": []
+                    },
+                    {
+                      "label": "Superior acromial anterior to posterior approach (Sabercut approach)",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/approach/sabercut-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Superior scapular approach",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/approach/superior-approach-to-the-acromion",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/scapula/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical and radiological examination of patients with scapular injuries",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/clinical-and-radiological-examination-of-patients-with-scapular-injuries",
+                      "children": []
+                    },
+                    {
+                      "label": "Complete LSSS Failure",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/complete-lsss-failure",
+                      "children": []
+                    },
+                    {
+                      "label": "Floating shoulder - Sequence of repair",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/floating-shoulder-sequence-of-repair",
+                      "children": []
+                    },
+                    {
+                      "label": "Ligament reconstruction",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/ligament-reconstruction",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/scapula/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Beach chair",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/preparation/beach-chair",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/preparation/lateral",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/preparation/prone",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine",
+                      "slug": "orthopedic-trauma/adult-trauma/scapula/preparation/supine",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Foot Talus",
+              "slug": "orthopedic-trauma/adult-trauma/talus",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/talus/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/talus/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the talus",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the talus",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach-to-the-talus",
+                      "children": []
+                    },
+                    {
+                      "label": "Anteromedial approach to the talus",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach-to-the-talus",
+                      "children": []
+                    },
+                    {
+                      "label": "Direct lateral approach to the talus",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/direct-lateral-approach-to-the-talus",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral malleolar osteotomy",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/lateral-malleolar-osteotomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial malleolar osteotomy",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/medial-malleolar-osteotomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterolateral approach to the hindfoot",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/posterolateral-approach-to-the-hindfoot",
+                      "children": []
+                    },
+                    {
+                      "label": "Posteromedial approach to the talus",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/approach/posteromedial-approach-to-the-talus",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/talus/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Combined hindfoot injuries",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/further-reading/combined-hindfoot-injuries",
+                      "children": []
+                    },
+                    {
+                      "label": "Osteonecrosis",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/further-reading/osteonecrosis",
+                      "children": []
+                    },
+                    {
+                      "label": "Recommended reading",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/further-reading/recommended-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Reinsertion of an extruded talus",
+                      "slug": "orthopedic-trauma/adult-trauma/talus/further-reading/reinsertion-of-an-extruded-talus",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Tibial shaft",
+              "slug": "orthopedic-trauma/adult-trauma/tibial-shaft",
+              "children": [
+                {
+                  "label": "Additional Credits",
+                  "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach to the anterolateral surface of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anterolateral-surface-of-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach to the anteromedial surface of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anteromedial-surface-of-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach to the posterolateral surface of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-posterolateral-surface-of-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach to the posteromedial surface of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-posteromedial-surface-of-the-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Infrapatellar approach for intramedullary nailing of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/infrapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial parapatellar approach for intramedullary nailing of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/medial-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive lateral approach to the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/minimally-invasive-lateral-approach-to-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive medial approach to the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the tibia for wire and Schanz screw insertion",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-the-tibia-for-wire-and-schanz-screw-insertion",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones in the tibia for pin insertion",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-tibia-for-pin-insertion",
+                      "children": []
+                    },
+                    {
+                      "label": "Semi-extended lateral parapatellar approach for intramedullary nailing of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-lateral-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Semi-extended suprapatellar approach for intramedullary nailing of the tibial shaft",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Basic Technique",
+                  "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/basic-technique",
+                  "children": [
+                    {
+                      "label": "All basic techniques",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/basic-technique/all-basic-techniques",
+                      "children": []
+                    },
+                    {
+                      "label": "Fracture management with limited resources",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/basic-technique/fracture-management-with-limited-resources",
+                      "children": []
+                    },
+                    {
+                      "label": "Nailing without image intensification",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/basic-technique/nailing-without-image-intensification",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Bacteriology",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/bacteriology",
+                      "children": []
+                    },
+                    {
+                      "label": "Delayed presentation of infection",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/delayed-presentation-of-infection",
+                      "children": []
+                    },
+                    {
+                      "label": "Infection",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/infection",
+                      "children": []
+                    },
+                    {
+                      "label": "Prevention of infection",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/prevention-of-infection",
+                      "children": []
+                    },
+                    {
+                      "label": "Principles of management of open fractures",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/principles-of-management-of-open-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Recurrent osteomyelitis",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/recurrent-osteomyelitis",
+                      "children": []
+                    },
+                    {
+                      "label": "References",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/references",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation",
+                  "children": [
+                    {
+                      "label": "All patient preparations for the management of tibial shaft fractures",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Flexed knee position for intramedullary nailing",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation/flexed-knee-position-for-intramedullary-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Semi-extended knee position for intramedullary nailing",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation/semi-extended-knee-position-for-intramedullary-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation/supine-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position for ring fixator",
+                      "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation/supine-position-for-ring-fixator",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes for tibial shaft fractures",
+                  "slug": "orthopedic-trauma/adult-trauma/tibial-shaft/release-notes",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Basic Technique",
+          "slug": "orthopedic-trauma/basic-technique",
+          "children": [
+            {
+              "label": "Compression plate application to oblique fractures",
+              "slug": "orthopedic-trauma/basic-technique/application-of-compression-plates-to-oblique-fractures",
+              "children": []
+            },
+            {
+              "label": "Compression plate application to transverse fractures",
+              "slug": "orthopedic-trauma/basic-technique/application-of-compression-plates-to-transverse-fractures",
+              "children": []
+            },
+            {
+              "label": "Cortical lag screw insertion",
+              "slug": "orthopedic-trauma/basic-technique/cortical-lag-screws",
+              "children": []
+            },
+            {
+              "label": "Locking head screw insertion",
+              "slug": "orthopedic-trauma/basic-technique/insertion-of-locking-head-screw-and-variable-angle-screw",
+              "children": []
+            },
+            {
+              "label": "Screw insertion in compression mode",
+              "slug": "orthopedic-trauma/basic-technique/screw-insertion-in-compression-mode",
+              "children": []
+            },
+            {
+              "label": "Screw insertion in neutral mode",
+              "slug": "orthopedic-trauma/basic-technique/screw-insertion-in-neutral-mode",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Further Reading",
+          "slug": "orthopedic-trauma/further-reading",
+          "children": [
+            {
+              "label": "Casting, splints, and support bandages for treatment of lower limb injuries",
+              "slug": "orthopedic-trauma/further-reading/casting-of-lower-limb",
+              "children": []
+            },
+            {
+              "label": "Casting, splints, and support bandages for treatment of upper limb injuries",
+              "slug": "orthopedic-trauma/further-reading/casting-of-upper-limb",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Pediatric trauma",
+          "slug": "orthopedic-trauma/pediatric-trauma",
+          "children": [
+            {
+              "label": "Basic Technique",
+              "slug": "orthopedic-trauma/pediatric-trauma/basic-technique",
+              "children": [
+                {
+                  "label": "Modular external fixation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/basic-technique/basic-technique-modular-external-fixation",
+                  "children": []
+                },
+                {
+                  "label": "Basic techniques of pediatric fracture management",
+                  "slug": "orthopedic-trauma/pediatric-trauma/basic-technique/basic-techniques-of-pediatric-fracture-management",
+                  "children": []
+                },
+                {
+                  "label": "General K-wire principles",
+                  "slug": "orthopedic-trauma/pediatric-trauma/basic-technique/general-k-wire-principles",
+                  "children": []
+                },
+                {
+                  "label": "Lag screw insertion for epi- and metaphyseal fracture stabilization",
+                  "slug": "orthopedic-trauma/pediatric-trauma/basic-technique/lag-screw-principles",
+                  "children": []
+                },
+                {
+                  "label": "Plating principles in pediatric fracture care",
+                  "slug": "orthopedic-trauma/pediatric-trauma/basic-technique/plating-principles",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Distal femur",
+              "slug": "orthopedic-trauma/pediatric-trauma/distal-femur",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric distal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Arthroscopic approach to the pediatric knee",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach/arthroscopic-approach-to-the-knee",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry points for antegrade nailing of the pediatric distal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach/esin-entry-points-for-antegrade-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the pediatric distal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach/lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral/medial parapatellar arthrotomy of the pediatric distal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach/lateral-medial-parapatellar-arthrotomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial approach to the pediatric distal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach/medial-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones for pin placement in the pediatric leg",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/approach/safe-zones-for-pin-placement",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Anatomy of the distal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading/anatomy-of-the-distal-femur",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading/clinical-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading/complications-and-technical-failures",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading/radiological-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Timing of treatment",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/further-reading/timing-of-treatment",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-femur/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Distal forearm",
+              "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric distal forearm",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Ulnar approach to the pediatric distal ulna",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna",
+                      "children": []
+                    },
+                    {
+                      "label": "Volar (anterior) approach to the pediatric distal radius",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Anatomy of the distal forearm",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/anatomy-of-the-distal-forearm",
+                      "children": []
+                    },
+                    {
+                      "label": "Compartment syndrome",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/compartment-syndrome",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine positioning",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/preparation/supine-positioning",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Distal humerus",
+              "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric distal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterior approach to the pediatric distal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/approach/anterior-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the pediatric distal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/approach/lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial approach to the pediatric distal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/approach/medial-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior approach to the pediatric distal humerus without olecranon osteotomy",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/approach/posterior-approach-without-olecranon-osteotomy",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Compartment syndrome",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/compartment-syndrome",
+                      "children": []
+                    },
+                    {
+                      "label": "Distal humeral surgical and developmental anatomy",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/distal-humeral-surgical-and-developmental-anatomy",
+                      "children": []
+                    },
+                    {
+                      "label": "K-wire fixations for supracondylar humerus fractures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/k-wire-fixations-for-supracondylar-humerus-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient examination",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/patient-examination",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Timing of treatment of fractures of the distal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/timing-of-treatment-of-fractures-of-the-distal-humerus",
+                      "children": []
+                    },
+                    {
+                      "label": "Treatment algorithm for intraarticular fractures of the distal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/further-reading/treatment-algorithm-for-intraarticular-fractures-of-the-distal-humerus",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral decubitus position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone for medial approach",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/preparation/prone-for-medial-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-humerus/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Distal tibia and fibula",
+              "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric distal tibia and fibula",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the pediatric distal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/anterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Anteromedial approach to the pediatric distal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/anteromedial-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Entry points for antegrade elastic nailing of the pediatric tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/entry-points-for-antegrade-elastic-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the pediatric distal fibula",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive approach to the pediatric distal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/minimally-invasive-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterolateral approach to the pediatric distal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/posterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones for pin placement in the pediatric leg",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/safe-zones-for-pin-placement",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/further-reading/clinical-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/further-reading/complications-and-technical-failures",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/further-reading/radiological-evaluation",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in lateral decubitus position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes of Distal tibia and fibula",
+                  "slug": "orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/release-notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Femoral shaft",
+              "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric femoral shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Entry point  in the pediatric femur for lateral-entry intramedullary nailing",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/entry-point-for-lateral-entry-intramedullary-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry points  in the pediatric femur for antegrade nailing",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/esin-entry-points-for-antegrade-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry points  in the pediatric femur for retrograde nailing",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/esin-entry-points-for-retrograde-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the pediatric femoral shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive osteosynthesis approach to the pediatric femoral shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones for pin placement in the pediatric femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/safe-zones-for-pin-placement",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Assessment of rotation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/assessment-of-rotation",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/clinical-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/complications-and-technical-failures",
+                      "children": []
+                    },
+                    {
+                      "label": "Neurovascular anatomy",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/neurovascular-anatomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/radiological-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Timing of treatment",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/further-reading/timing-of-treatment",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in lateral position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/femoral-shaft/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Forearm shaft",
+              "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric forearm shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterior (Henry) approach to the pediatric radius",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/anterior-henry-approach-to-the-radius",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach to the pediatric ulna",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry points (pediatric radius)",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/esin-entry-points-radius",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry points (pediatric ulna)",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/esin-entry-points-ulna",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral (Kocher) approach to the pediatric proximal radius",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/lateral-kocher-approach-to-the-proximal-radius",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterolateral (Boyd) approach to the pediatric proximal radius and ulna",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterolateral (Thompson) approach to the pediatric radius",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-thompson-approach-to-the-radius",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones for pin placement in the pediatric radius",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-radius",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones for pin placement in the pediatric ulna",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-ulna",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading",
+                  "children": [
+                    {
+                      "label": "Age-related modeling capacity",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/age-related-modeling-capacity",
+                      "children": []
+                    },
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Anatomy of the forearm shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/anatomy-of-the-forearm-shaft",
+                      "children": []
+                    },
+                    {
+                      "label": "Compartment syndrome",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/compartment-syndrome",
+                      "children": []
+                    },
+                    {
+                      "label": "Decision making and timing of treatment",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/decision-making-and-timing-of-treatment",
+                      "children": []
+                    },
+                    {
+                      "label": "Fracture instability and malalignment",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/fracture-instability-and-malalignment",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient examination and radiology",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/patient-examination-and-radiology",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/preparation/supine-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position for casting",
+                      "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/preparation/supine-position-for-casting",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Further Reading",
+              "slug": "orthopedic-trauma/pediatric-trauma/further-reading",
+              "children": [
+                {
+                  "label": "Casting of lower limb for pediatric fractures",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/casting-of-lower-limb-for-pediatric-fractures",
+                  "children": []
+                },
+                {
+                  "label": "Casting of upper limb for pediatric fractures",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/casting-of-upper-limb-for-pediatric-fractures",
+                  "children": []
+                },
+                {
+                  "label": "Classification of children’s fractures",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/classification-of-childrens-fractures",
+                  "children": []
+                },
+                {
+                  "label": "Essential concepts of pediatric fracture care",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/essential-concepts-of-pediatric-fracture-care",
+                  "children": []
+                },
+                {
+                  "label": "Fractures in abnormal bone",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/fractures-in-abnormal-bone",
+                  "children": []
+                },
+                {
+                  "label": "Healing times",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/healing-times",
+                  "children": []
+                },
+                {
+                  "label": "Nonaccidental injuries in children",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/nonaccidental-injuries-in-children",
+                  "children": []
+                },
+                {
+                  "label": "Open fractures in children",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/open-fractures-in-children",
+                  "children": []
+                },
+                {
+                  "label": "Pediatric polytrauma",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/pediatric-polytrauma",
+                  "children": []
+                },
+                {
+                  "label": "Postoperative infection in children",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/postoperative-infection-in-children",
+                  "children": []
+                },
+                {
+                  "label": "Posttraumatic growth disturbance",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/posttraumatic-growth-disturbance",
+                  "children": []
+                },
+                {
+                  "label": "Principles of nonoperative treatment of children’s fractures",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/principles-of-nonoperative-treatment-of-childrens-fractures",
+                  "children": []
+                },
+                {
+                  "label": "The physis",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/the-physis",
+                  "children": []
+                },
+                {
+                  "label": "What is a child?",
+                  "slug": "orthopedic-trauma/pediatric-trauma/further-reading/what-is-a-child",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Humeral shaft",
+              "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric humeral shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the humeral shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/approach/anterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior approach to the humeral shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/approach/posterior-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading/clinical-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading/complications-and-technical-failures",
+                      "children": []
+                    },
+                    {
+                      "label": "Management of associated radial nerve injuries",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading/management-of-associated-radial-nerve-injuries",
+                      "children": []
+                    },
+                    {
+                      "label": "Neurovascular anatomy",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading/neurovascular-anatomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/further-reading/radiological-evaluation",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/preparation",
+                  "children": [
+                    {
+                      "label": "All patient preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Beach chair position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/preparation/beach-chair-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral decubitus position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes on Pediatric humeral shaft",
+                  "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/release-notes",
+                  "children": []
+                },
+                {
+                  "label": "Simple Transverse",
+                  "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/simple-transverse",
+                  "children": [
+                    {
+                      "label": "Immobilization with body binder/sling",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/simple-transverse/body-binder-sling",
+                      "children": []
+                    },
+                    {
+                      "label": "Immobilization with splint, brace, or cast",
+                      "slug": "orthopedic-trauma/pediatric-trauma/humeral-shaft/simple-transverse/splint-brace-cast",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Proximal femur",
+              "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric proximal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterior approach to the pediatric proximal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterior-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the pediatric proximal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry points for retrograde nailing of the pediatric proximal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/esin-entry-points-for-retrograde-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the pediatric proximal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/lateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the pediatric proximal femur via trochanteric flip",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/lateral-approach-via-trochanteric-flip",
+                      "children": []
+                    },
+                    {
+                      "label": "Pediatric surgical hip dislocation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+                      "children": []
+                    },
+                    {
+                      "label": "Transgluteal approach to the pediatric proximal femur",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/approach/transgluteal-approach",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Open vs closed reduction",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/further-reading/open-vs-closed-reduction",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient examination",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/further-reading/patient-examination",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological assessment",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/further-reading/radiological-assessment",
+                      "children": []
+                    },
+                    {
+                      "label": "Vascular anatomy",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/further-reading/vascular-anatomy",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/preparation/lateral-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-femur/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Proximal forearm",
+              "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric proximal forearm",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry point (pediatric distal ulna)",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/esin-entry-point-distal-ulna",
+                      "children": []
+                    },
+                    {
+                      "label": "ESIN entry points (pediatric distal radius)",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/esin-entry-points-radius",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach to the pediatric proximal radius",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterior approach to the pediatric ulna",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna",
+                      "children": []
+                    },
+                    {
+                      "label": "Posterolateral (Boyd) approach to the pediatric proximal radius and ulna",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Anatomy of the elbow",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/anatomy-of-the-elbow",
+                      "children": []
+                    },
+                    {
+                      "label": "Compartment syndrome",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/compartment-syndrome",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications of radial head and neck fractures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/complications-of-radial-head-and-neck-fractures",
+                      "children": []
+                    },
+                    {
+                      "label": "Concept of fracture treatment and long-term restoration of arm function",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/concept-of-fracture-treatment-and-long-term-restoration-of-arm-function",
+                      "children": []
+                    },
+                    {
+                      "label": "Decision making and timing of treatment",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/decision-making-and-timing-of-treatment",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient examination and radiology",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/patient-examination-and-radiology",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral decubitus position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation/lateral-decubitus-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Prone position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation/prone-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation/supine-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position for casting",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation/supine-position-for-casting",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Proximal humerus",
+              "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric proximal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the proximal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/anterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Deltopectoral interval approach to the proximal humerus",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/deltopectoral-interval-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral approach with deltoid splitting",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/lateral-approach-with-deltoid-splitting",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/further-reading/clinical-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/further-reading/complications-and-technical-failures",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Proximal humeral anatomy",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/further-reading/proximal-humeral-anatomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/further-reading/radiological-evaluation",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Beach chair position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/preparation/beach-chair-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes on Pediatric proximal humerus",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-humerus/release-notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Proximal tibia",
+              "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric proximal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Anterolateral approach to the proximal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/anterolateral-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Arthroscopic approach to the pediatric knee",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/arthroscopic-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Lateral/medial parapatellar arthrotomy of the pediatric proximal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/lateral-medial-parapatellar-arthrotomy",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial approach to the proximal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/medial-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Medial parapatellar approach to the proximal tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/medial-parapatellar-approach",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones for pin placement in the pediatric thigh and leg",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/safe-zones-for-pin-placement",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/further-reading/clinical-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Compartment syndrome (lower limb)",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/further-reading/compartment-syndrome",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/further-reading/complications-technical-failures",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/further-reading/radiological-evaluation",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/preparation/supine-position",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in supine position for arthroscopy",
+                      "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/preparation/supine-position-for-arthroscopy",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes of Pediatric proximal tibia",
+                  "slug": "orthopedic-trauma/pediatric-trauma/proximal-tibia/release-notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Tibial shaft",
+              "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft",
+              "children": [
+                {
+                  "label": "Additional credits",
+                  "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/additional-credits",
+                  "children": []
+                },
+                {
+                  "label": "Approach",
+                  "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach",
+                  "children": [
+                    {
+                      "label": "All approaches to the pediatric tibial shaft",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/all-approaches",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach to the anterolateral tibial surface",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/approach-to-anterolateral-tibial-surface",
+                      "children": []
+                    },
+                    {
+                      "label": "Approach to the anteromedial tibial surface",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/approach-to-anteromedial-tibial-surface",
+                      "children": []
+                    },
+                    {
+                      "label": "Entry points for antegrade elastic nailing",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/entry-points-for-antegrade-elastic-nailing",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive lateral approach to the tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/minimally-invasive-lateral-approach-to-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Minimally invasive medial approach to the tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibia",
+                      "children": []
+                    },
+                    {
+                      "label": "Safe zones for pin placement in the pediatric tibia",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/safe-zones-for-pin-placement",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Further Reading",
+                  "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/further-reading",
+                  "children": [
+                    {
+                      "label": "All further reading",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/further-reading/all-further-reading",
+                      "children": []
+                    },
+                    {
+                      "label": "Clinical evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/further-reading/clinical-evaluation",
+                      "children": []
+                    },
+                    {
+                      "label": "Compartment syndrome (lower limb)",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/further-reading/compartment-syndrome",
+                      "children": []
+                    },
+                    {
+                      "label": "Complications and technical failures",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/further-reading/complications-and-technical-failures",
+                      "children": []
+                    },
+                    {
+                      "label": "Preoperative preparation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/further-reading/preoperative-preparation",
+                      "children": []
+                    },
+                    {
+                      "label": "Radiological evaluation",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/further-reading/radiological-evaluation",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Preparation",
+                  "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/preparation",
+                  "children": [
+                    {
+                      "label": "All preparations",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/preparation/all-preparations",
+                      "children": []
+                    },
+                    {
+                      "label": "Patient preparation in supine position",
+                      "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/preparation/supine-position",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Release notes of Pediatric tibial shaft",
+                  "slug": "orthopedic-trauma/pediatric-trauma/tibial-shaft/release-notes",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "AO Surgery Reference",
+      "slug": "spine",
+      "children": []
+    },
+    {
+      "label": "AO Surgery Reference",
+      "slug": "vet",
+      "children": []
+    }
+  ]
+}

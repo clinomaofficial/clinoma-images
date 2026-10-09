@@ -1,0 +1,93 @@
+{
+  "acetabulum": {
+    "segments": [
+      {
+        "id": "wall",
+        "label": "Acetabular Wall",
+        "ao_code": "62-A",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/acetabulum",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "62-A",
+            "label": "Elementary wall",
+            "ao_code": "62-A",
+            "description": "Elementary anterior or posterior wall acetabular fracture.",
+            "complexity": 2,
+            "variants": [
+              { "id": "62-A1", "label": "Posterior wall", "description": "Posterior wall fracture, often associated with posterior hip dislocation." },
+              { "id": "62-A2", "label": "Anterior wall", "description": "Anterior wall fracture involving the anterior rim." },
+              { "id": "62-A3", "label": "Wall with marginal impaction", "description": "Wall fracture with impacted articular segment or intraarticular fragments." }
+            ],
+            "treatments": [
+              { "id": "kocher-langenbeck", "label": "Kocher-Langenbeck approach", "skill_level": 3, "equipment_level": 3, "main_indications": "Posterior wall or posterior column exposure and fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum", "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum" },
+              { "id": "ilioinguinal", "label": "Ilioinguinal approach", "skill_level": 3, "equipment_level": 3, "main_indications": "Anterior wall or anterior column fracture requiring anterior exposure.", "approach_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/ilioinguinal-approach-to-the-acetabulum", "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/ilioinguinal-approach-to-the-acetabulum" },
+              { "id": "nonoperative", "label": "Nonoperative decision-making", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable congruent hip joint with minimal displacement or prohibitive surgical risk.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/decision-making-nonoperative-vs-surgical-treatment" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "column",
+        "label": "Acetabular Column",
+        "ao_code": "62-B",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/adult-trauma/acetabulum",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "62-B",
+            "label": "Elementary column / transverse",
+            "ao_code": "62-B",
+            "description": "Anterior column, posterior column, or transverse acetabular fracture pattern.",
+            "complexity": 3,
+            "variants": [
+              { "id": "62-B1", "label": "Anterior column", "description": "Fracture line through the anterior column with variable extension." },
+              { "id": "62-B2", "label": "Posterior column", "description": "Posterior column fracture involving ischial and posterior acetabular support." },
+              { "id": "62-B3", "label": "Transverse", "description": "Transverse pattern separating superior and inferior hemipelvis components." }
+            ],
+            "treatments": [
+              { "id": "modified-stoppa", "label": "Modified Stoppa approach", "skill_level": 3, "equipment_level": 3, "main_indications": "Anterior column, quadrilateral surface, or medialized acetabular displacement.", "approach_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/modified-stoppa-approach", "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/modified-stoppa-approach" },
+              { "id": "kocher-langenbeck", "label": "Kocher-Langenbeck approach", "skill_level": 3, "equipment_level": 3, "main_indications": "Posterior column or transverse pattern reducible from posterior exposure.", "approach_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum", "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum" },
+              { "id": "screw-directions", "label": "Stabilization principles", "skill_level": 2, "equipment_level": 2, "main_indications": "Planning safe screw corridors and column fixation strategy.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/general-stabilization-principles-and-screw-directions" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "combined",
+        "label": "Combined Acetabular Pattern",
+        "ao_code": "62-C",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/acetabulum",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/acetabulum/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "62-C",
+            "label": "Associated / combined",
+            "ao_code": "62-C",
+            "description": "Associated acetabular fracture patterns involving both columns or combined wall-column injuries.",
+            "complexity": 3,
+            "variants": [
+              { "id": "62-C1", "label": "T-type", "description": "Transverse pattern with vertical limb separating anterior and posterior columns." },
+              { "id": "62-C2", "label": "Associated both-column", "description": "Both-column fracture with acetabular articular surface detached from axial skeleton." },
+              { "id": "62-C3", "label": "Column plus wall", "description": "Combined column fracture with posterior or anterior wall component." }
+            ],
+            "treatments": [
+              { "id": "extended-iliofemoral", "label": "Extended iliofemoral approach", "skill_level": 3, "equipment_level": 3, "main_indications": "Selected complex associated patterns requiring broad acetabular exposure.", "approach_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/extended-iliofemoral-approach-to-the-acetabulum", "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/extended-iliofemoral-approach-to-the-acetabulum" },
+              { "id": "trochanter-osteotomy", "label": "Trochanteric osteotomy adjunct", "skill_level": 3, "equipment_level": 3, "main_indications": "Need for expanded posterior/superior articular access while preserving abductors.", "approach_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/trochanter-osteotomy", "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/approach/trochanter-osteotomy" },
+              { "id": "planning", "label": "Planning and templating", "skill_level": 2, "equipment_level": 1, "main_indications": "Complex fracture planning, imaging interpretation, and reduction sequence.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/acetabulum/further-reading/planningtemplating" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

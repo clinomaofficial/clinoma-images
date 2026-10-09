@@ -1,0 +1,195 @@
+{
+  "radius": {
+    "segments": [
+      {
+        "id": "proximal",
+        "label": "Proximal Radius",
+        "ao_code": "21",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm",
+        "approaches_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach",
+        "preparation_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation",
+        "further_reading_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "21-A",
+            "label": "Extraarticular proximal radius",
+            "ao_code": "21-A",
+            "description": "Radial head/neck and proximal radial metaphyseal patterns outside the main articular surface.",
+            "complexity": 1,
+            "variants": [
+              { "id": "21-A1", "label": "Radial neck simple", "description": "Simple radial neck fracture with limited displacement." },
+              { "id": "21-A2", "label": "Radial neck displaced", "description": "Angulated or translated radial neck fracture requiring reduction assessment." },
+              { "id": "21-A3", "label": "Proximal radial comminution", "description": "Comminuted proximal radial metaphyseal injury." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Nonoperative treatment", "skill_level": 1, "equipment_level": 1, "main_indications": "Minimally displaced fracture with preserved forearm rotation and elbow stability.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/patient-examination-and-radiology" },
+              { "id": "lateral-approach", "label": "Lateral proximal radius approach", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced radial head or neck fracture requiring direct lateral exposure.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius" },
+              { "id": "boyd-approach", "label": "Posterolateral Boyd approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Combined proximal radius/ulna exposure or complex proximal forearm injury.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna" }
+            ]
+          },
+          {
+            "id": "21-B",
+            "label": "Partial articular proximal radius",
+            "ao_code": "21-B",
+            "description": "Partial articular radial head fracture with a reconstructable fragment.",
+            "complexity": 2,
+            "variants": [
+              { "id": "21-B1", "label": "Small rim fragment", "description": "Partial radial head rim fracture without major instability." },
+              { "id": "21-B2", "label": "Large partial head fragment", "description": "Large reconstructable radial head fragment." },
+              { "id": "21-B3", "label": "Partial articular with neck extension", "description": "Articular fragment extending into radial neck." }
+            ],
+            "treatments": [
+              { "id": "headless-screw", "label": "Headless compression screw", "skill_level": 2, "equipment_level": 2, "main_indications": "Reconstructable articular fragment where low-profile compression fixation is possible.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius", "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/headless-compression-screw" },
+              { "id": "plate-fixation", "label": "Plate fixation principles", "skill_level": 3, "equipment_level": 2, "main_indications": "Associated neck extension or instability needing buttress or bridge support.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius", "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "complications", "label": "Complications reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Counseling and follow-up for radial head/neck fracture complications.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/complications-of-radial-head-and-neck-fractures" }
+            ]
+          },
+          {
+            "id": "21-C",
+            "label": "Complete articular proximal radius",
+            "ao_code": "21-C",
+            "description": "Complete articular radial head fracture or fracture-dislocation pattern.",
+            "complexity": 3,
+            "variants": [
+              { "id": "21-C1", "label": "Simple complete articular", "description": "Complete articular radial head split with limited fragmentation." },
+              { "id": "21-C2", "label": "Articular with metaphyseal comminution", "description": "Radial head fracture with neck/metaphyseal comminution." },
+              { "id": "21-C3", "label": "Multifragmentary radial head", "description": "Complex radial head fracture with elbow instability risk." }
+            ],
+            "treatments": [
+              { "id": "orif", "label": "ORIF", "skill_level": 3, "equipment_level": 3, "main_indications": "Reconstructable radial head with associated elbow instability requiring stable fixation.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius" },
+              { "id": "replacement-principles", "label": "Arthroplasty planning reference", "skill_level": 3, "equipment_level": 3, "main_indications": "Nonreconstructable radial head fracture with instability where replacement is considered.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/concept-of-fracture-treatment-and-long-term-restoration-of-arm-function" },
+              { "id": "boyd", "label": "Combined proximal forearm exposure", "skill_level": 3, "equipment_level": 2, "main_indications": "Associated proximal ulna injury or complex Monteggia-equivalent exposure.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shaft",
+        "label": "Radial Shaft",
+        "ao_code": "22",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft",
+        "approaches_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach",
+        "preparation_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/preparation",
+        "further_reading_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "22-A",
+            "label": "Simple shaft",
+            "ao_code": "22-A",
+            "description": "Simple radial shaft fracture pattern.",
+            "complexity": 1,
+            "variants": [
+              { "id": "22-A1", "label": "Spiral", "description": "Simple spiral radial shaft fracture." },
+              { "id": "22-A2", "label": "Oblique", "description": "Simple oblique radial shaft fracture." },
+              { "id": "22-A3", "label": "Transverse", "description": "Simple transverse radial shaft fracture." }
+            ],
+            "treatments": [
+              { "id": "henry", "label": "Anterior Henry approach", "skill_level": 2, "equipment_level": 2, "main_indications": "Volar exposure for radial shaft reduction and plate fixation.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/anterior-henry-approach-to-the-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/anterior-henry-approach-to-the-radius" },
+              { "id": "plate-principles", "label": "Compression plating principles", "skill_level": 2, "equipment_level": 2, "main_indications": "Simple shaft fracture requiring absolute stability and forearm rotation restoration.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "casting", "label": "Casting reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Selected stable injuries or temporizing immobilization.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm" }
+            ]
+          },
+          {
+            "id": "22-B",
+            "label": "Wedge shaft",
+            "ao_code": "22-B",
+            "description": "Radial shaft fracture with wedge fragment.",
+            "complexity": 2,
+            "variants": [
+              { "id": "22-B1", "label": "Spiral wedge", "description": "Spiral wedge radial shaft pattern." },
+              { "id": "22-B2", "label": "Bending wedge", "description": "Triangular wedge fragment from bending force." },
+              { "id": "22-B3", "label": "Fragmented wedge", "description": "Wedge pattern with additional fragmentation." }
+            ],
+            "treatments": [
+              { "id": "thompson", "label": "Posterolateral Thompson approach", "skill_level": 2, "equipment_level": 2, "main_indications": "Dorsolateral radial shaft exposure when fracture location and soft tissues favor it.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-thompson-approach-to-the-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-thompson-approach-to-the-radius" },
+              { "id": "bridge-plating", "label": "Bridge plating principles", "skill_level": 2, "equipment_level": 2, "main_indications": "Wedge fragment preservation with restoration of length, alignment, and rotation.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "safe-zones", "label": "Safe zones reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Pin placement or external fixation planning.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-radius" }
+            ]
+          },
+          {
+            "id": "22-C",
+            "label": "Complex shaft",
+            "ao_code": "22-C",
+            "description": "Multifragmentary radial shaft fracture.",
+            "complexity": 3,
+            "variants": [
+              { "id": "22-C1", "label": "Complex spiral", "description": "Multifragmentary spiral shaft fracture." },
+              { "id": "22-C2", "label": "Segmental", "description": "Segmental radial shaft fracture." },
+              { "id": "22-C3", "label": "Irregular complex", "description": "Highly comminuted radial shaft fracture." }
+            ],
+            "treatments": [
+              { "id": "bridge-orif", "label": "Bridge ORIF", "skill_level": 3, "equipment_level": 2, "main_indications": "Complex shaft fracture requiring biology-preserving alignment restoration.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/anterior-henry-approach-to-the-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/anterior-henry-approach-to-the-radius" },
+              { "id": "external-fixation", "label": "External fixation principles", "skill_level": 2, "equipment_level": 2, "main_indications": "Open injury or temporary stabilization where definitive plating is delayed.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-radius", "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-technique-modular-external-fixation" },
+              { "id": "exam", "label": "Forearm shaft reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Assessment of instability, malalignment, and forearm rotation.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/anatomy-of-the-forearm-shaft" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distal",
+        "label": "Distal Radius",
+        "ao_code": "23",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm",
+        "approaches_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach",
+        "preparation_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/preparation",
+        "further_reading_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "23-A",
+            "label": "Extraarticular distal radius",
+            "ao_code": "23-A",
+            "description": "Distal radius metaphyseal fracture without radiocarpal articular involvement.",
+            "complexity": 1,
+            "variants": [
+              { "id": "23-A1", "label": "Ulna intact", "description": "Extraarticular distal radius fracture with intact distal ulna." },
+              { "id": "23-A2", "label": "Simple metaphyseal", "description": "Simple extraarticular distal radial metaphyseal fracture." },
+              { "id": "23-A3", "label": "Metaphyseal comminution", "description": "Extraarticular distal radius with metaphyseal comminution." }
+            ],
+            "treatments": [
+              { "id": "closed-reduction-cast", "label": "Closed reduction and cast", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable acceptable alignment after reduction.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm" },
+              { "id": "volar-approach", "label": "Volar approach / plate", "skill_level": 2, "equipment_level": 2, "main_indications": "Unstable extraarticular distal radius requiring volar locked plating.", "approach_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius" },
+              { "id": "external-fixation", "label": "External fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Severe swelling, open injury, or temporary spanning fixation.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-technique-modular-external-fixation" }
+            ]
+          },
+          {
+            "id": "23-B",
+            "label": "Partial articular distal radius",
+            "ao_code": "23-B",
+            "description": "Partial articular distal radius fracture with part of articular surface attached to shaft.",
+            "complexity": 2,
+            "variants": [
+              { "id": "23-B1", "label": "Sagittal split", "description": "Radial styloid or sagittal partial articular pattern." },
+              { "id": "23-B2", "label": "Dorsal rim", "description": "Dorsal rim or dorsal Barton-type pattern." },
+              { "id": "23-B3", "label": "Volar rim", "description": "Volar rim or volar Barton-type pattern." }
+            ],
+            "treatments": [
+              { "id": "volar-buttress", "label": "Volar buttress fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Volar rim fragment threatening carpal subluxation.", "approach_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius" },
+              { "id": "fragment-screw", "label": "Fragment screw fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Large radial styloid or partial articular fragment amenable to compression.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/headless-compression-screw" },
+              { "id": "distal-forearm-anatomy", "label": "Distal forearm anatomy", "skill_level": 1, "equipment_level": 1, "main_indications": "Planning and assessment of distal forearm fracture relationships.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/anatomy-of-the-distal-forearm" }
+            ]
+          },
+          {
+            "id": "23-C",
+            "label": "Complete articular distal radius",
+            "ao_code": "23-C",
+            "description": "Complete articular distal radius fracture with metaphyseal separation.",
+            "complexity": 3,
+            "variants": [
+              { "id": "23-C1", "label": "Simple articular/simple metaphysis", "description": "Complete articular fracture with simple joint and metaphyseal components." },
+              { "id": "23-C2", "label": "Simple articular/complex metaphysis", "description": "Simple articular split with metaphyseal comminution." },
+              { "id": "23-C3", "label": "Multifragmentary articular", "description": "Highly comminuted complete articular distal radius fracture." }
+            ],
+            "treatments": [
+              { "id": "volar-locked-plate", "label": "Volar locked plate fixation", "skill_level": 3, "equipment_level": 3, "main_indications": "Unstable complete articular distal radius requiring stable subchondral support.", "approach_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius", "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius" },
+              { "id": "spanning-fixation", "label": "Spanning external fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Severe comminution, high-energy soft-tissue injury, or staged management.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-technique-modular-external-fixation" },
+              { "id": "imaging", "label": "Intraoperative imaging", "skill_level": 1, "equipment_level": 1, "main_indications": "Assessing articular reduction and implant position.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/distal-forearm/further-reading/intraoperative-imaging" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

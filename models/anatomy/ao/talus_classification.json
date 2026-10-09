@@ -1,0 +1,93 @@
+{
+  "talus": {
+    "segments": [
+      {
+        "id": "neck",
+        "label": "Talar Neck",
+        "ao_code": "81-A",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/talus",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/talus/approach",
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/talus/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "81-A",
+            "label": "Neck",
+            "ao_code": "81-A",
+            "description": "Talar neck fracture patterns with risk to subtalar alignment and talar body vascularity.",
+            "complexity": 2,
+            "variants": [
+              { "id": "81-A1", "label": "Nondisplaced neck", "description": "Talar neck fracture without displacement or joint subluxation." },
+              { "id": "81-A2", "label": "Displaced neck", "description": "Displaced talar neck fracture with subtalar incongruity." },
+              { "id": "81-A3", "label": "Neck with dislocation", "description": "Talar neck fracture with subtalar, tibiotalar, or talonavicular dislocation." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Protected immobilization", "skill_level": 1, "equipment_level": 1, "main_indications": "Strictly nondisplaced fracture confirmed by appropriate imaging.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/talus/further-reading/recommended-reading" },
+              { "id": "dual-approach-orif", "label": "Dual-approach ORIF", "skill_level": 3, "equipment_level": 3, "main_indications": "Displaced talar neck fracture requiring anatomic reduction of neck and articular alignment.", "approach_slug": "orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach-to-the-talus", "content_slug": "orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach-to-the-talus" },
+              { "id": "anterolateral", "label": "Anterolateral approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Lateral neck access, combined reduction windows, or screw trajectory planning.", "approach_slug": "orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach-to-the-talus", "content_slug": "orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach-to-the-talus" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "label": "Talar Body",
+        "ao_code": "81-B",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/adult-trauma/talus",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/talus/approach",
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/talus/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "81-B",
+            "label": "Body",
+            "ao_code": "81-B",
+            "description": "Talar body fracture involving ankle or subtalar articular surfaces.",
+            "complexity": 3,
+            "variants": [
+              { "id": "81-B1", "label": "Sagittal split", "description": "Body split pattern affecting tibiotalar congruity." },
+              { "id": "81-B2", "label": "Coronal / posterior body", "description": "Posterior body or coronal shear pattern." },
+              { "id": "81-B3", "label": "Comminuted body", "description": "Multifragmentary talar body fracture with high osteonecrosis risk." }
+            ],
+            "treatments": [
+              { "id": "medial-malleolar-osteotomy", "label": "Medial malleolar osteotomy", "skill_level": 3, "equipment_level": 3, "main_indications": "Medial talar body exposure when direct joint access is required.", "approach_slug": "orthopedic-trauma/adult-trauma/talus/approach/medial-malleolar-osteotomy", "content_slug": "orthopedic-trauma/adult-trauma/talus/approach/medial-malleolar-osteotomy" },
+              { "id": "lateral-malleolar-osteotomy", "label": "Lateral malleolar osteotomy", "skill_level": 3, "equipment_level": 3, "main_indications": "Lateral talar body exposure or combined access for complex articular fracture.", "approach_slug": "orthopedic-trauma/adult-trauma/talus/approach/lateral-malleolar-osteotomy", "content_slug": "orthopedic-trauma/adult-trauma/talus/approach/lateral-malleolar-osteotomy" },
+              { "id": "osteonecrosis", "label": "Osteonecrosis surveillance", "skill_level": 1, "equipment_level": 1, "main_indications": "Post-injury and post-fixation risk counseling and follow-up planning.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/talus/further-reading/osteonecrosis" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "process",
+        "label": "Talar Process",
+        "ao_code": "81-C",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/talus",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/talus/approach",
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/talus/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "81-C",
+            "label": "Process",
+            "ao_code": "81-C",
+            "description": "Lateral, posterior, or head/process talar fractures.",
+            "complexity": 2,
+            "variants": [
+              { "id": "81-C1", "label": "Lateral process", "description": "Lateral process fracture affecting subtalar joint congruity." },
+              { "id": "81-C2", "label": "Posterior process", "description": "Posterior process fracture, medial or lateral tubercle." },
+              { "id": "81-C3", "label": "Head / combined process", "description": "Talar head or combined process injury." }
+            ],
+            "treatments": [
+              { "id": "direct-lateral", "label": "Direct lateral approach", "skill_level": 2, "equipment_level": 2, "main_indications": "Lateral process fracture requiring reduction or excision.", "approach_slug": "orthopedic-trauma/adult-trauma/talus/approach/direct-lateral-approach-to-the-talus", "content_slug": "orthopedic-trauma/adult-trauma/talus/approach/direct-lateral-approach-to-the-talus" },
+              { "id": "posterolateral", "label": "Posterolateral hindfoot approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Posterior process fracture requiring posterior access.", "approach_slug": "orthopedic-trauma/adult-trauma/talus/approach/posterolateral-approach-to-the-hindfoot", "content_slug": "orthopedic-trauma/adult-trauma/talus/approach/posterolateral-approach-to-the-hindfoot" },
+              { "id": "posteromedial", "label": "Posteromedial approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Medial posterior process or posteromedial talar body access.", "approach_slug": "orthopedic-trauma/adult-trauma/talus/approach/posteromedial-approach-to-the-talus", "content_slug": "orthopedic-trauma/adult-trauma/talus/approach/posteromedial-approach-to-the-talus" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "humerus": {
+    "segments": [
+      {
+        "id": "proximal",
+        "label": "Proximal Humerus",
+        "ao_code": "11",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/proximal-humerus",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading",
+        "groups": [
+          {
+            "id": "11-A",
+            "label": "Extraarticular, 2-part",
+            "ao_code": "11-A",
+            "description": "Unifocal fracture — isolated tuberosity or surgical neck. Articular segment and tuberosities remain united.",
+            "complexity": 1,
+            "variants": [
+              { "id": "11-A1", "label": "Tuberosity fracture", "description": "Avulsion of greater or lesser tuberosity without surgical neck involvement. Low displacement, good prognosis." },
+              { "id": "11-A2", "label": "Surgical neck, impacted", "description": "Impacted valgus or varus surgical neck fracture. Stable configuration; often non-operative." },
+              { "id": "11-A3", "label": "Surgical neck, non-impacted", "description": "Displaced or angulated surgical neck without impaction. Higher instability; often requires fixation." }
+            ],
+            "treatments": [
+              {
+                "id": "nonoperative",
+                "label": "Nonoperative treatment",
+                "skill_level": 1,
+                "equipment_level": 1,
+                "main_indications": "Impacted or minimally displaced fracture, elderly low-demand patient, isolated injury without neurovascular compromise",
+                "approach_slug": null,
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading/all-further-reading"
+              },
+              {
+                "id": "philos_plate",
+                "label": "PHILOS locking plate",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Displaced surgical neck fracture in active patient with adequate bone quality; failed conservative management",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus"
+              },
+              {
+                "id": "transdeltoid",
+                "label": "Percutaneous / transdeltoid",
+                "skill_level": 2,
+                "equipment_level": 1,
+                "main_indications": "Minimally displaced tuberosity avulsion amenable to percutaneous screw fixation; limited soft tissue disruption",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/transdeltoid-lateral-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/transdeltoid-lateral-approach"
+              }
+            ]
+          },
+          {
+            "id": "11-B",
+            "label": "Extraarticular, 3-part",
+            "ao_code": "11-B",
+            "description": "Bifocal fracture — one tuberosity plus surgical neck involvement. Rotator cuff disrupted unilaterally.",
+            "complexity": 2,
+            "variants": [
+              { "id": "11-B1", "label": "Tuberosity + impaction", "description": "Greater or lesser tuberosity fracture combined with impacted surgical neck." },
+              { "id": "11-B2", "label": "Tuberosity + dislocation", "description": "Tuberosity fracture with glenohumeral dislocation. Requires urgent reduction." },
+              { "id": "11-B3", "label": "Metaphyseal extension", "description": "Large metaphyseal fragment extending from surgical neck. Increased instability." }
+            ],
+            "treatments": [
+              {
+                "id": "philos_plate",
+                "label": "PHILOS locking plate",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "3-part fracture in patient with adequate bone quality and functional rotator cuff; younger active patient",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus"
+              },
+              {
+                "id": "hemiarthroplasty",
+                "label": "Hemiarthroplasty",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Poor bone stock, significant osteoporosis, elderly high-demand patient, failed internal fixation",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus"
+              },
+              {
+                "id": "nonoperative",
+                "label": "Nonoperative treatment",
+                "skill_level": 1,
+                "equipment_level": 1,
+                "main_indications": "Elderly low-demand patient, minimal displacement, high surgical risk, significant comorbidities",
+                "approach_slug": null,
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/further-reading/all-further-reading"
+              }
+            ]
+          },
+          {
+            "id": "11-C",
+            "label": "Articular / 4-part",
+            "ao_code": "11-C",
+            "description": "Articular surface involved. Both tuberosities separated. High risk of avascular necrosis of humeral head.",
+            "complexity": 3,
+            "variants": [
+              { "id": "11-C1", "label": "Slight displacement", "description": "Articular fragment with minimal displacement. AVN risk lower; may attempt ORIF." },
+              { "id": "11-C2", "label": "Impaction (valgus/varus)", "description": "Articular fragment impacted. Medial hinge may be intact — better vascular prognosis." },
+              { "id": "11-C3", "label": "Dislocation", "description": "Articular segment with glenohumeral dislocation. Highest AVN risk; arthroplasty often indicated." }
+            ],
+            "treatments": [
+              {
+                "id": "reverse_tsa",
+                "label": "Reverse total shoulder arthroplasty",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Elderly patient (>65y), rotator cuff deficiency, severe osteoporosis, complex articular disruption",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus"
+              },
+              {
+                "id": "hemiarthroplasty",
+                "label": "Hemiarthroplasty",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Elderly patient with intact rotator cuff, poor bone quality, unreconstructable head segment",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus"
+              },
+              {
+                "id": "philos_plate",
+                "label": "PHILOS locking plate",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Young patient (<55y), intact medial hinge (11-C2), adequate bone quality, surgeon experience with 4-part ORIF",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shaft",
+        "label": "Humeral Shaft",
+        "ao_code": "12",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/adult-trauma/humeral-shaft",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading",
+        "groups": [
+          {
+            "id": "12-A",
+            "label": "Simple",
+            "ao_code": "12-A",
+            "description": "Single fracture line with cortical contact maintained. Three subtypes by fracture line orientation.",
+            "complexity": 1,
+            "variants": [
+              { "id": "12-A1", "label": "Spiral", "description": "Spiral fracture from low-energy torsional force. Common in throwing injuries." },
+              { "id": "12-A2", "label": "Oblique ≥ 30°", "description": "Oblique fracture line greater than 30°. Intermediate energy." },
+              { "id": "12-A3", "label": "Transverse < 30°", "description": "Transverse fracture from high-energy bending force." }
+            ],
+            "treatments": [
+              {
+                "id": "nonoperative",
+                "label": "Nonoperative treatment",
+                "skill_level": 1,
+                "equipment_level": 1,
+                "main_indications": "Closed isolated injury, minimally displaced, cooperative patient, midshaft location, no neurovascular compromise",
+                "approach_slug": null,
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/patient-assessment-and-radiology"
+              },
+              {
+                "id": "plate",
+                "label": "Plate fixation",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Displaced fracture, polytrauma, associated radial nerve palsy (relative), proximal or distal shaft location, open fracture",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-approach-to-the-humerus-after-henry",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-approach-to-the-humerus-after-henry"
+              },
+              {
+                "id": "im_nail",
+                "label": "Intramedullary nail (antegrade)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Midshaft fracture, bilateral humeral fracture, polytrauma, pathological fracture",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing"
+              }
+            ]
+          },
+          {
+            "id": "12-B",
+            "label": "Wedge",
+            "ao_code": "12-B",
+            "description": "Butterfly / wedge fragment present. Cortical contact maintained after reduction.",
+            "complexity": 2,
+            "variants": [
+              { "id": "12-B1", "label": "Spiral wedge", "description": "Spiral fracture with a butterfly fragment. Common in indirect trauma." },
+              { "id": "12-B2", "label": "Bending wedge", "description": "Wedge fragment from bending force. Intact cortex on opposite side." },
+              { "id": "12-B3", "label": "Fragmented wedge", "description": "Comminuted intermediate wedge fragment. Higher energy." }
+            ],
+            "treatments": [
+              {
+                "id": "nonoperative",
+                "label": "Nonoperative treatment",
+                "skill_level": 1,
+                "equipment_level": 1,
+                "main_indications": "Closed isolated midshaft wedge fracture, minimally displaced, cooperative patient",
+                "approach_slug": null,
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/further-reading/patient-assessment-and-radiology"
+              },
+              {
+                "id": "ext_fix",
+                "label": "External fixation",
+                "skill_level": 1,
+                "equipment_level": 2,
+                "main_indications": "Unstable fracture, open fracture type II/III, unstable patient — usually temporary damage control",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/limited-approaches-for-anterior-mio",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/limited-approaches-for-anterior-mio"
+              },
+              {
+                "id": "plate",
+                "label": "Plate fixation",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Displaced wedge fracture, failed conservative, polytrauma, pathological fracture, proximal/distal shaft extension",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-approach-to-the-humerus-after-henry",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-approach-to-the-humerus-after-henry"
+              },
+              {
+                "id": "im_nail",
+                "label": "Intramedullary nail (antegrade)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Midshaft wedge, bilateral injury, polytrauma, pathological bone",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing"
+              }
+            ]
+          },
+          {
+            "id": "12-C",
+            "label": "Complex",
+            "ao_code": "12-C",
+            "description": "No cortical contact after reduction. High-energy comminution. Requires fixation.",
+            "complexity": 3,
+            "variants": [
+              { "id": "12-C1", "label": "Spiral complex", "description": "Multifragmentary spiral pattern. Long zone of comminution." },
+              { "id": "12-C2", "label": "Segmental", "description": "Two distinct fracture lines creating an isolated diaphyseal segment." },
+              { "id": "12-C3", "label": "Irregular complex", "description": "Highly comminuted, irregular fragments. Highest energy; significant soft tissue injury." }
+            ],
+            "treatments": [
+              {
+                "id": "plate",
+                "label": "Plate fixation",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Complex comminution with proximal or distal extension, bone loss, failed IM nail, revision surgery",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft"
+              },
+              {
+                "id": "im_nail",
+                "label": "Intramedullary nail (antegrade)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Segmental fracture, polytrauma, midshaft complex pattern, bilateral humeral fractures",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing"
+              },
+              {
+                "id": "ext_fix",
+                "label": "External fixation",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Open fracture type III, highly unstable patient, temporary damage control before definitive fixation",
+                "approach_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/safe-zones-for-percutaneous-pins-or-screws",
+                "content_slug": "orthopedic-trauma/adult-trauma/humeral-shaft/approach/safe-zones-for-percutaneous-pins-or-screws"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distal",
+        "label": "Distal Humerus",
+        "ao_code": "13",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/distal-humerus",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/distal-humerus/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading",
+        "groups": [
+          {
+            "id": "13-A",
+            "label": "Extra-articular",
+            "ao_code": "13-A",
+            "description": "Articular surface intact. Fracture in the distal metaphysis or apophysis only.",
+            "complexity": 1,
+            "variants": [
+              { "id": "13-A1", "label": "Apophyseal avulsion", "description": "Avulsion of medial or lateral epicondyle / apophysis." },
+              { "id": "13-A2", "label": "Metaphyseal simple", "description": "Simple distal metaphyseal fracture with intact articular surface." },
+              { "id": "13-A3", "label": "Metaphyseal multi-fragment", "description": "Comminuted distal metaphysis without articular involvement." }
+            ],
+            "treatments": [
+              {
+                "id": "nonoperative",
+                "label": "Nonoperative treatment",
+                "skill_level": 1,
+                "equipment_level": 1,
+                "main_indications": "Non-displaced or minimally displaced metaphyseal fracture, elderly low-demand patient",
+                "approach_slug": null,
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/further-reading/patient-assessment"
+              },
+              {
+                "id": "orif",
+                "label": "ORIF — screw / plate",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Displaced epicondyle avulsion in active patient or athlete, displaced metaphyseal fracture with angulation",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-approach"
+              }
+            ]
+          },
+          {
+            "id": "13-B",
+            "label": "Partial articular",
+            "ao_code": "13-B",
+            "description": "One part of the articular surface fractured; the other remains connected to the diaphysis.",
+            "complexity": 2,
+            "variants": [
+              { "id": "13-B1", "label": "Lateral sagittal", "description": "Capitellum or lateral condyle fracture in the sagittal plane." },
+              { "id": "13-B2", "label": "Medial sagittal", "description": "Trochlea or medial condyle fracture in the sagittal plane." },
+              { "id": "13-B3", "label": "Frontal (shear)", "description": "Capitellum or trochlea coronal shear fracture. Often requires screw fixation." }
+            ],
+            "treatments": [
+              {
+                "id": "lateral_orif",
+                "label": "Lateral ORIF",
+                "skill_level": 3,
+                "equipment_level": 2,
+                "main_indications": "Capitellum fracture, lateral condyle, coronal shear (13-B1, 13-B3) — headless compression screws",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-approach"
+              },
+              {
+                "id": "medial_orif",
+                "label": "Medial ORIF",
+                "skill_level": 3,
+                "equipment_level": 2,
+                "main_indications": "Trochlea or medial condyle fracture (13-B2) — medial approach with ulnar nerve transposition",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/medial-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/medial-approach"
+              },
+              {
+                "id": "posterior_orif",
+                "label": "Posterior ORIF",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Combined coronal shear with posterior instability, complex capitellum-trochlea involvement",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-paratricipital-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-paratricipital-approach"
+              }
+            ]
+          },
+          {
+            "id": "13-C",
+            "label": "Complete articular",
+            "ao_code": "13-C",
+            "description": "Both medial and lateral columns fractured. Full articular disruption. Challenging reconstruction.",
+            "complexity": 3,
+            "variants": [
+              { "id": "13-C1", "label": "Simple articular + simple metaphyseal", "description": "T or Y fracture with simple lines in both columns." },
+              { "id": "13-C2", "label": "Simple articular + comminuted metaphyseal", "description": "Simple articular lines but comminuted metaphysis. Bicolumnar fixation required." },
+              { "id": "13-C3", "label": "Multi-fragment articular", "description": "Articular and metaphyseal comminution. Most severe pattern; consider arthroplasty in elderly." }
+            ],
+            "treatments": [
+              {
+                "id": "bicolumnar_plate",
+                "label": "Bicolumnar plate fixation",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Complete articular fracture in younger/active patient with reasonable bone quality (13-C1, 13-C2)",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/transolecranon-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/transolecranon-approach"
+              },
+              {
+                "id": "tea",
+                "label": "Total elbow arthroplasty",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Elderly osteoporotic patient (>65y), severe articular comminution (13-C3), unreconstructable articular surface",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-triceps-elevating-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-triceps-elevating-approach"
+              },
+              {
+                "id": "ext_fix",
+                "label": "External fixation (bridge)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Open fracture, severe soft tissue injury, temporary damage control before definitive reconstruction",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/safe-zones-for-percutaneous-pins-or-screws",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-humerus/approach/safe-zones-for-percutaneous-pins-or-screws"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

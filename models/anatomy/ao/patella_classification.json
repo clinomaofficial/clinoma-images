@@ -1,0 +1,93 @@
+{
+  "patella": {
+    "segments": [
+      {
+        "id": "pole",
+        "label": "Patellar Pole",
+        "ao_code": "34-A",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/patella",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/patella/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/patella/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/patella/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "34-A",
+            "label": "Extraarticular / pole",
+            "ao_code": "34-A",
+            "description": "Patellar pole or extraarticular fracture patterns that may disrupt the extensor mechanism.",
+            "complexity": 1,
+            "variants": [
+              { "id": "34-A1", "label": "Superior pole avulsion", "description": "Avulsion involving the quadriceps tendon insertion." },
+              { "id": "34-A2", "label": "Inferior pole avulsion", "description": "Distal pole fragment associated with patellar tendon attachment." },
+              { "id": "34-A3", "label": "Sleeve / marginal fragment", "description": "Small marginal or sleeve-type extraarticular fragment." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Immobilization", "skill_level": 1, "equipment_level": 1, "main_indications": "Intact extensor mechanism and minimal displacement.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/patella/further-reading/patella-fractures" },
+              { "id": "tension-band", "label": "Tension band fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced transverse or pole fracture with reconstructable fragments.", "approach_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach", "content_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach" },
+              { "id": "suture-anchor", "label": "Suture / anchor repair", "skill_level": 2, "equipment_level": 2, "main_indications": "Small distal pole fragment not suitable for screw or wire fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach", "content_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "label": "Patellar Body",
+        "ao_code": "34-B",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/adult-trauma/patella",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/patella/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/patella/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/patella/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "34-B",
+            "label": "Partial articular / body",
+            "ao_code": "34-B",
+            "description": "Patellar body fracture with partial articular involvement.",
+            "complexity": 2,
+            "variants": [
+              { "id": "34-B1", "label": "Vertical split", "description": "Sagittal or vertical split with partial articular involvement." },
+              { "id": "34-B2", "label": "Osteochondral fragment", "description": "Articular fragment with limited extraarticular extension." },
+              { "id": "34-B3", "label": "Marginal articular fragment", "description": "Partial articular rim or facet fragment." }
+            ],
+            "treatments": [
+              { "id": "screw-fixation", "label": "Lag screw fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Large simple articular fragment allowing compression fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach", "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/cancellous-lag-screws" },
+              { "id": "tension-band", "label": "Tension band construct", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced body fracture requiring conversion of tensile forces into compression.", "approach_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach", "content_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach" },
+              { "id": "imaging", "label": "Intraoperative imaging reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Assessing reduction, implant position, and articular congruity.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/patella/further-reading/intraoperative-imaging-of-the-knee-patella" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comminuted",
+        "label": "Comminuted Patella",
+        "ao_code": "34-C",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/patella",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/patella/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/patella/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/patella/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "34-C",
+            "label": "Complete articular / multifragmentary",
+            "ao_code": "34-C",
+            "description": "Complete articular or multifragmentary patellar fracture with extensor mechanism risk.",
+            "complexity": 3,
+            "variants": [
+              { "id": "34-C1", "label": "Simple transverse", "description": "Complete articular transverse pattern with two main fragments." },
+              { "id": "34-C2", "label": "Transverse with wedge", "description": "Complete articular pattern with an additional wedge fragment." },
+              { "id": "34-C3", "label": "Multifragmentary", "description": "Comminuted patellar fracture with multiple articular fragments." }
+            ],
+            "treatments": [
+              { "id": "orif", "label": "Open reduction internal fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Displaced reconstructable articular fracture with extensor mechanism disruption.", "approach_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach", "content_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach" },
+              { "id": "partial-patellectomy", "label": "Partial patellectomy / tendon repair", "skill_level": 3, "equipment_level": 2, "main_indications": "Nonreconstructable small pole fragment with salvageable remaining patella.", "approach_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach", "content_slug": "orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach" },
+              { "id": "exam", "label": "Patient examination", "skill_level": 1, "equipment_level": 1, "main_indications": "Assessment of extensor mechanism integrity and associated knee injury.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/patella/further-reading/patient-examination" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

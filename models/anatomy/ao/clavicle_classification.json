@@ -1,0 +1,93 @@
+{
+  "clavicle": {
+    "segments": [
+      {
+        "id": "medial",
+        "label": "Medial Clavicle",
+        "ao_code": "15-A",
+        "color": "#f59e0b",
+        "slug": null,
+        "approaches_slug": null,
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/complete-lsss-failure",
+        "groups": [
+          {
+            "id": "15-A",
+            "label": "Medial end",
+            "ao_code": "15-A",
+            "description": "Medial clavicle fracture or sternoclavicular-end injury pattern.",
+            "complexity": 2,
+            "variants": [
+              { "id": "15-A1", "label": "Extraarticular medial", "description": "Medial clavicle fracture without sternoclavicular articular involvement." },
+              { "id": "15-A2", "label": "Articular medial", "description": "Fracture involving the medial clavicular articular surface." },
+              { "id": "15-A3", "label": "Medial comminution", "description": "Comminuted medial clavicle fracture or unstable medial segment." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Sling and observation", "skill_level": 1, "equipment_level": 1, "main_indications": "Most minimally displaced medial clavicle fractures without posterior displacement risk.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/clinical-and-radiological-examination-of-patients-with-scapular-injuries" },
+              { "id": "plate-fixation", "label": "Plate fixation principles", "skill_level": 3, "equipment_level": 2, "main_indications": "Unstable displaced fracture requiring restoration of shoulder girdle stability.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "lsss", "label": "Shoulder suspensory complex reference", "skill_level": 2, "equipment_level": 1, "main_indications": "Combined clavicle/scapula pattern or suspensory complex instability assessment.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/complete-lsss-failure" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shaft",
+        "label": "Mid-shaft Clavicle",
+        "ao_code": "15-B",
+        "color": "#3b82f6",
+        "slug": null,
+        "approaches_slug": null,
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/floating-shoulder-sequence-of-repair",
+        "groups": [
+          {
+            "id": "15-B",
+            "label": "Diaphyseal",
+            "ao_code": "15-B",
+            "description": "Mid-shaft clavicle fracture patterns.",
+            "complexity": 1,
+            "variants": [
+              { "id": "15-B1", "label": "Simple", "description": "Simple transverse, oblique, or spiral mid-shaft fracture." },
+              { "id": "15-B2", "label": "Wedge", "description": "Mid-shaft fracture with wedge fragment." },
+              { "id": "15-B3", "label": "Comminuted", "description": "Multifragmentary mid-shaft clavicle fracture with shortening risk." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Sling treatment", "skill_level": 1, "equipment_level": 1, "main_indications": "Minimally displaced fracture, low shortening, and acceptable skin/soft-tissue status.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/floating-shoulder-sequence-of-repair" },
+              { "id": "superior-plate", "label": "Plate fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Displacement, shortening, segmental pattern, skin compromise, or high-demand patient after shared decision-making.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "lag-screw", "label": "Lag screw adjunct", "skill_level": 2, "equipment_level": 2, "main_indications": "Long oblique simple pattern where interfragmentary compression is useful with neutralization plate.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/cancellous-lag-screws" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lateral",
+        "label": "Lateral Clavicle",
+        "ao_code": "15-C",
+        "color": "#10b981",
+        "slug": null,
+        "approaches_slug": null,
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/ligament-reconstruction",
+        "groups": [
+          {
+            "id": "15-C",
+            "label": "Lateral end",
+            "ao_code": "15-C",
+            "description": "Lateral clavicle fracture patterns related to coracoclavicular ligament stability.",
+            "complexity": 2,
+            "variants": [
+              { "id": "15-C1", "label": "Stable lateral", "description": "Lateral clavicle fracture with preserved coracoclavicular stability." },
+              { "id": "15-C2", "label": "Unstable lateral", "description": "Lateral clavicle fracture medial to coracoclavicular ligaments or with ligament disruption." },
+              { "id": "15-C3", "label": "Intraarticular lateral", "description": "Fracture involving the acromioclavicular articular end." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Nonoperative treatment", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable lateral fracture with acceptable displacement.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/ligament-reconstruction" },
+              { "id": "locking-plate", "label": "Lateral locking plate / hook plate principles", "skill_level": 3, "equipment_level": 2, "main_indications": "Unstable lateral fracture requiring fixation and possible ligament augmentation.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "ligament-reconstruction", "label": "Coracoclavicular reconstruction reference", "skill_level": 3, "equipment_level": 2, "main_indications": "Associated coracoclavicular ligament disruption or chronic instability pattern.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/ligament-reconstruction" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

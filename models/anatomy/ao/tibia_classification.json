@@ -1,0 +1,195 @@
+{
+  "tibia": {
+    "segments": [
+      {
+        "id": "proximal",
+        "label": "Proximal Tibia",
+        "ao_code": "41",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/proximal-tibia",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "41-A",
+            "label": "Extraarticular",
+            "ao_code": "41-A",
+            "description": "Metaphyseal proximal tibia fracture without articular surface involvement.",
+            "complexity": 1,
+            "variants": [
+              { "id": "41-A1", "label": "Avulsion / simple extraarticular", "description": "Extraarticular avulsion or simple metaphyseal fracture with preserved joint surface." },
+              { "id": "41-A2", "label": "Metaphyseal wedge", "description": "Extraarticular metaphyseal fracture with wedge fragment and maintained articular continuity." },
+              { "id": "41-A3", "label": "Metaphyseal complex", "description": "Multifragmentary extraarticular proximal tibia fracture." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Nonoperative treatment", "skill_level": 1, "equipment_level": 1, "main_indications": "Undisplaced stable fracture, poor surgical candidate, or low-demand patient with acceptable alignment.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/further-reading/operative-vs-nonoperative-treatment" },
+              { "id": "locking-plate", "label": "Locking plate fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced metaphyseal fracture requiring restoration of alignment and stable fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/approach-for-minimally-invasive-osteosynthesis-of-proximal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/approach-for-minimally-invasive-osteosynthesis-of-proximal-tibia" },
+              { "id": "external-fixation", "label": "External fixation / staged fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "High-energy injury, severe soft-tissue swelling, open fracture, or temporary damage-control stabilization.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion" }
+            ]
+          },
+          {
+            "id": "41-B",
+            "label": "Partial articular",
+            "ao_code": "41-B",
+            "description": "Partial articular fracture with part of the tibial plateau remaining attached to the shaft.",
+            "complexity": 2,
+            "variants": [
+              { "id": "41-B1", "label": "Pure split", "description": "Partial articular split pattern, commonly involving one plateau column." },
+              { "id": "41-B2", "label": "Split-depression", "description": "Articular split with impacted depressed fragment requiring elevation and support." },
+              { "id": "41-B3", "label": "Pure depression", "description": "Contained articular depression with intact metaphyseal shell." }
+            ],
+            "treatments": [
+              { "id": "anterolateral-plate", "label": "Anterolateral plate fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Lateral plateau split or split-depression requiring direct visualization, reduction, and buttress support.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia" },
+              { "id": "medial-plate", "label": "Medial / posteromedial support", "skill_level": 3, "equipment_level": 2, "main_indications": "Medial plateau or posteromedial fragment requiring buttress support and stable column fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/medial-and-posteromedial-approach-to-proximal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/medial-and-posteromedial-approach-to-proximal-tibia" },
+              { "id": "arthroscopy-assisted", "label": "Arthroscopy-assisted reduction", "skill_level": 3, "equipment_level": 3, "main_indications": "Selected depression patterns where joint assessment and minimally invasive elevation are appropriate.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee" }
+            ]
+          },
+          {
+            "id": "41-C",
+            "label": "Complete articular",
+            "ao_code": "41-C",
+            "description": "Complete articular fracture separating the articular block from the tibial shaft.",
+            "complexity": 3,
+            "variants": [
+              { "id": "41-C1", "label": "Simple articular, simple metaphysis", "description": "Complete articular fracture with simple joint and metaphyseal components." },
+              { "id": "41-C2", "label": "Simple articular, multifragmentary metaphysis", "description": "Simple articular split with metaphyseal comminution." },
+              { "id": "41-C3", "label": "Multifragmentary articular", "description": "Complex bicondylar or multifragmentary plateau fracture." }
+            ],
+            "treatments": [
+              { "id": "dual-column-fixation", "label": "Dual-column fixation", "skill_level": 3, "equipment_level": 3, "main_indications": "Bicondylar instability requiring restoration of articular width, alignment, and column support.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia" },
+              { "id": "staged-ring-fixation", "label": "Staged external / ring fixation", "skill_level": 3, "equipment_level": 3, "main_indications": "High-energy bicondylar fracture with soft-tissue compromise or open injury.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion" },
+              { "id": "posteromedial-approach", "label": "Posteromedial fragment fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Posteromedial shear fragment or posterior column instability requiring direct support.", "approach_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/prone-posteromedial-approach-to-proximal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/proximal-tibia/approach/prone-posteromedial-approach-to-proximal-tibia" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shaft",
+        "label": "Tibial Shaft",
+        "ao_code": "42",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/adult-trauma/tibial-shaft",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "42-A",
+            "label": "Simple",
+            "ao_code": "42-A",
+            "description": "Simple tibial shaft fracture with two main fragments.",
+            "complexity": 1,
+            "variants": [
+              { "id": "42-A1", "label": "Spiral", "description": "Simple spiral fracture, often low-energy torsional pattern." },
+              { "id": "42-A2", "label": "Oblique", "description": "Simple oblique fracture with a single oblique fracture line." },
+              { "id": "42-A3", "label": "Transverse", "description": "Simple transverse or short oblique shaft fracture." }
+            ],
+            "treatments": [
+              { "id": "im-nail", "label": "Intramedullary nailing", "skill_level": 2, "equipment_level": 2, "main_indications": "Most displaced adult tibial shaft fractures with acceptable soft-tissue envelope.", "approach_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/infrapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft", "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/infrapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft" },
+              { "id": "functional-brace", "label": "Cast / functional brace", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable minimally displaced pattern with reliable follow-up and acceptable alignment.", "approach_slug": null, "content_slug": "orthopedic-trauma/further-reading/casting-of-lower-limb" },
+              { "id": "plate-fixation", "label": "Plate fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Fracture pattern unsuitable for nailing or requiring direct reduction.", "approach_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anteromedial-surface-of-tibial-shaft", "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anteromedial-surface-of-tibial-shaft" }
+            ]
+          },
+          {
+            "id": "42-B",
+            "label": "Wedge",
+            "ao_code": "42-B",
+            "description": "Tibial shaft fracture with wedge fragment and partial cortical contact.",
+            "complexity": 2,
+            "variants": [
+              { "id": "42-B1", "label": "Spiral wedge", "description": "Spiral wedge fragment with one intermediate fragment." },
+              { "id": "42-B2", "label": "Bending wedge", "description": "Triangular bending wedge from direct or indirect force." },
+              { "id": "42-B3", "label": "Fragmented wedge", "description": "Wedge pattern with additional fragmentation." }
+            ],
+            "treatments": [
+              { "id": "locked-im-nail", "label": "Locked intramedullary nail", "skill_level": 2, "equipment_level": 2, "main_indications": "Length-unstable wedge fracture requiring locked fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft", "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft" },
+              { "id": "mio-plate", "label": "Minimally invasive plate osteosynthesis", "skill_level": 3, "equipment_level": 2, "main_indications": "Metadiaphyseal extension, poor nail control, or fracture geometry favoring bridge plating.", "approach_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibial-shaft", "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibial-shaft" },
+              { "id": "external-fixation", "label": "External fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Temporary or definitive stabilization for open fracture, severe soft tissue injury, or limited resources.", "approach_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-the-tibia-for-wire-and-schanz-screw-insertion", "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-the-tibia-for-wire-and-schanz-screw-insertion" }
+            ]
+          },
+          {
+            "id": "42-C",
+            "label": "Complex",
+            "ao_code": "42-C",
+            "description": "Multifragmentary tibial shaft fracture without simple cortical contact.",
+            "complexity": 3,
+            "variants": [
+              { "id": "42-C1", "label": "Complex spiral", "description": "Multifragmentary spiral shaft fracture." },
+              { "id": "42-C2", "label": "Segmental", "description": "Segmental shaft fracture with separate intermediate segment." },
+              { "id": "42-C3", "label": "Irregular complex", "description": "Highly comminuted tibial shaft fracture." }
+            ],
+            "treatments": [
+              { "id": "bridge-nailing", "label": "Bridge nailing", "skill_level": 3, "equipment_level": 2, "main_indications": "Complex shaft fracture where indirect reduction preserves biology and restores length, rotation, and alignment.", "approach_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-lateral-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft", "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-lateral-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft" },
+              { "id": "ring-fixator", "label": "Ring external fixator", "skill_level": 3, "equipment_level": 3, "main_indications": "Open fracture, bone loss, infection risk, or severe soft-tissue injury requiring adjustable fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-tibia-for-pin-insertion", "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-tibia-for-pin-insertion" },
+              { "id": "limited-resource-care", "label": "Limited-resource fracture care", "skill_level": 2, "equipment_level": 1, "main_indications": "Settings where advanced imaging or implant resources are limited.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/tibial-shaft/basic-technique/fracture-management-with-limited-resources" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distal",
+        "label": "Distal Tibia",
+        "ao_code": "43",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/distal-tibia",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/distal-tibia/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/distal-tibia/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "43-A",
+            "label": "Extraarticular",
+            "ao_code": "43-A",
+            "description": "Distal tibial metaphyseal fracture without articular extension.",
+            "complexity": 1,
+            "variants": [
+              { "id": "43-A1", "label": "Simple", "description": "Simple extraarticular distal tibia fracture." },
+              { "id": "43-A2", "label": "Wedge", "description": "Extraarticular distal metaphyseal fracture with wedge fragment." },
+              { "id": "43-A3", "label": "Complex", "description": "Multifragmentary extraarticular distal tibia fracture." }
+            ],
+            "treatments": [
+              { "id": "mio-medial-plate", "label": "Medial MIO plate fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Distal metaphyseal fracture requiring bridge fixation with soft-tissue preservation.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/minimally-invasive-approach-to-the-distal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/minimally-invasive-approach-to-the-distal-tibia" },
+              { "id": "limited-open-nailing", "label": "Nailing with limited open reduction", "skill_level": 3, "equipment_level": 2, "main_indications": "Selected distal metaphyseal fractures where nail alignment control is achievable.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/nailing-limited-open-approach-to-the-distal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/nailing-limited-open-approach-to-the-distal-tibia" },
+              { "id": "external-fixation", "label": "External fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Temporary stabilization for swelling, open injury, or staged pilon management.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones" }
+            ]
+          },
+          {
+            "id": "43-B",
+            "label": "Partial articular",
+            "ao_code": "43-B",
+            "description": "Partial articular distal tibia fracture with part of plafond attached to the shaft.",
+            "complexity": 2,
+            "variants": [
+              { "id": "43-B1", "label": "Split", "description": "Partial articular split of the distal tibial plafond." },
+              { "id": "43-B2", "label": "Split-depression", "description": "Partial articular split with impacted surface." },
+              { "id": "43-B3", "label": "Multifragmentary partial articular", "description": "Complex partial articular distal tibia fracture." }
+            ],
+            "treatments": [
+              { "id": "anteromedial-approach", "label": "Anteromedial ORIF", "skill_level": 3, "equipment_level": 2, "main_indications": "Anterior or medial articular fragment requiring direct reduction and fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia" },
+              { "id": "anterolateral-approach", "label": "Anterolateral ORIF", "skill_level": 3, "equipment_level": 2, "main_indications": "Anterolateral or Chaput-type fragment requiring direct access and buttress support.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anterolateral-approach-to-the-distal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anterolateral-approach-to-the-distal-tibia" },
+              { "id": "posterolateral-approach", "label": "Posterolateral fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Posterior plafond or posterolateral fragment requiring direct posterior support.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia" }
+            ]
+          },
+          {
+            "id": "43-C",
+            "label": "Complete articular",
+            "ao_code": "43-C",
+            "description": "Complete articular pilon fracture separating the plafond from the shaft.",
+            "complexity": 3,
+            "variants": [
+              { "id": "43-C1", "label": "Simple articular, simple metaphysis", "description": "Complete articular distal tibia fracture with simple components." },
+              { "id": "43-C2", "label": "Simple articular, complex metaphysis", "description": "Simple articular split with metaphyseal comminution." },
+              { "id": "43-C3", "label": "Multifragmentary articular", "description": "Highly comminuted complete articular pilon fracture." }
+            ],
+            "treatments": [
+              { "id": "staged-pilon-orif", "label": "Staged pilon ORIF", "skill_level": 3, "equipment_level": 3, "main_indications": "High-energy pilon fracture after swelling improves and soft tissues are suitable for definitive fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-or-anterolateral-approach", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-or-anterolateral-approach" },
+              { "id": "posteromedial-support", "label": "Posteromedial support", "skill_level": 3, "equipment_level": 2, "main_indications": "Posteromedial column instability or posterior articular fragment.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia" },
+              { "id": "external-fixation-definitive", "label": "External fixation / limited internal fixation", "skill_level": 3, "equipment_level": 3, "main_indications": "Severe soft-tissue injury, contamination, or patient factors making extensile ORIF unsafe.", "approach_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones", "content_slug": "orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

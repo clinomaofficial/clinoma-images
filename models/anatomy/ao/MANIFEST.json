@@ -1,0 +1,14 @@
+{
+  "scraped_at": "2026-05-17T03:18:00Z",
+  "page_count": 571,
+  "bytes_on_disk": 77629135,
+  "category_counts": {
+    "cmf": 1,
+    "orthopedic-trauma": 568,
+    "spine": 1,
+    "vet": 1
+  },
+  "mesh_terms": 13,
+  "unmatched_terms": 9,
+  "broken_links": 0
+}

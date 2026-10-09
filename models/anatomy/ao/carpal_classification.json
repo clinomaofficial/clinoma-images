@@ -1,0 +1,64 @@
+{
+  "carpal": {
+    "segments": [
+      {
+        "id": "scaphoid",
+        "label": "Scaphoid",
+        "ao_code": "74-A",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/carpal-bones",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach",
+        "preparation_slug": null,
+        "further_reading_slug": null,
+        "groups": [
+          {
+            "id": "74-A",
+            "label": "Scaphoid",
+            "ao_code": "74-A",
+            "description": "Scaphoid waist, proximal pole, and distal pole fracture patterns.",
+            "complexity": 2,
+            "variants": [
+              { "id": "74-A1", "label": "Distal pole", "description": "Distal scaphoid pole or tubercle fracture." },
+              { "id": "74-A2", "label": "Waist", "description": "Scaphoid waist fracture with displacement and stability assessment." },
+              { "id": "74-A3", "label": "Proximal pole", "description": "Proximal scaphoid fracture with elevated vascular risk." }
+            ],
+            "treatments": [
+              { "id": "cast", "label": "Cast immobilization", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable nondisplaced scaphoid fracture with reliable follow-up.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm" },
+              { "id": "palmar-approach", "label": "Palmar scaphoid approach", "skill_level": 2, "equipment_level": 2, "main_indications": "Distal pole or waist fracture suitable for volar screw placement.", "approach_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/palmar-approach-to-the-scaphoid", "content_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/palmar-approach-to-the-scaphoid" },
+              { "id": "dorsal-approach", "label": "Dorsal scaphoid approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Proximal pole fracture or dorsal trajectory for headless compression screw fixation.", "approach_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-scaphoid", "content_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-scaphoid" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "others",
+        "label": "Other Carpal Bones",
+        "ao_code": "74-B",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/carpal-bones",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach",
+        "preparation_slug": null,
+        "further_reading_slug": null,
+        "groups": [
+          {
+            "id": "74-B",
+            "label": "Other carpal bones",
+            "ao_code": "74-B",
+            "description": "Hamate, triquetrum, lunate, capitate, trapezium, and trapezoid fracture patterns.",
+            "complexity": 2,
+            "variants": [
+              { "id": "74-B1", "label": "Hamate hook", "description": "Hook of hamate fracture with ulnar-sided wrist symptoms." },
+              { "id": "74-B2", "label": "Dorsal chip / triquetral", "description": "Small dorsal carpal avulsion or triquetral chip pattern." },
+              { "id": "74-B3", "label": "Carpal body fracture", "description": "Body fracture of a non-scaphoid carpal bone." }
+            ],
+            "treatments": [
+              { "id": "immobilization", "label": "Immobilization", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable nondisplaced carpal fracture without instability.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm" },
+              { "id": "hamate-hook", "label": "Ulnar approach to hamate hook", "skill_level": 3, "equipment_level": 2, "main_indications": "Symptomatic displaced hamate hook fracture or nonunion requiring excision/fixation planning.", "approach_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/ulnar-approach-to-the-hamate-hook", "content_slug": "orthopedic-trauma/adult-trauma/carpal-bones/approach/ulnar-approach-to-the-hamate-hook" },
+              { "id": "headless-screw", "label": "Headless compression screw", "skill_level": 2, "equipment_level": 2, "main_indications": "Selected reconstructable carpal body fracture requiring low-profile compression fixation.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/headless-compression-screw" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

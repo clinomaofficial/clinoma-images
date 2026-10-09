@@ -1,0 +1,366 @@
+{
+  "femur": {
+    "segments": [
+      {
+        "id": "proximal",
+        "label": "Proximal Femur",
+        "ao_code": "31",
+        "color": "#f59e0b",
+        "description": "Hip & proximal femur fractures (trochanteric, femoral neck, head)",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/proximal-femur/preparation/supine-position-on-fracture-table",
+        "further_reading_slug": null,
+        "groups": [
+          {
+            "id": "31-A",
+            "label": "Trochanteric area",
+            "ao_code": "31-A",
+            "description": "Extra-articular trochanteric fractures. Includes pertrochanteric and intertrochanteric patterns.",
+            "complexity": 2,
+            "variants": [
+              { "id": "31-A1", "label": "Pertrochanteric, simple", "description": "Two-fragment pertrochanteric fracture with intact lateral wall. Relatively stable." },
+              { "id": "31-A2", "label": "Pertrochanteric, multifragmentary", "description": "Comminuted pertrochanteric with posteromedial fragmentation. Disrupted medial buttress." },
+              { "id": "31-A3", "label": "Intertrochanteric", "description": "Fracture line crosses both cortices. Reverse oblique or transverse pattern — unstable." }
+            ],
+            "treatments": [
+              {
+                "id": "cephalomedullary-nail",
+                "label": "Cephalomedullary nail",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "A2 and A3 fractures, unstable patterns, high-demand patients. Preferred for most trochanteric fractures with medial comminution or reverse oblique pattern.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/approach-for-proximal-femoral-nailing",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/approach-for-proximal-femoral-nailing"
+              },
+              {
+                "id": "sliding-hip-screw",
+                "label": "Sliding hip screw (DHS)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Stable A1 fractures with intact lateral wall. Controlled collapse and impaction at fracture site.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/direct-lateral-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/direct-lateral-approach"
+              },
+              {
+                "id": "nonoperative",
+                "label": "Nonoperative treatment",
+                "skill_level": 1,
+                "equipment_level": 1,
+                "main_indications": "Non-ambulatory patients with extreme operative risk only. High mortality with conservative management.",
+                "approach_slug": null,
+                "content_slug": null
+              }
+            ]
+          },
+          {
+            "id": "31-B",
+            "label": "Femoral neck",
+            "ao_code": "31-B",
+            "description": "Intracapsular femoral neck fractures. High risk of avascular necrosis of femoral head.",
+            "complexity": 2,
+            "variants": [
+              { "id": "31-B1", "label": "Subcapital, slight displacement", "description": "Garden I/II — impacted or minimally displaced. Valgus or neutral alignment, good prognosis." },
+              { "id": "31-B2", "label": "Transcervical", "description": "Fracture through mid-neck, may be displaced. Moderate AVN risk." },
+              { "id": "31-B3", "label": "Subcapital, displaced", "description": "Garden III/IV — completely displaced. High AVN risk, especially in younger patients." }
+            ],
+            "treatments": [
+              {
+                "id": "cannulated-screws",
+                "label": "Cannulated screw fixation",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "B1 (Garden I/II) in young/active patients. 3 parallel screws in inverted triangle. Bone-preserving, minimally invasive.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones"
+              },
+              {
+                "id": "hemiarthroplasty",
+                "label": "Hemiarthroplasty",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "B3 displaced fracture in elderly, low-demand patients. Faster recovery than screws for displaced neck fractures. No acetabular component.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach"
+              },
+              {
+                "id": "total-hip-arthroplasty",
+                "label": "Total hip arthroplasty (THA)",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "B3 in active patients with pre-existing hip arthritis, or younger patients with high functional demand. Superior long-term outcomes vs hemiarthroplasty.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach"
+              }
+            ]
+          },
+          {
+            "id": "31-C",
+            "label": "Femoral head",
+            "ao_code": "31-C",
+            "description": "Femoral head fractures (Pipkin). Rare, usually associated with hip dislocation.",
+            "complexity": 3,
+            "variants": [
+              { "id": "31-C1", "label": "Pipkin I — inferior to fovea", "description": "Small fragment below fovea capitis. Usually non-weight-bearing surface." },
+              { "id": "31-C2", "label": "Pipkin II — superior to fovea", "description": "Fragment superior to fovea involves weight-bearing surface. Worse prognosis." },
+              { "id": "31-C3", "label": "Pipkin III/IV — with neck or acetabular fracture", "description": "Combined head and neck fracture (III) or head and acetabulum fracture (IV). Most complex." }
+            ],
+            "treatments": [
+              {
+                "id": "orif-head",
+                "label": "ORIF femoral head",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "C2 with large displaced weight-bearing fragment in young patient. Anatomic reduction and internal fixation mandatory.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/trochanteric-flip-osteotomy-through-the-gibson-interval",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/trochanteric-flip-osteotomy-through-the-gibson-interval"
+              },
+              {
+                "id": "fragment-excision",
+                "label": "Fragment excision",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "C1 with small fragment below fovea in older patients. Fragment removal via arthroscopy or open approach.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shaft",
+        "label": "Femoral Shaft",
+        "ao_code": "32",
+        "color": "#3b82f6",
+        "description": "Femoral diaphysis fractures — IMN is gold standard",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/preparation/supine-with-manual-traction",
+        "further_reading_slug": null,
+        "groups": [
+          {
+            "id": "32-A",
+            "label": "Simple",
+            "ao_code": "32-A",
+            "description": "Simple (two-fragment) femoral shaft fractures.",
+            "complexity": 1,
+            "variants": [
+              { "id": "32-A1", "label": "Spiral", "description": "Spiral fracture with long fracture line. Low-energy mechanism. Stable in axial loading." },
+              { "id": "32-A2", "label": "Oblique (≥30°)", "description": "Oblique fracture at ≥30°. Variable stability depending on length." },
+              { "id": "32-A3", "label": "Transverse (<30°)", "description": "Transverse or short oblique. High-energy or stress fracture. Potentially unstable." }
+            ],
+            "treatments": [
+              {
+                "id": "intramedullary-nail",
+                "label": "Intramedullary nail (IMN)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "Gold standard for all femoral shaft fractures. Rapid mobilisation, high union rate, load-sharing. Antegrade nailing preferred for proximal and mid-shaft fractures.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+                "content_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point"
+              },
+              {
+                "id": "plate-fixation",
+                "label": "Plate fixation (MIPO/open)",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Canal too narrow, periprosthetic, extreme deformity. Bridge plating minimises soft tissue stripping.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach"
+              },
+              {
+                "id": "external-fixation",
+                "label": "External fixation (DCO)",
+                "skill_level": 1,
+                "equipment_level": 2,
+                "main_indications": "Damage control orthopaedics in haemodynamically unstable polytrauma. Bridge to definitive IMN fixation.",
+                "approach_slug": null,
+                "content_slug": null
+              }
+            ]
+          },
+          {
+            "id": "32-B",
+            "label": "Wedge",
+            "ao_code": "32-B",
+            "description": "Wedge (butterfly) femoral shaft fractures.",
+            "complexity": 2,
+            "variants": [
+              { "id": "32-B1", "label": "Spiral wedge", "description": "Wedge fragment with spiral configuration. Moderate comminution." },
+              { "id": "32-B2", "label": "Bending wedge", "description": "Bending wedge fragment, often from direct impact." },
+              { "id": "32-B3", "label": "Fragmented wedge", "description": "Multiple wedge fragments. Borderline complex fracture." }
+            ],
+            "treatments": [
+              {
+                "id": "intramedullary-nail",
+                "label": "Intramedullary nail (IMN)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "First choice for wedge patterns. Relative stability — nail bridges the zone. Closed technique mandatory for comminuted zone.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+                "content_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point"
+              },
+              {
+                "id": "bridge-plating",
+                "label": "Bridge plating (MIPO)",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "B3 with extensive comminution, canal deformity. Submuscular bridge plate preserves fracture biology.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach"
+              }
+            ]
+          },
+          {
+            "id": "32-C",
+            "label": "Multifragmentary",
+            "ao_code": "32-C",
+            "description": "Multifragmentary (comminuted) femoral shaft fractures.",
+            "complexity": 3,
+            "variants": [
+              { "id": "32-C1", "label": "Spiral multifragmentary", "description": "Multiple spiral fragments along the shaft. High-energy mechanism." },
+              { "id": "32-C2", "label": "Segmental", "description": "Isolated middle segment — bifocal fracture. Two separate fracture lines." },
+              { "id": "32-C3", "label": "Irregular multifragmentary", "description": "Highly comminuted, no clear pattern. Severe high-energy injury." }
+            ],
+            "treatments": [
+              {
+                "id": "intramedullary-nail",
+                "label": "Intramedullary nail (IMN)",
+                "skill_level": 3,
+                "equipment_level": 2,
+                "main_indications": "All C-type shaft fractures. CLOSED technique essential — never open comminuted zone. Reamed nail for load-sharing and biologic stimulation.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+                "content_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point"
+              },
+              {
+                "id": "bridge-plating",
+                "label": "Bridge plating (MIPO)",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "Nail not feasible (prior TKA/THA, severe canal deformity). Long plate spanning full comminution zone.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distal",
+        "label": "Distal Femur",
+        "ao_code": "33",
+        "color": "#22c55e",
+        "description": "Supracondylar & condylar fractures — articular involvement increases complexity",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/distal-femur/preparation/supine-position",
+        "further_reading_slug": null,
+        "groups": [
+          {
+            "id": "33-A",
+            "label": "Extra-articular",
+            "ao_code": "33-A",
+            "description": "Supracondylar fractures without articular extension.",
+            "complexity": 1,
+            "variants": [
+              { "id": "33-A1", "label": "Simple", "description": "Two-fragment supracondylar fracture. Often from moderate energy." },
+              { "id": "33-A2", "label": "Wedge", "description": "Supracondylar with medial or lateral wedge fragment." },
+              { "id": "33-A3", "label": "Multifragmentary", "description": "Comminuted supracondylar. High-energy mechanism." }
+            ],
+            "treatments": [
+              {
+                "id": "retrograde-nail",
+                "label": "Retrograde intramedullary nail",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "A1–A2 extra-articular supracondylar. Minimally invasive, excellent for osteoporotic bone, allows early mobilisation.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/retrograde-nailing-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/retrograde-nailing-approach"
+              },
+              {
+                "id": "locking-plate",
+                "label": "Locking plate (LISS/LCP-DF)",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "A-type with osteoporotic bone, nail not feasible (TKA, prior hardware). Lateral submuscular plate via MIPO technique.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur"
+              }
+            ]
+          },
+          {
+            "id": "33-B",
+            "label": "Partial articular",
+            "ao_code": "33-B",
+            "description": "Unicondylar fractures — partial articular involvement. Articular reduction is mandatory.",
+            "complexity": 2,
+            "variants": [
+              { "id": "33-B1", "label": "Lateral condyle, sagittal", "description": "Lateral femoral condyle split in sagittal plane." },
+              { "id": "33-B2", "label": "Medial condyle, sagittal", "description": "Medial femoral condyle split in sagittal plane." },
+              { "id": "33-B3", "label": "Frontal (Hoffa fracture)", "description": "Coronal-plane condylar fracture. Often missed on AP X-ray, best seen on lateral view." }
+            ],
+            "treatments": [
+              {
+                "id": "lag-screws",
+                "label": "Lag screw fixation",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "B1/B2 sagittal unicondylar splits. Anatomic reduction essential. 2–3 cortical lag screws perpendicular to fracture.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur"
+              },
+              {
+                "id": "buttress-plate",
+                "label": "Buttress / posterior plate",
+                "skill_level": 2,
+                "equipment_level": 2,
+                "main_indications": "B3 Hoffa fractures (coronal). Posterior screws with posterior support plate. Anterior-to-posterior screw direction.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/medial-approach-to-the-distal-femur",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/medial-approach-to-the-distal-femur"
+              }
+            ]
+          },
+          {
+            "id": "33-C",
+            "label": "Complete articular",
+            "ao_code": "33-C",
+            "description": "Bicondylar fractures — complete articular dissociation. Most complex distal femur pattern.",
+            "complexity": 3,
+            "variants": [
+              { "id": "33-C1", "label": "Articular simple, metaphyseal simple", "description": "Intercondylar split + simple supracondylar. Two main fragments." },
+              { "id": "33-C2", "label": "Articular simple, metaphyseal multifragmentary", "description": "Intercondylar split + comminuted supracondylar. High-energy." },
+              { "id": "33-C3", "label": "Articular multifragmentary", "description": "Comminuted articular surface + metaphysis. Severe injury, often associated with knee ligament damage." }
+            ],
+            "treatments": [
+              {
+                "id": "locking-plate",
+                "label": "Locking plate (LISS/LCP-DF)",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "C-type bicondylar. ORIF articular surface first (lag screws for intercondylar split), then lateral bridge plate for metaphysis. Standard approach.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur"
+              },
+              {
+                "id": "retrograde-nail-screws",
+                "label": "Retrograde nail + intercondylar screws",
+                "skill_level": 3,
+                "equipment_level": 2,
+                "main_indications": "C1 simple articular pattern: lag screws for articular reconstruction first, then retrograde nail for metaphyseal stabilisation.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/retrograde-nailing-approach",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/retrograde-nailing-approach"
+              },
+              {
+                "id": "primary-tka",
+                "label": "Primary total knee arthroplasty",
+                "skill_level": 3,
+                "equipment_level": 3,
+                "main_indications": "C3 with pre-existing severe knee arthritis in elderly, low-demand patients. Hinged prosthesis as primary fracture management.",
+                "approach_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur",
+                "content_slug": "orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

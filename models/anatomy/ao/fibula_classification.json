@@ -1,0 +1,93 @@
+{
+  "fibula": {
+    "segments": [
+      {
+        "id": "proximal",
+        "label": "Proximal Fibula",
+        "ao_code": "44-A",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/malleoli",
+        "approaches_slug": null,
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading/intraoperative-imaging",
+        "groups": [
+          {
+            "id": "44-A",
+            "label": "Proximal / stable ankle-equivalent",
+            "ao_code": "44-A",
+            "description": "Fibular injury patterns with attention to syndesmotic and ankle stability.",
+            "complexity": 1,
+            "variants": [
+              { "id": "44-A1", "label": "Isolated fibular avulsion", "description": "Small avulsion fragment or nondisplaced proximal fibular injury." },
+              { "id": "44-A2", "label": "Proximal fibular fracture", "description": "Proximal fibular fracture requiring assessment for syndesmotic or Maisonneuve pattern." },
+              { "id": "44-A3", "label": "Associated ligament injury", "description": "Proximal fibula injury with suspected ankle instability." }
+            ],
+            "treatments": [
+              { "id": "stability-assessment", "label": "Ankle stability assessment", "skill_level": 1, "equipment_level": 1, "main_indications": "Rule out syndesmotic instability or medial ankle injury.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading/intraoperative-imaging" },
+              { "id": "nonoperative", "label": "Nonoperative care", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable isolated injury without syndesmotic or medial instability.", "approach_slug": null, "content_slug": "orthopedic-trauma/further-reading/casting-of-lower-limb" },
+              { "id": "syndesmosis-fixation", "label": "Syndesmosis fixation principles", "skill_level": 2, "equipment_level": 2, "main_indications": "Proximal fibula fracture with unstable syndesmotic injury.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shaft",
+        "label": "Fibular Shaft",
+        "ao_code": "44-B",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/adult-trauma/malleoli",
+        "approaches_slug": null,
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading/intraoperative-imaging",
+        "groups": [
+          {
+            "id": "44-B",
+            "label": "Trans-syndesmotic / shaft",
+            "ao_code": "44-B",
+            "description": "Fibular shaft or trans-syndesmotic fracture patterns where ankle mortise stability guides treatment.",
+            "complexity": 2,
+            "variants": [
+              { "id": "44-B1", "label": "Simple shaft", "description": "Simple fibular shaft fracture without mortise widening." },
+              { "id": "44-B2", "label": "Shaft with medial injury", "description": "Fibular fracture with deltoid or medial malleolar injury." },
+              { "id": "44-B3", "label": "Shaft with posterior injury", "description": "Fibular fracture with posterior malleolar or posterior syndesmotic involvement." }
+            ],
+            "treatments": [
+              { "id": "plate-fixation", "label": "Fibular plate fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Unstable ankle mortise, displacement, or need to restore fibular length and rotation.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "casting", "label": "Cast / boot treatment", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable isolated fracture with congruent mortise.", "approach_slug": null, "content_slug": "orthopedic-trauma/further-reading/casting-of-lower-limb" },
+              { "id": "imaging", "label": "Intraoperative imaging", "skill_level": 1, "equipment_level": 1, "main_indications": "Confirming mortise reduction, fibular length, and implant position.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading/intraoperative-imaging" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distal",
+        "label": "Lateral Malleolus",
+        "ao_code": "44-C",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/malleoli",
+        "approaches_slug": null,
+        "preparation_slug": null,
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading/intraoperative-imaging",
+        "groups": [
+          {
+            "id": "44-C",
+            "label": "Supra-syndesmotic / malleolar",
+            "ao_code": "44-C",
+            "description": "Distal fibular and lateral malleolar fractures with syndesmotic instability risk.",
+            "complexity": 3,
+            "variants": [
+              { "id": "44-C1", "label": "Simple supra-syndesmotic", "description": "Simple fibular fracture above syndesmosis." },
+              { "id": "44-C2", "label": "Multifragmentary fibula", "description": "Comminuted supra-syndesmotic fibular fracture." },
+              { "id": "44-C3", "label": "High fibula / Maisonneuve pattern", "description": "High fibular injury associated with syndesmotic disruption." }
+            ],
+            "treatments": [
+              { "id": "orif-syndesmosis", "label": "ORIF with syndesmosis stabilization", "skill_level": 3, "equipment_level": 2, "main_indications": "Unstable lateral malleolus or supra-syndesmotic pattern with mortise instability.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "external-fixation", "label": "Temporary external fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Severe swelling, fracture-dislocation, open injury, or staged ankle reconstruction.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-technique-modular-external-fixation" },
+              { "id": "imaging", "label": "Mortise imaging reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Assessment of syndesmotic reduction and ankle mortise congruity.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/malleoli/further-reading/intraoperative-imaging" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

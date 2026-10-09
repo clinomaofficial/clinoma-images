@@ -1,0 +1,195 @@
+{
+  "ulna": {
+    "segments": [
+      {
+        "id": "proximal",
+        "label": "Proximal Ulna",
+        "ao_code": "21",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm",
+        "approaches_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach",
+        "preparation_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/preparation",
+        "further_reading_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "21-A",
+            "label": "Extraarticular proximal ulna",
+            "ao_code": "21-A",
+            "description": "Olecranon or proximal ulnar metaphyseal fracture without complex articular disruption.",
+            "complexity": 1,
+            "variants": [
+              { "id": "21-A1", "label": "Tip / avulsion", "description": "Olecranon tip or triceps avulsion-type fragment." },
+              { "id": "21-A2", "label": "Simple metaphyseal", "description": "Simple proximal ulnar metaphyseal fracture." },
+              { "id": "21-A3", "label": "Metaphyseal comminution", "description": "Proximal ulnar metaphyseal comminution with maintained articular block." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Immobilization", "skill_level": 1, "equipment_level": 1, "main_indications": "Nondisplaced fracture with intact extensor mechanism and stable elbow.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/patient-examination-and-radiology" },
+              { "id": "posterior-ulna", "label": "Posterior approach to ulna", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced proximal ulna or olecranon fracture requiring direct reduction.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna" },
+              { "id": "tension-band", "label": "Tension band principles", "skill_level": 2, "equipment_level": 2, "main_indications": "Simple transverse olecranon pattern with intact dorsal cortex conditions for tension band construct.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna", "content_slug": "orthopedic-trauma/adult-trauma/further-reading/tension-band-principles" }
+            ]
+          },
+          {
+            "id": "21-B",
+            "label": "Partial articular proximal ulna",
+            "ao_code": "21-B",
+            "description": "Partial articular olecranon or coronoid-related ulnar fracture.",
+            "complexity": 2,
+            "variants": [
+              { "id": "21-B1", "label": "Olecranon partial articular", "description": "Partial articular olecranon fragment with retained ulnohumeral stability." },
+              { "id": "21-B2", "label": "Coronoid fragment", "description": "Coronoid process fragment associated with elbow instability risk." },
+              { "id": "21-B3", "label": "Partial articular comminution", "description": "Complex partial articular proximal ulna injury." }
+            ],
+            "treatments": [
+              { "id": "plate-fixation", "label": "Plate fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Displaced partial articular proximal ulna fracture needing stable fixation.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna", "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "boyd-approach", "label": "Posterolateral Boyd approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Combined proximal radius and ulna exposure or Monteggia-equivalent injury.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna" },
+              { "id": "elbow-anatomy", "label": "Elbow anatomy reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Understanding proximal forearm anatomy and stability relationships.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/anatomy-of-the-elbow" }
+            ]
+          },
+          {
+            "id": "21-C",
+            "label": "Complete articular proximal ulna",
+            "ao_code": "21-C",
+            "description": "Complete articular proximal ulna fracture or fracture-dislocation pattern.",
+            "complexity": 3,
+            "variants": [
+              { "id": "21-C1", "label": "Simple olecranon", "description": "Complete articular olecranon fracture with simple pattern." },
+              { "id": "21-C2", "label": "Olecranon with metaphyseal comminution", "description": "Articular component with proximal ulnar metaphyseal comminution." },
+              { "id": "21-C3", "label": "Monteggia-equivalent", "description": "Complex proximal ulna fracture with radiocapitellar instability or dislocation." }
+            ],
+            "treatments": [
+              { "id": "locked-plate", "label": "Locked plate fixation", "skill_level": 3, "equipment_level": 3, "main_indications": "Comminuted proximal ulna or fracture-dislocation requiring stable reconstruction.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna" },
+              { "id": "combined-exposure", "label": "Combined proximal forearm exposure", "skill_level": 3, "equipment_level": 2, "main_indications": "Associated radial head/neck injury or radiocapitellar instability.", "approach_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna" },
+              { "id": "decision-making", "label": "Decision-making reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Timing, instability assessment, and restoration of arm function.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/proximal-forearm/further-reading/decision-making-and-timing-of-treatment" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shaft",
+        "label": "Ulnar Shaft",
+        "ao_code": "22",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft",
+        "approaches_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach",
+        "preparation_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/preparation",
+        "further_reading_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "22-A",
+            "label": "Simple shaft",
+            "ao_code": "22-A",
+            "description": "Simple ulnar shaft fracture pattern.",
+            "complexity": 1,
+            "variants": [
+              { "id": "22-A1", "label": "Spiral", "description": "Simple spiral ulnar shaft fracture." },
+              { "id": "22-A2", "label": "Oblique", "description": "Simple oblique ulnar shaft fracture." },
+              { "id": "22-A3", "label": "Transverse", "description": "Simple transverse ulnar shaft fracture." }
+            ],
+            "treatments": [
+              { "id": "ulna-approach", "label": "Approach to ulna", "skill_level": 2, "equipment_level": 2, "main_indications": "Subcutaneous ulnar border exposure for direct reduction and plating.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna" },
+              { "id": "compression-plating", "label": "Compression plating", "skill_level": 2, "equipment_level": 2, "main_indications": "Simple shaft fracture requiring restoration of forearm length, alignment, and rotation.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-principles-of-plating" },
+              { "id": "casting", "label": "Casting reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Selected stable isolated ulna fracture or temporary immobilization.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm" }
+            ]
+          },
+          {
+            "id": "22-B",
+            "label": "Wedge shaft",
+            "ao_code": "22-B",
+            "description": "Ulnar shaft fracture with wedge fragment.",
+            "complexity": 2,
+            "variants": [
+              { "id": "22-B1", "label": "Spiral wedge", "description": "Spiral wedge pattern of the ulnar shaft." },
+              { "id": "22-B2", "label": "Bending wedge", "description": "Triangular bending wedge fragment." },
+              { "id": "22-B3", "label": "Fragmented wedge", "description": "Wedge pattern with additional fragmentation." }
+            ],
+            "treatments": [
+              { "id": "bridge-plating", "label": "Bridge plating", "skill_level": 2, "equipment_level": 2, "main_indications": "Wedge pattern where biology of the intermediate fragment should be preserved.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna" },
+              { "id": "safe-zones", "label": "Safe zones for pin placement", "skill_level": 1, "equipment_level": 1, "main_indications": "External fixation or pin planning in forearm shaft injury.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-ulna" },
+              { "id": "instability", "label": "Instability reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Assessment of fracture instability and malalignment.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/fracture-instability-and-malalignment" }
+            ]
+          },
+          {
+            "id": "22-C",
+            "label": "Complex shaft",
+            "ao_code": "22-C",
+            "description": "Multifragmentary ulnar shaft fracture.",
+            "complexity": 3,
+            "variants": [
+              { "id": "22-C1", "label": "Complex spiral", "description": "Multifragmentary spiral ulnar shaft fracture." },
+              { "id": "22-C2", "label": "Segmental", "description": "Segmental ulnar shaft fracture." },
+              { "id": "22-C3", "label": "Irregular complex", "description": "Highly comminuted ulnar shaft fracture." }
+            ],
+            "treatments": [
+              { "id": "bridge-orif", "label": "Bridge ORIF", "skill_level": 3, "equipment_level": 2, "main_indications": "Complex shaft pattern requiring restoration of length and rotation while preserving biology.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna" },
+              { "id": "external-fixation", "label": "External fixation principles", "skill_level": 2, "equipment_level": 2, "main_indications": "Temporary stabilization for open injury or severe soft-tissue compromise.", "approach_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-ulna", "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-technique-modular-external-fixation" },
+              { "id": "anatomy", "label": "Forearm anatomy reference", "skill_level": 1, "equipment_level": 1, "main_indications": "Planning safe exposure and rotation restoration.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/forearm-shaft/further-reading/anatomy-of-the-forearm-shaft" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distal",
+        "label": "Distal Ulna",
+        "ao_code": "23",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/pediatric-trauma/distal-forearm",
+        "approaches_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach",
+        "preparation_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/preparation",
+        "further_reading_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "23-A",
+            "label": "Extraarticular distal ulna",
+            "ao_code": "23-A",
+            "description": "Distal ulnar metaphyseal or styloid fracture without complex DRUJ articular disruption.",
+            "complexity": 1,
+            "variants": [
+              { "id": "23-A1", "label": "Ulnar styloid", "description": "Styloid tip or base fracture requiring DRUJ stability assessment." },
+              { "id": "23-A2", "label": "Simple metaphyseal", "description": "Simple extraarticular distal ulnar metaphyseal fracture." },
+              { "id": "23-A3", "label": "Metaphyseal comminution", "description": "Comminuted extraarticular distal ulna fracture." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Immobilization", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable DRUJ and minimally displaced distal ulna fracture.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm" },
+              { "id": "distal-ulna-approach", "label": "Ulnar approach to distal ulna", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced distal ulna fracture requiring direct fixation.", "approach_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna" },
+              { "id": "distal-forearm-anatomy", "label": "Distal forearm anatomy", "skill_level": 1, "equipment_level": 1, "main_indications": "Planning and assessment of distal forearm relationships.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/anatomy-of-the-distal-forearm" }
+            ]
+          },
+          {
+            "id": "23-B",
+            "label": "Partial articular distal ulna",
+            "ao_code": "23-B",
+            "description": "Partial articular distal ulna or sigmoid-notch-related fracture.",
+            "complexity": 2,
+            "variants": [
+              { "id": "23-B1", "label": "Styloid base", "description": "Styloid base fragment with possible TFCC attachment involvement." },
+              { "id": "23-B2", "label": "Ulnar head partial", "description": "Partial articular ulnar head fracture." },
+              { "id": "23-B3", "label": "DRUJ rim", "description": "Fragment affecting distal radioulnar joint congruity." }
+            ],
+            "treatments": [
+              { "id": "fragment-fixation", "label": "Fragment fixation", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced fragment affecting DRUJ stability or congruity.", "approach_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna" },
+              { "id": "headless-screw", "label": "Headless compression screw", "skill_level": 2, "equipment_level": 2, "main_indications": "Small reconstructable articular fragment where low-profile compression is suitable.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/headless-compression-screw" },
+              { "id": "exam", "label": "Distal forearm assessment", "skill_level": 1, "equipment_level": 1, "main_indications": "DRUJ stability and distal forearm evaluation.", "approach_slug": null, "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/further-reading/anatomy-of-the-distal-forearm" }
+            ]
+          },
+          {
+            "id": "23-C",
+            "label": "Complete articular distal ulna",
+            "ao_code": "23-C",
+            "description": "Complete articular distal ulna fracture with DRUJ involvement.",
+            "complexity": 3,
+            "variants": [
+              { "id": "23-C1", "label": "Simple articular", "description": "Complete articular distal ulna fracture with simple components." },
+              { "id": "23-C2", "label": "Articular with metaphyseal comminution", "description": "Simple articular fracture with metaphyseal comminution." },
+              { "id": "23-C3", "label": "Multifragmentary articular", "description": "Complex distal ulna articular fracture." }
+            ],
+            "treatments": [
+              { "id": "orif", "label": "Open reduction internal fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Displaced distal ulna articular fracture with reconstructable joint surface.", "approach_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna", "content_slug": "orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna" },
+              { "id": "temporary-fixation", "label": "Temporary stabilization", "skill_level": 2, "equipment_level": 2, "main_indications": "High-energy injury, swelling, or combined distal radius/ulna fracture requiring staged care.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/basic-technique-modular-external-fixation" },
+              { "id": "casting", "label": "Post-reduction immobilization", "skill_level": 1, "equipment_level": 1, "main_indications": "Stable reduced fracture or adjunct to fixation.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/basic-technique/casting-of-the-wrist-and-forearm" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

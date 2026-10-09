@@ -1,0 +1,93 @@
+{
+  "scapula": {
+    "segments": [
+      {
+        "id": "body",
+        "label": "Scapular Body",
+        "ao_code": "14-A",
+        "color": "#f59e0b",
+        "slug": "orthopedic-trauma/adult-trauma/scapula",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/scapula/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/scapula/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "14-A",
+            "label": "Body / spine / acromion",
+            "ao_code": "14-A",
+            "description": "Extraarticular scapular body, spine, or process fracture patterns.",
+            "complexity": 1,
+            "variants": [
+              { "id": "14-A1", "label": "Body simple", "description": "Simple scapular body fracture with acceptable glenopolar relationship." },
+              { "id": "14-A2", "label": "Body multifragmentary", "description": "Comminuted body fracture with potential medialization or angular deformity." },
+              { "id": "14-A3", "label": "Acromion / spine", "description": "Scapular spine or acromion fracture affecting shoulder suspension." }
+            ],
+            "treatments": [
+              { "id": "nonoperative", "label": "Nonoperative treatment", "skill_level": 1, "equipment_level": 1, "main_indications": "Most minimally displaced scapular body fractures without shoulder girdle instability.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/clinical-and-radiological-examination-of-patients-with-scapular-injuries" },
+              { "id": "posterior-body", "label": "Posterior approach fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Marked displacement, angular deformity, or floating shoulder pattern requiring restoration of scapular anatomy.", "approach_slug": "orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body", "content_slug": "orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body" },
+              { "id": "superior-acromion", "label": "Superior acromion approach", "skill_level": 2, "equipment_level": 2, "main_indications": "Displaced acromion fracture threatening subacromial space or deltoid function.", "approach_slug": "orthopedic-trauma/adult-trauma/scapula/approach/superior-approach-to-the-acromion", "content_slug": "orthopedic-trauma/adult-trauma/scapula/approach/superior-approach-to-the-acromion" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "neck",
+        "label": "Scapular Neck",
+        "ao_code": "14-B",
+        "color": "#3b82f6",
+        "slug": "orthopedic-trauma/adult-trauma/scapula",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/scapula/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/scapula/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "14-B",
+            "label": "Neck / superior shoulder suspensory complex",
+            "ao_code": "14-B",
+            "description": "Scapular neck fracture patterns that may affect glenoid alignment and shoulder suspension.",
+            "complexity": 2,
+            "variants": [
+              { "id": "14-B1", "label": "Anatomic neck", "description": "Fracture isolating the glenoid from the scapular body." },
+              { "id": "14-B2", "label": "Surgical neck", "description": "Neck fracture with maintained articular block but altered glenoid position." },
+              { "id": "14-B3", "label": "Floating shoulder pattern", "description": "Neck fracture combined with clavicle or ligamentous injury affecting the shoulder ring." }
+            ],
+            "treatments": [
+              { "id": "posterior-neck", "label": "Posterior neck fixation", "skill_level": 3, "equipment_level": 2, "main_indications": "Displaced neck fracture with glenoid malalignment or unstable shoulder suspension.", "approach_slug": "orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body", "content_slug": "orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body" },
+              { "id": "floating-shoulder", "label": "Floating shoulder sequence", "skill_level": 3, "equipment_level": 2, "main_indications": "Combined shoulder-girdle injury requiring staged clavicle and scapula decision-making.", "approach_slug": null, "content_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/floating-shoulder-sequence-of-repair" },
+              { "id": "sabercut", "label": "Sabercut approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Selected superior or posterior-superior scapular exposure requirements.", "approach_slug": "orthopedic-trauma/adult-trauma/scapula/approach/sabercut-approach", "content_slug": "orthopedic-trauma/adult-trauma/scapula/approach/sabercut-approach" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "glenoid",
+        "label": "Glenoid",
+        "ao_code": "14-C",
+        "color": "#10b981",
+        "slug": "orthopedic-trauma/adult-trauma/scapula",
+        "approaches_slug": "orthopedic-trauma/adult-trauma/scapula/approach",
+        "preparation_slug": "orthopedic-trauma/adult-trauma/scapula/preparation",
+        "further_reading_slug": "orthopedic-trauma/adult-trauma/scapula/further-reading/all-further-reading",
+        "groups": [
+          {
+            "id": "14-C",
+            "label": "Articular glenoid",
+            "ao_code": "14-C",
+            "description": "Glenoid rim or fossa fracture involving the shoulder joint surface.",
+            "complexity": 3,
+            "variants": [
+              { "id": "14-C1", "label": "Anterior rim", "description": "Anterior glenoid rim fracture associated with instability." },
+              { "id": "14-C2", "label": "Posterior rim", "description": "Posterior rim fracture or posterior glenoid deficiency." },
+              { "id": "14-C3", "label": "Glenoid fossa", "description": "Transverse or multifragmentary articular glenoid fracture." }
+            ],
+            "treatments": [
+              { "id": "deltopectoral", "label": "Deltopectoral approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Anterior glenoid rim or coracoid-associated exposure.", "approach_slug": "orthopedic-trauma/adult-trauma/scapula/approach/deltopectoral-approach", "content_slug": "orthopedic-trauma/adult-trauma/scapula/approach/deltopectoral-approach" },
+              { "id": "posterior-glenoid", "label": "Posterior approach", "skill_level": 3, "equipment_level": 2, "main_indications": "Posterior rim, transverse glenoid, or posterior column articular fractures.", "approach_slug": "orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body", "content_slug": "orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body" },
+              { "id": "arthroscopy-entry", "label": "Arthroscopic entry points", "skill_level": 3, "equipment_level": 3, "main_indications": "Selected articular assessment or minimally invasive adjuncts.", "approach_slug": "orthopedic-trauma/adult-trauma/scapula/approach/arthroscopic-entry-points", "content_slug": "orthopedic-trauma/adult-trauma/scapula/approach/arthroscopic-entry-points" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
