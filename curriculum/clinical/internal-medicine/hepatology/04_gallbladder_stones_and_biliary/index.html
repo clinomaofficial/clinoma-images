@@ -3,60 +3,248 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinoma 04 Gallbladder Stones And Biliary Visual Atlas | 19 Images (Cloud Atlas (GitHub CDN Primary))</title>
+  <title>Clinoma 04 Gallbladder Stones And Biliary - Remote Repository Atlas (مستودع كلينوما)</title>
   <style>
-    :root { --primary: #2563eb; --accent: #dc2626; --bg: #f8fafc; --card-bg: #ffffff; --text-main: #0f172a; --text-muted: #64748b; --border: #e2e8f0; }
+
+    :root { 
+      --primary: #2563eb; 
+      --primary-dark: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text-main: #0f172a; 
+      --text-muted: #64748b; 
+      --border: #e2e8f0; 
+      --code-bg: #f1f5f9;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; padding-bottom: 80px; }
-    header { background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 16px 24px; }
-    .header-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
-    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); }
-    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
-    .search-box input { width: 340px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; outline: none; background: #f1f5f9; }
-    .search-box input:focus { background: white; border-color: var(--primary); }
-    .stats-badge { background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 9999px; }
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 20px; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      background: var(--bg); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      padding-bottom: 80px; 
+    }
+    header { 
+      background: #ffffff; 
+      border-bottom: 1px solid var(--border); 
+      position: sticky; 
+      top: 0; 
+      z-index: 50; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+      padding: 16px 24px; 
+    }
+    .header-inner { 
+      max-width: 1440px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      align-items: center; 
+      gap: 16px; 
+    }
+    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header-right { display: flex; align-items: center; gap: 14px; }
+    .search-box input { 
+      width: 320px; 
+      padding: 10px 16px; 
+      border-radius: 10px; 
+      border: 1px solid var(--border); 
+      font-size: 13.5px; 
+      outline: none; 
+      background: #f1f5f9; 
+      transition: all 0.2s;
+    }
+    .search-box input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .mode-pill { 
+      font-size: 12px; 
+      font-weight: 700; 
+      padding: 6px 14px; 
+      border-radius: 9999px; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+    }
+    .mode-cloud { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .mode-local { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .container { max-width: 1440px; margin: 24px auto; padding: 0 20px; }
     .cards-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: grid; grid-template-columns: 360px 1fr; gap: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
-    @media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
-    .img-box { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .img-box img { max-width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; cursor: zoom-in; }
-    .img-meta-tag { font-family: monospace; font-size: 11px; color: var(--text-muted); margin-top: 10px; text-align: center; }
+    .card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--border); 
+      border-radius: 16px; 
+      padding: 24px; 
+      display: grid; 
+      grid-template-columns: 380px 1fr; 
+      gap: 28px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02); 
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+    @media (max-width: 950px) { .card { grid-template-columns: 1fr; } }
+    .img-box { 
+      background: #0f172a; 
+      border: 1px solid var(--border); 
+      border-radius: 12px; 
+      padding: 12px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 280px;
+    }
+    .img-box img { 
+      max-width: 100%; 
+      max-height: 320px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      cursor: zoom-in; 
+    }
+    .url-badge-box { 
+      margin-top: 12px; 
+      width: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 6px; 
+    }
+    .url-row { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      background: #1e293b; 
+      padding: 6px 10px; 
+      border-radius: 6px; 
+      gap: 8px; 
+      font-size: 11px;
+    }
+    .url-row.local-row { background: #ffffff; border: 1px solid #cbd5e1; }
+    .url-label { color: #94a3b8; font-weight: 700; white-space: nowrap; }
+    .url-row.local-row .url-label { color: #475569; }
+    .url-link { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      direction: ltr; 
+      text-align: left;
+      flex: 1;
+    }
+    .url-link:hover { text-decoration: underline; color: #7dd3fc; }
+    .path-code { 
+      color: #0f172a; 
+      font-family: monospace; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      flex: 1;
+    }
+    .copy-pill { 
+      background: #334155; 
+      color: #f8fafc; 
+      border: none; 
+      padding: 3px 8px; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 10.5px; 
+      font-weight: 600; 
+      white-space: nowrap; 
+      transition: background 0.15s;
+    }
+    .url-row.local-row .copy-pill { background: #e2e8f0; color: #1e293b; }
+    .copy-pill:hover { background: var(--primary); color: #ffffff; }
     .card-content { display: flex; flex-direction: column; gap: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; }
     .card-num { font-family: monospace; font-size: 13px; font-weight: 700; color: var(--primary); }
-    .badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
-    .card-title { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .badge { 
+      font-size: 11px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+      text-transform: uppercase; 
+      background: #f1f5f9; 
+      color: #334155; 
+      border: 1px solid #cbd5e1; 
+    }
+    .card-title { font-size: 17.5px; font-weight: 800; color: var(--text-main); }
     .structures-box { display: flex; flex-wrap: wrap; gap: 6px; }
-    .struct-pill { background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-    .desc-en { font-size: 13.5px; color: #334155; line-height: 1.6; background: #f8fafc; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--primary); }
-    .desc-ar { font-size: 14px; color: #0f172a; line-height: 1.65; direction: rtl; text-align: right; background: #f0fdf4; padding: 12px 14px; border-radius: 8px; border-right: 3px solid #16a34a; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }
+    .struct-pill { 
+      background: #eff6ff; 
+      border: 1px solid #bfdbfe; 
+      color: #1d4ed8; 
+      font-size: 11.5px; 
+      font-weight: 600; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+    }
+    .desc-en { 
+      font-size: 13.5px; 
+      color: #334155; 
+      line-height: 1.6; 
+      background: #f8fafc; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-left: 3px solid var(--primary); 
+    }
+    .desc-ar { 
+      font-size: 14px; 
+      color: #0f172a; 
+      line-height: 1.65; 
+      direction: rtl; 
+      text-align: right; 
+      background: #f0fdf4; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-right: 3px solid #16a34a; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    .lightbox { 
+      display: none; 
+      position: fixed; 
+      inset: 0; 
+      background: rgba(0,0,0,0.85); 
+      z-index: 100; 
+      align-items: center; 
+      justify-content: center; 
+    }
     .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <div class="title-area">
-        <h1>📚 Clinoma 04 Gallbladder Stones And Biliary - Visual Atlas</h1>
-        <p>19 Authentic Medical Figures | Mode: Cloud Atlas (GitHub CDN Primary)</p>
+        <h1>☁️ Clinoma 04 Gallbladder Stones And Biliary - مستودع الصور السحابي</h1>
+        <p>19 Authentic Medical Figures | Source: <strong>GitHub Remote Repository (clinomaofficial/clinoma-images)</strong></p>
       </div>
-      <div class="controls" style="display:flex; gap:12px; align-items:center;">
+      <div class="header-right">
+        <span class="mode-pill mode-cloud">☁️ Remote Repository Mode</span>
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search by structure, title, disease, drug..." onkeyup="filterCards()">
+          <input type="text" id="searchInput" placeholder="Search figures, pathology, anatomy... (بحث)" oninput="filterCards()" />
         </div>
-        <div class="stats-badge" id="countBadge">Showing: 19 / 19</div>
       </div>
     </div>
   </header>
-  <main class="container">
+
+  <div class="container">
     <div class="cards-grid" id="cardsGrid">
-      
+
       <div class="card" data-search="gallbladder_03_promote_health_through_diet_and_exercise_-_webpath.jpg gross pathology of gallbladder with multiple cholesterol gallstones 04_gallbladder_stones_and_biliary gross pathology gallbladder mucosal surface multiple facet-shaped cholesterol gallstones bile-stained wall this gross specimen displays an opened gallbladder packed with numerous yellow-brown, faceted cholesterol gallstones. these stones typically form due to supersaturation of cholesterol in bile, leading to crystallization and accumulation, frequently resulting in symptomatic cholelithiasis or acute cholecystitis. خد بالك يا دكتورنا، العينة دي بتوريك المرارة مفتوحة وممليَّة بحصوات الكوليسترول الصفراوية المتعددة ذات الأوجه المختلفة. التكوين ده بينتج عن زيادة إفراز الكوليسترول في العصارة الصفراوية، وغالباً ما بيعمل مغص مراري متكرر ومضاعفات التهاب المرارة الحاد.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg" data-filename="gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg" alt="Gross Pathology of Gallbladder with Multiple Cholesterol Gallstones" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg';" />
-          <span class="img-meta-tag">gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg" alt="Gross Pathology of Gallbladder with Multiple Cholesterol Gallstones" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_03_Promote_Health_Through_Diet_and_Exercise_-_WebPath.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -71,10 +259,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة دي بتوريك المرارة مفتوحة وممليَّة بحصوات الكوليسترول الصفراوية المتعددة ذات الأوجه المختلفة. التكوين ده بينتج عن زيادة إفراز الكوليسترول في العصارة الصفراوية، وغالباً ما بيعمل مغص مراري متكرر ومضاعفات التهاب المرارة الحاد.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_06_cbd_stone_treatment_in_delhi_dr_piyush_ranjan.jpg anatomical schematic of cholelithiasis with biliary duct obstruction 04_gallbladder_stones_and_biliary schematic diagram gallbladder liver duodenum cystic duct common bile duct gallstones papilla schematic representation of cholelithiasis showing gallstones lodged within the gallbladder lumen, cystic duct, and common bile duct. biliary obstruction at these levels can precipitate complications such as biliary colic, acute cholecystitis, or choledocholithiasis. خد بالك يا دكتورنا، الحصوات المرارية ممكن تسد الـ cystic duct وتعمل acute cholecystitis، أو تنزل في الـ common bile duct وتعمل obstructive jaundice أو ascending cholangitis، لازم تفحص الـ murphy's sign كويس.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg" data-filename="gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg" alt="Anatomical Schematic of Cholelithiasis with Biliary Duct Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg';" />
-          <span class="img-meta-tag">gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg" alt="Anatomical Schematic of Cholelithiasis with Biliary Duct Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_06_CBD_Stone_Treatment_In_Delhi_Dr_Piyush_Ranjan.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -89,10 +289,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الحصوات المرارية ممكن تسد الـ cystic duct وتعمل acute cholecystitis، أو تنزل في الـ common bile duct وتعمل obstructive jaundice أو ascending cholangitis، لازم تفحص الـ Murphy's sign كويس.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_02_gallbladder_surgery_gallbladder_disease.jpg cholelithiasis and biliary duct obstruction schematic diagram 04_gallbladder_stones_and_biliary schematic diagram esophagus liver stomach cystic duct gallbladder gallstones common bile duct duodenum pancreas pancreatic duct schematic illustration demonstrating cholelithiasis (gallstones) lodged within the gallbladder lumen, cystic duct, and common bile duct, which can lead to biliary colic, acute cholecystitis, or obstructive jaundice. the anatomical relationships between the hepatobiliary tree, duodenum, and pancreas are clearly delineated. خد بالك يا دكتورنا، الحصوات المرارية ممكن تتزحلق وتسد الـ cystic duct وتعمل acute cholecystitis، أو تنزل في الـ common bile duct وتعمل obstructive jaundice أو acute pancreatitis. لازم دائماً تفحص الـ lfts والـ ultrasound كويس في الحالات دي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg" data-filename="gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg" alt="Cholelithiasis and Biliary Duct Obstruction Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg';" />
-          <span class="img-meta-tag">gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg" alt="Cholelithiasis and Biliary Duct Obstruction Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_02_Gallbladder_Surgery_Gallbladder_Disease.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -107,10 +319,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الحصوات المرارية ممكن تتزحلق وتسد الـ cystic duct وتعمل acute cholecystitis، أو تنزل في الـ common bile duct وتعمل obstructive jaundice أو acute pancreatitis. لازم دائماً تفحص الـ LFTs والـ ultrasound كويس في الحالات دي.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_09_gallbladder_flashcards_quizlet.jpg macroscopic morphological classification of human gallstones (cholelithiasis) 04_gallbladder_stones_and_biliary gross pathology black pigment stones brown pigment stones cholesterol stones faceted mixed gallstones stain-cut radial cross-section of gallstone gross pathological specimens demonstrating the distinct morphological types of human gallstones categorized by composition: radiolucent cholesterol stones (yellow/faceted), dark calcium bilirubinate black pigment stones (associated with hemolysis), and laminated brown pigment stones (associated with biliary infection and stasis). sectioned stones reveal internal radial and concentric architectural layers indicative of precipitation and crystal growth. خد بالك يا دكتورنا إن حصوات المرارة أنواع ومش شكل واحد؛ عندك حصوات الكوليسترول الصفراء المربعة والناعمة، وحصوات البجمنت السوداء الصغيرة المرتبطة بالأنيميا التكسيرية، والحصوات البنية المرتبطة بالالتهابات والعدوى البكتيرية، وكل نوع ليه ميكانيزم تكوين وكلينيكال إمبورتنس مختلفة تماماً.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg" data-filename="gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg" alt="Macroscopic Morphological Classification of Human Gallstones (Cholelithiasis)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg';" />
-          <span class="img-meta-tag">gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg" alt="Macroscopic Morphological Classification of Human Gallstones (Cholelithiasis)" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_09_Gallbladder_Flashcards_Quizlet.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -125,10 +349,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن حصوات المرارة أنواع ومش شكل واحد؛ عندك حصوات الكوليسترول الصفراء المربعة والناعمة، وحصوات البجمنت السوداء الصغيرة المرتبطة بالأنيميا التكسيرية، والحصوات البنية المرتبطة بالالتهابات والعدوى البكتيرية، وكل نوع ليه ميكانيزم تكوين وكلينيكال إمبورتنس مختلفة تماماً.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_12_video_biliary_colic_osmosis.jpg pathophysiology of biliary colic secondary to gallstone obstruction 04_gallbladder_stones_and_biliary schematic diagram gallbladder bile ducts gallstone duodenum pancreas schematic illustration demonstrating biliary colic caused by a gallstone lodging in the extrahepatic bile ducts, leading to increased intraluminal pressure and subsequent severe right upper quadrant abdominal pain. this acute obstruction impairs normal bile flow and triggers visceral pain fibers. خد بالك يا دكتورنا، المغص المراري (biliary colic) بيحصل لما حصوة تقفل القنوات المرارية وتعمل ضغط عالي، والوجع بيبقى شديد جداً وفوق في البطن من الناحية اليمين وغالباً بيسمع في الكتف.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg" data-filename="gallbladder_12_Video_Biliary_colic_Osmosis.jpg" alt="Pathophysiology of Biliary Colic Secondary to Gallstone Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_12_Video_Biliary_colic_Osmosis.jpg';" />
-          <span class="img-meta-tag">gallbladder_12_Video_Biliary_colic_Osmosis.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg" alt="Pathophysiology of Biliary Colic Secondary to Gallstone Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_12_Video_Biliary_colic_Osmosis.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -143,10 +379,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، المغص المراري (Biliary Colic) بيحصل لما حصوة تقفل القنوات المرارية وتعمل ضغط عالي، والوجع بيبقى شديد جداً وفوق في البطن من الناحية اليمين وغالباً بيسمع في الكتف.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_04_gone_but_not_forgotten_a_quarry_tale_of_the_gallbladder_pant.jpg schematic representation of cholelithiasis within the gallbladder and cystic duct obstruction 04_gallbladder_stones_and_biliary schematic diagram gallbladder gallstones bile cystic duct this schematic illustrates the formation of cholelithiasis (gallstones) within the gallbladder and a prominent stone obstructing the cystic duct. this mechanical obstruction prevents normal bile drainage, frequently precipitating acute cholecystitis, right upper quadrant abdominal pain, and potential biliary colic. خد بالك يا دكتورنا، الحصوات في المرارة لما تتحرك وتسد الـ cystic duct هتعمل biliary colic جامدة جداً وقد تقلب بـ acute cholecystitis. لازم نربط الـ ruq pain بالسونار عشان نلقط الحصوة دي بدري.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg" data-filename="gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg" alt="Schematic Representation of Cholelithiasis within the Gallbladder and Cystic Duct Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg';" />
-          <span class="img-meta-tag">gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg" alt="Schematic Representation of Cholelithiasis within the Gallbladder and Cystic Duct Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_04_GONE_BUT_NOT_FORGOTTEN_A_QUARRY_TALE_OF_THE_GALLBLADDER_Pant.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -161,10 +409,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الحصوات في المرارة لما تتحرك وتسد الـ Cystic duct هتعمل biliary colic جامدة جداً وقد تقلب بـ acute cholecystitis. لازم نربط الـ RUQ pain بالسونار عشان نلقط الحصوة دي بدري.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_13_patient_information_acute_cholecystitis_jama.jpg acute cholecystitis pathophysiology and gallstone obstruction diagram 04_gallbladder_stones_and_biliary schematic diagram liver gallbladder stomach small intestine cystic duct gallstone blocking cystic duct bile inflammation gallstones acute cholecystitis typically results from mechanical obstruction of the cystic duct by a gallstone, leading to increased intraluminal pressure, mucosal ischemia, and secondary chemical or bacterial inflammation. this pathological cascade manifests clinically as severe right upper quadrant abdominal pain, fever, and leukocytosis, often requiring urgent cholecystectomy. يا دكتورنا، الالتهاب الحاد في المرارة بيحصل غالباً بسبب حصوة قفلت القناة المرارة (cystic duct)، وده بيعمل احتقان في العصارة المرارية والتهاب في الجدار. العيان بيجي بوجع شديد في الربع的上ي الأيمن من البطن مع سخونية، وعلشان نتجنب المضاعفات زي الـ gangrene لازم نشخص بالسونار ونقرر التدخل الجراحي في الوقت المناسب.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg" data-filename="gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg" alt="Acute Cholecystitis Pathophysiology and Gallstone Obstruction Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg';" />
-          <span class="img-meta-tag">gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg" alt="Acute Cholecystitis Pathophysiology and Gallstone Obstruction Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_13_Patient_Information_Acute_Cholecystitis_JAMA.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -179,10 +439,22 @@
           <p class="desc-ar" dir="rtl">يا دكتورنا، الالتهاب الحاد في المرارة بيحصل غالباً بسبب حصوة قفلت القناة المرارة (Cystic duct)، وده بيعمل احتقان في العصارة المرارية والتهاب في الجدار. العيان بيجي بوجع شديد في الربع的上ي الأيمن من البطن مع سخونية، وعلشان نتجنب المضاعفات زي الـ gangrene لازم نشخص بالسونار ونقرر التدخل الجراحي في الوقت المناسب.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_10.jpg morphological variations of gallbladder stones and biliary sludge 04_gallbladder_stones_and_biliary gross pathology cholesterol gallstones pigment stones biliary sludge cross-section of pigmented stone gross pathology photographs demonstrating diverse gallstone compositions including solitary large cholesterol stones, multiple dark pigment stones, faceted mixed stones, and biliary sludge. the cross-section reveals concentric lamination and radial crystalline architecture typical of pigment and mixed gallstones. خد بالك يا دكتورنا إن أشكال الحصوات الصفراوية متنوعة جداً؛ فيه حصوات كوليسترول صفراوية كبيرة، وفيه حصوات صبغية سوداء صغيرة، وفيه طين صفراوي (biliary sludge) اللي بيعتبر نواة لتكون الحصوات المستقبلية.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg" data-filename="gallbladder_10.jpg" alt="Morphological Variations of Gallbladder Stones and Biliary Sludge" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_10.jpg';" />
-          <span class="img-meta-tag">gallbladder_10.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg" alt="Morphological Variations of Gallbladder Stones and Biliary Sludge" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_10.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -197,10 +469,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن أشكال الحصوات الصفراوية متنوعة جداً؛ فيه حصوات كوليسترول صفراوية كبيرة، وفيه حصوات صبغية سوداء صغيرة، وفيه طين صفراوي (Biliary Sludge) اللي بيعتبر نواة لتكون الحصوات المستقبلية.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_11_navigating_the_impossible_gallbladder_bailout_strategies_and.jpg pathophysiological mechanism of gallstone formation (cholelithiasis) 04_gallbladder_stones_and_biliary schematic diagram mixed micelles bile salt / bile acid multilaminar vesicles cholesterol monohydrate crystals microstone mucus epithelial cells gallbladder gallstone this schematic diagram illustrates the key sequential steps in cholesterol gallstone formation, starting with cholesterol supersaturation in bile, followed by accelerated crystal nucleation, and ending with gallbladder hypomotility leading to stone aggregation. understanding these mechanisms is crucial for managing biliary colic and cholelithiasis. خد بالك يا دكتورنا، تكون الحصوات المرارية بيعدي بثلاث مراحل أساسية: تشبع الصفراء بالكلسترول (cholesterol supersaturation)، ثم تكوين البلورات بسرعة (accelerated nucleation)، وآخرها كسل المرارة (hypomotility) اللي بيخلي البلورات تتجمع وتعمل الحصوة المشهورة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg" data-filename="gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg" alt="Pathophysiological Mechanism of Gallstone Formation (Cholelithiasis)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg';" />
-          <span class="img-meta-tag">gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg" alt="Pathophysiological Mechanism of Gallstone Formation (Cholelithiasis)" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_11_Navigating_the_Impossible_Gallbladder_Bailout_Strategies_and.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -215,10 +499,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، تكون الحصوات المرارية بيعدي بثلاث مراحل أساسية: تشبع الصفراء بالكلسترول (Cholesterol Supersaturation)، ثم تكوين البلورات بسرعة (Accelerated Nucleation)، وآخرها كسل المرارة (Hypomotility) اللي بيخلي البلورات تتجمع وتعمل الحصوة المشهورة.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_15_endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg biliary tract anatomy with choledocholithiasis and pancreatic duct obstruction 04_gallbladder_stones_and_biliary schematic diagram gallbladder gallstones common hepatic duct common bile duct common bile duct stone major duodenal papilla pancreatic duct duodenum this diagram illustrates the anatomy of the biliary tree and pancreas, depicting cholelithiasis within the gallbladder alongside a common bile duct stone (choledocholithiasis) obstructing both the biliary and pancreatic ducts at the major duodenal papilla. such obstructions can precipitate acute cholecystitis, ascending cholangitis, or gallstone pancreatitis. خد بالك يا دكتورنا إن الحصوة لما تنزل وتقفل الـ common bile duct مع الـ pancreatic duct عند الـ major duodenal papilla بتعمل بلاوي سودة؛ ممكن تدخل العيان في cholangitis أو gallstone pancreatitis حادة. دايماً دور على الـ bilirubin والـ liver enzymes مع الـ lipase في الحالات دي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg" data-filename="gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg" alt="Biliary Tract Anatomy with Choledocholithiasis and Pancreatic Duct Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg';" />
-          <span class="img-meta-tag">gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg" alt="Biliary Tract Anatomy with Choledocholithiasis and Pancreatic Duct Obstruction" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_15_Endoscopic_retrograde_cholangiopancreatography_or_cholecyste.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -233,10 +529,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن الحصوة لما تنزل وتقفل الـ Common bile duct مع الـ Pancreatic duct عند الـ Major duodenal papilla بتعمل بلاوي سودة؛ ممكن تدخل العيان في Cholangitis أو Gallstone pancreatitis حادة. دايماً دور على الـ Bilirubin والـ Liver enzymes مع الـ Lipase في الحالات دي.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_14_lecture_15_abdomen_ii_flashcards_quizlet.jpg murphy's sign clinical maneuver for acute cholecystitis 04_gallbladder_stones_and_biliary clinical photo right upper quadrant costal margin gallbladder liver demonstration of murphy's sign used to assess for acute cholecystitis. the patient halts inspiration due to localized tenderness when the inflamed gallbladder descends and contacts the examiner's palpating fingers beneath the right costal margin. فحص علامة مورفي لتشخيص التهاب المرارة الحاد؛ المريض بياخد نفس عميق وإحنا حاطين إيدنا تحت الضلع اليمين، ولو حس بوجع جامد ووقف نَفَس مره واحدة (inspiratory arrest)، يبقى الفحص إيجابي ودليل قوي على التهاب المرارة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg" data-filename="gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg" alt="Murphy's Sign Clinical Maneuver for Acute Cholecystitis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg';" />
-          <span class="img-meta-tag">gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg" alt="Murphy's Sign Clinical Maneuver for Acute Cholecystitis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_14_Lecture_15_Abdomen_II_Flashcards_Quizlet.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -251,10 +559,22 @@
           <p class="desc-ar" dir="rtl">فحص علامة مورفي لتشخيص التهاب المرارة الحاد؛ المريض بياخد نفس عميق وإحنا حاطين إيدنا تحت الضلع اليمين، ولو حس بوجع جامد ووقف نَفَس مره واحدة (Inspiratory arrest)، يبقى الفحص إيجابي ودليل قوي على التهاب المرارة.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_17_endoscopic_sphincterotomy_-_video_dailymotion.jpg endoscopic retrograde cholangiopancreatography (ercp) with sphincterotomy and stone extraction 04_gallbladder_stones_and_biliary schematic diagram scope in duodenum sphincterotome in ampulla of vater basket extracting common bile duct stone patent common bile duct created major papilla pancreas this diagram illustrates the sequential steps of endoscopic retrograde cholangiopancreatography (ercp) for choledocholithiasis. panel a shows cannulation and sphincterotomy using a sphincterotome; panel b demonstrates stone capture via an extraction basket; and panel c reveals a cleared, patent common bile duct. يا دكتورنا، الـ ercp ده هو الحل السحري لحصوات القناة المرارية المشتركة (choledocholithiasis). الأول بنعمل قطع للعضلة العاصرة (sphincterotomy) بالمنظار، وبعدين نطلع الحصوة بالـ basket عشان نفتح القناة المرارية ونسلكها تماماً.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg" data-filename="gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg" alt="Endoscopic Retrograde Cholangiopancreatography (ERCP) with Sphincterotomy and Stone Extraction" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg';" />
-          <span class="img-meta-tag">gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg" alt="Endoscopic Retrograde Cholangiopancreatography (ERCP) with Sphincterotomy and Stone Extraction" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_17_endoscopic_sphincterotomy_-_video_Dailymotion.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -269,10 +589,22 @@
           <p class="desc-ar" dir="rtl">يا دكتورنا، الـ ERCP ده هو الحل السحري لحصوات القناة المرارية المشتركة (Choledocholithiasis). الأول بنعمل قطع للعضلة العاصرة (Sphincterotomy) بالمنظار، وبعدين نطلع الحصوة بالـ Basket عشان نفتح القناة المرارية ونسلكها تماماً.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_07_parts_of_gallbladder_anatomy_at_sybil_thiel_blog.jpg gallbladder anatomy and cholelithiasis schematic diagram 04_gallbladder_stones_and_biliary schematic diagram gallbladder fundus gallbladder body gallbladder neck cystic duct right hepatic duct left hepatic duct common hepatic duct common bile duct gallstones this schematic diagram illustrates the normal extrahepatic biliary tree anatomy juxtaposed with pathological gallstones (cholelithiasis) located within the gallbladder lumen and obstructing the cystic and common bile ducts. cholelithiasis is a major etiology of symptomatic biliary colic, acute cholecystitis, and secondary choledocholithiasis. خد بالك يا دكتورنا، الرسمة دي بتوضح تشريح المرارة والقنوات المرارية وأماكن تجمع الحصوات (gallstones). الحصوة لما تقفل الـ cystic duct أو الـ common bile duct بتعمل مغص مراري شديد (biliary colic) وممكن تدخل العيان في acute cholecystitis أو يجي باصفرار (obstructive jaundice).">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg" data-filename="gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg" alt="Gallbladder Anatomy and Cholelithiasis Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg';" />
-          <span class="img-meta-tag">gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg" alt="Gallbladder Anatomy and Cholelithiasis Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_07_Parts_Of_Gallbladder_Anatomy_at_Sybil_Thiel_blog.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -287,10 +619,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الرسمة دي بتوضح تشريح المرارة والقنوات المرارية وأماكن تجمع الحصوات (Gallstones). الحصوة لما تقفل الـ Cystic duct أو الـ Common bile duct بتعمل مغص مراري شديد (Biliary colic) وممكن تدخل العيان في Acute cholecystitis أو يجي باصفرار (Obstructive jaundice).</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_18_nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg laparoscopic cholecystectomy schematic diagram showing gallbladder removal and biliary anatomy 04_gallbladder_stones_and_biliary schematic diagram gallbladder gallstones common bile duct stomach pancreas small intestine surgical instrument laparoscope schematic illustration of a laparoscopic cholecystectomy depicting surgical instrument access via ports and the anatomical relationship between the gallbladder, common bile duct, pancreas, and gastrointestinal tract. this procedure is the definitive treatment for symptomatic cholelithiasis, acute cholecystitis, and biliary colic. الرسم التوضيحي بيبين عملية استئصال المرارة بالمنظار (laparoscopic cholecystectomy) وإزاي الأدوات الجراحية بتدخل من خلال الفتحات الصغيرة عشان تفصل المرارة عن الكبد والقنوات المرارية. خد بالك يا دكتورنا، أهم نقطة في العملية دي هي تحديد الحيز التشريحي بدقة (calot's triangle) لتجنب إصابة القناة المرارية المشتركة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg" data-filename="gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg" alt="Laparoscopic Cholecystectomy Schematic Diagram Showing Gallbladder Removal and Biliary Anatomy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg';" />
-          <span class="img-meta-tag">gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg" alt="Laparoscopic Cholecystectomy Schematic Diagram Showing Gallbladder Removal and Biliary Anatomy" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_18_Nn_n_ung_v_tp_luyn_nh_th_no_sau_khi_m_ct_ti_mt.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -305,10 +649,22 @@
           <p class="desc-ar" dir="rtl">الرسم التوضيحي بيبين عملية استئصال المرارة بالمنظار (Laparoscopic Cholecystectomy) وإزاي الأدوات الجراحية بتدخل من خلال الفتحات الصغيرة عشان تفصل المرارة عن الكبد والقنوات المرارية. خد بالك يا دكتورنا، أهم نقطة في العملية دي هي تحديد الحيز التشريحي بدقة (Calot's triangle) لتجنب إصابة القناة المرارية المشتركة.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_08_gallbladder_full_of_stones_-_medizzy.jpg gallbladder gross pathology with multiple cholelithiasis (gallstones) 04_gallbladder_stones_and_biliary gross pathology gallbladder mucosa gallbladder lumen pigmented cholesterol gallstones this gross pathology specimen reveals a surgically resected gallbladder heavily packed with numerous faceted yellow-green pigment and cholesterol gallstones suspended in dark biliary sludge. chronic supersaturation of bile constituents and gallbladder stasis drive crystal nucleation and stone growth, predisposing to cholecystitis and biliary colic. يا دكتورنا، دي مرارة مفتوحة (gross specimen) مليانة حصوات متعددة بأحجام مختلفة (gallstones) وواضح جوة السائل الصفراوي الداكن. العيان ده غالباً كان بيشتكي من مغص مراري متكرر (biliary colic) وحصوات في المرارة، ولما اتعمل استئصال ظهرت بالمنظر الكלאسيكي ده.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg" data-filename="gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg" alt="Gallbladder Gross Pathology with Multiple Cholelithiasis (Gallstones)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg';" />
-          <span class="img-meta-tag">gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg" alt="Gallbladder Gross Pathology with Multiple Cholelithiasis (Gallstones)" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_08_Gallbladder_full_of_stones_-_MEDizzy.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -323,10 +679,22 @@
           <p class="desc-ar" dir="rtl">يا دكتورنا، دي مرارة مفتوحة (Gross specimen) مليانة حصوات متعددة بأحجام مختلفة (Gallstones) وواضح جوة السائل الصفراوي الداكن. العيان ده غالباً كان بيشتكي من مغص مراري متكرر (Biliary colic) وحصوات في المرارة، ولما اتعمل استئصال ظهرت بالمنظر الكלאسيكي ده.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_19_top_10_nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg endoscopic retrograde cholangiopancreatography (ercp) stone extraction with basket 04_gallbladder_stones_and_biliary schematic diagram common bile duct stone endoscope extraction basket pancreas duodenum schematic illustration demonstrating ercp procedure for the extraction of retained common bile duct stones post-cholecystectomy using a specialized wire basket. stones can be found in the common bile duct in up to 24% of patients years after cholecystectomy, necessitating prompt ercp for diagnosis and therapeutic stone extraction when symptomatic. خد بالك يا دكتورنا، العيانين اللي عاملين استئصال مرارة ممكن يحصلهم حصوات في القناة المرارية المشتركة بعد سنين، وهنا بيبان دور الـ ercp كأداة تشخيص وعلاج سحرية لسحب الحصوة بسلة الاستخراج.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg" data-filename="gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg" alt="Endoscopic Retrograde Cholangiopancreatography (ERCP) Stone Extraction with Basket" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg';" />
-          <span class="img-meta-tag">gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg" alt="Endoscopic Retrograde Cholangiopancreatography (ERCP) Stone Extraction with Basket" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_19_Top_10_Nguyn_nhn_gy_au_bng_thng_gp_nguy_him_nht_bn_cn_ch_-_t.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -341,10 +709,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العيانين اللي عاملين استئصال مرارة ممكن يحصلهم حصوات في القناة المرارية المشتركة بعد سنين، وهنا بيبان دور الـ ERCP كأداة تشخيص وعلاج سحرية لسحب الحصوة بسلة الاستخراج.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_01.jpg cholelithiasis and biliary duct obstruction schematic diagram 04_gallbladder_stones_and_biliary schematic diagram gallbladder gallstones cystic duct hepatic duct common bile duct liver schematic representation of cholelithiasis illustrating the formation of gallstones within the gallbladder lumen and their potential to migrate and obstruct the cystic duct or common bile duct. obstruction can precipitate acute cholecystitis, biliary colic, or secondary ascending cholangitis, necessitating hepatobiliary imaging and surgical evaluation. الحصوات المروية دي ممكن تقفل القناة المرارية (cystic duct) وتعمل مغص مروري حاد أو التهاب حاد في المرارة، ولو اتحركت ونزلت في القناة المرارية الرئيسية (common bile duct) هتعمل صفراء انسدادية. خد بالك لو العيان عنده وجع في الـ ruq وخصوصاً بعد أكلة دسمة، افتكر دايماً الـ ultrasound هو الفحص الأساسي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg" data-filename="gallbladder_01.jpg" alt="Cholelithiasis and Biliary Duct Obstruction Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_01.jpg';" />
-          <span class="img-meta-tag">gallbladder_01.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg" alt="Cholelithiasis and Biliary Duct Obstruction Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_01.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -359,10 +739,22 @@
           <p class="desc-ar" dir="rtl">الحصوات المروية دي ممكن تقفل القناة المرارية (Cystic duct) وتعمل مغص مروري حاد أو التهاب حاد في المرارة، ولو اتحركت ونزلت في القناة المرارية الرئيسية (Common bile duct) هتعمل صفراء انسدادية. خد بالك لو العيان عنده وجع في الـ RUQ وخصوصاً بعد أكلة دسمة، افتكر دايماً الـ Ultrasound هو الفحص الأساسي.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_05_gallbladder_full_of_stones_-_medizzy.jpg gallbladder gross pathology specimen filled with multiple faceted cholesterol gallstones 04_gallbladder_stones_and_biliary gross pathology gallbladder wall pigmented cholesterol gallstones biliary sludge mucosa gross pathology specimen of an opened gallbladder packed with numerous large, yellow-green faceted cholesterol gallstones suspended in dark bile and sludge. this visual presentation highlights cholelithiasis resulting from supersaturation of cholesterol in bile, predisposing to chronic cholecystitis and biliary obstruction. خد بالك يا دكتورنا، العينة دي بتوريك المرارة مفتوحة ومليانة حصوات كوليسترول صفراء وكبيرة مع سلاج بيلاري. الحصوات الفيسيتيد دي دايماً بتعمل تهيج وتليف في الجدار وممكن تسد البايل دكت وتدخل العيان في جوندس أو أكيوث تشوليسيستايتس.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg" data-filename="gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg" alt="Gallbladder Gross Pathology Specimen Filled with Multiple Faceted Cholesterol Gallstones" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg';" />
-          <span class="img-meta-tag">gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg" alt="Gallbladder Gross Pathology Specimen Filled with Multiple Faceted Cholesterol Gallstones" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_05_Gallbladder_full_of_stones_-_MEDizzy.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -377,10 +769,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة دي بتوريك المرارة مفتوحة ومليانة حصوات كوليسترول صفراء وكبيرة مع سلاج بيلاري. الحصوات الفيسيتيد دي دايماً بتعمل تهيج وتليف في الجدار وممكن تسد البايل دكت وتدخل العيان في جوندس أو أكيوث تشوليسيستايتس.</p>
         </div>
       </div>
+
       <div class="card" data-search="gallbladder_16_-_youtube.jpg comparative ultrasonography of normal gallbladder versus cholelithiasis with posterior acoustic shadowing 04_gallbladder_stones_and_biliary radiological imaging gallbladder lumen hyperechoic gallstone posterior acoustic shadowing ultrasonography provides a definitive comparison between a normal anechoic gallbladder lumen and a pathological state featuring a hyperechoic gallstone that exhibits characteristic posterior acoustic shadowing. this pathognomonic acoustic shadow results from the high attenuation and reflection of ultrasound waves by the calcified biliary calculus. لما تبص بالسونار على المرارة، الطبيعي إن التجويف يبقى أسود نقي (anechoic) عشان مليان بايل. أول ما تشوف جسم أبيض بيلمع (hyperechoic) جواه ظلال سوداء تحته (posterior acoustic shadowing)، اعرف فوراً إن دي حصوة في المرارة (gallstone) قفلت الطريق على الموجات الصوتية.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg" data-filename="gallbladder_16_-_YouTube.jpg" alt="Comparative Ultrasonography of Normal Gallbladder versus Cholelithiasis with Posterior Acoustic Shadowing" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./gallbladder_16_-_YouTube.jpg';" />
-          <span class="img-meta-tag">gallbladder_16_-_YouTube.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg" alt="Comparative Ultrasonography of Normal Gallbladder versus Cholelithiasis with Posterior Acoustic Shadowing" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/04_gallbladder_stones_and_biliary/gallbladder_16_-_YouTube.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -396,33 +800,46 @@
         </div>
       </div>
     </div>
-  </main>
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="Zoomed view">
   </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged figure" />
+  </div>
+
   <script>
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const prev = btn.innerText;
+        btn.innerText = 'تم النسخ! ✓';
+        btn.style.background = '#16a34a';
+        btn.style.color = '#ffffff';
+        setTimeout(() => {
+          btn.innerText = prev;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(c => {
+        const text = c.getAttribute('data-search') || '';
+        c.style.display = text.includes(q) ? 'grid' : 'none';
+      });
+    }
     function openLightbox(src) {
-      document.getElementById('lightboxImg').src = src;
-      document.getElementById('lightbox').style.display = 'flex';
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      lb.style.display = 'flex';
     }
     function closeLightbox() {
       document.getElementById('lightbox').style.display = 'none';
     }
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-      let visible = 0;
-      cards.forEach(card => {
-        const search = card.getAttribute('data-search') || '';
-        if (!query || search.includes(query)) {
-          card.style.display = 'grid';
-          visible++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-      document.getElementById('countBadge').innerText = `Showing: ${visible} / ${cards.length}`;
-    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   </script>
 </body>
 </html>

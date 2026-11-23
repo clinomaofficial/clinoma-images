@@ -3,60 +3,248 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinoma Cirrhosis And Portal Hypertension Visual Atlas | 42 Images (Cloud Atlas (GitHub CDN Primary))</title>
+  <title>Clinoma Cirrhosis And Portal Hypertension - Remote Repository Atlas (مستودع كلينوما)</title>
   <style>
-    :root { --primary: #2563eb; --accent: #dc2626; --bg: #f8fafc; --card-bg: #ffffff; --text-main: #0f172a; --text-muted: #64748b; --border: #e2e8f0; }
+
+    :root { 
+      --primary: #2563eb; 
+      --primary-dark: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text-main: #0f172a; 
+      --text-muted: #64748b; 
+      --border: #e2e8f0; 
+      --code-bg: #f1f5f9;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; padding-bottom: 80px; }
-    header { background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 16px 24px; }
-    .header-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
-    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); }
-    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
-    .search-box input { width: 340px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; outline: none; background: #f1f5f9; }
-    .search-box input:focus { background: white; border-color: var(--primary); }
-    .stats-badge { background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 9999px; }
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 20px; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      background: var(--bg); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      padding-bottom: 80px; 
+    }
+    header { 
+      background: #ffffff; 
+      border-bottom: 1px solid var(--border); 
+      position: sticky; 
+      top: 0; 
+      z-index: 50; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+      padding: 16px 24px; 
+    }
+    .header-inner { 
+      max-width: 1440px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      align-items: center; 
+      gap: 16px; 
+    }
+    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header-right { display: flex; align-items: center; gap: 14px; }
+    .search-box input { 
+      width: 320px; 
+      padding: 10px 16px; 
+      border-radius: 10px; 
+      border: 1px solid var(--border); 
+      font-size: 13.5px; 
+      outline: none; 
+      background: #f1f5f9; 
+      transition: all 0.2s;
+    }
+    .search-box input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .mode-pill { 
+      font-size: 12px; 
+      font-weight: 700; 
+      padding: 6px 14px; 
+      border-radius: 9999px; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+    }
+    .mode-cloud { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .mode-local { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .container { max-width: 1440px; margin: 24px auto; padding: 0 20px; }
     .cards-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: grid; grid-template-columns: 360px 1fr; gap: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
-    @media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
-    .img-box { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .img-box img { max-width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; cursor: zoom-in; }
-    .img-meta-tag { font-family: monospace; font-size: 11px; color: var(--text-muted); margin-top: 10px; text-align: center; }
+    .card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--border); 
+      border-radius: 16px; 
+      padding: 24px; 
+      display: grid; 
+      grid-template-columns: 380px 1fr; 
+      gap: 28px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02); 
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+    @media (max-width: 950px) { .card { grid-template-columns: 1fr; } }
+    .img-box { 
+      background: #0f172a; 
+      border: 1px solid var(--border); 
+      border-radius: 12px; 
+      padding: 12px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 280px;
+    }
+    .img-box img { 
+      max-width: 100%; 
+      max-height: 320px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      cursor: zoom-in; 
+    }
+    .url-badge-box { 
+      margin-top: 12px; 
+      width: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 6px; 
+    }
+    .url-row { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      background: #1e293b; 
+      padding: 6px 10px; 
+      border-radius: 6px; 
+      gap: 8px; 
+      font-size: 11px;
+    }
+    .url-row.local-row { background: #ffffff; border: 1px solid #cbd5e1; }
+    .url-label { color: #94a3b8; font-weight: 700; white-space: nowrap; }
+    .url-row.local-row .url-label { color: #475569; }
+    .url-link { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      direction: ltr; 
+      text-align: left;
+      flex: 1;
+    }
+    .url-link:hover { text-decoration: underline; color: #7dd3fc; }
+    .path-code { 
+      color: #0f172a; 
+      font-family: monospace; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      flex: 1;
+    }
+    .copy-pill { 
+      background: #334155; 
+      color: #f8fafc; 
+      border: none; 
+      padding: 3px 8px; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 10.5px; 
+      font-weight: 600; 
+      white-space: nowrap; 
+      transition: background 0.15s;
+    }
+    .url-row.local-row .copy-pill { background: #e2e8f0; color: #1e293b; }
+    .copy-pill:hover { background: var(--primary); color: #ffffff; }
     .card-content { display: flex; flex-direction: column; gap: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; }
     .card-num { font-family: monospace; font-size: 13px; font-weight: 700; color: var(--primary); }
-    .badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
-    .card-title { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .badge { 
+      font-size: 11px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+      text-transform: uppercase; 
+      background: #f1f5f9; 
+      color: #334155; 
+      border: 1px solid #cbd5e1; 
+    }
+    .card-title { font-size: 17.5px; font-weight: 800; color: var(--text-main); }
     .structures-box { display: flex; flex-wrap: wrap; gap: 6px; }
-    .struct-pill { background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-    .desc-en { font-size: 13.5px; color: #334155; line-height: 1.6; background: #f8fafc; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--primary); }
-    .desc-ar { font-size: 14px; color: #0f172a; line-height: 1.65; direction: rtl; text-align: right; background: #f0fdf4; padding: 12px 14px; border-radius: 8px; border-right: 3px solid #16a34a; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }
+    .struct-pill { 
+      background: #eff6ff; 
+      border: 1px solid #bfdbfe; 
+      color: #1d4ed8; 
+      font-size: 11.5px; 
+      font-weight: 600; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+    }
+    .desc-en { 
+      font-size: 13.5px; 
+      color: #334155; 
+      line-height: 1.6; 
+      background: #f8fafc; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-left: 3px solid var(--primary); 
+    }
+    .desc-ar { 
+      font-size: 14px; 
+      color: #0f172a; 
+      line-height: 1.65; 
+      direction: rtl; 
+      text-align: right; 
+      background: #f0fdf4; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-right: 3px solid #16a34a; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    .lightbox { 
+      display: none; 
+      position: fixed; 
+      inset: 0; 
+      background: rgba(0,0,0,0.85); 
+      z-index: 100; 
+      align-items: center; 
+      justify-content: center; 
+    }
     .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <div class="title-area">
-        <h1>📚 Clinoma Cirrhosis And Portal Hypertension - Visual Atlas</h1>
-        <p>42 Authentic Medical Figures | Mode: Cloud Atlas (GitHub CDN Primary)</p>
+        <h1>☁️ Clinoma Cirrhosis And Portal Hypertension - مستودع الصور السحابي</h1>
+        <p>42 Authentic Medical Figures | Source: <strong>GitHub Remote Repository (clinomaofficial/clinoma-images)</strong></p>
       </div>
-      <div class="controls" style="display:flex; gap:12px; align-items:center;">
+      <div class="header-right">
+        <span class="mode-pill mode-cloud">☁️ Remote Repository Mode</span>
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search by structure, title, disease, drug..." onkeyup="filterCards()">
+          <input type="text" id="searchInput" placeholder="Search figures, pathology, anatomy... (بحث)" oninput="filterCards()" />
         </div>
-        <div class="stats-badge" id="countBadge">Showing: 42 / 42</div>
       </div>
     </div>
   </header>
-  <main class="container">
+
+  <div class="container">
     <div class="cards-grid" id="cardsGrid">
-      
+
       <div class="card" data-search="cirrhosis_budd_chiari_caudate_lobe_ct.jpg abdominal ct scan showing multiple hypodense hepatic metastases cirrhosis_and_portal_hypertension radiological imaging liver hepatic metastases aorta spleen vertebra contrast-enhanced axial abdominal ct scan reveals multiple well-defined hypodense lesions disseminated throughout both hepatic lobes, highly characteristic of metastatic liver disease. identifying these secondary focal liver lesions is critical for staging gastrointestinal malignancies and differentiating malignant nodules from benign pseudolesions or cirrhosis-related nodules. يا دكتورنا، الأشعة المقطعية بالصبغة دي بتوضح بوضوح بؤر ثانوية (metastases) متعددة ومنتشرة في فصوص الكبد، واللي بتبان ككتل منخفضة الكثافة. التفرقة بين البؤر دي وتغيرات التليف الكبدي أو الأورام الأولية زي الهيباتوما (hcc) أساسية جداً عشان نحدد مرحلة الورم والخطة العلاجية الصح للمريض.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg" data-filename="cirrhosis_budd_chiari_caudate_lobe_ct.jpg" alt="Abdominal CT Scan Showing Multiple Hypodense Hepatic Metastases" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_budd_chiari_caudate_lobe_ct.jpg';" />
-          <span class="img-meta-tag">cirrhosis_budd_chiari_caudate_lobe_ct.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg" alt="Abdominal CT Scan Showing Multiple Hypodense Hepatic Metastases" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_lobe_ct.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -71,10 +259,22 @@
           <p class="desc-ar" dir="rtl">يا دكتورنا، الأشعة المقطعية بالصبغة دي بتوضح بوضوح بؤر ثانوية (Metastases) متعددة ومنتشرة في فصوص الكبد، واللي بتبان ككتل منخفضة الكثافة. التفرقة بين البؤر دي وتغيرات التليف الكبدي أو الأورام الأولية زي الهيباتوما (HCC) أساسية جداً عشان نحدد مرحلة الورم والخطة العلاجية الصح للمريض.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_asterixis_flapping_tremor.jpg asterixis flapping tremor in hepatic encephalopathy cirrhosis_and_portal_hypertension clinical photo extended wrists with dorsiflexion bilateral hands forearms asterixis, commonly known as 'flapping tremor,' is characterized by brief, irregular lapses of posture when maintaining voluntary wrist extension. it is a classic clinical sign of metabolic encephalopathy most frequently associated with severe liver failure and portosystemic shunting due to hyperammonemia. خد بالك يا دكتورنا، الـ asterixis دي علامة مميزة جداً لاعتلال الدماغ الكبدي (hepatic encephalopathy) نتيجة ارتفاع نسبة الأمونيا في الدم، وبتظهر لما العيان يمد إيديه لبره ويحصل سقوط مفاجئ في كف الإيد يشبه الرفرفة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg" data-filename="cirrhosis_asterixis_flapping_tremor.jpg" alt="Asterixis Flapping Tremor in Hepatic Encephalopathy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_asterixis_flapping_tremor.jpg';" />
-          <span class="img-meta-tag">cirrhosis_asterixis_flapping_tremor.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg" alt="Asterixis Flapping Tremor in Hepatic Encephalopathy" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_asterixis_flapping_tremor.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -89,10 +289,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الـ Asterixis دي علامة مميزة جداً لاعتلال الدماغ الكبدي (Hepatic Encephalopathy) نتيجة ارتفاع نسبة الأمونيا في الدم، وبتظهر لما العيان يمد إيديه لبره ويحصل سقوط مفاجئ في كف الإيد يشبه الرفرفة.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_budd_chiari_pathophysiology.jpg abdominal ct scan showing portal hypertension features and collateral circulation cirrhosis_and_portal_hypertension radiological imaging ascites mesenteric venous engorgement bowel wall thickening retroperitoneal structures contrast-enhanced axial abdominal ct scan demonstrating imaging findings associated with portal hypertension and chronic liver disease, including ascites, bowel congestion, and prominent collateral vascular pathways. خد بالك يا دكتورنا، الأشعة هنا موضحة علامات البورتال هايبرتشن ووجود استسقاء وأوعية دموية متسعة، ودي علامات أساسية في تشخيص مضاعفات تليف الكبد.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg" data-filename="cirrhosis_budd_chiari_pathophysiology.jpg" alt="Abdominal CT Scan Showing Portal Hypertension Features and Collateral Circulation" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_budd_chiari_pathophysiology.jpg';" />
-          <span class="img-meta-tag">cirrhosis_budd_chiari_pathophysiology.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg" alt="Abdominal CT Scan Showing Portal Hypertension Features and Collateral Circulation" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_pathophysiology.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -107,10 +319,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الأشعة هنا موضحة علامات البورتال هايبرتشن ووجود استسقاء وأوعية دموية متسعة، ودي علامات أساسية في تشخيص مضاعفات تليف الكبد.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_ascites_paracentesis_fluid.jpg caput medusae and prominent superficial abdominal veins in portal hypertension cirrhosis_and_portal_hypertension clinical photo anterior abdominal wall engorged periumbilical veins caput medusae umbilicus this historical medical illustration demonstrates prominent, tortuous subcutaneous abdominal wall veins radiating from the umbilicus, classically known as caput medusae. this physical sign is a hallmark of severe portal hypertension, typically resulting from liver cirrhosis, which forces blood flow away from the portal system through portosystemic collateral channels. خد بالك يا دكتورنا، الرسمة دي بتوضح كابوت ميدوزا (caput medusae) الشهير اللي بيكون ناتج عن ارتفاع ضغط الوريد البابى (portal hypertension) بسبب تليف الكبد. الورم اللي في البطن مع الأوردة الماركة دي بيحصل لما الدم يلاقي مسارات جانبية للهرب من الكبد المسدود.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg" data-filename="cirrhosis_ascites_paracentesis_fluid.jpg" alt="Caput Medusae and Prominent Superficial Abdominal Veins in Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_ascites_paracentesis_fluid.jpg';" />
-          <span class="img-meta-tag">cirrhosis_ascites_paracentesis_fluid.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg" alt="Caput Medusae and Prominent Superficial Abdominal Veins in Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_ascites_paracentesis_fluid.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -125,10 +349,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الرسمة دي بتوضح كابوت ميدوزا (Caput Medusae) الشهير اللي بيكون ناتج عن ارتفاع ضغط الوريد البابى (Portal Hypertension) بسبب تليف الكبد. الورم اللي في البطن مع الأوردة الماركة دي بيحصل لما الدم يلاقي مسارات جانبية للهرب من الكبد المسدود.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_acute_pvt_ct_scan.jpg classification of portal hypertension by site of obstruction (pre-sinusoidal, sinusoidal, and post-sinusoidal) cirrhosis_and_portal_hypertension schematic diagram main portal vein (mpv) right portal vein (rpv) left portal vein (lpv) small portal veins portal triad sinusoids central vein small hepatic veins right hepatic vein (rhv) middle hepatic vein (mhv) left hepatic vein (lhv) inferior vena cava (ivc) this diagram illustrates the anatomical classification of portal hypertension based on the site of vascular resistance relative to the hepatic sinusoid: pre-sinusoidal (e.g., portal vein thrombosis), sinusoidal (e.g., cirrhosis), and post-sinusoidal (e.g., budd-chiari syndrome or cardiac failure). understanding these levels helps localize the etiology of portal hypertension and guides appropriate diagnostic and therapeutic interventions. خد بالك يا دكتورنا إن تصسنيف أسباب ضغط الدم البوابي (portal hypertension) بيعتمد أساساً على مكان الانسداد: هل هو قبل الجيب الكبدي (pre-sinusoidal) زي جلطة الوريد البوابي، ولا جواه (sinusoidal) زي التليف الكبدي المشهور، ولا بعده (post-sinusoidal) زي متلازمة بود-كياري أو هبوط القلب الأيمن. الفهم ده بيفيدنا جداً في التشخيص وتحديد العلاج المناسب للمريض.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg" data-filename="cirrhosis_acute_pvt_ct_scan.jpg" alt="Classification of Portal Hypertension by Site of Obstruction (Pre-sinusoidal, Sinusoidal, and Post-sinusoidal)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_acute_pvt_ct_scan.jpg';" />
-          <span class="img-meta-tag">cirrhosis_acute_pvt_ct_scan.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg" alt="Classification of Portal Hypertension by Site of Obstruction (Pre-sinusoidal, Sinusoidal, and Post-sinusoidal)" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_acute_pvt_ct_scan.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -143,10 +379,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن تصسنيف أسباب ضغط الدم البوابي (Portal Hypertension) بيعتمد أساساً على مكان الانسداد: هل هو قبل الجيب الكبدي (Pre-sinusoidal) زي جلطة الوريد البوابي، ولا جواه (Sinusoidal) زي التليف الكبدي المشهور، ولا بعده (Post-sinusoidal) زي متلازمة بود-كياري أو هبوط القلب الأيمن. الفهم ده بيفيدنا جداً في التشخيص وتحديد العلاج المناسب للمريض.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_caput_medusae_clinical.jpg caput medusae associated with severe portal hypertension and cirrhosis cirrhosis_and_portal_hypertension clinical photo anterior abdominal wall veins umbilicus recanalized umbilical vein paraumbilical varices this clinical photograph demonstrates caput medusae, characterized by prominent, engorged subcutaneous abdominal wall veins radiating from the umbilicus. this sign results from portal hypertension causing the recanalization of the umbilical vein and portosystemic shunting between the portal system and systemic epigastric veins in patients with advanced liver cirrhosis. خد بالك يا دكتورنا، المنظر ده بيسموه 'رأس ميدوسا' (caput medusae)، وبيظهر نتيجة ارتفاع ضغط الوريد البابي (portal hypertension) اللي بيفتح الوريد السري المقفل من زمان (recanalized umbilical vein). العلامة دي دليل قاطع على تليف الكبد المتقدم ووجود تحويلات دموية بين الدورة البابية وجدار البطن الأمامي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg" data-filename="cirrhosis_caput_medusae_clinical.jpg" alt="Caput Medusae Associated with Severe Portal Hypertension and Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_caput_medusae_clinical.jpg';" />
-          <span class="img-meta-tag">cirrhosis_caput_medusae_clinical.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg" alt="Caput Medusae Associated with Severe Portal Hypertension and Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_clinical.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -161,10 +409,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، المنظر ده بيسموه 'رأس ميدوسا' (Caput Medusae)، وبيظهر نتيجة ارتفاع ضغط الوريد البابي (Portal Hypertension) اللي بيفتح الوريد السري المقفل من زمان (Recanalized Umbilical Vein). العلامة دي دليل قاطع على تليف الكبد المتقدم ووجود تحويلات دموية بين الدورة البابية وجدار البطن الأمامي.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_bone_marrow_transplant_stem_cell.jpg allogeneic bone marrow stem cell transplant schematic cirrhosis_and_portal_hypertension schematic diagram medullary cavity endosteum red marrow containing stem cells this schematic diagram illustrates the process of an allogeneic bone marrow transplant, highlighting the injection of donor red marrow containing hematopoietic stem cells into the recipient's medullary cavity. stem cell transplantation is a key therapeutic intervention in hematological disorders and advanced end-stage conditions requiring marrow reconstitution. خد بالك يا دكتورنا، عملية زرع نخاع العظم (allogeneic transplant) بتعتمد على حقن خلايا جذعية سليمة جوه التجويف النخاعي للمريض عشان تعوض الخلايا التالفة. النقطة الجوهرية هنا هي التأكد من توافق الأنسجة عشان نتجنب تفاعل المضيف ضد الطعم (gvhd).">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg" data-filename="cirrhosis_bone_marrow_transplant_stem_cell.jpg" alt="Allogeneic Bone Marrow Stem Cell Transplant Schematic" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_bone_marrow_transplant_stem_cell.jpg';" />
-          <span class="img-meta-tag">cirrhosis_bone_marrow_transplant_stem_cell.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg" alt="Allogeneic Bone Marrow Stem Cell Transplant Schematic" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_bone_marrow_transplant_stem_cell.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -179,10 +439,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، عملية زرع نخاع العظم (Allogeneic Transplant) بتعتمد على حقن خلايا جذعية سليمة جوه التجويف النخاعي للمريض عشان تعوض الخلايا التالفة. النقطة الجوهرية هنا هي التأكد من توافق الأنسجة عشان نتجنب تفاعل المضيف ضد الطعم (GVHD).</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_caput_medusae_abdomen.jpg severe ascites and hepatosplenomegaly in pediatric cirrhosis cirrhosis_and_portal_hypertension clinical photo abdomen umbilicus lower extremities face clinical photograph of a young child presenting with gross abdominal distension secondary to massive ascites, characteristic of advanced chronic liver disease and portal hypertension. the fluid accumulation results from sinusoidal hypertension, hypoalbuminemia, and renal sodium retention. recognition of these clinical signs in a pediatric patient warrants immediate evaluation for congenital hepatic fibrosis, biliary atresia, or metabolic disorders. خد بالك يا دكتورنا، الطفل ده ظاهر عليه انتفاخ بطن شديد بسبب 'اسستس' (ascites) بكميات مرعبة نتيجة تليف كبدي وارتفاع ضغط الباب الوريدي (portal hypertension). الحالات دي في الأطفال غالباً بتكون بسبب أسباب خلقية أو أيضية لازمة للتشخيص السريع للإنقاذ.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg" data-filename="cirrhosis_caput_medusae_abdomen.jpg" alt="Severe Ascites and Hepatosplenomegaly in Pediatric Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_caput_medusae_abdomen.jpg';" />
-          <span class="img-meta-tag">cirrhosis_caput_medusae_abdomen.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg" alt="Severe Ascites and Hepatosplenomegaly in Pediatric Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_caput_medusae_abdomen.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -197,10 +469,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الطفل ده ظاهر عليه انتفاخ بطن شديد بسبب 'اسستس' (Ascites) بكميات مرعبة نتيجة تليف كبدي وارتفاع ضغط الباب الوريدي (Portal Hypertension). الحالات دي في الأطفال غالباً بتكون بسبب أسباب خلقية أو أيضية لازمة للتشخيص السريع للإنقاذ.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_cirrhosis_stellate_cells.jpg alcoholic steatohepatitis with mallory-denk bodies and ballooning degeneration cirrhosis_and_portal_hypertension histological micrograph hepatocytes with macrovesicular steatosis ballooned hepatocytes mallory-denk hyaline bodies neutrophilic lobular infiltration high-power histological view of the liver showing characteristic features of alcoholic steatohepatitis (ash), including hepatocyte ballooning, mallory-denk bodies (eosinophilic intracellular inclusions), and prominent steatosis with surrounding inflammatory infiltrate. these pathological changes precede the development of extensive fibrosis and eventual micronodular cirrhosis. خد بالك يا دكتورنا، الصورة دي بتوريك تفاصيل الـ alcoholic steatohepatitis بوضوح، زي الـ ballooning degeneration ونتف الـ mallory-denk bodies الحمراء جوه السيتوبلازم، ومعاهم الـ steatosis وinfiltration بالنيوتروفيلز.. العلامات دي هي البوابة الملكية لتليف الكبد والـ cirrhosis.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg" data-filename="cirrhosis_cirrhosis_stellate_cells.jpg" alt="Alcoholic Steatohepatitis with Mallory-Denk Bodies and Ballooning Degeneration" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_cirrhosis_stellate_cells.jpg';" />
-          <span class="img-meta-tag">cirrhosis_cirrhosis_stellate_cells.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg" alt="Alcoholic Steatohepatitis with Mallory-Denk Bodies and Ballooning Degeneration" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_stellate_cells.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -215,10 +499,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الصورة دي بتوريك تفاصيل الـ Alcoholic Steatohepatitis بوضوح، زي الـ Ballooning degeneration ونتف الـ Mallory-Denk bodies الحمراء جوه السيتوبلازم، ومعاهم الـ Steatosis وinfiltration بالنيوتروفيلز.. العلامات دي هي البوابة الملكية لتليف الكبد والـ Cirrhosis.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_budd_chiari_caudate_ct.jpg portal cavernoma with porto-systemic and portoportal collaterals on ultrasound cirrhosis_and_portal_hypertension radiological imaging portal cavernoma porto-systemic collaterals portoportal collaterals comparative gray-scale and color doppler ultrasound images demonstrating a portal cavernoma, characterized by multiple tortuous collateral channels replacing the thrombosed main portal vein. color doppler confirms hepatopedal and hepatofugal flow within these vascular spaces, representing a classic adaptation to chronic extrahepatic portal venous obstruction. خد بالك يا دكتورنا، المنظر ده بيوريك الـ portal cavernoma بوضوح في الـ gray-scale والـ color doppler؛ عبارة عن أوعية دموية متعرجة كتيرة مكان الوريد البابي المتقفل (thrombosis)، ودي بتمثل collaterals عشان تعوض الدم اللي مش واصل للكبد.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg" data-filename="cirrhosis_budd_chiari_caudate_ct.jpg" alt="Portal Cavernoma with Porto-systemic and Portoportal Collaterals on Ultrasound" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_budd_chiari_caudate_ct.jpg';" />
-          <span class="img-meta-tag">cirrhosis_budd_chiari_caudate_ct.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg" alt="Portal Cavernoma with Porto-systemic and Portoportal Collaterals on Ultrasound" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_budd_chiari_caudate_ct.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -233,10 +529,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، المنظر ده بيوريك الـ Portal Cavernoma بوضوح في الـ Gray-scale والـ Color Doppler؛ عبارة عن أوعية دموية متعرجة كتيرة مكان الوريد البابي المتقفل (Thrombosis)، ودي بتمثل Collaterals عشان تعوض الدم اللي مش واصل للكبد.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_dupuytren_contracture_clinical.jpg dupuytren's contracture and palmar fascia thickening in chronic liver disease cirrhosis_and_portal_hypertension clinical photo palmar aponeurosis flexor tendons metacarpophalangeal joint little finger contracture dupuytren's disease involves fibrosis and thickening of the palmar fascia, leading to flexion contractures of the fingers. it is frequently observed alongside other musculoskeletal and cutaneous manifestations of chronic liver disease, such as cirrhosis. خد بالك يا دكتورنا، تليف كف اليد (dupuytren's contracture) وتقلص الأوتار ده ممكن نلاقيه في مرضى تليف الكبد المزمن بجانب علامات تانية زي احمرار الكفوف؛ الفحص الدقيق للإيدين بيفتح عينك على أمراض جهازية خفية.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg" data-filename="cirrhosis_dupuytren_contracture_clinical.jpg" alt="Dupuytren's Contracture and Palmar Fascia Thickening in Chronic Liver Disease" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_dupuytren_contracture_clinical.jpg';" />
-          <span class="img-meta-tag">cirrhosis_dupuytren_contracture_clinical.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg" alt="Dupuytren's Contracture and Palmar Fascia Thickening in Chronic Liver Disease" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_dupuytren_contracture_clinical.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -251,10 +559,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، تليف كف اليد (Dupuytren's contracture) وتقلص الأوتار ده ممكن نلاقيه في مرضى تليف الكبد المزمن بجانب علامات تانية زي احمرار الكفوف؛ الفحص الدقيق للإيدين بيفتح عينك على أمراض جهازية خفية.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_cirrhosis_ultrasound_nodular.jpg abdominal ultrasound showing hepatic mass / hepatocellular carcinoma in cirrhosis cirrhosis_and_portal_hypertension radiological imaging liver parenchyma focal hepatic mass measurement calipers abdominal ultrasound revealing a well-defined focal hyperechoic hepatic mass within a cirrhotic liver, measured with calibrated cursors showing dimensions of 5.80 cm by 4.43 cm. such findings in the setting of chronic liver disease raise high suspicion for hepatocellular carcinoma (hcc), necessitating multiphasic cross-sectional imaging or biopsy confirmation. خد بالك يا دكتورنا، السونار هنا مبين كتلة بؤرية في الكبد مع علامات تليف واضحة، والمقاسات بالمسطرة محددة حجم الورم (حوالي 5.8 في 4.4 سم). في مريض عنده تليف كبدي، أي كتلة جديدة لازم تشككنا فوراً في hepatocellular carcinoma (hcc) وتخلـّينا نعمل أشعة مقطعية بالصبغة أو رنين مغناطيسي للتأكيد.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg" data-filename="cirrhosis_cirrhosis_ultrasound_nodular.jpg" alt="Abdominal Ultrasound Showing Hepatic Mass / Hepatocellular Carcinoma in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_cirrhosis_ultrasound_nodular.jpg';" />
-          <span class="img-meta-tag">cirrhosis_cirrhosis_ultrasound_nodular.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg" alt="Abdominal Ultrasound Showing Hepatic Mass / Hepatocellular Carcinoma in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -269,10 +589,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، السونار هنا مبين كتلة بؤرية في الكبد مع علامات تليف واضحة، والمقاسات بالمسطرة محددة حجم الورم (حوالي 5.8 في 4.4 سم). في مريض عنده تليف كبدي، أي كتلة جديدة لازم تشككنا فوراً في Hepatocellular Carcinoma (HCC) وتخلـّينا نعمل أشعة مقطعية بالصبغة أو رنين مغناطيسي للتأكيد.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_fibroscan_probe_vcte.jpg transient elastography (fibroscan) examination for liver fibrosis assessment cirrhosis_and_portal_hypertension clinical photo fibroscan device screen showing cap and stiffness measurements ultrasound probe patient's right upper quadrant / liver intercostal space physician examiner transient elastography (fibroscan) is a non-invasive diagnostic modality utilized to quantify liver stiffness and steatosis (controlled attenuation parameter, cap). it serves as an essential tool in chronic liver disease staging, allowing for the serial evaluation of fibrosis progression and screening for cirrhosis and portal hypertension. فحص الفيبروسكان بيعتمد على قياس مرونة الكبد (liver stiffness) ودرجة التدهن (cap)، وهو وسيلة غير جراحية ممتازة لتقييم مراحل التليف الكبدي ومتابعة مرضى تليف الكبد وارتفاع ضغط الباب الكبدي بدقة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg" data-filename="cirrhosis_fibroscan_probe_vcte.jpg" alt="Transient Elastography (FibroScan) Examination for Liver Fibrosis Assessment" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_fibroscan_probe_vcte.jpg';" />
-          <span class="img-meta-tag">cirrhosis_fibroscan_probe_vcte.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg" alt="Transient Elastography (FibroScan) Examination for Liver Fibrosis Assessment" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_fibroscan_probe_vcte.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -287,10 +619,22 @@
           <p class="desc-ar" dir="rtl">فحص الفيبروسكان بيعتمد على قياس مرونة الكبد (Liver Stiffness) ودرجة التدهن (CAP)، وهو وسيلة غير جراحية ممتازة لتقييم مراحل التليف الكبدي ومتابعة مرضى تليف الكبد وارتفاع ضغط الباب الكبدي بدقة.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_cirrhosis_ultrasound_nodular_real.jpg ultrasound manifestations of cirrhosis and portal hypertension cirrhosis_and_portal_hypertension radiological imaging main portal vein gallbladder hepatic artery and bile duct ascites rough liver margin cirrhotic liver tissue ultrasound evaluation of liver cirrhosis demonstrating characteristic architectural changes including volume redistribution, a nodular and irregular surface margin, coarsened parenchymal echotexture, and secondary signs of portal hypertension such as ascites. these sonographic findings correlate with advanced hepatic fibrosis and elevated portal venous pressure. خد بالك يا دكتورنا، السونار هنا مبين علامات التيليف (التليف الكبدي) بوضوح؛ زي السطح المبرغل أو المنعرج (rough liver margin)، وخشونة أنسجة الكبد، مع وجود استسقاء (ascites) كدليل أساسي على وجود ضغط عالي في الوريد البابى.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg" data-filename="cirrhosis_cirrhosis_ultrasound_nodular_real.jpg" alt="Ultrasound Manifestations of Cirrhosis and Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_cirrhosis_ultrasound_nodular_real.jpg';" />
-          <span class="img-meta-tag">cirrhosis_cirrhosis_ultrasound_nodular_real.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg" alt="Ultrasound Manifestations of Cirrhosis and Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_ultrasound_nodular_real.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -305,10 +649,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، السونار هنا مبين علامات التيليف (التليف الكبدي) بوضوح؛ زي السطح المبرغل أو المنعرج (Rough liver margin)، وخشونة أنسجة الكبد، مع وجود استسقاء (Ascites) كدليل أساسي على وجود ضغط عالي في الوريد البابى.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_hcc_milan_criteria_ct.jpg abdominal ct scan showing hepatocellular carcinoma in cirrhotic liver cirrhosis_and_portal_hypertension radiological imaging liver hepatic parenchyma tumor lesion aorta spleen dynamic contrast-enhanced ct scans demonstrate a hypervascular liver lesion with arterial phase enhancement and rapid washout in the portal venous phase, characteristic of hepatocellular carcinoma complicating underlying cirrhosis. early detection through surveillance imaging in patients with chronic liver disease is critical for improving therapeutic outcomes. يا دكتورنا، العيانين اللي عندهم تليف في الكبد (cirrhosis) لازم نعمل لهم أشعة متابعة بانتظام لأنهم عرضة لتكوين أورام كبدية زي الـ hcc اللي ظاهرة هنا بأطوار الصبغة المختلفة (arterial enhancement and portal washout).">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg" data-filename="cirrhosis_hcc_milan_criteria_ct.jpg" alt="Abdominal CT Scan Showing Hepatocellular Carcinoma in Cirrhotic Liver" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_hcc_milan_criteria_ct.jpg';" />
-          <span class="img-meta-tag">cirrhosis_hcc_milan_criteria_ct.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg" alt="Abdominal CT Scan Showing Hepatocellular Carcinoma in Cirrhotic Liver" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hcc_milan_criteria_ct.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -323,10 +679,22 @@
           <p class="desc-ar" dir="rtl">يا دكتورنا، العيانين اللي عندهم تليف في الكبد (cirrhosis) لازم نعمل لهم أشعة متابعة بانتظام لأنهم عرضة لتكوين أورام كبدية زي الـ HCC اللي ظاهرة هنا بأطوار الصبغة المختلفة (Arterial enhancement and portal washout).</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_child_pugh_meld_diagram.jpg styrofoam container for human organ transport for transplantation cirrhosis_and_portal_hypertension gross pathology transport container transplant label styrofoam insulation this image depicts a specialized insulated container utilized for the safe transport of harvested visceral organs destined for transplantation. in the context of end-stage liver disease and decompensated cirrhosis, orthotopic liver transplantation represents the definitive curative intervention, requiring meticulous cold ischemia time management. الصورة بتوضح صندوق عزل حراري مخصص لنقل الأعضاء البشرية لعمليات زرع الأعضاء. في حالات التليف الكبدي المتقدم وفشل الكبد، بتعتبر عملية زرع الكبد الحل النهائي والمنقذ للحياة للمريض.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg" data-filename="cirrhosis_child_pugh_meld_diagram.jpg" alt="Styrofoam Container for Human Organ Transport for Transplantation" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_child_pugh_meld_diagram.jpg';" />
-          <span class="img-meta-tag">cirrhosis_child_pugh_meld_diagram.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg" alt="Styrofoam Container for Human Organ Transport for Transplantation" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_child_pugh_meld_diagram.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -341,10 +709,22 @@
           <p class="desc-ar" dir="rtl">الصورة بتوضح صندوق عزل حراري مخصص لنقل الأعضاء البشرية لعمليات زرع الأعضاء. في حالات التليف الكبدي المتقدم وفشل الكبد، بتعتبر عملية زرع الكبد الحل النهائي والمنقذ للحياة للمريض.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_hepatic_dual_blood_supply.jpg anatomical schematic of hepatic vascular supply (parietal and visceral surfaces) cirrhosis_and_portal_hypertension schematic diagram hepatic vein portal vein hepatic artery inferior vena cava abdominal aorta this schematic diagram illustrates the dual blood supply of the liver, highlighting the portal vein and hepatic artery inflow alongside the hepatic venous drainage into the inferior vena cava. understanding this complex angioarchitecture is fundamental for evaluating portal hypertension, hepatic perfusion deficits, and pre- or post-hepatic vascular shunts. الرسم التوضيحي ده بيبين التروية الدموية المزدوجة للكبد، وتوزيع الوريد البابى والشريان الكبدى مقارنة بتصريف الدم عن طريق الأوردة الكبدية للوريد الكافى السفلي. فهم التشريح ده أساسى جداً عشان نقدر نستوعب أسباب ضغط الدم البابى وتأثيرات تليف الكبد على تدفق الدم.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg" data-filename="cirrhosis_hepatic_dual_blood_supply.jpg" alt="Anatomical Schematic of Hepatic Vascular Supply (Parietal and Visceral Surfaces)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_hepatic_dual_blood_supply.jpg';" />
-          <span class="img-meta-tag">cirrhosis_hepatic_dual_blood_supply.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg" alt="Anatomical Schematic of Hepatic Vascular Supply (Parietal and Visceral Surfaces)" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_dual_blood_supply.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -359,10 +739,22 @@
           <p class="desc-ar" dir="rtl">الرسم التوضيحي ده بيبين التروية الدموية المزدوجة للكبد، وتوزيع الوريد البابى والشريان الكبدى مقارنة بتصريف الدم عن طريق الأوردة الكبدية للوريد الكافى السفلي. فهم التشريح ده أساسى جداً عشان نقدر نستوعب أسباب ضغط الدم البابى وتأثيرات تليف الكبد على تدفق الدم.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_hepatic_vein_doppler_bcs.jpg coronal ct angiography showing portal vein thrombosis and cavernous transformation cirrhosis_and_portal_hypertension radiological imaging portal vein cavernous transformation portosystemic collaterals coronal ct angiogram demonstrating chronic portal vein thrombosis with extensive cavernous transformation, characterized by multiple tortuous collateral vessels in the porta hepatis. this finding is a classic consequence of chronic extrahepatic portal vein obstruction, often associated with advanced cirrhosis or hypercoagulable states, leading to portal hypertension. خد بالك يا دكتورنا، الصورة دي بتبين جلطة مزمنة في الوريد البابي (portal vein thrombosis) وتحول كهفي (cavernous transformation) وعملت شبكة من الأوعية الدموية البديلة عشان تعوض الانسداد ده، وده بيميز حالات البورتال هايبرتنشن المزمنة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg" data-filename="cirrhosis_hepatic_vein_doppler_bcs.jpg" alt="Coronal CT Angiography Showing Portal Vein Thrombosis and Cavernous Transformation" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_hepatic_vein_doppler_bcs.jpg';" />
-          <span class="img-meta-tag">cirrhosis_hepatic_vein_doppler_bcs.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg" alt="Coronal CT Angiography Showing Portal Vein Thrombosis and Cavernous Transformation" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hepatic_vein_doppler_bcs.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -377,10 +769,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الصورة دي بتبين جلطة مزمنة في الوريد البابي (Portal Vein Thrombosis) وتحول كهفي (Cavernous Transformation) وعملت شبكة من الأوعية الدموية البديلة عشان تعوض الانسداد ده، وده بيميز حالات البورتال هايبرتنشن المزمنة.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_hyperdynamic_circulation.jpg engorgement of portal veins and pampiniform plexus cirrhosis_and_portal_hypertension schematic diagram portal vein pampiniform plexus liver stomach pancreas small intestine colon urinary bladder testicle this semi-diagrammatic medical illustration demonstrates the engorgement of portal veins and the pampiniform plexus secondary to portal hypertension. it highlights visceral venous congestion and portosystemic collateral pathways that are classic complications of advanced liver cirrhosis. خد بالك يا دكتورنا، الرسمة التوضيحية دي بتوريك تأثير الضغط البابى المرتفع (portal hypertension) على الأوردة البطنية وضفيرة الحيوانات المنوية (pampiniform plexus)، ودي علامات مهمة جداً في حالات تليف الكبد المتقدم.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg" data-filename="cirrhosis_hyperdynamic_circulation.jpg" alt="Engorgement of Portal Veins and Pampiniform Plexus" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_hyperdynamic_circulation.jpg';" />
-          <span class="img-meta-tag">cirrhosis_hyperdynamic_circulation.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg" alt="Engorgement of Portal Veins and Pampiniform Plexus" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hyperdynamic_circulation.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -395,10 +799,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الرسمة التوضيحية دي بتوريك تأثير الضغط البابى المرتفع (Portal Hypertension) على الأوردة البطنية وضفيرة الحيوانات المنوية (Pampiniform Plexus)، ودي علامات مهمة جداً في حالات تليف الكبد المتقدم.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_compensated_vs_decompensated_stages.jpg comparative schematic of compensated versus decompensated cirrhosis cirrhosis_and_portal_hypertension schematic diagram nodular surface fibrous scar tissue hepatocytes (partially functioning) severe atrophy jaundice (icteric appearance) ascites fluid enlarged veins (varices) this comparative schematic illustrates the morphological and clinical progression from compensated cirrhosis, characterized by nodular regeneration and fibrous scarring with partial hepatocyte function, to decompensated cirrhosis marked by severe parenchymal atrophy, jaundice, ascites, and portal hypertension leading to variceal enlargement. المخطط ده بيوضح الفرق الجوهري بين التليف المتكافئ (compensated) والتليف غير المتكافئ (decompensated). في الحالة الأولى الكبد لسه بيؤدي وظيفته جزئياً مع وجود عقيدات وتليف، لكن في المرحلة التانية بيبدأ العيان يدخل في مضاعفات خطيرة زي الاستسقاء (ascites)، الدوالي (varices)، الصفرا (jaundice)، وانكماش الكبد.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg" data-filename="cirrhosis_compensated_vs_decompensated_stages.jpg" alt="Comparative Schematic of Compensated versus Decompensated Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_compensated_vs_decompensated_stages.jpg';" />
-          <span class="img-meta-tag">cirrhosis_compensated_vs_decompensated_stages.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg" alt="Comparative Schematic of Compensated versus Decompensated Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_compensated_vs_decompensated_stages.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -413,10 +829,22 @@
           <p class="desc-ar" dir="rtl">المخطط ده بيوضح الفرق الجوهري بين التليف المتكافئ (Compensated) والتليف غير المتكافئ (Decompensated). في الحالة الأولى الكبد لسه بيؤدي وظيفته جزئياً مع وجود عقيدات وتليف، لكن في المرحلة التانية بيبدأ العيان يدخل في مضاعفات خطيرة زي الاستسقاء (Ascites)، الدوالي (Varices)، الصفرا (Jaundice)، وانكماش الكبد.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_nodular_cirrhotic_liver_gross.jpg comparison of normal liver and cirrhotic liver anatomy cirrhosis_and_portal_hypertension schematic diagram normal liver parenchyma cirrhotic nodular liver hepatic veins portal system vascular supply this comparative schematic diagram illustrates the morphological progression from a healthy, smooth-surfaced normal liver to a shrunken, nodular liver characteristic of end-stage cirrhosis. chronic hepatic injury leads to extensive fibrosis and regenerative nodule formation, significantly altering intrahepatic vascular architecture and causing portal hypertension. خد بالك يا دكتورنا إن المقارنة دي بتوضح الفرق بين كبد سليم أملس وكبد متليف (cirrhosis) بيظهر عليه التعرجات والعقد التجددية (nodules) اللي بتعمل المقاومة للدم وترفع ضغط الوريد البابى.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg" data-filename="cirrhosis_nodular_cirrhotic_liver_gross.jpg" alt="Comparison of Normal Liver and Cirrhotic Liver Anatomy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_nodular_cirrhotic_liver_gross.jpg';" />
-          <span class="img-meta-tag">cirrhosis_nodular_cirrhotic_liver_gross.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg" alt="Comparison of Normal Liver and Cirrhotic Liver Anatomy" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_nodular_cirrhotic_liver_gross.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -431,10 +859,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن المقارنة دي بتوضح الفرق بين كبد سليم أملس وكبد متليف (Cirrhosis) بيظهر عليه التعرجات والعقد التجددية (Nodules) اللي بتعمل المقاومة للدم وترفع ضغط الوريد البابى.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_cirrhosis_histology_nodules.jpg comparative schematic of healthy liver versus cirrhosis: gross morphology and histopathology cirrhosis_and_portal_hypertension schematic diagram healthy liver cirrhosis liver portal triad lobule central veins fatty vacuole necrosis fibrous septa this schematic contrasts normal hepatic lobular architecture with cirrhotic liver pathology, highlighting the development of fibrous septa, cellular necrosis, and fatty vacuoles that disrupt hepatic microcirculation and function. خد بالك يا دكتورنا، تليف الكبد مش مجرد تغيير في شكل الكبد من بره، ده بيؤدي لتغيرات هستولوجية خطيرة زي تكون fibrous septa وتدمير الـ lobules، وده اللي بيسبب في الآخر portal hypertension.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg" data-filename="cirrhosis_cirrhosis_histology_nodules.jpg" alt="Comparative Schematic of Healthy Liver versus Cirrhosis: Gross Morphology and Histopathology" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_cirrhosis_histology_nodules.jpg';" />
-          <span class="img-meta-tag">cirrhosis_cirrhosis_histology_nodules.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg" alt="Comparative Schematic of Healthy Liver versus Cirrhosis: Gross Morphology and Histopathology" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_cirrhosis_histology_nodules.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -449,10 +889,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، تليف الكبد مش مجرد تغيير في شكل الكبد من بره، ده بيؤدي لتغيرات هستولوجية خطيرة زي تكون Fibrous Septa وتدمير الـ Lobules، وده اللي بيسبب في الآخر Portal Hypertension.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_esophageal_varices_endoscopy.jpg esophageal varices and endoscopic banding in portal hypertension cirrhosis_and_portal_hypertension schematic diagram esophagus esophageal varices stomach liver endoscope bands for endoscopic variceal ligation portal hypertension secondary to liver cirrhosis causes increased resistance in the portal venous system, leading to portosystemic collateral formation such as esophageal varices. endoscopic variceal ligation (banding) is a mainstay therapy used to mechanically obliterate these vulnerable blood vessels and prevent life-threatening acute upper gastrointestinal bleeding. خد بالك يا دكتورنا إن ارتفاع ضغط الوريد البابي بسبب تليف الكبد بيزود الضغط في الدورة الدموية وبيعمل دوالي في المريء ممكن تنزف بغزارة وتشكل خطورة على حياة العيان. عشان كده الربط بالمنظار (endoscopic banding) هو خط دفاع أول أساسي عشان نقفل الدوالي دي ونمنع النزيف قبل ما يحصل كوارث.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg" data-filename="cirrhosis_esophageal_varices_endoscopy.jpg" alt="Esophageal Varices and Endoscopic Banding in Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_esophageal_varices_endoscopy.jpg';" />
-          <span class="img-meta-tag">cirrhosis_esophageal_varices_endoscopy.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg" alt="Esophageal Varices and Endoscopic Banding in Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_esophageal_varices_endoscopy.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -467,10 +919,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن ارتفاع ضغط الوريد البابي بسبب تليف الكبد بيزود الضغط في الدورة الدموية وبيعمل دوالي في المريء ممكن تنزف بغزارة وتشكل خطورة على حياة العيان. عشان كده الربط بالمنظار (Endoscopic Banding) هو خط دفاع أول أساسي عشان نقفل الدوالي دي ونمنع النزيف قبل ما يحصل كوارث.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_palmar_erythema_hands.jpg palmar erythema and desquamation cirrhosis_and_portal_hypertension clinical photo palms fingers thenar eminence hypothenar eminence bilateral palmar erythema characterized by prominent reddening of the thenar and hypothenar eminences with associated superficial desquamation. this finding is classically associated with chronic liver disease and cirrhosis due to hyperestrogenemia and altered vascular reactivity. احمرار راحتي اليدين الواضح (palmar erythema) مع تقشرات سطحية، العلامة الكلاسيكية دي بتظهر غالباً مع أمراض الكبد المزمنة والتليف نتيجة لزيادة هرمون الاستروجين وتغير اتساع الأوعية الدموية.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg" data-filename="cirrhosis_palmar_erythema_hands.jpg" alt="Palmar Erythema and Desquamation" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_palmar_erythema_hands.jpg';" />
-          <span class="img-meta-tag">cirrhosis_palmar_erythema_hands.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg" alt="Palmar Erythema and Desquamation" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_hands.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -485,10 +949,22 @@
           <p class="desc-ar" dir="rtl">احمرار راحتي اليدين الواضح (Palmar Erythema) مع تقشرات سطحية، العلامة الكلاسيكية دي بتظهر غالباً مع أمراض الكبد المزمنة والتليف نتيجة لزيادة هرمون الاستروجين وتغير اتساع الأوعية الدموية.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_liver_vascular_anatomy_diagram.jpg hepatic portal system and venous drainage of the gastrointestinal tract cirrhosis_and_portal_hypertension schematic diagram hepatic portal gall bladder cystic right gastric superior mesenteric splenic gastro-omental gastroepiploic pancreaticoduodenal pancreatic middle colic inferior mesenteric right colic left colic ileocolic sigmoid intestinal superior rectal this diagram illustrates the comprehensive anatomy of the hepatic portal venous system, detailing tributaries such as the superior mesenteric, splenic, and inferior mesenteric veins draining into the hepatic portal vein. understanding these pathways is crucial for assessing portal hypertension, variceal bleeding risks, and portosystemic shunts in advanced liver cirrhosis. الرسم التوضيحي بيوضح تفاصيل الشرايين والأوردة اللي بتصب في الوريد البابي الكبدي (hepatic portal vein). فهم الشابكة دي مهم جداً وأنت بتشخص وتتابع حالات ضغط الدم البابي المرتبط بتليف الكبد وتوقع أماكن الدوالي زي المريء والمستقيم.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg" data-filename="cirrhosis_liver_vascular_anatomy_diagram.jpg" alt="Hepatic Portal System and Venous Drainage of the Gastrointestinal Tract" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_liver_vascular_anatomy_diagram.jpg';" />
-          <span class="img-meta-tag">cirrhosis_liver_vascular_anatomy_diagram.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg" alt="Hepatic Portal System and Venous Drainage of the Gastrointestinal Tract" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_liver_vascular_anatomy_diagram.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -503,10 +979,22 @@
           <p class="desc-ar" dir="rtl">الرسم التوضيحي بيوضح تفاصيل الشرايين والأوردة اللي بتصب في الوريد البابي الكبدي (Hepatic Portal Vein). فهم الشابكة دي مهم جداً وأنت بتشخص وتتابع حالات ضغط الدم البابي المرتبط بتليف الكبد وتوقع أماكن الدوالي زي المريء والمستقيم.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_portal_cavernoma_doppler.jpg portal vein thrombosis ct signs: endoluminal filling defect cirrhosis_and_portal_hypertension radiological imaging portal vein hepatic artery inferior vena cava (icv) aorta (ao) thrombus (endoluminal filling defect) contrast-enhanced axial and coronal ct scans demonstrate an endoluminal filling defect within the portal vein branches, diagnostic of portal vein thrombosis. this condition frequently complicates advanced cirrhosis and portal hypertension, necessitating careful anticoagulation or specialized radiological evaluation depending on etiology and chronicity. خد بالك يا دكتورنا، الأشعة دي بتوريك أشعة مقطعية بالصبغة موضحة جلطة في الوريد البابى (portal vein thrombosis) على هيئة فراغ ناقص بالامتلاء جوه اللمعة (endoluminal filling defect). الحالة دي بتصاحب التليف الكبدي المتقدم وارتفاع ضغط الدم البابي، ومهم جداً نلقطها بدري عشان نحدد خطة العلاج بالسيولة المناسبة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg" data-filename="cirrhosis_portal_cavernoma_doppler.jpg" alt="Portal Vein Thrombosis CT Signs: Endoluminal Filling Defect" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_portal_cavernoma_doppler.jpg';" />
-          <span class="img-meta-tag">cirrhosis_portal_cavernoma_doppler.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg" alt="Portal Vein Thrombosis CT Signs: Endoluminal Filling Defect" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_doppler.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -521,10 +1009,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الأشعة دي بتوريك أشعة مقطعية بالصبغة موضحة جلطة في الوريد البابى (Portal Vein Thrombosis) على هيئة فراغ ناقص بالامتلاء جوه اللمعة (Endoluminal filling defect). الحالة دي بتصاحب التليف الكبدي المتقدم وارتفاع ضغط الدم البابي، ومهم جداً نلقطها بدري عشان نحدد خطة العلاج بالسيولة المناسبة.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_portal_vein_thrombosis_ct.jpg abdominal contrast-enhanced ct demonstrating portal vein thrombosis and cavernous transformation in cirrhosis cirrhosis_and_portal_hypertension radiological imaging portal vein liver parenchyma ascites abdominal aorta kidneys axial contrast-enhanced abdominal ct images show portal vein thrombosis with subsequent cavernous transformation (indicated by red arrows) in a patient with liver cirrhosis. this finding reflects chronic portal vein occlusion and development of periportal collateral venous channels, commonly seen in advanced portal hypertension. خد بالك يا دكتورنا، الأشعة المقطعية دي موضحة جلطة في الوريد البابي الكبدي (portal vein thrombosis) وتحول كهفي حوالين الوريد نتيجة الضغط البابي العالي في مريض تليف الكبد. الحالات دي بتحتاج تقييم دقيق لسيولة الدم وحجم الطحال والدوالي عشان نتجنب المضاعفات الخطيرة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg" data-filename="cirrhosis_portal_vein_thrombosis_ct.jpg" alt="Abdominal Contrast-Enhanced CT Demonstrating Portal Vein Thrombosis and Cavernous Transformation in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_portal_vein_thrombosis_ct.jpg';" />
-          <span class="img-meta-tag">cirrhosis_portal_vein_thrombosis_ct.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg" alt="Abdominal Contrast-Enhanced CT Demonstrating Portal Vein Thrombosis and Cavernous Transformation in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_vein_thrombosis_ct.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -539,10 +1039,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الأشعة المقطعية دي موضحة جلطة في الوريد البابي الكبدي (Portal Vein Thrombosis) وتحول كهفي حوالين الوريد نتيجة الضغط البابي العالي في مريض تليف الكبد. الحالات دي بتحتاج تقييم دقيق لسيولة الدم وحجم الطحال والدوالي عشان نتجنب المضاعفات الخطيرة.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_hemochromatosis_iron_prussian_blue.jpg liver histology showing cholestasis and bile pigment deposition in cirrhosis cirrhosis_and_portal_hypertension histological micrograph hepatocytes bile canaliculi bile pigment (bilirubin/lipofuscin) deposition portal tract region histological micrograph demonstrating chronic liver parenchymal changes characteristic of advanced cirrhosis, featuring prominent intracellular and canalicular bile stasis (cholestasis) alongside hepatocyte degeneration. this pathology reflects impaired hepatocyte secretory function and altered microcirculation, a central finding in advanced chronic liver disease complicated by portal hypertension and jaundice. خد بالك يا دكتورنا، العينة دي بتورّي ترسبات صفراوية واضحة جوه الخلايا الكبدية وفي القنوات البيلارية مع تغيرات سيروزية واضحة (تليف كبدي متقدم)، وده بيفسر لينا حدوث اليرقان (الاصفرار) مع اعراض ضغط الدم البوابي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg" data-filename="cirrhosis_hemochromatosis_iron_prussian_blue.jpg" alt="Liver Histology Showing Cholestasis and Bile Pigment Deposition in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_hemochromatosis_iron_prussian_blue.jpg';" />
-          <span class="img-meta-tag">cirrhosis_hemochromatosis_iron_prussian_blue.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg" alt="Liver Histology Showing Cholestasis and Bile Pigment Deposition in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_hemochromatosis_iron_prussian_blue.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -557,10 +1069,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة دي بتورّي ترسبات صفراوية واضحة جوه الخلايا الكبدية وفي القنوات البيلارية مع تغيرات سيروزية واضحة (تليف كبدي متقدم)، وده بيفسر لينا حدوث اليرقان (الاصفرار) مع اعراض ضغط الدم البوابي.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_sarcopenia_muscle_wasting_ct.jpg biceps brachii muscle architecture and tendon insertion schematic cirrhosis_and_portal_hypertension schematic diagram biceps brachii muscle humerus radius ulna elbow joint schematic representation of the biceps brachii muscle illustrating its two heads originating from the scapula and inserting into the radial tuberosity. the diagram highlights muscle fiber orientation and tendon mechanics relevant to upper extremity biomechanics and clinical examination. يوضح الرسم التخطيطي تشريح عضلة ذات الرأسين العضدية واتجاه الألياف والوتر المرتبط بعظمة الكعبرة. خد بالك يا دكتورنا أن فهم التشريح العضلي ده مهم جداً في تقييم الفحص السريري وتقييم القوة العضلية.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg" data-filename="cirrhosis_sarcopenia_muscle_wasting_ct.jpg" alt="Biceps Brachii Muscle Architecture and Tendon Insertion Schematic" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_sarcopenia_muscle_wasting_ct.jpg';" />
-          <span class="img-meta-tag">cirrhosis_sarcopenia_muscle_wasting_ct.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg" alt="Biceps Brachii Muscle Architecture and Tendon Insertion Schematic" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sarcopenia_muscle_wasting_ct.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -575,10 +1099,22 @@
           <p class="desc-ar" dir="rtl">يوضح الرسم التخطيطي تشريح عضلة ذات الرأسين العضدية واتجاه الألياف والوتر المرتبط بعظمة الكعبرة. خد بالك يا دكتورنا أن فهم التشريح العضلي ده مهم جداً في تقييم الفحص السريري وتقييم القوة العضلية.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_high_saag_ascites_algorithm.jpg severe feather pecking and vent cannibalism in cage-housed laying hen cirrhosis_and_portal_hypertension clinical photo ventral abdominal skin cloacal region depilated and ulcerated integument caged poultry environment this photograph depicts severe feather pecking and excoriation of the lower abdomen and vent area in a battery-cage layer hen. such behavioral stereotypies and self-mutilation highlight welfare challenges and physiological stress in intensive animal farming systems, distinct from human internal medicine entities. خد بالك يا دكتورنا، الصورة دي بتوضح حالة استسقاء أو افتراس ريش وظهور تقرحات واضحة في بطن دجاجة محبوسة في بطاريات، ودي مشكلة سلوكية وبيئية في التربية المكثفة ملهاش علاقة بأمراض الباطنة البشرية.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg" data-filename="cirrhosis_high_saag_ascites_algorithm.jpg" alt="Severe Feather Pecking and Vent Cannibalism in Cage-Housed Laying Hen" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_high_saag_ascites_algorithm.jpg';" />
-          <span class="img-meta-tag">cirrhosis_high_saag_ascites_algorithm.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg" alt="Severe Feather Pecking and Vent Cannibalism in Cage-Housed Laying Hen" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_high_saag_ascites_algorithm.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -593,10 +1129,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الصورة دي بتوضح حالة استسقاء أو افتراس ريش وظهور تقرحات واضحة في بطن دجاجة محبوسة في بطاريات، ودي مشكلة سلوكية وبيئية في التربية المكثفة ملهاش علاقة بأمراض الباطنة البشرية.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_palmar_erythema_clinical.jpg palmar erythema and cyanotic fingertips in cirrhosis cirrhosis_and_portal_hypertension clinical photo palms thenar and hypothenar eminences fingertips bilateral palmar erythema characterized by hyperemic mottling over the thenar and hypothenar eminences, coupled with peripheral cyanosis of the fingertips. these findings reflect hyperdynamic circulation, peripheral vasodilation, and altered sex hormone metabolism characteristic of chronic liver failure and portal hypertension. احمرار راحة الإيد (palmar erythema) مع ازرقاق أطراف الأصابع بيوروا ان في تليف كبدي متقدم مع ارتفاع ضغط الباب الكبدي. الظاهرة دي بتعكس الدورة الدموية الفرط-ديناميكية وتوسع الأوعية الدموية الناتجة عن خلل هرموني وتراكم الفازوديلاتور في الدم.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg" data-filename="cirrhosis_palmar_erythema_clinical.jpg" alt="Palmar Erythema and Cyanotic Fingertips in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_palmar_erythema_clinical.jpg';" />
-          <span class="img-meta-tag">cirrhosis_palmar_erythema_clinical.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg" alt="Palmar Erythema and Cyanotic Fingertips in Cirrhosis" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_palmar_erythema_clinical.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -611,10 +1159,22 @@
           <p class="desc-ar" dir="rtl">احمرار راحة الإيد (Palmar Erythema) مع ازرقاق أطراف الأصابع بيوروا ان في تليف كبدي متقدم مع ارتفاع ضغط الباب الكبدي. الظاهرة دي بتعكس الدورة الدموية الفرط-ديناميكية وتوسع الأوعية الدموية الناتجة عن خلل هرموني وتراكم الفازوديلاتور في الدم.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_painful_hepatomegaly_sign.jpg abdominal contrast-enhanced ct in cirrhosis with portal hypertension and cavernous transformation of the portal vein cirrhosis_and_portal_hypertension radiological imaging liver spleen portal vein cavernous transformation ascites coronal and axial contrast-enhanced ct scans demonstrating severe cirrhosis, massive splenomegaly, and portal hypertension complicated by cavernous transformation of the portal vein with multiple periportal collateral vessels. non-occlusive or chronic thrombus leads to the recruitment of collateral hepatopetal channels forming a sponge-like vascular network at the porta hepatis. خد بالك يا دكتورنا، الأشعة دي بتوضح تليف الكبد المتقدم مع تضخم طحال ضخم وارتفاع ضغط الوريد البابي اللي عمل تحول كهفي (cavernous transformation) وظهرت الأوعية الالتفافية حوالين الباب الكبدي كشبكة إسفنجية لتعويض الانسداد.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg" data-filename="cirrhosis_painful_hepatomegaly_sign.jpg" alt="Abdominal Contrast-Enhanced CT in Cirrhosis with Portal Hypertension and Cavernous Transformation of the Portal Vein" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_painful_hepatomegaly_sign.jpg';" />
-          <span class="img-meta-tag">cirrhosis_painful_hepatomegaly_sign.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg" alt="Abdominal Contrast-Enhanced CT in Cirrhosis with Portal Hypertension and Cavernous Transformation of the Portal Vein" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_painful_hepatomegaly_sign.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -629,10 +1189,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الأشعة دي بتوضح تليف الكبد المتقدم مع تضخم طحال ضخم وارتفاع ضغط الوريد البابي اللي عمل تحول كهفي (Cavernous transformation) وظهرت الأوعية الالتفافية حوالين الباب الكبدي كشبكة إسفنجية لتعويض الانسداد.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_sos_vod_histology_zone3.jpg pathophysiologic mechanism of portal hypertension due to hepatic vein obstruction (budd-chiari syndrome) cirrhosis_and_portal_hypertension schematic diagram thrombus hepatic vein sinusoids nutmeg liver liver this schematic illustrates the step-by-step cascade of budd-chiari syndrome, beginning with a hepatic vein thrombus causing outflow obstruction and hepatic venous congestion. the resulting sinusoidal pressure and cellular hypoxia lead to centrilobular liver cell damage, characteristic nutmeg liver appearance, and ultimately downstream portal hypertension. خد بالك يا دكتورنا إن انسداد الوريد الكبدي (budd-chiari syndrome) بيعمل احتقان وارتفاع في الضغط جوه الساينوسويدز، وده بيؤدي لنقص الأكسجين وتليف خلايا الكبد بتهتك وتظهر بالمنظر الشهير 'nutmeg liver' اللي بينتهي في الآخر بارتفاع ضغط الدم البابي (portal hypertension).">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg" data-filename="cirrhosis_sos_vod_histology_zone3.jpg" alt="Pathophysiologic Mechanism of Portal Hypertension Due to Hepatic Vein Obstruction (Budd-Chiari Syndrome)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_sos_vod_histology_zone3.jpg';" />
-          <span class="img-meta-tag">cirrhosis_sos_vod_histology_zone3.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg" alt="Pathophysiologic Mechanism of Portal Hypertension Due to Hepatic Vein Obstruction (Budd-Chiari Syndrome)" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sos_vod_histology_zone3.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -647,10 +1219,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن انسداد الوريد الكبدي (Budd-Chiari syndrome) بيعمل احتقان وارتفاع في الضغط جوه الساينوسويدز، وده بيؤدي لنقص الأكسجين وتليف خلايا الكبد بتهتك وتظهر بالمنظر الشهير 'Nutmeg liver' اللي بينتهي في الآخر بارتفاع ضغط الدم البابي (Portal Hypertension).</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_schistosomiasis_pipestem.jpg concentric periductal fibrosis (&quot;onion skin&quot;) in primary sclerosing cholangitis on liver histology cirrhosis_and_portal_hypertension histological micrograph bile duct concentric periductal fibrosis portal tract hepatic parenchyma this reticulin-stained liver biopsy micrograph shows classic concentric periductal fibrosis ('onion skin' appearance) around an obliterated bile duct within an expanded portal tract, pathognomonic for primary sclerosing cholangitis. over time, this chronic fibro-obliterative destruction of the intrahepatic and extrahepatic biliary tree leads to secondary biliary cirrhosis and severe portal hypertension. خد بالك يا دكتورنا، المنظر ده شبه قشر البصل (onion skin fibrosis) وحوالين القنوات المرارية في الكبد، وده بيعبر عن التهاب القنوات المرارية المصلب الأولي (psc). التليف التدريجي ده بيقفل القنوات وبيقود المريض في النهاية لتليف كبدي صفراوي وارتفاع ضغط الوريد البابي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg" data-filename="cirrhosis_schistosomiasis_pipestem.jpg" alt="Concentric Periductal Fibrosis ("Onion Skin") in Primary Sclerosing Cholangitis on Liver Histology" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_schistosomiasis_pipestem.jpg';" />
-          <span class="img-meta-tag">cirrhosis_schistosomiasis_pipestem.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg" alt="Concentric Periductal Fibrosis ("Onion Skin") in Primary Sclerosing Cholangitis on Liver Histology" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_schistosomiasis_pipestem.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -665,10 +1249,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، المنظر ده شبه قشر البصل (Onion skin fibrosis) وحوالين القنوات المرارية في الكبد، وده بيعبر عن التهاب القنوات المرارية المصلب الأولي (PSC). التليف التدريجي ده بيقفل القنوات وبيقود المريض في النهاية لتليف كبدي صفراوي وارتفاع ضغط الوريد البابي.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_sinusoidal_capillarization_stellate.jpg comparison of healthy liver architecture versus fibrotic liver with portal hypertension cirrhosis_and_portal_hypertension schematic diagram hepatocyte kupffer cell hepatic stellate cell central vein hepatic artery hepatic portal vein biliary tree non-fibrogenic type iv collagen fibrogenic type i collagen sinusoids this comparative diagram contrasts normal hepatic lobular architecture with a fibrotic liver exhibiting sinusoidal distortion, extracellular matrix remodeling via fibrogenic type i collagen deposition, and disruption of the portal triad. these architectural distortions increase intrahepatic vascular resistance, ultimately leading to portal hypertension and impaired hepatic function. خد بالك يا دكتورنا، التليف الكبدي (fibrotic liver) مش مجرد شوية التهاب، ده بيحصل فيه إعادة تشكيل كاملة للأنسجة وترسب للكولاجين نوع أول، وده اللي بيقفل الساينوسويدز ويعمل مقاومة لتدفق الدم ويزود الضغط في البوابة الكبدية (portal hypertension).">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg" data-filename="cirrhosis_sinusoidal_capillarization_stellate.jpg" alt="Comparison of Healthy Liver Architecture versus Fibrotic Liver with Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_sinusoidal_capillarization_stellate.jpg';" />
-          <span class="img-meta-tag">cirrhosis_sinusoidal_capillarization_stellate.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg" alt="Comparison of Healthy Liver Architecture versus Fibrotic Liver with Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_sinusoidal_capillarization_stellate.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -683,10 +1279,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، التليف الكبدي (Fibrotic Liver) مش مجرد شوية التهاب، ده بيحصل فيه إعادة تشكيل كاملة للأنسجة وترسب للكولاجين نوع أول، وده اللي بيقفل الساينوسويدز ويعمل مقاومة لتدفق الدم ويزود الضغط في البوابة الكبدية (Portal Hypertension).</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_spider_angioma_skin.jpg spider angioma (spider nevus) on nasal skin in chronic liver disease cirrhosis_and_portal_hypertension clinical photo nasal ala central arteriole (punctum) radical branching telangiectasias a classic spider angioma displaying a central pulsatile arteriole with radiating spider-like capillary branches on the nose. this cutaneous vascular lesion is driven by hyperestrogenemia and high peripheral blood flow commonly seen in patients with chronic liver disease and cirrhosis. يا دكتورنا، الـ spider angioma دي علامة كلاسيكية من علامات تليف الكبد وارتفاع ضغط الباب الكبدي بسبب زيادة الإستروجين وتوس الشعيرات الدموية، وتتميز بأن الضغط على مركزها بيخليها تختفي وترجع تاني لما تسيبها.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg" data-filename="cirrhosis_spider_angioma_skin.jpg" alt="Spider Angioma (Spider Nevus) on Nasal Skin in Chronic Liver Disease" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_spider_angioma_skin.jpg';" />
-          <span class="img-meta-tag">cirrhosis_spider_angioma_skin.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg" alt="Spider Angioma (Spider Nevus) on Nasal Skin in Chronic Liver Disease" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_skin.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -701,10 +1309,22 @@
           <p class="desc-ar" dir="rtl">يا دكتورنا، الـ Spider angioma دي علامة كلاسيكية من علامات تليف الكبد وارتفاع ضغط الباب الكبدي بسبب زيادة الإستروجين وتوس الشعيرات الدموية، وتتميز بأن الضغط على مركزها بيخليها تختفي وترجع تاني لما تسيبها.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_splenomegaly_hypersplenism_ct.jpg enlarged spleen in infantile rickets cirrhosis_and_portal_hypertension clinical photo abdomen spleen child historical clinical photograph demonstrating hepatosplenomegaly in an infant with rickets. splenomegaly in chronic systemic conditions may result from extramedullary hematopoiesis or reticuloendothelial hyperplasia. خد بالك يا دكتورنا إن تضخم الطحال في الحالات التاريخية دي ممكن يكون بسبب تنشيط الجهاز الشبكي البطاني أو تكون الدم خارج النخاع، وغالباً بيتصاحب مع أعراض نقص فيتامين د الحادة وتشوهات العظام.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg" data-filename="cirrhosis_splenomegaly_hypersplenism_ct.jpg" alt="Enlarged Spleen in Infantile Rickets" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_splenomegaly_hypersplenism_ct.jpg';" />
-          <span class="img-meta-tag">cirrhosis_splenomegaly_hypersplenism_ct.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg" alt="Enlarged Spleen in Infantile Rickets" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenomegaly_hypersplenism_ct.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -719,10 +1339,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن تضخم الطحال في الحالات التاريخية دي ممكن يكون بسبب تنشيط الجهاز الشبكي البطاني أو تكون الدم خارج النخاع، وغالباً بيتصاحب مع أعراض نقص فيتامين د الحادة وتشوهات العظام.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_portal_cavernoma_mri_or_us.jpg abdominal contrast-enhanced ct in cirrhosis demonstrating portal hypertension with splenomegaly and portosystemic collaterals cirrhosis_and_portal_hypertension radiological imaging liver spleen portal vein / collateral vessels abdominal aorta axial and coronal contrast-enhanced ct scans of the abdomen in a patient with cirrhosis showing marked splenomegaly, attenuated intrahepatic branches, and extensive peripancreatic/retroperitoneal portosystemic collateral veins. these radiological features are classic signs of advanced chronic liver disease complicated by clinically significant portal hypertension. خد بالك يا دكتورنا، الأشعة المقطعية بالصبغة دي بتوضح تليف الكبد في مراحله المتقدمة مع وجود ضغط عالي في الوريد البابي (portal hypertension)، واللي واضح جداً فيه تضخم الطحال الملحوظ والأوردة الالتفافية (portosystemic collaterals) حوالين البنكرياس وفي منطقة البطن.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg" data-filename="cirrhosis_portal_cavernoma_mri_or_us.jpg" alt="Abdominal Contrast-Enhanced CT in Cirrhosis Demonstrating Portal Hypertension with Splenomegaly and Portosystemic Collaterals" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_portal_cavernoma_mri_or_us.jpg';" />
-          <span class="img-meta-tag">cirrhosis_portal_cavernoma_mri_or_us.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg" alt="Abdominal Contrast-Enhanced CT in Cirrhosis Demonstrating Portal Hypertension with Splenomegaly and Portosystemic Collaterals" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_portal_cavernoma_mri_or_us.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -737,10 +1369,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الأشعة المقطعية بالصبغة دي بتوضح تليف الكبد في مراحله المتقدمة مع وجود ضغط عالي في الوريد البابي (Portal Hypertension)، واللي واضح جداً فيه تضخم الطحال الملحوظ والأوردة الالتفافية (Portosystemic collaterals) حوالين البنكرياس وفي منطقة البطن.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg active esophageal variceal bleeding on endoscopy cirrhosis_and_portal_hypertension endoscopy / laparoscopy esophageal mucosa bleeding esophageal varices blood and clots endoscopic visualization showing acute active spurting hemorrhage from ruptured esophageal varices secondary to portal hypertension in a patient with cirrhosis. this represents a life-threatening medical emergency requiring immediate endoscopic hemostasis such as band ligation or sclerotherapy alongside vasoactive drugs. خد بالك يا دكتورنا، المنظر ده بيوريك نزيف نشط من دوالي المريء (active variceal bleeding) نتيجة ارتفاع ضغط الوريد البابي في مريض تليف الكبد. الحالة دي طوارئ قصوى وعايزة تدخل منظار عاجل للربط (variceal band ligation) وإعطاء أدوية قابضة للأوعية زي الأوكتريوتيد عشان ننقذ المريض.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg" data-filename="cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg" alt="Active Esophageal Variceal Bleeding on Endoscopy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg';" />
-          <span class="img-meta-tag">cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg" alt="Active Esophageal Variceal Bleeding on Endoscopy" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -755,10 +1399,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، المنظر ده بيوريك نزيف نشط من دوالي المريء (Active variceal bleeding) نتيجة ارتفاع ضغط الوريد البابي في مريض تليف الكبد. الحالة دي طوارئ قصوى وعايزة تدخل منظار عاجل للربط (Variceal band ligation) وإعطاء أدوية قابضة للأوعية زي الأوكتريوتيد عشان ننقذ المريض.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_wilsons_kayser_fleischer_ring.jpg kayser-fleischer ring in wilson's disease on slit-lamp examination cirrhosis_and_portal_hypertension clinical photo cornea descemet's membrane copper deposition ring slit-lamp examination demonstrates a greenish-brown kayser-fleischer ring at the periphery of the cornea, caused by copper deposition in descemet's membrane. this pathognomonic finding is essential for the diagnosis of wilson's disease, which can present with hepatic cirrhosis and portal hypertension. حلقة كايزر-فليشر (kayser-fleischer ring) بتظهر كخط لونه بني على مخضر في أطراف القرنية نتيجة ترسب النحاس في غشاء ديسيميه. دي علامة أساسية بتساعدنا نشخص مرض ويلسون (wilson's disease) اللي ممكن يظهر بتليف كبدي وارتفاع ضغط الدم البابي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg" data-filename="cirrhosis_wilsons_kayser_fleischer_ring.jpg" alt="Kayser-Fleischer Ring in Wilson's Disease on Slit-Lamp Examination" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_wilsons_kayser_fleischer_ring.jpg';" />
-          <span class="img-meta-tag">cirrhosis_wilsons_kayser_fleischer_ring.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg" alt="Kayser-Fleischer Ring in Wilson's Disease on Slit-Lamp Examination" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_wilsons_kayser_fleischer_ring.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -773,10 +1429,22 @@
           <p class="desc-ar" dir="rtl">حلقة كايزر-فليشر (Kayser-Fleischer ring) بتظهر كخط لونه بني على مخضر في أطراف القرنية نتيجة ترسب النحاس في غشاء ديسيميه. دي علامة أساسية بتساعدنا نشخص مرض ويلسون (Wilson's disease) اللي ممكن يظهر بتليف كبدي وارتفاع ضغط الدم البابي.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_tips_stent_fluoroscopy.jpg transjugular intrahepatic portosystemic shunt (tips) placement and portal venogram cirrhosis_and_portal_hypertension radiological imaging portal vein tips stent hepatic vein guidewire this fluoroscopic angiogram demonstrates the creation of a transjugular intrahepatic portosystemic shunt (tips) for the management of complications related to portal hypertension and cirrhosis, such as refractory variceal bleeding or ascites. the procedure involves deploying a stent between the hepatic vein and portal vein to decompress the portal venous system. خد بالك يا دكتورنا إن رسم الأشعة ده بيوضح تركيب دعامة tips (توصيلة وريدية كبدية داخل البوابة) لتقليل الضغط الوريدي البابى العالي وعلاج نزيف الدوالي أو الاستسقاء المقاوم للعلاج. المتابعة بالسونار والدوبلر بعد التركيب ضرورية جداً عشان نتأكد من سالكة الدعامة وعدم حدوث انسداد أو اعتلال دماغي كبدي.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg" data-filename="cirrhosis_tips_stent_fluoroscopy.jpg" alt="Transjugular Intrahepatic Portosystemic Shunt (TIPS) Placement and Portal Venogram" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_tips_stent_fluoroscopy.jpg';" />
-          <span class="img-meta-tag">cirrhosis_tips_stent_fluoroscopy.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg" alt="Transjugular Intrahepatic Portosystemic Shunt (TIPS) Placement and Portal Venogram" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_tips_stent_fluoroscopy.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -791,10 +1459,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن رسم الأشعة ده بيوضح تركيب دعامة TIPS (توصيلة وريدية كبدية داخل البوابة) لتقليل الضغط الوريدي البابى العالي وعلاج نزيف الدوالي أو الاستسقاء المقاوم للعلاج. المتابعة بالسونار والدوبلر بعد التركيب ضرورية جداً عشان نتأكد من سالكة الدعامة وعدم حدوث انسداد أو اعتلال دماغي كبدي.</p>
         </div>
       </div>
+
       <div class="card" data-search="cirrhosis_spider_angioma_clinical.jpg spider angioma (spider nevus) on upper trunk in portal hypertension cirrhosis_and_portal_hypertension clinical photo central cutaneous arteriole radical radiating branching capillaries erythematous vascular macule surrounding pale halo on blanching a classic spider angioma showing a central red arteriole with radiating branching capillaries resembling a spider's web, frequently observed on the upper trunk, face, and arms in patients with chronic liver disease and hyperestrogenemia due to impaired hepatic metabolism. these cutaneous vascular lesions blanch completely upon central pressure due to arterial retrograde filling. خد بالك يا دكتورنا، العرض ده اسمه سبايدر نيفوس أو وحمة عنكبوتية، وبتظهر كتير في حالات تليف الكبد بسبب زيادة هرمون الاستروجين وعدم قدرة الكبد المريض على تكسيره. لو ضغطت على المركز بتاعها هتلاقي الأوعية الدموية بتختفي وتبيض فوراً وده بيساعدك تشخص البورتال هايبرتنشن أو مضاعفات الكبد بسرعة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg" data-filename="cirrhosis_spider_angioma_clinical.jpg" alt="Spider Angioma (Spider Nevus) on Upper Trunk in Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./cirrhosis_spider_angioma_clinical.jpg';" />
-          <span class="img-meta-tag">cirrhosis_spider_angioma_clinical.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg" alt="Spider Angioma (Spider Nevus) on Upper Trunk in Portal Hypertension" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/hepatology/cirrhosis_and_portal_hypertension/cirrhosis_spider_angioma_clinical.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -810,33 +1490,46 @@
         </div>
       </div>
     </div>
-  </main>
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="Zoomed view">
   </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged figure" />
+  </div>
+
   <script>
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const prev = btn.innerText;
+        btn.innerText = 'تم النسخ! ✓';
+        btn.style.background = '#16a34a';
+        btn.style.color = '#ffffff';
+        setTimeout(() => {
+          btn.innerText = prev;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(c => {
+        const text = c.getAttribute('data-search') || '';
+        c.style.display = text.includes(q) ? 'grid' : 'none';
+      });
+    }
     function openLightbox(src) {
-      document.getElementById('lightboxImg').src = src;
-      document.getElementById('lightbox').style.display = 'flex';
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      lb.style.display = 'flex';
     }
     function closeLightbox() {
       document.getElementById('lightbox').style.display = 'none';
     }
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-      let visible = 0;
-      cards.forEach(card => {
-        const search = card.getAttribute('data-search') || '';
-        if (!query || search.includes(query)) {
-          card.style.display = 'grid';
-          visible++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-      document.getElementById('countBadge').innerText = `Showing: ${visible} / ${cards.length}`;
-    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   </script>
 </body>
 </html>

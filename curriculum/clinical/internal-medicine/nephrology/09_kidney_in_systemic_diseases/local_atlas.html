@@ -3,60 +3,243 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinoma 09 Kidney In Systemic Diseases Visual Atlas | 9 Images (Local Atlas (Desktop Disk Primary))</title>
+  <title>Clinoma 09 Kidney In Systemic Diseases - Local Machine Atlas (الأطلس المكتبي المحلي)</title>
   <style>
-    :root { --primary: #2563eb; --accent: #dc2626; --bg: #f8fafc; --card-bg: #ffffff; --text-main: #0f172a; --text-muted: #64748b; --border: #e2e8f0; }
+
+    :root { 
+      --primary: #2563eb; 
+      --primary-dark: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text-main: #0f172a; 
+      --text-muted: #64748b; 
+      --border: #e2e8f0; 
+      --code-bg: #f1f5f9;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; padding-bottom: 80px; }
-    header { background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 16px 24px; }
-    .header-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
-    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); }
-    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
-    .search-box input { width: 340px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; outline: none; background: #f1f5f9; }
-    .search-box input:focus { background: white; border-color: var(--primary); }
-    .stats-badge { background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 9999px; }
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 20px; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      background: var(--bg); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      padding-bottom: 80px; 
+    }
+    header { 
+      background: #ffffff; 
+      border-bottom: 1px solid var(--border); 
+      position: sticky; 
+      top: 0; 
+      z-index: 50; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+      padding: 16px 24px; 
+    }
+    .header-inner { 
+      max-width: 1440px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      align-items: center; 
+      gap: 16px; 
+    }
+    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header-right { display: flex; align-items: center; gap: 14px; }
+    .search-box input { 
+      width: 320px; 
+      padding: 10px 16px; 
+      border-radius: 10px; 
+      border: 1px solid var(--border); 
+      font-size: 13.5px; 
+      outline: none; 
+      background: #f1f5f9; 
+      transition: all 0.2s;
+    }
+    .search-box input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .mode-pill { 
+      font-size: 12px; 
+      font-weight: 700; 
+      padding: 6px 14px; 
+      border-radius: 9999px; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+    }
+    .mode-cloud { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .mode-local { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .container { max-width: 1440px; margin: 24px auto; padding: 0 20px; }
     .cards-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: grid; grid-template-columns: 360px 1fr; gap: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
-    @media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
-    .img-box { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .img-box img { max-width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; cursor: zoom-in; }
-    .img-meta-tag { font-family: monospace; font-size: 11px; color: var(--text-muted); margin-top: 10px; text-align: center; }
+    .card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--border); 
+      border-radius: 16px; 
+      padding: 24px; 
+      display: grid; 
+      grid-template-columns: 380px 1fr; 
+      gap: 28px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02); 
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+    @media (max-width: 950px) { .card { grid-template-columns: 1fr; } }
+    .img-box { 
+      background: #0f172a; 
+      border: 1px solid var(--border); 
+      border-radius: 12px; 
+      padding: 12px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 280px;
+    }
+    .img-box img { 
+      max-width: 100%; 
+      max-height: 320px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      cursor: zoom-in; 
+    }
+    .url-badge-box { 
+      margin-top: 12px; 
+      width: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 6px; 
+    }
+    .url-row { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      background: #1e293b; 
+      padding: 6px 10px; 
+      border-radius: 6px; 
+      gap: 8px; 
+      font-size: 11px;
+    }
+    .url-row.local-row { background: #ffffff; border: 1px solid #cbd5e1; }
+    .url-label { color: #94a3b8; font-weight: 700; white-space: nowrap; }
+    .url-row.local-row .url-label { color: #475569; }
+    .url-link { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      direction: ltr; 
+      text-align: left;
+      flex: 1;
+    }
+    .url-link:hover { text-decoration: underline; color: #7dd3fc; }
+    .path-code { 
+      color: #0f172a; 
+      font-family: monospace; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      flex: 1;
+    }
+    .copy-pill { 
+      background: #334155; 
+      color: #f8fafc; 
+      border: none; 
+      padding: 3px 8px; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 10.5px; 
+      font-weight: 600; 
+      white-space: nowrap; 
+      transition: background 0.15s;
+    }
+    .url-row.local-row .copy-pill { background: #e2e8f0; color: #1e293b; }
+    .copy-pill:hover { background: var(--primary); color: #ffffff; }
     .card-content { display: flex; flex-direction: column; gap: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; }
     .card-num { font-family: monospace; font-size: 13px; font-weight: 700; color: var(--primary); }
-    .badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
-    .card-title { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .badge { 
+      font-size: 11px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+      text-transform: uppercase; 
+      background: #f1f5f9; 
+      color: #334155; 
+      border: 1px solid #cbd5e1; 
+    }
+    .card-title { font-size: 17.5px; font-weight: 800; color: var(--text-main); }
     .structures-box { display: flex; flex-wrap: wrap; gap: 6px; }
-    .struct-pill { background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-    .desc-en { font-size: 13.5px; color: #334155; line-height: 1.6; background: #f8fafc; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--primary); }
-    .desc-ar { font-size: 14px; color: #0f172a; line-height: 1.65; direction: rtl; text-align: right; background: #f0fdf4; padding: 12px 14px; border-radius: 8px; border-right: 3px solid #16a34a; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }
+    .struct-pill { 
+      background: #eff6ff; 
+      border: 1px solid #bfdbfe; 
+      color: #1d4ed8; 
+      font-size: 11.5px; 
+      font-weight: 600; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+    }
+    .desc-en { 
+      font-size: 13.5px; 
+      color: #334155; 
+      line-height: 1.6; 
+      background: #f8fafc; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-left: 3px solid var(--primary); 
+    }
+    .desc-ar { 
+      font-size: 14px; 
+      color: #0f172a; 
+      line-height: 1.65; 
+      direction: rtl; 
+      text-align: right; 
+      background: #f0fdf4; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-right: 3px solid #16a34a; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    .lightbox { 
+      display: none; 
+      position: fixed; 
+      inset: 0; 
+      background: rgba(0,0,0,0.85); 
+      z-index: 100; 
+      align-items: center; 
+      justify-content: center; 
+    }
     .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <div class="title-area">
-        <h1>📚 Clinoma 09 Kidney In Systemic Diseases - Visual Atlas</h1>
-        <p>9 Authentic Medical Figures | Mode: Local Atlas (Desktop Disk Primary)</p>
+        <h1>💻 Clinoma 09 Kidney In Systemic Diseases - الأطلس المكتبي المحلي</h1>
+        <p>9 Authentic Medical Figures | Source: <strong>Local Device Disk (Offline First)</strong></p>
       </div>
-      <div class="controls" style="display:flex; gap:12px; align-items:center;">
+      <div class="header-right">
+        <span class="mode-pill mode-local">💻 Local Machine Mode</span>
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search by structure, title, disease, drug..." onkeyup="filterCards()">
+          <input type="text" id="searchInput" placeholder="Search figures, pathology, anatomy... (بحث)" oninput="filterCards()" />
         </div>
-        <div class="stats-badge" id="countBadge">Showing: 9 / 9</div>
       </div>
     </div>
   </header>
-  <main class="container">
+
+  <div class="container">
     <div class="cards-grid" id="cardsGrid">
-      
+
       <div class="card" data-search="kidney_systemic_chat_img_1_chronic_kidney_injury.jpg anatomical structure of human kidneys and nephron functional unit 09_kidney_in_systemic_diseases schematic diagram right kidney left kidney inferior vena cava abdominal aorta right renal artery and vein left renal artery and vein renal cortex medulla glomerulus loop of henle distal tubule capillaries collecting tubule this diagram illustrates the gross anatomy of the human urinary system alongside a detailed micro-anatomical schematic of a nephron. the renal cortex, medulla, and major vascular networks feed into functional filtration units where blood is ultrafiltered through the glomerulus and processed via the loop of henle and collecting tubules. خد بالك يا دكتورنا، الرسمة دي بتوضح تفاصيل الكلية من بره ومن جوه لحد وحدة الشغل الأساسية اللي هي النيفرون (nephron). الجلوميرولوس (glomerulus) هي اللي بيحصل عندها الفلترة الأولى للدم، وأي خلل في الأوعية الدموية الدقيقة دي هو أساس الأمراض الكلوية الجهازية زي السكر والضغط.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_1_Chronic_Kidney_Injury.jpg" data-filename="kidney_systemic_chat_img_1_Chronic_Kidney_Injury.jpg" alt="Anatomical Structure of Human Kidneys and Nephron Functional Unit" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_1_Chronic_Kidney_Injury.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_1_Chronic_Kidney_Injury.jpg</span>
+          <img src="./kidney_systemic_chat_img_1_Chronic_Kidney_Injury.jpg" alt="Anatomical Structure of Human Kidneys and Nephron Functional Unit" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_1_Chronic_Kidney_Injury.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_1_Chronic_Kidney_Injury.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -71,10 +254,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الرسمة دي بتوضح تفاصيل الكلية من بره ومن جوه لحد وحدة الشغل الأساسية اللي هي النيفرون (Nephron). الجلوميرولوس (Glomerulus) هي اللي بيحصل عندها الفلترة الأولى للدم، وأي خلل في الأوعية الدموية الدقيقة دي هو أساس الأمراض الكلوية الجهازية زي السكر والضغط.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_2_regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg nephron segmentation and renal histological architecture 09_kidney_in_systemic_diseases schematic diagram cortex medulla papilla glomerulus (g) proximal convoluted tubule (pct) proximal straight tubule (pst/s3) descending thin limb (dtl) ascending thin limb (atl) thick ascending limb (tal) macula densa (md) distal convoluted tubule (dct) connecting tubule (cnt) collecting duct glomerular podocyte interstitial fibroblast this schematic diagram illustrates the precise structural organization and cellular composition of the nephron spanning from the renal cortex to the papilla. it correlates macroscopic zones with microscopic segments—including the glomerulus, proximal tubules, loops of henle, distal tubules, and collecting ducts—which are critical targets in systemic kidney diseases such as glomerulonephritis and acute tubular necrosis. خد بالك يا دكتورنا، فهم التقسيم التشريحى للنيفرون من الكورتكس للميدولا بيساعدنا نحدد مكان الإصابة بدقة فى أمراض الكلى الجهازية، سواء كانت فى الجلوميرولوس أو الأنابيب الكلوية.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_2_Regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg" data-filename="kidney_systemic_chat_img_2_Regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg" alt="Nephron Segmentation and Renal Histological Architecture" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_2_Regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_2_Regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg</span>
+          <img src="./kidney_systemic_chat_img_2_Regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg" alt="Nephron Segmentation and Renal Histological Architecture" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_2_Regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_2_Regenerative_medicine_for_the_kidney_stem_cell_prospects_cha.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -89,10 +279,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، فهم التقسيم التشريحى للنيفرون من الكورتكس للميدولا بيساعدنا نحدد مكان الإصابة بدقة فى أمراض الكلى الجهازية، سواء كانت فى الجلوميرولوس أو الأنابيب الكلوية.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_4_diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg anca glomerulonephritis with crescent formation: schematic diagram and renal biopsy 09_kidney_in_systemic_diseases schematic diagram normal glomerulus anca glomerulonephritis glomerular inflammation crescent formation renal biopsy histology this comparative figure illustrates the histological and schematic features of anca-associated glomerulonephritis, marked by severe necrotizing lesions and cellular crescent formation (encircled). these pauci-immune inflammatory changes lead to rapid loss of renal function and are characteristic of systemic small-vessel vasculitis. خد بالك يا دكتورنا، العيان اللي عنده anca vasculitis بيجيله التهاب كلوي حاد مع تكون أقواس (crescents) واضحة في العينة، ودي من الحالات الخطيرة اللي بتحتاج تشخيص وعلاج فوري بمثبطات المناعة لمنع الفشل الكلوي.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_4_Diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg" data-filename="kidney_systemic_chat_img_4_Diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg" alt="ANCA Glomerulonephritis with Crescent Formation: Schematic Diagram and Renal Biopsy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_4_Diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_4_Diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg</span>
+          <img src="./kidney_systemic_chat_img_4_Diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg" alt="ANCA Glomerulonephritis with Crescent Formation: Schematic Diagram and Renal Biopsy" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_4_Diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_4_Diagram_showing_glomerulonephritis-_an_illustration_of_a_nor.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -107,10 +304,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العيان اللي عنده ANCA vasculitis بيجيله التهاب كلوي حاد مع تكون أقواس (Crescents) واضحة في العينة، ودي من الحالات الخطيرة اللي بتحتاج تشخيص وعلاج فوري بمثبطات المناعة لمنع الفشل الكلوي.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_7_-_03_-_msd.jpg thyroidization of the kidney in chronic pyelonephritis / end-stage renal disease (pas stain) 09_kidney_in_systemic_diseases histological micrograph atrophic renal tubules eosinophilic colloid casts thickened tubular basement membranes intertubular fibrosis histological micrograph demonstrating chronic tubulointerstitial nephritis featuring tubular atrophy and dilation with prominent eosinophilic proteinaceous casts, closely mimicking the appearance of thyroid follicles (thyroidization). periodic acid-schiff (pas) staining highlights the thickened, wrinkled tubular basement membranes and extensive interstitial fibrosis. خد بالك يا دكتورنا، المنظر ده بيسموه 'thyroidization' أو تحول الأنابيب الكلوية لشكل الغدة الدرقية، وده بيبان واضح بصبغة الـ pas في الحالات المزمنة زي chronic pyelonephritis أو الـ end-stage renal disease، نتيجة ضمور الأنابيب وامتلائها ببرواكتين إيوزينوفيلي بيفكرنا بالـ colloid.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_7_-_03_-_MSD.jpg" data-filename="kidney_systemic_chat_img_7_-_03_-_MSD.jpg" alt="Thyroidization of the Kidney in Chronic Pyelonephritis / End-Stage Renal Disease (PAS Stain)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_7_-_03_-_MSD.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_7_-_03_-_MSD.jpg</span>
+          <img src="./kidney_systemic_chat_img_7_-_03_-_MSD.jpg" alt="Thyroidization of the Kidney in Chronic Pyelonephritis / End-Stage Renal Disease (PAS Stain)" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_7_-_03_-_MSD.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_7_-_03_-_MSD.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -125,10 +329,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، المنظر ده بيسموه 'Thyroidization' أو تحول الأنابيب الكلوية لشكل الغدة الدرقية، وده بيبان واضح بصبغة الـ PAS في الحالات المزمنة زي Chronic Pyelonephritis أو الـ End-stage renal disease، نتيجة ضمور الأنابيب وامتلائها ببرواكتين إيوزينوفيلي بيفكرنا بالـ Colloid.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_3_pediatric_lupus_nephritis_-_brazilian_journal_of_nephrology.jpg histopathological classification of lupus nephritis (isn/rps classes i to vi) 09_kidney_in_systemic_diseases histological micrograph glomerulus mesangial matrix endothelial cells subepithelial immune deposits sclerotic glomerulus this educational chart summarizes the isn/rps histopathological classification of lupus nephritis into six distinct classes, ranging from minimal mesangial involvement (class i) to advanced sclerotic lupus nephritis (class vi). each class is characterized by specific light microscopic, immunohistochemical, and ultrastructural findings that dictate prognostic outcomes and therapeutic management. الرسم التوضيحي ده بيشرح تقسيم التهاب الكلى الذئبي حسب منظمة الصحة العالمية لست درجات مختلفة، من أول الدرجة البسيطة لحد التليف المتقدم. الفحص المجهري ده أساسي جداً عشان نحدد خطة العلاج المناسبة لكل عيان ونعرف التوقع المستقبلي لحالته.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_3_Pediatric_lupus_nephritis_-_Brazilian_Journal_of_Nephrology.jpg" data-filename="kidney_systemic_chat_img_3_Pediatric_lupus_nephritis_-_Brazilian_Journal_of_Nephrology.jpg" alt="Histopathological Classification of Lupus Nephritis (ISN/RPS Classes I to VI)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_3_Pediatric_lupus_nephritis_-_Brazilian_Journal_of_Nephrology.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_3_Pediatric_lupus_nephritis_-_Brazilian_Journal_of_Nephrology.jpg</span>
+          <img src="./kidney_systemic_chat_img_3_Pediatric_lupus_nephritis_-_Brazilian_Journal_of_Nephrology.jpg" alt="Histopathological Classification of Lupus Nephritis (ISN/RPS Classes I to VI)" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_3_Pediatric_lupus_nephritis_-_Brazilian_Journal_of_Nephrology.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_3_Pediatric_lupus_nephritis_-_Brazilian_Journal_of_Nephrology.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -143,10 +354,17 @@
           <p class="desc-ar" dir="rtl">الرسم التوضيحي ده بيشرح تقسيم التهاب الكلى الذئبي حسب منظمة الصحة العالمية لست درجات مختلفة، من أول الدرجة البسيطة لحد التليف المتقدم. الفحص المجهري ده أساسي جداً عشان نحدد خطة العلاج المناسبة لكل عيان ونعرف التوقع المستقبلي لحالته.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_5_a_congo_red_study_a_highlights_global_mesangial_and_segmenta.jpg renal amyloidosis: congo red staining with apple-green birefringence 09_kidney_in_systemic_diseases histological micrograph glomerulus mesangial and capillary wall amyloid deposits congo red positive material panel a demonstrates classic amorphous salmon-pink deposits of amyloid within the glomerular tuft upon congo red staining. panel b reveals the pathognomonic apple-green birefringence under polarized light, confirming the diagnosis of renal amyloidosis. خد بالك يا دكتورنا، صبغة الكونجو ريد في الصورة الأولى بتدّي لون وردي مميز لأملاح الأميلويد جوه الجلوميرولس، وتحت البولارايزيد لايت (الصورة b) بتعمل الإضاءة الخضراء الشهيرة (apple-green birefringence) اللي بتقطع الشك باليقين في تشخيص الـ renal amyloidosis.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_5_A_Congo_red_study_A_highlights_global_mesangial_and_segmenta.jpg" data-filename="kidney_systemic_chat_img_5_A_Congo_red_study_A_highlights_global_mesangial_and_segmenta.jpg" alt="Renal Amyloidosis: Congo Red Staining with Apple-Green Birefringence" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_5_A_Congo_red_study_A_highlights_global_mesangial_and_segmenta.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_5_A_Congo_red_study_A_highlights_global_mesangial_and_segmenta.jpg</span>
+          <img src="./kidney_systemic_chat_img_5_A_Congo_red_study_A_highlights_global_mesangial_and_segmenta.jpg" alt="Renal Amyloidosis: Congo Red Staining with Apple-Green Birefringence" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_5_A_Congo_red_study_A_highlights_global_mesangial_and_segmenta.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_5_A_Congo_red_study_A_highlights_global_mesangial_and_segmenta.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -161,10 +379,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، صبغة الكونجو ريد في الصورة الأولى بتدّي لون وردي مميز لأملاح الأميلويد جوه الجلوميرولس، وتحت البولارايزيد لايت (الصورة B) بتعمل الإضاءة الخضراء الشهيرة (Apple-green birefringence) اللي بتقطع الشك باليقين في تشخيص الـ Renal Amyloidosis.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_6_amyloidosis_kidney_congo_red_stain_-_medizzy.jpg renal amyloidosis on congo red and polarizing microscopy 09_kidney_in_systemic_diseases histological micrograph glomerulus mesangium amyloid deposits capillary loops photomicrographs of renal biopsy showing glomerular amyloid deposition. panel a displays characteristic salmon-pink staining with congo red, while panel b demonstrates apple-green birefringence under polarizing microscopy, which is pathognomonic for amyloidosis. خد بالك يا دكتورنا، صبغة الكونغو ريد (congo red) بتظهر ترسبات الأميلويد بلون أحمر سلمونى مميز، وتحت الميكروسكوب المستقطب (polarized light) بتدّى لمعة تفاحية خضراء (apple-green birefringence) قاطعة للشك فى تشخيص مرض الـ amyloidosis.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_6_Amyloidosis_kidney_Congo_red_stain_-_MEDizzy.jpg" data-filename="kidney_systemic_chat_img_6_Amyloidosis_kidney_Congo_red_stain_-_MEDizzy.jpg" alt="Renal Amyloidosis on Congo Red and Polarizing Microscopy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_6_Amyloidosis_kidney_Congo_red_stain_-_MEDizzy.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_6_Amyloidosis_kidney_Congo_red_stain_-_MEDizzy.jpg</span>
+          <img src="./kidney_systemic_chat_img_6_Amyloidosis_kidney_Congo_red_stain_-_MEDizzy.jpg" alt="Renal Amyloidosis on Congo Red and Polarizing Microscopy" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_6_Amyloidosis_kidney_Congo_red_stain_-_MEDizzy.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_6_Amyloidosis_kidney_Congo_red_stain_-_MEDizzy.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -179,10 +404,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، صبغة الكونغو ريد (Congo Red) بتظهر ترسبات الأميلويد بلون أحمر سلمونى مميز، وتحت الميكروسكوب المستقطب (Polarized light) بتدّى لمعة تفاحية خضراء (Apple-green birefringence) قاطعة للشك فى تشخيص مرض الـ Amyloidosis.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_9_new_free_120_nbme_step_1_explanations_april_2026.jpg hemolytic uremic syndrome (hus) pathophysiology and classic triad 09_kidney_in_systemic_diseases schematic diagram ehec o157:h7 shiga toxin (stx) gb3 receptor endothelium microthrombus glomerulus hemolytic uremic syndrome (hus) is classically triggered by shiga toxin-producing e. coli (ehec o157:h7). the shiga toxin binds to gb3 receptors on endothelial cells, causing endothelial injury and microthrombus formation, which manifests as the classic triad of thrombocytopenia, microangiopathic hemolytic anemia (maha), and acute kidney injury. خد بالك يا دكتورنا، متلازمة انحلال الدم اليوريمي (hus) بتيجرز غالبا بعد عدوى ehec، وبتتميز بالثلاثية الشهيرة: نقص الصفائح، انحلال الدم، والفشل الكلوي الحاد نتيجة لتكوین جلطات دموية دقيقة في الأوعية الدموية.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_9_New_Free_120_NBME_Step_1_Explanations_April_2026.jpg" data-filename="kidney_systemic_chat_img_9_New_Free_120_NBME_Step_1_Explanations_April_2026.jpg" alt="Hemolytic Uremic Syndrome (HUS) Pathophysiology and Classic Triad" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_9_New_Free_120_NBME_Step_1_Explanations_April_2026.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_9_New_Free_120_NBME_Step_1_Explanations_April_2026.jpg</span>
+          <img src="./kidney_systemic_chat_img_9_New_Free_120_NBME_Step_1_Explanations_April_2026.jpg" alt="Hemolytic Uremic Syndrome (HUS) Pathophysiology and Classic Triad" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_9_New_Free_120_NBME_Step_1_Explanations_April_2026.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_9_New_Free_120_NBME_Step_1_Explanations_April_2026.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -197,10 +429,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، متلازمة انحلال الدم اليوريمي (HUS) بتيجرز غالبا بعد عدوى EHEC، وبتتميز بالثلاثية الشهيرة: نقص الصفائح، انحلال الدم، والفشل الكلوي الحاد نتيجة لتكوین جلطات دموية دقيقة في الأوعية الدموية.</p>
         </div>
       </div>
+
       <div class="card" data-search="kidney_systemic_chat_img_8_scleroderma_renal_crisis_in_a_normotensive_patient_-_pmc.jpg hemolytic uremic syndrome (hus): thrombotic microangiopathy in renal arteriole 09_kidney_in_systemic_diseases histological micrograph renal arteriole endothelial swelling intimal mucoid thickening microvascular fibrin thrombus glomerular remnants this high-power histological micrograph demonstrates classic features of thrombotic microangiopathy in a renal interlobular artery, characteristic of hemolytic uremic syndrome (hus) or thrombotic thrombocytopenic purpura (ttp). prominent mucoid intimal thickening and endothelial cell swelling lead to severe luminal narrowing, predisposing to microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. خد بالك يا دكتورنا، المنظر ده بيوريك الـ thrombotic microangiopathy (tma) في شريان كلوي، ودي العلامة المميزة للـ hus (hemolytic uremic syndrome). بتشوف ورم في بطانة الشريان (endothelial swelling) مع تراكم مواد mucoid ضيقة جداً للومن، وده اللي بيعمل جلطات دقيقة ميكروسكوبية تكسر كرات الدم الحمراء وتعمل الفشل الكلوي الشهير.">
         <div class="img-box">
-          <img src="./kidney_systemic_chat_img_8_Scleroderma_Renal_Crisis_in_a_Normotensive_Patient_-_PMC.jpg" data-filename="kidney_systemic_chat_img_8_Scleroderma_Renal_Crisis_in_a_Normotensive_Patient_-_PMC.jpg" alt="Hemolytic Uremic Syndrome (HUS): Thrombotic Microangiopathy in Renal Arteriole" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/09_kidney_in_systemic_diseases/kidney_systemic_chat_img_8_Scleroderma_Renal_Crisis_in_a_Normotensive_Patient_-_PMC.jpg';" />
-          <span class="img-meta-tag">kidney_systemic_chat_img_8_Scleroderma_Renal_Crisis_in_a_Normotensive_Patient_-_PMC.jpg</span>
+          <img src="./kidney_systemic_chat_img_8_Scleroderma_Renal_Crisis_in_a_Normotensive_Patient_-_PMC.jpg" alt="Hemolytic Uremic Syndrome (HUS): Thrombotic Microangiopathy in Renal Arteriole" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./kidney_systemic_chat_img_8_Scleroderma_Renal_Crisis_in_a_Normotensive_Patient_-_PMC.jpg</code>
+              <button class="copy-pill" onclick="copyText('./kidney_systemic_chat_img_8_Scleroderma_Renal_Crisis_in_a_Normotensive_Patient_-_PMC.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -216,33 +455,46 @@
         </div>
       </div>
     </div>
-  </main>
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="Zoomed view">
   </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged figure" />
+  </div>
+
   <script>
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const prev = btn.innerText;
+        btn.innerText = 'تم النسخ! ✓';
+        btn.style.background = '#16a34a';
+        btn.style.color = '#ffffff';
+        setTimeout(() => {
+          btn.innerText = prev;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(c => {
+        const text = c.getAttribute('data-search') || '';
+        c.style.display = text.includes(q) ? 'grid' : 'none';
+      });
+    }
     function openLightbox(src) {
-      document.getElementById('lightboxImg').src = src;
-      document.getElementById('lightbox').style.display = 'flex';
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      lb.style.display = 'flex';
     }
     function closeLightbox() {
       document.getElementById('lightbox').style.display = 'none';
     }
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-      let visible = 0;
-      cards.forEach(card => {
-        const search = card.getAttribute('data-search') || '';
-        if (!query || search.includes(query)) {
-          card.style.display = 'grid';
-          visible++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-      document.getElementById('countBadge').innerText = `Showing: ${visible} / ${cards.length}`;
-    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   </script>
 </body>
 </html>

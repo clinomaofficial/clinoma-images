@@ -3,60 +3,248 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinoma 06 Acute Kidney Injury Visual Atlas | 6 Images (Cloud Atlas (GitHub CDN Primary))</title>
+  <title>Clinoma 06 Acute Kidney Injury - Remote Repository Atlas (مستودع كلينوما)</title>
   <style>
-    :root { --primary: #2563eb; --accent: #dc2626; --bg: #f8fafc; --card-bg: #ffffff; --text-main: #0f172a; --text-muted: #64748b; --border: #e2e8f0; }
+
+    :root { 
+      --primary: #2563eb; 
+      --primary-dark: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text-main: #0f172a; 
+      --text-muted: #64748b; 
+      --border: #e2e8f0; 
+      --code-bg: #f1f5f9;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; padding-bottom: 80px; }
-    header { background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 16px 24px; }
-    .header-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
-    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); }
-    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
-    .search-box input { width: 340px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; outline: none; background: #f1f5f9; }
-    .search-box input:focus { background: white; border-color: var(--primary); }
-    .stats-badge { background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 9999px; }
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 20px; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      background: var(--bg); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      padding-bottom: 80px; 
+    }
+    header { 
+      background: #ffffff; 
+      border-bottom: 1px solid var(--border); 
+      position: sticky; 
+      top: 0; 
+      z-index: 50; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+      padding: 16px 24px; 
+    }
+    .header-inner { 
+      max-width: 1440px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      align-items: center; 
+      gap: 16px; 
+    }
+    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header-right { display: flex; align-items: center; gap: 14px; }
+    .search-box input { 
+      width: 320px; 
+      padding: 10px 16px; 
+      border-radius: 10px; 
+      border: 1px solid var(--border); 
+      font-size: 13.5px; 
+      outline: none; 
+      background: #f1f5f9; 
+      transition: all 0.2s;
+    }
+    .search-box input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .mode-pill { 
+      font-size: 12px; 
+      font-weight: 700; 
+      padding: 6px 14px; 
+      border-radius: 9999px; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+    }
+    .mode-cloud { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .mode-local { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .container { max-width: 1440px; margin: 24px auto; padding: 0 20px; }
     .cards-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: grid; grid-template-columns: 360px 1fr; gap: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
-    @media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
-    .img-box { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .img-box img { max-width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; cursor: zoom-in; }
-    .img-meta-tag { font-family: monospace; font-size: 11px; color: var(--text-muted); margin-top: 10px; text-align: center; }
+    .card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--border); 
+      border-radius: 16px; 
+      padding: 24px; 
+      display: grid; 
+      grid-template-columns: 380px 1fr; 
+      gap: 28px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02); 
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+    @media (max-width: 950px) { .card { grid-template-columns: 1fr; } }
+    .img-box { 
+      background: #0f172a; 
+      border: 1px solid var(--border); 
+      border-radius: 12px; 
+      padding: 12px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 280px;
+    }
+    .img-box img { 
+      max-width: 100%; 
+      max-height: 320px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      cursor: zoom-in; 
+    }
+    .url-badge-box { 
+      margin-top: 12px; 
+      width: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 6px; 
+    }
+    .url-row { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      background: #1e293b; 
+      padding: 6px 10px; 
+      border-radius: 6px; 
+      gap: 8px; 
+      font-size: 11px;
+    }
+    .url-row.local-row { background: #ffffff; border: 1px solid #cbd5e1; }
+    .url-label { color: #94a3b8; font-weight: 700; white-space: nowrap; }
+    .url-row.local-row .url-label { color: #475569; }
+    .url-link { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      direction: ltr; 
+      text-align: left;
+      flex: 1;
+    }
+    .url-link:hover { text-decoration: underline; color: #7dd3fc; }
+    .path-code { 
+      color: #0f172a; 
+      font-family: monospace; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      flex: 1;
+    }
+    .copy-pill { 
+      background: #334155; 
+      color: #f8fafc; 
+      border: none; 
+      padding: 3px 8px; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 10.5px; 
+      font-weight: 600; 
+      white-space: nowrap; 
+      transition: background 0.15s;
+    }
+    .url-row.local-row .copy-pill { background: #e2e8f0; color: #1e293b; }
+    .copy-pill:hover { background: var(--primary); color: #ffffff; }
     .card-content { display: flex; flex-direction: column; gap: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; }
     .card-num { font-family: monospace; font-size: 13px; font-weight: 700; color: var(--primary); }
-    .badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
-    .card-title { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .badge { 
+      font-size: 11px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+      text-transform: uppercase; 
+      background: #f1f5f9; 
+      color: #334155; 
+      border: 1px solid #cbd5e1; 
+    }
+    .card-title { font-size: 17.5px; font-weight: 800; color: var(--text-main); }
     .structures-box { display: flex; flex-wrap: wrap; gap: 6px; }
-    .struct-pill { background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-    .desc-en { font-size: 13.5px; color: #334155; line-height: 1.6; background: #f8fafc; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--primary); }
-    .desc-ar { font-size: 14px; color: #0f172a; line-height: 1.65; direction: rtl; text-align: right; background: #f0fdf4; padding: 12px 14px; border-radius: 8px; border-right: 3px solid #16a34a; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }
+    .struct-pill { 
+      background: #eff6ff; 
+      border: 1px solid #bfdbfe; 
+      color: #1d4ed8; 
+      font-size: 11.5px; 
+      font-weight: 600; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+    }
+    .desc-en { 
+      font-size: 13.5px; 
+      color: #334155; 
+      line-height: 1.6; 
+      background: #f8fafc; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-left: 3px solid var(--primary); 
+    }
+    .desc-ar { 
+      font-size: 14px; 
+      color: #0f172a; 
+      line-height: 1.65; 
+      direction: rtl; 
+      text-align: right; 
+      background: #f0fdf4; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-right: 3px solid #16a34a; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    .lightbox { 
+      display: none; 
+      position: fixed; 
+      inset: 0; 
+      background: rgba(0,0,0,0.85); 
+      z-index: 100; 
+      align-items: center; 
+      justify-content: center; 
+    }
     .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <div class="title-area">
-        <h1>📚 Clinoma 06 Acute Kidney Injury - Visual Atlas</h1>
-        <p>6 Authentic Medical Figures | Mode: Cloud Atlas (GitHub CDN Primary)</p>
+        <h1>☁️ Clinoma 06 Acute Kidney Injury - مستودع الصور السحابي</h1>
+        <p>6 Authentic Medical Figures | Source: <strong>GitHub Remote Repository (clinomaofficial/clinoma-images)</strong></p>
       </div>
-      <div class="controls" style="display:flex; gap:12px; align-items:center;">
+      <div class="header-right">
+        <span class="mode-pill mode-cloud">☁️ Remote Repository Mode</span>
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search by structure, title, disease, drug..." onkeyup="filterCards()">
+          <input type="text" id="searchInput" placeholder="Search figures, pathology, anatomy... (بحث)" oninput="filterCards()" />
         </div>
-        <div class="stats-badge" id="countBadge">Showing: 6 / 6</div>
       </div>
     </div>
   </header>
-  <main class="container">
+
+  <div class="container">
     <div class="cards-grid" id="cardsGrid">
-      
+
       <div class="card" data-search="aki_raw_06.jpg acute kidney injury: prerenal vs. intrarenal vs. postrenal paradigm 06_acute_kidney_injury schematic diagram heart (prerenal etiology) kidney (intrarenal etiology) bladder and ureters (postrenal etiology) this educational schematic categorizes acute kidney injury (aki) into three major pathophysiological groups: prerenal azotemia resulting from decreased renal perfusion, intrarenal parenchymal damage affecting glomeruli, tubules, or vessels, and postrenal obstructive uropathy. identifying the correct paradigm is critical for timely diagnostic workup and targeted clinical intervention. خد بالك يا دكتورنا، تقسيم الـ aki لـ prerenal و intrarenal و postrenal هو أساس التشخيص السليم. الـ prerenal بيكون بسبب نقص الـ perfusion (زي dehydration أو heart failure)، بينما الـ intrarenal بيشمل مشاكل البارنشايما زي الـ atn والـ glomerulonephritis، والـ postrenal بيتعلق بأي انسداد في طريق البول زي الـ bph والـ ureteral obstruction.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg" data-filename="aki_raw_06.jpg" alt="Acute Kidney Injury: Prerenal vs. Intrarenal vs. Postrenal Paradigm" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./aki_raw_06.jpg';" />
-          <span class="img-meta-tag">aki_raw_06.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg" alt="Acute Kidney Injury: Prerenal vs. Intrarenal vs. Postrenal Paradigm" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_06.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -71,10 +259,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، تقسيم الـ AKI لـ Prerenal و Intrarenal و Postrenal هو أساس التشخيص السليم. الـ Prerenal بيكون بسبب نقص الـ Perfusion (زي Dehydration أو Heart Failure)، بينما الـ Intrarenal بيشمل مشاكل البارنشايما زي الـ ATN والـ Glomerulonephritis، والـ Postrenal بيتعلق بأي انسداد في طريق البول زي الـ BPH والـ Ureteral obstruction.</p>
         </div>
       </div>
+
       <div class="card" data-search="aki_raw_03.jpg renal ultrasonography and schematic grading of hydronephrosis severity 06_acute_kidney_injury radiological imaging renal pelvis major calyx minor calyx ureter renal parenchyma composite ultrasound and schematic diagram demonstrating the progressive grading of hydronephrosis from mild to severe. dilation of the renal pelvis and calyces reflects urinary tract obstruction, potentially leading to obstructive acute kidney injury if bilateral or affecting a solitary kidney. خد بالك يا دكتورنا، تدرج الهيدرونيفروسيس (hydronephrosis) في السونار بيعكس مدى انسداد الجهاز البولي. لو الـ pelvis والـ calyces متوسعين بسيط تبقى mild، لكن لو الحوض متوسع جداً والبارنشايما بقت رقيقة (thinned cortex) تبقى severe، ودي حالة طارئة ممكن تعمل acute kidney injury.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg" data-filename="aki_raw_03.jpg" alt="Renal Ultrasonography and Schematic Grading of Hydronephrosis Severity" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./aki_raw_03.jpg';" />
-          <span class="img-meta-tag">aki_raw_03.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg" alt="Renal Ultrasonography and Schematic Grading of Hydronephrosis Severity" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_03.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -89,10 +289,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، تدرج الهيدرونيفروسيس (Hydronephrosis) في السونار بيعكس مدى انسداد الجهاز البولي. لو الـ Pelvis والـ Calyces متوسعين بسيط تبقى Mild، لكن لو الحوض متوسع جداً والبارنشايما بقت رقيقة (Thinned cortex) تبقى Severe، ودي حالة طارئة ممكن تعمل Acute Kidney Injury.</p>
         </div>
       </div>
+
       <div class="card" data-search="hydronephrosis_us.jpg renal ultrasonography and schematic grading of hydronephrosis severity 06_acute_kidney_injury radiological imaging renal pelvis major calyx minor calyx ureter renal parenchyma composite ultrasound and schematic diagram demonstrating the progressive dilation of the renal collecting system from mild to severe hydronephrosis due to urinary tract obstruction. the classification is based on the extent of pelvicalyceal blunting and subsequent thinning of the adjacent renal parenchyma. early identification is crucial to prevent irreversible renal tubular atrophy and loss of glomerular filtration rate. خد بالك يا دكتورنا إن تصنيف الاستسقاء الكلوي (hydronephrosis) بالسونار مهم جداً عشان تحدد درجة الانسداد وتنقذ الكلية قبل ما يحصل ضمور في خلاياها وتأثر على وظائفها. في الغالب الانسداد ده بيعمل acute kidney injury (aki) لازم نستبعده فوراً بأشعة التلفزيون أول ما يجيلنا مريض عنده anuria أو oliguria.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg" data-filename="hydronephrosis_us.jpg" alt="Renal Ultrasonography and Schematic Grading of Hydronephrosis Severity" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./hydronephrosis_us.jpg';" />
-          <span class="img-meta-tag">hydronephrosis_us.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg" alt="Renal Ultrasonography and Schematic Grading of Hydronephrosis Severity" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/hydronephrosis_us.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -107,10 +319,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن تصنيف الاستسقاء الكلوي (Hydronephrosis) بالسونار مهم جداً عشان تحدد درجة الانسداد وتنقذ الكلية قبل ما يحصل ضمور في خلاياها وتأثر على وظائفها. في الغالب الانسداد ده بيعمل Acute Kidney Injury (AKI) لازم نستبعده فوراً بأشعة التلفزيون أول ما يجيلنا مريض عنده Anuria أو Oliguria.</p>
         </div>
       </div>
+
       <div class="card" data-search="aki_raw_04.jpg renal ultrasonography and schematic grading of hydronephrosis severity 06_acute_kidney_injury radiological imaging renal pelvis major calyx minor calyx ureter renal parenchyma composite ultrasound and schematic diagram illustrating progressive grades of hydronephrosis from mild to severe. dilation of the renal collecting system results from urinary tract obstruction, leading to caliceal blunting, pelvic enlargement, and eventual parenchymal thinning if left untreated. خد بالك يا دكتورنا، تدرج الهيدرونفروز (استسقاء الكلى) بالسونار بيوضح الفرق بين الاتساع البسيط لحوض الكلى والاتساع الشديد مع ضغط وتآكل في نسيج الكلى. تقييم درجة الاستسقاء بيساعدنا نعرف مكان وقوة الانسداد البولي وسرعة التدخل اللازم لمنع الفشل الكلوي الحاد والمزمن.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg" data-filename="aki_raw_04.jpg" alt="Renal Ultrasonography and Schematic Grading of Hydronephrosis Severity" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./aki_raw_04.jpg';" />
-          <span class="img-meta-tag">aki_raw_04.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg" alt="Renal Ultrasonography and Schematic Grading of Hydronephrosis Severity" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_04.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -125,10 +349,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، تدرج الهيدرونفروز (استسقاء الكلى) بالسونار بيوضح الفرق بين الاتساع البسيط لحوض الكلى والاتساع الشديد مع ضغط وتآكل في نسيج الكلى. تقييم درجة الاستسقاء بيساعدنا نعرف مكان وقوة الانسداد البولي وسرعة التدخل اللازم لمنع الفشل الكلوي الحاد والمزمن.</p>
         </div>
       </div>
+
       <div class="card" data-search="aki_raw_05.jpg acute kidney injury prerenal vs intrarenal vs postrenal paradigm schematic 06_acute_kidney_injury schematic diagram heart (prerenal) vessels (prerenal) kidney (intrarenal) bladder and ureters (postrenal) this diagram classifies acute kidney injury (aki) into three primary etiologic categories: prerenal (decreased renal perfusion), intrarenal (direct parenchymal damage such as atn or glomerulonephritis), and postrenal (urinary tract obstruction). understanding these classifications is critical for determining the underlying pathophysiology and guiding targeted management in clinical practice. خد بالك يا دكتورنا، لما يجيلك عيان عنده acute kidney injury، أول خطوة لازم تقسمها وتفرق بين الـ prerenal والـ intrarenal والـ postrenal عشان تعرف الـ cause وتلحق العين في الأول.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg" data-filename="aki_raw_05.jpg" alt="Acute Kidney Injury Prerenal vs Intrarenal vs Postrenal Paradigm Schematic" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./aki_raw_05.jpg';" />
-          <span class="img-meta-tag">aki_raw_05.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg" alt="Acute Kidney Injury Prerenal vs Intrarenal vs Postrenal Paradigm Schematic" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_raw_05.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -143,10 +379,22 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، لما يجيلك عيان عنده Acute Kidney Injury، أول خطوة لازم تقسمها وتفرق بين الـ Prerenal والـ Intrarenal والـ Postrenal عشان تعرف الـ Cause وتلحق العين في الأول.</p>
         </div>
       </div>
+
       <div class="card" data-search="aki_classification.jpg acute kidney injury: prerenal vs intrarenal vs postrenal paradigm 06_acute_kidney_injury schematic diagram heart kidney bladder blood vessel this diagram categorizes acute kidney injury (aki) into three distinct pathophysiological paradigms: prerenal (decreased perfusion like dehydration and heart/liver failure), intrarenal (parenchymal damage like atn and glomerulonephritis), and postrenal (obstructive etiologies like bph and ureteral stones). correctly identifying the specific category is critical for guiding targeted diagnostic evaluation and timely therapeutic interventions. التقسيمة دي هي أساس التعامل مع أي حالة aki في الاستقبال؛ لازم تفرق كويس جداً بين المشكلة البريرنال الناتجة عن نقص التروية (زي الجفاف والهبوط)، والمشكلة جوه الكلية نفسها (intrarenal زي الـ atn والتهاب الكبيبات)، والمشكلة البوست‌رينال بسبب الانسداد (زي تضخم البروستاتا). التشخيص الصح في الأول هيوفر عليك كتير وهيمنع الكلية من الدخول في مرحلة متأخرة.">
         <div class="img-box">
-          <img src="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg" data-filename="aki_classification.jpg" alt="Acute Kidney Injury: Prerenal vs Intrarenal vs Postrenal Paradigm" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='./aki_classification.jpg';" />
-          <span class="img-meta-tag">aki_classification.jpg</span>
+          <img src="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg" data-cdn="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg" alt="Acute Kidney Injury: Prerenal vs Intrarenal vs Postrenal Paradigm" loading="lazy" onclick="openLightbox(this.src)" onerror="if(!this.dataset.cdnTried){this.dataset.cdnTried=1;this.src=this.dataset.cdn;}" />
+          <div class="url-badge-box">
+            <div class="url-row">
+              <span class="url-label">☁️ Repository Raw:</span>
+              <a href="https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg" target="_blank" class="url-link">https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://raw.githubusercontent.com/clinomaofficial/clinoma-images/main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg', this)">نسخ الرابط</button>
+            </div>
+            <div class="url-row">
+              <span class="url-label">⚡ jsDelivr CDN:</span>
+              <a href="https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg" target="_blank" class="url-link">https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg</a>
+              <button class="copy-pill" onclick="copyText('https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/06_acute_kidney_injury/aki_classification.jpg', this)">نسخ CDN</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -162,33 +410,46 @@
         </div>
       </div>
     </div>
-  </main>
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="Zoomed view">
   </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged figure" />
+  </div>
+
   <script>
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const prev = btn.innerText;
+        btn.innerText = 'تم النسخ! ✓';
+        btn.style.background = '#16a34a';
+        btn.style.color = '#ffffff';
+        setTimeout(() => {
+          btn.innerText = prev;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(c => {
+        const text = c.getAttribute('data-search') || '';
+        c.style.display = text.includes(q) ? 'grid' : 'none';
+      });
+    }
     function openLightbox(src) {
-      document.getElementById('lightboxImg').src = src;
-      document.getElementById('lightbox').style.display = 'flex';
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      lb.style.display = 'flex';
     }
     function closeLightbox() {
       document.getElementById('lightbox').style.display = 'none';
     }
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-      let visible = 0;
-      cards.forEach(card => {
-        const search = card.getAttribute('data-search') || '';
-        if (!query || search.includes(query)) {
-          card.style.display = 'grid';
-          visible++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-      document.getElementById('countBadge').innerText = `Showing: ${visible} / ${cards.length}`;
-    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   </script>
 </body>
 </html>

@@ -3,60 +3,243 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinoma 11 Rheumatic Heart Disease Visual Atlas | 13 Images (Local Atlas (Desktop Disk Primary))</title>
+  <title>Clinoma 11 Rheumatic Heart Disease - Local Machine Atlas (الأطلس المكتبي المحلي)</title>
   <style>
-    :root { --primary: #2563eb; --accent: #dc2626; --bg: #f8fafc; --card-bg: #ffffff; --text-main: #0f172a; --text-muted: #64748b; --border: #e2e8f0; }
+
+    :root { 
+      --primary: #2563eb; 
+      --primary-dark: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text-main: #0f172a; 
+      --text-muted: #64748b; 
+      --border: #e2e8f0; 
+      --code-bg: #f1f5f9;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; padding-bottom: 80px; }
-    header { background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 16px 24px; }
-    .header-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
-    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); }
-    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
-    .search-box input { width: 340px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; outline: none; background: #f1f5f9; }
-    .search-box input:focus { background: white; border-color: var(--primary); }
-    .stats-badge { background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 9999px; }
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 20px; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      background: var(--bg); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      padding-bottom: 80px; 
+    }
+    header { 
+      background: #ffffff; 
+      border-bottom: 1px solid var(--border); 
+      position: sticky; 
+      top: 0; 
+      z-index: 50; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+      padding: 16px 24px; 
+    }
+    .header-inner { 
+      max-width: 1440px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      align-items: center; 
+      gap: 16px; 
+    }
+    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header-right { display: flex; align-items: center; gap: 14px; }
+    .search-box input { 
+      width: 320px; 
+      padding: 10px 16px; 
+      border-radius: 10px; 
+      border: 1px solid var(--border); 
+      font-size: 13.5px; 
+      outline: none; 
+      background: #f1f5f9; 
+      transition: all 0.2s;
+    }
+    .search-box input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .mode-pill { 
+      font-size: 12px; 
+      font-weight: 700; 
+      padding: 6px 14px; 
+      border-radius: 9999px; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+    }
+    .mode-cloud { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .mode-local { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .container { max-width: 1440px; margin: 24px auto; padding: 0 20px; }
     .cards-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: grid; grid-template-columns: 360px 1fr; gap: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
-    @media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
-    .img-box { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .img-box img { max-width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; cursor: zoom-in; }
-    .img-meta-tag { font-family: monospace; font-size: 11px; color: var(--text-muted); margin-top: 10px; text-align: center; }
+    .card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--border); 
+      border-radius: 16px; 
+      padding: 24px; 
+      display: grid; 
+      grid-template-columns: 380px 1fr; 
+      gap: 28px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02); 
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+    @media (max-width: 950px) { .card { grid-template-columns: 1fr; } }
+    .img-box { 
+      background: #0f172a; 
+      border: 1px solid var(--border); 
+      border-radius: 12px; 
+      padding: 12px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 280px;
+    }
+    .img-box img { 
+      max-width: 100%; 
+      max-height: 320px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      cursor: zoom-in; 
+    }
+    .url-badge-box { 
+      margin-top: 12px; 
+      width: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 6px; 
+    }
+    .url-row { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      background: #1e293b; 
+      padding: 6px 10px; 
+      border-radius: 6px; 
+      gap: 8px; 
+      font-size: 11px;
+    }
+    .url-row.local-row { background: #ffffff; border: 1px solid #cbd5e1; }
+    .url-label { color: #94a3b8; font-weight: 700; white-space: nowrap; }
+    .url-row.local-row .url-label { color: #475569; }
+    .url-link { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      direction: ltr; 
+      text-align: left;
+      flex: 1;
+    }
+    .url-link:hover { text-decoration: underline; color: #7dd3fc; }
+    .path-code { 
+      color: #0f172a; 
+      font-family: monospace; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      flex: 1;
+    }
+    .copy-pill { 
+      background: #334155; 
+      color: #f8fafc; 
+      border: none; 
+      padding: 3px 8px; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 10.5px; 
+      font-weight: 600; 
+      white-space: nowrap; 
+      transition: background 0.15s;
+    }
+    .url-row.local-row .copy-pill { background: #e2e8f0; color: #1e293b; }
+    .copy-pill:hover { background: var(--primary); color: #ffffff; }
     .card-content { display: flex; flex-direction: column; gap: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; }
     .card-num { font-family: monospace; font-size: 13px; font-weight: 700; color: var(--primary); }
-    .badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
-    .card-title { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .badge { 
+      font-size: 11px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+      text-transform: uppercase; 
+      background: #f1f5f9; 
+      color: #334155; 
+      border: 1px solid #cbd5e1; 
+    }
+    .card-title { font-size: 17.5px; font-weight: 800; color: var(--text-main); }
     .structures-box { display: flex; flex-wrap: wrap; gap: 6px; }
-    .struct-pill { background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-    .desc-en { font-size: 13.5px; color: #334155; line-height: 1.6; background: #f8fafc; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--primary); }
-    .desc-ar { font-size: 14px; color: #0f172a; line-height: 1.65; direction: rtl; text-align: right; background: #f0fdf4; padding: 12px 14px; border-radius: 8px; border-right: 3px solid #16a34a; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }
+    .struct-pill { 
+      background: #eff6ff; 
+      border: 1px solid #bfdbfe; 
+      color: #1d4ed8; 
+      font-size: 11.5px; 
+      font-weight: 600; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+    }
+    .desc-en { 
+      font-size: 13.5px; 
+      color: #334155; 
+      line-height: 1.6; 
+      background: #f8fafc; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-left: 3px solid var(--primary); 
+    }
+    .desc-ar { 
+      font-size: 14px; 
+      color: #0f172a; 
+      line-height: 1.65; 
+      direction: rtl; 
+      text-align: right; 
+      background: #f0fdf4; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-right: 3px solid #16a34a; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    .lightbox { 
+      display: none; 
+      position: fixed; 
+      inset: 0; 
+      background: rgba(0,0,0,0.85); 
+      z-index: 100; 
+      align-items: center; 
+      justify-content: center; 
+    }
     .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <div class="title-area">
-        <h1>📚 Clinoma 11 Rheumatic Heart Disease - Visual Atlas</h1>
-        <p>13 Authentic Medical Figures | Mode: Local Atlas (Desktop Disk Primary)</p>
+        <h1>💻 Clinoma 11 Rheumatic Heart Disease - الأطلس المكتبي المحلي</h1>
+        <p>13 Authentic Medical Figures | Source: <strong>Local Device Disk (Offline First)</strong></p>
       </div>
-      <div class="controls" style="display:flex; gap:12px; align-items:center;">
+      <div class="header-right">
+        <span class="mode-pill mode-local">💻 Local Machine Mode</span>
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search by structure, title, disease, drug..." onkeyup="filterCards()">
+          <input type="text" id="searchInput" placeholder="Search figures, pathology, anatomy... (بحث)" oninput="filterCards()" />
         </div>
-        <div class="stats-badge" id="countBadge">Showing: 13 / 13</div>
       </div>
     </div>
   </header>
-  <main class="container">
+
+  <div class="container">
     <div class="cards-grid" id="cardsGrid">
-      
+
       <div class="card" data-search="rhd_1_rheumatic_fever_heart_valve_disease_8_important_facts.jpg comparative anatomy of normal mitral valve vs. rheumatic mitral stenosis with fish-mouth orifice 11_rheumatic_heart_disease schematic diagram normal mitral valve rheumatic mitral valve (with stenosis) fish-mouth orifice (buttonhole stenosis) aortic valve tricuspid valve this comparative diagram illustrates the transition from a normal wide-open mitral valve orifice to the classic 'fish-mouth' or 'buttonhole' stenosis seen in chronic rheumatic heart disease. commissural fusion, leaflet thickening, and chordal shortening restrict diastolic filling, leading to elevated left atrial pressures and eventual pulmonary congestion. خد بالك يا دكتورنا إن الصمام الميترالي الطبيعي بيبقى واسع وبيسمح للدم ينزل براحته من الأذين للبطين، لكن في الروماتيزم (rheumatic mitral stenosis) بيحصل التحام في الأطراف commissural fusion ويضيق الصمام لدرجة تاخد شكل سمكة 'fish-mouth' أو عروة الزرار، وده بيعلي الضغط في الأذين الشمال وبيعمل ارتشاح رئوي">
         <div class="img-box">
-          <img src="./rhd_1_Rheumatic_Fever_Heart_Valve_Disease_8_Important_Facts.jpg" data-filename="rhd_1_Rheumatic_Fever_Heart_Valve_Disease_8_Important_Facts.jpg" alt="Comparative Anatomy of Normal Mitral Valve vs. Rheumatic Mitral Stenosis with Fish-Mouth Orifice" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_1_Rheumatic_Fever_Heart_Valve_Disease_8_Important_Facts.jpg';" />
-          <span class="img-meta-tag">rhd_1_Rheumatic_Fever_Heart_Valve_Disease_8_Important_Facts.jpg</span>
+          <img src="./rhd_1_Rheumatic_Fever_Heart_Valve_Disease_8_Important_Facts.jpg" alt="Comparative Anatomy of Normal Mitral Valve vs. Rheumatic Mitral Stenosis with Fish-Mouth Orifice" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_1_Rheumatic_Fever_Heart_Valve_Disease_8_Important_Facts.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_1_Rheumatic_Fever_Heart_Valve_Disease_8_Important_Facts.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -71,10 +254,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن الصمام الميترالي الطبيعي بيبقى واسع وبيسمح للدم ينزل براحته من الأذين للبطين، لكن في الروماتيزم (Rheumatic Mitral Stenosis) بيحصل التحام في الأطراف Commissural fusion ويضيق الصمام لدرجة تاخد شكل سمكة 'Fish-mouth' أو عروة الزرار، وده بيعلي الضغط في الأذين الشمال وبيعمل ارتشاح رئوي</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_11_prague_icu.jpg percutaneous balloon valvotomy for mitral stenosis 11_rheumatic_heart_disease schematic diagram catheter balloon mitral valve right atrium left atrium left ventricle schematic representation of percutaneous balloon mitral valvuloplasty used to treat rheumatic mitral stenosis. a catheter is advanced across the interatrial septum to position a specialized balloon across the stenotic mitral valve orifice, where mechanical inflation opens the fused commissures and improves diastolic filling. خد بالك يا دكتورنا، الرسم ده بيمثل عملية توسيع الصمام المترالي بالبالون (percutaneous balloon valvotomy) لعلاج ضيق الصمام المترالي الناتج عن الحمى الروماتيزمية. البالون بيتدخل عن طريق القسطرة وبيتنفخ جوه الصمام عشان يفك الالتصاق بين الشرفات ويحسن تدفق الدم من الأذين الأيسر للبطين الأيسر.">
         <div class="img-box">
-          <img src="./rhd_11_Prague_ICU.jpg" data-filename="rhd_11_Prague_ICU.jpg" alt="Percutaneous Balloon Valvotomy for Mitral Stenosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_11_Prague_ICU.jpg';" />
-          <span class="img-meta-tag">rhd_11_Prague_ICU.jpg</span>
+          <img src="./rhd_11_Prague_ICU.jpg" alt="Percutaneous Balloon Valvotomy for Mitral Stenosis" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_11_Prague_ICU.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_11_Prague_ICU.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -89,10 +279,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الرسم ده بيمثل عملية توسيع الصمام المترالي بالبالون (Percutaneous Balloon Valvotomy) لعلاج ضيق الصمام المترالي الناتج عن الحمى الروماتيزمية. البالون بيتدخل عن طريق القسطرة وبيتنفخ جوه الصمام عشان يفك الالتصاق بين الشرفات ويحسن تدفق الدم من الأذين الأيسر للبطين الأيسر.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_10_cardiovascularcorner_trackyourheart_on_x.jpg transthoracic echocardiographic findings in rheumatic mitral stenosis 11_rheumatic_heart_disease echocardiogram / ecg anterior mitral leaflet (aml) hockey stick deformity posterior mitral leaflet (pml) commissural fusion fish mouth orifice chordal thickening enlarged left atrium right ventricle (rv) left ventricle (lv) these transthoracic echocardiographic views demonstrate classic manifestations of rheumatic mitral stenosis, including anterior mitral leaflet 'hockey-stick' doming in parasternal long-axis (a), classic 'fish-mouth' orifice due to commissural fusion in parasternal short-axis (b), and severe subvalvular chordal thickening with left atrial enlargement in apical 4-chamber view (c). these structural changes impede diastolic left ventricular filling, leading to elevated left atrial pressures and long-term sequelae. خد بالك يا دكتورنا، الإيكو ده بيلخص كلاسيكيات الروماتيزم على الصمام المترالي (mitral stenosis). الصورة (a) مبينة الـ 'hockey-stick' للأمامي (aml)، والصورة (b) جايبة الـ 'fish-mouth orifice' بسبب التحام الـ commissures، والصورة (c) موضحة تخن الـ chords وتضخم الـ left atrium. علامات واضحة وقطعية لأعراض ضيق المترالي الروماتيزمي.">
         <div class="img-box">
-          <img src="./rhd_10_CardiovascularCorner_TrackYourHeart_on_X.jpg" data-filename="rhd_10_CardiovascularCorner_TrackYourHeart_on_X.jpg" alt="Transthoracic Echocardiographic Findings in Rheumatic Mitral Stenosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_10_CardiovascularCorner_TrackYourHeart_on_X.jpg';" />
-          <span class="img-meta-tag">rhd_10_CardiovascularCorner_TrackYourHeart_on_X.jpg</span>
+          <img src="./rhd_10_CardiovascularCorner_TrackYourHeart_on_X.jpg" alt="Transthoracic Echocardiographic Findings in Rheumatic Mitral Stenosis" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_10_CardiovascularCorner_TrackYourHeart_on_X.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_10_CardiovascularCorner_TrackYourHeart_on_X.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -107,10 +304,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الإيكو ده بيلخص كلاسيكيات الروماتيزم على الصمام المترالي (Mitral Stenosis). الصورة (A) مبينة الـ 'Hockey-stick' للأمامي (AML)، والصورة (B) جايبة الـ 'Fish-mouth orifice' بسبب التحام الـ Commissures، والصورة (C) موضحة تخن الـ Chords وتضخم الـ Left Atrium. علامات واضحة وقطعية لأعراض ضيق المترالي الروماتيزمي.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_13_file_blausen_0889_mitralvalvuloplastypng_-_wikimedia_commons.jpg percutaneous balloon mitral valvuloplasty schematic illustration 11_rheumatic_heart_disease schematic diagram heart chambers mitral valve balloon catheter left atrium left ventricle this schematic diagram illustrates percutaneous balloon mitral valvuloplasty, a transcatheter intervention used to relieve mitral stenosis caused by rheumatic heart disease. a catheter with an inflatable balloon is advanced across the interatrial septum and positioned within the stenotic mitral valve orifice to separate fused commissures. الرسم التوضيحي بيبين عملية توسيع صمام ميترالي بالبالون عن طريق القسطرة لعلاج ضيق الميترالي الناتج عن الحمى الروماتيزمية. خد بالك يا دكتورنا إن البالون بيتدخل عبر الوريد الأجوف ويدخل الأذين الأيمن وبعدين يخترق الحاجز الأذيني عشان يوسع الصمام ويفك الالتصاقات.">
         <div class="img-box">
-          <img src="./rhd_13_File_Blausen_0889_MitralValvuloplastypng_-_Wikimedia_Commons.jpg" data-filename="rhd_13_File_Blausen_0889_MitralValvuloplastypng_-_Wikimedia_Commons.jpg" alt="Percutaneous Balloon Mitral Valvuloplasty Schematic Illustration" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_13_File_Blausen_0889_MitralValvuloplastypng_-_Wikimedia_Commons.jpg';" />
-          <span class="img-meta-tag">rhd_13_File_Blausen_0889_MitralValvuloplastypng_-_Wikimedia_Commons.jpg</span>
+          <img src="./rhd_13_File_Blausen_0889_MitralValvuloplastypng_-_Wikimedia_Commons.jpg" alt="Percutaneous Balloon Mitral Valvuloplasty Schematic Illustration" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_13_File_Blausen_0889_MitralValvuloplastypng_-_Wikimedia_Commons.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_13_File_Blausen_0889_MitralValvuloplastypng_-_Wikimedia_Commons.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -125,10 +329,17 @@
           <p class="desc-ar" dir="rtl">الرسم التوضيحي بيبين عملية توسيع صمام ميترالي بالبالون عن طريق القسطرة لعلاج ضيق الميترالي الناتج عن الحمى الروماتيزمية. خد بالك يا دكتورنا إن البالون بيتدخل عبر الوريد الأجوف ويدخل الأذين الأيمن وبعدين يخترق الحاجز الأذيني عشان يوسع الصمام ويفك الالتصاقات.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_4_cbl_exam_5_ecg_anit-arr_flashcards_quizlet.jpg aschoff body with anitschkow cells in acute rheumatic myocarditis 11_rheumatic_heart_disease histological micrograph normal myocardium aschoff body anitschkow cells this histological section demonstrates an aschoff body, the pathognomonic granulomatous lesion of acute rheumatic carditis found within the myocardial interstitium. it features central fibrinoid necrosis surrounded by characteristic anitschkow cells (caterpillar cells), which are modified macrophages with abundant cytoplasm and central chromatin condensation. خد بالك يا دكتورنا، الـ aschoff body دي هي العلامة المميزة للروماتيزم في القلب (rheumatic carditis) وخاصة في الميوكارديم. الـ anitschkow cells بيكون شكل الكروماتين جواها عامل زي الدودة (caterpillar cells) ودي أصلها ماكروفاجز حصلها تغير مميز.">
         <div class="img-box">
-          <img src="./rhd_4_CBL_Exam_5_ECG_Anit-arr_Flashcards_Quizlet.jpg" data-filename="rhd_4_CBL_Exam_5_ECG_Anit-arr_Flashcards_Quizlet.jpg" alt="Aschoff Body with Anitschkow Cells in Acute Rheumatic Myocarditis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_4_CBL_Exam_5_ECG_Anit-arr_Flashcards_Quizlet.jpg';" />
-          <span class="img-meta-tag">rhd_4_CBL_Exam_5_ECG_Anit-arr_Flashcards_Quizlet.jpg</span>
+          <img src="./rhd_4_CBL_Exam_5_ECG_Anit-arr_Flashcards_Quizlet.jpg" alt="Aschoff Body with Anitschkow Cells in Acute Rheumatic Myocarditis" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_4_CBL_Exam_5_ECG_Anit-arr_Flashcards_Quizlet.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_4_CBL_Exam_5_ECG_Anit-arr_Flashcards_Quizlet.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -143,10 +354,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الـ Aschoff body دي هي العلامة المميزة للروماتيزم في القلب (Rheumatic Carditis) وخاصة في الميوكارديم. الـ Anitschkow cells بيكون شكل الكروماتين جواها عامل زي الدودة (Caterpillar cells) ودي أصلها ماكروفاجز حصلها تغير مميز.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_5_ppt_-_valvular_heart_disease_cardiomyopathy_and_aneursyms_po.jpg mitral stenosis 'fish-mouth' orifice (gross pathology) 11_rheumatic_heart_disease gross pathology mitral valve orifice stenotic commissures fibrotic valve leaflets gross pathology specimen of a chronically stenotic mitral valve viewed from the left atrium, displaying the classic 'fish-mouth' (or buttonhole) orifice due to leaflet thickening, commissural fusion, and fibrosis. this anatomical narrowing is the hallmark of rheumatic heart disease, severely impairing diastolic filling of the left ventricle and leading to elevated left atrial pressures and pulmonary congestion. خد بالك يا دكتورنا، المنظر ده كلاسيكي جداً لضيق الصمام المترالي (mitral stenosis) الناتج عن حمى روماتيزمية قديمة. فتحة الصمام بتبقى ناشفة وضيقة شبه بوق السمكة (fish-mouth deformity) بسبب التليف والالتصاق في أطراف الصمام، وده بيعمل إعاقة واضحة لمرور الدم من الأذين للبطين الأيسر.">
         <div class="img-box">
-          <img src="./rhd_5_PPT_-_Valvular_Heart_Disease_Cardiomyopathy_and_Aneursyms_Po.jpg" data-filename="rhd_5_PPT_-_Valvular_Heart_Disease_Cardiomyopathy_and_Aneursyms_Po.jpg" alt="Mitral Stenosis 'Fish-Mouth' Orifice (Gross Pathology)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_5_PPT_-_Valvular_Heart_Disease_Cardiomyopathy_and_Aneursyms_Po.jpg';" />
-          <span class="img-meta-tag">rhd_5_PPT_-_Valvular_Heart_Disease_Cardiomyopathy_and_Aneursyms_Po.jpg</span>
+          <img src="./rhd_5_PPT_-_Valvular_Heart_Disease_Cardiomyopathy_and_Aneursyms_Po.jpg" alt="Mitral Stenosis 'Fish-Mouth' Orifice (Gross Pathology)" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_5_PPT_-_Valvular_Heart_Disease_Cardiomyopathy_and_Aneursyms_Po.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_5_PPT_-_Valvular_Heart_Disease_Cardiomyopathy_and_Aneursyms_Po.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -161,10 +379,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، المنظر ده كلاسيكي جداً لضيق الصمام المترالي (Mitral Stenosis) الناتج عن حمى روماتيزمية قديمة. فتحة الصمام بتبقى ناشفة وضيقة شبه بوق السمكة (Fish-mouth deformity) بسبب التليف والالتصاق في أطراف الصمام، وده بيعمل إعاقة واضحة لمرور الدم من الأذين للبطين الأيسر.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_12_expert_heart_cardiac_care_at_medlife_hospital_lucknow.jpg mitral valve replacement: biological vs mechanical prosthetic valves 11_rheumatic_heart_disease schematic diagram new valve biological valve mechanical valve top view of the heart this schematic diagram illustrates mitral valve replacement surgical options, comparing biological tissue valves (bioprosthesis) with mechanical tilting-disc/bileaflet valves. mechanical valves offer superior durability but require lifelong anticoagulation, whereas biological valves have a lower thrombogenic risk but undergo structural valve deterioration over time. خد بالك يا دكتورنا، لما تختار صمام مرجعي لمريض حمى روماتيزمية، الصمام الميكانيكي بيعيش أكتر بس بيحتاج سيولة مدى الحياة (وارفارين)، أما الصمام البيولوجي بيفادي السيولة بس بيحصل فيه تآكل على مدار السنين وغالباً بيحتاج مراجعة بعد 10-15 سنة.">
         <div class="img-box">
-          <img src="./rhd_12_Expert_Heart_Cardiac_Care_at_Medlife_Hospital_Lucknow.jpg" data-filename="rhd_12_Expert_Heart_Cardiac_Care_at_Medlife_Hospital_Lucknow.jpg" alt="Mitral Valve Replacement: Biological vs Mechanical Prosthetic Valves" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_12_Expert_Heart_Cardiac_Care_at_Medlife_Hospital_Lucknow.jpg';" />
-          <span class="img-meta-tag">rhd_12_Expert_Heart_Cardiac_Care_at_Medlife_Hospital_Lucknow.jpg</span>
+          <img src="./rhd_12_Expert_Heart_Cardiac_Care_at_Medlife_Hospital_Lucknow.jpg" alt="Mitral Valve Replacement: Biological vs Mechanical Prosthetic Valves" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_12_Expert_Heart_Cardiac_Care_at_Medlife_Hospital_Lucknow.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_12_Expert_Heart_Cardiac_Care_at_Medlife_Hospital_Lucknow.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -179,10 +404,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، لما تختار صمام مرجعي لمريض حمى روماتيزمية، الصمام الميكانيكي بيعيش أكتر بس بيحتاج سيولة مدى الحياة (وارفارين)، أما الصمام البيولوجي بيفادي السيولة بس بيحصل فيه تآكل على مدار السنين وغالباً بيحتاج مراجعة بعد 10-15 سنة.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_3_aschoff_body_-_medizzy.jpg aschoff body with anitschkow cells in rheumatic myocarditis 11_rheumatic_heart_disease histological micrograph aschoff cell anitschkow cells necrotic debris mononuclear cells histological section of the myocardium showing a classic aschoff body, the pathognomonic lesion of acute rheumatic carditis. it features a central zone of fibrinoid necrosis surrounded by characteristic anitschkow cells (caterpillar cells with wavy chromatin) and mononuclear inflammatory infiltrates. خد بالك يا دكتورنا، العرض ده بيمثل aschoff body المشهورة جداً في الـ rheumatic heart disease، وبتتميز بوجود anitschkow cells اللي النواة بتاعتها بتبان كأنها تعبان أو caterpillar-like細胞. دي العلامة الباثولوجية الباثوجنومونيك في الروماتيزم الحاد اللي بتصيب عضلة القلب.">
         <div class="img-box">
-          <img src="./rhd_3_Aschoff_body_-_MEDizzy.jpg" data-filename="rhd_3_Aschoff_body_-_MEDizzy.jpg" alt="Aschoff Body with Anitschkow Cells in Rheumatic Myocarditis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_3_Aschoff_body_-_MEDizzy.jpg';" />
-          <span class="img-meta-tag">rhd_3_Aschoff_body_-_MEDizzy.jpg</span>
+          <img src="./rhd_3_Aschoff_body_-_MEDizzy.jpg" alt="Aschoff Body with Anitschkow Cells in Rheumatic Myocarditis" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_3_Aschoff_body_-_MEDizzy.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_3_Aschoff_body_-_MEDizzy.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -197,10 +429,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العرض ده بيمثل Aschoff body المشهورة جداً في الـ Rheumatic Heart Disease، وبتتميز بوجود Anitschkow cells اللي النواة بتاعتها بتبان كأنها تعبان أو Caterpillar-like細胞. دي العلامة الباثولوجية الباثوجنومونيك في الروماتيزم الحاد اللي بتصيب عضلة القلب.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_9_mitral_stenosis_concise_medical_knowledge.jpg auscultation findings and phonocardiogram of mitral stenosis 11_rheumatic_heart_disease schematic diagram s1 a2 p2 opening snap (o.s.) diastolic rumble cardiac apex auscultation site schematic phonocardiogram and auscultation map demonstrating the classic cardiac findings in mitral stenosis, including a loud s1, an opening snap following s2, and a low-pitched diastolic rumble heard best at the cardiac apex. the interval between s2 and the opening snap inversely correlates with severity, while the duration of the diastolic murmur lengthens in severe disease. خد بالك يا دكتورنا إن الضغط العالي في الأتريوم الشمال بيخلي الـ mitral valve ينفتح بصوت مميز اسمه opening snap، وكل ما القفلة تقرب من الـ s2 (يعني الـ a2-os interval يقل) ده معناه إن السايز بتاع الڤالڤ بقى ضيق جداً والحالة أصبحت severe، والصوت ده بتسمعه بوضوح شديد عند الـ apex بالـ bell بتاع السماعة ومعاه diastolic rumble.">
         <div class="img-box">
-          <img src="./rhd_9_Mitral_Stenosis_Concise_Medical_Knowledge.jpg" data-filename="rhd_9_Mitral_Stenosis_Concise_Medical_Knowledge.jpg" alt="Auscultation Findings and Phonocardiogram of Mitral Stenosis" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_9_Mitral_Stenosis_Concise_Medical_Knowledge.jpg';" />
-          <span class="img-meta-tag">rhd_9_Mitral_Stenosis_Concise_Medical_Knowledge.jpg</span>
+          <img src="./rhd_9_Mitral_Stenosis_Concise_Medical_Knowledge.jpg" alt="Auscultation Findings and Phonocardiogram of Mitral Stenosis" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_9_Mitral_Stenosis_Concise_Medical_Knowledge.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_9_Mitral_Stenosis_Concise_Medical_Knowledge.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -215,10 +454,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن الضغط العالي في الأتريوم الشمال بيخلي الـ Mitral Valve ينفتح بصوت مميز اسمه Opening Snap، وكل ما القفلة تقرب من الـ S2 (يعني الـ A2-OS interval يقل) ده معناه إن السايز بتاع الڤالڤ بقى ضيق جداً والحالة أصبحت Severe، والصوت ده بتسمعه بوضوح شديد عند الـ Apex بالـ Bell بتاع السماعة ومعاه Diastolic Rumble.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_2_acute_rheumatic_fever_-_allergy_immunology_uworld_medical_li.jpg acute rheumatic heart disease histopathology: aschoff bodies and anitschkow cells 11_rheumatic_heart_disease histological micrograph aschoff body giant cells myocardium macrophages (anitschkow cells) histological examination of acute rheumatic myocarditis reveals characteristic aschoff bodies, which are granulomatous lesions consisting of t cells, plasma cells, and pathognomonic anitschkow cells (activated macrophages with abundant cytoplasm and central chromatin condensation forming a caterpillar-like pattern). these lesions represent a delayed-type hypersensitivity reaction following group a streptococcal pharyngitis and can lead to pancarditis. خد بالك يا دكتورنا، العينة هنا بتوريني aschoff body واضحة جداً في الميوق الحار (myocardium) ومعاها الـ anitschkow cells (اللي ليها caterpillar chromatin pattern)، ودي علامة مميزة جداً للروماتيزم الحاد بعد التهاب الحلق بالميكروب السبحاني (group a streptococcus)، وتعتبر باتوجنومونيك لتشخيص الـ acute rheumatic fever.">
         <div class="img-box">
-          <img src="./rhd_2_Acute_Rheumatic_Fever_-_Allergy_Immunology_UWorld_Medical_Li.jpg" data-filename="rhd_2_Acute_Rheumatic_Fever_-_Allergy_Immunology_UWorld_Medical_Li.jpg" alt="Acute Rheumatic Heart Disease Histopathology: Aschoff Bodies and Anitschkow Cells" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_2_Acute_Rheumatic_Fever_-_Allergy_Immunology_UWorld_Medical_Li.jpg';" />
-          <span class="img-meta-tag">rhd_2_Acute_Rheumatic_Fever_-_Allergy_Immunology_UWorld_Medical_Li.jpg</span>
+          <img src="./rhd_2_Acute_Rheumatic_Fever_-_Allergy_Immunology_UWorld_Medical_Li.jpg" alt="Acute Rheumatic Heart Disease Histopathology: Aschoff Bodies and Anitschkow Cells" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_2_Acute_Rheumatic_Fever_-_Allergy_Immunology_UWorld_Medical_Li.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_2_Acute_Rheumatic_Fever_-_Allergy_Immunology_UWorld_Medical_Li.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -233,10 +479,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة هنا بتوريني Aschoff body واضحة جداً في الميوق الحار (Myocardium) ومعاها الـ Anitschkow cells (اللي ليها caterpillar chromatin pattern)، ودي علامة مميزة جداً للروماتيزم الحاد بعد التهاب الحلق بالميكروب السبحاني (Group A Streptococcus)، وتعتبر باتوجنومونيك لتشخيص الـ Acute Rheumatic Fever.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_6_anatpat-unicamp.jpg mitral stenosis with commissural fusion and leaflet thickening 11_rheumatic_heart_disease gross pathology fusão das comissuras lacínias espessadas mitral valve orifice gross pathology specimen of the mitral valve demonstrating classic features of chronic rheumatic heart disease, including commissural fusion and marked leaflet (cusp) thickening. these structural alterations lead to the characteristic 'fish-mouth' or 'buttonhole' stenosis, severely restricting diastolic blood flow from the left atrium to the left ventricle. خد بالك يا دكتورنا، العينة دي بتوريك الـ mitral stenosis الكلاسيكي اللي بيحصل بسبب الحمى الروماتيزمية، وواضح جداً التحام الـ commissures وتغلظ الـ leaflets (اللي بيسموها fish-mouth appearance)، وده بيقلل مساحة الصمام ويمنع الدم من النزول براحته من الأتريوم للبطين.">
         <div class="img-box">
-          <img src="./rhd_6_Anatpat-UNICAMP.jpg" data-filename="rhd_6_Anatpat-UNICAMP.jpg" alt="Mitral Stenosis with Commissural Fusion and Leaflet Thickening" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_6_Anatpat-UNICAMP.jpg';" />
-          <span class="img-meta-tag">rhd_6_Anatpat-UNICAMP.jpg</span>
+          <img src="./rhd_6_Anatpat-UNICAMP.jpg" alt="Mitral Stenosis with Commissural Fusion and Leaflet Thickening" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_6_Anatpat-UNICAMP.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_6_Anatpat-UNICAMP.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -251,10 +504,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة دي بتوريك الـ Mitral Stenosis الكلاسيكي اللي بيحصل بسبب الحمى الروماتيزمية، وواضح جداً التحام الـ Commissures وتغلظ الـ Leaflets (اللي بيسموها Fish-mouth appearance)، وده بيقلل مساحة الصمام ويمنع الدم من النزول براحته من الأتريوم للبطين.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_8_mitral_pptx_heart_and_cardiovascular_diseases_diseases_and_c.jpg pathophysiology of mitral stenosis: progression from left atrial pressure overload to pulmonary congestion 11_rheumatic_heart_disease schematic diagram left atrium (la) left ventricle (lv) pulmonary veins mitral stenosis mechanically restricts blood flow from the left atrium (la) to the left ventricle (lv), causing progressive pressure and volume overload in the la. this hemodynamic barrier leads to left atrial hypertrophy and dilation, subsequently transmitting elevated pressures backward into the pulmonary veins and vasculature, culminating in pulmonary congestion. خد بالك يا دكتورنا، الضيق الميترالي (ms) بيقفل الباب قدام الدم وهو نازل من الأذين الأيسر للبطين الأيسر، فالدم بيتحوش جوه الأذين ويزيد ضغطه وحجمه؛ وده بيخليه يتضخم (hypertrophy & dilation)، ولما الضغط يعطّل لورا على الأوردة الرئوية يدخل العيان في ارتشاح رئوي وأعراض هبوط.">
         <div class="img-box">
-          <img src="./rhd_8_Mitral_PPTX_Heart_and_Cardiovascular_Diseases_Diseases_and_C.jpg" data-filename="rhd_8_Mitral_PPTX_Heart_and_Cardiovascular_Diseases_Diseases_and_C.jpg" alt="Pathophysiology of Mitral Stenosis: Progression from Left Atrial Pressure Overload to Pulmonary Congestion" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_8_Mitral_PPTX_Heart_and_Cardiovascular_Diseases_Diseases_and_C.jpg';" />
-          <span class="img-meta-tag">rhd_8_Mitral_PPTX_Heart_and_Cardiovascular_Diseases_Diseases_and_C.jpg</span>
+          <img src="./rhd_8_Mitral_PPTX_Heart_and_Cardiovascular_Diseases_Diseases_and_C.jpg" alt="Pathophysiology of Mitral Stenosis: Progression from Left Atrial Pressure Overload to Pulmonary Congestion" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_8_Mitral_PPTX_Heart_and_Cardiovascular_Diseases_Diseases_and_C.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_8_Mitral_PPTX_Heart_and_Cardiovascular_Diseases_Diseases_and_C.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -269,10 +529,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الضيق الميترالي (MS) بيقفل الباب قدام الدم وهو نازل من الأذين الأيسر للبطين الأيسر، فالدم بيتحوش جوه الأذين ويزيد ضغطه وحجمه؛ وده بيخليه يتضخم (Hypertrophy & Dilation)، ولما الضغط يعطّل لورا على الأوردة الرئوية يدخل العيان في ارتشاح رئوي وأعراض هبوط.</p>
         </div>
       </div>
+
       <div class="card" data-search="rhd_7.jpg pathological features of rheumatic heart disease and valvular deformities 11_rheumatic_heart_disease gross pathology aortic valve thickening left ventricular hypertrophy mitral valve chordae tendineae fusion mitral valve leaflet fibrosis this four-panel gross pathology montage illustrates characteristic chronic rheumatic heart disease lesions. panels display valvular leaflet thickening, commissural fusion, and shortening of the chordae tendineae leading to severe stenosis and regurgitation. خد بالك يا دكتورنا إن التغيرات دي بتوريك شكل الصمامات في الحمى الروماتيزמית (rheumatic heart disease) لما بتحصل فيها تليفات والتحام في الشرفات (commissural fusion) وقطع أو قصر في الأوتار (chordae tendineae)، وده بيعمل ضيق أو ارتجاع مزمن.">
         <div class="img-box">
-          <img src="./rhd_7.jpg" data-filename="rhd_7.jpg" alt="Pathological Features of Rheumatic Heart Disease and Valvular Deformities" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/cardiology/11_rheumatic_heart_disease/rhd_7.jpg';" />
-          <span class="img-meta-tag">rhd_7.jpg</span>
+          <img src="./rhd_7.jpg" alt="Pathological Features of Rheumatic Heart Disease and Valvular Deformities" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rhd_7.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rhd_7.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -288,33 +555,46 @@
         </div>
       </div>
     </div>
-  </main>
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="Zoomed view">
   </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged figure" />
+  </div>
+
   <script>
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const prev = btn.innerText;
+        btn.innerText = 'تم النسخ! ✓';
+        btn.style.background = '#16a34a';
+        btn.style.color = '#ffffff';
+        setTimeout(() => {
+          btn.innerText = prev;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(c => {
+        const text = c.getAttribute('data-search') || '';
+        c.style.display = text.includes(q) ? 'grid' : 'none';
+      });
+    }
     function openLightbox(src) {
-      document.getElementById('lightboxImg').src = src;
-      document.getElementById('lightbox').style.display = 'flex';
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      lb.style.display = 'flex';
     }
     function closeLightbox() {
       document.getElementById('lightbox').style.display = 'none';
     }
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-      let visible = 0;
-      cards.forEach(card => {
-        const search = card.getAttribute('data-search') || '';
-        if (!query || search.includes(query)) {
-          card.style.display = 'grid';
-          visible++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-      document.getElementById('countBadge').innerText = `Showing: ${visible} / ${cards.length}`;
-    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   </script>
 </body>
 </html>

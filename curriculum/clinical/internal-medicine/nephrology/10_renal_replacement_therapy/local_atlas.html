@@ -3,60 +3,243 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinoma 10 Renal Replacement Therapy Visual Atlas | 13 Images (Local Atlas (Desktop Disk Primary))</title>
+  <title>Clinoma 10 Renal Replacement Therapy - Local Machine Atlas (الأطلس المكتبي المحلي)</title>
   <style>
-    :root { --primary: #2563eb; --accent: #dc2626; --bg: #f8fafc; --card-bg: #ffffff; --text-main: #0f172a; --text-muted: #64748b; --border: #e2e8f0; }
+
+    :root { 
+      --primary: #2563eb; 
+      --primary-dark: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text-main: #0f172a; 
+      --text-muted: #64748b; 
+      --border: #e2e8f0; 
+      --code-bg: #f1f5f9;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; padding-bottom: 80px; }
-    header { background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 16px 24px; }
-    .header-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
-    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); }
-    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
-    .search-box input { width: 340px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; outline: none; background: #f1f5f9; }
-    .search-box input:focus { background: white; border-color: var(--primary); }
-    .stats-badge { background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 9999px; }
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 20px; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      background: var(--bg); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      padding-bottom: 80px; 
+    }
+    header { 
+      background: #ffffff; 
+      border-bottom: 1px solid var(--border); 
+      position: sticky; 
+      top: 0; 
+      z-index: 50; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+      padding: 16px 24px; 
+    }
+    .header-inner { 
+      max-width: 1440px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      align-items: center; 
+      gap: 16px; 
+    }
+    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header-right { display: flex; align-items: center; gap: 14px; }
+    .search-box input { 
+      width: 320px; 
+      padding: 10px 16px; 
+      border-radius: 10px; 
+      border: 1px solid var(--border); 
+      font-size: 13.5px; 
+      outline: none; 
+      background: #f1f5f9; 
+      transition: all 0.2s;
+    }
+    .search-box input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .mode-pill { 
+      font-size: 12px; 
+      font-weight: 700; 
+      padding: 6px 14px; 
+      border-radius: 9999px; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+    }
+    .mode-cloud { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .mode-local { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .container { max-width: 1440px; margin: 24px auto; padding: 0 20px; }
     .cards-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: grid; grid-template-columns: 360px 1fr; gap: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
-    @media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
-    .img-box { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .img-box img { max-width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; cursor: zoom-in; }
-    .img-meta-tag { font-family: monospace; font-size: 11px; color: var(--text-muted); margin-top: 10px; text-align: center; }
+    .card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--border); 
+      border-radius: 16px; 
+      padding: 24px; 
+      display: grid; 
+      grid-template-columns: 380px 1fr; 
+      gap: 28px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02); 
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+    @media (max-width: 950px) { .card { grid-template-columns: 1fr; } }
+    .img-box { 
+      background: #0f172a; 
+      border: 1px solid var(--border); 
+      border-radius: 12px; 
+      padding: 12px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 280px;
+    }
+    .img-box img { 
+      max-width: 100%; 
+      max-height: 320px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      cursor: zoom-in; 
+    }
+    .url-badge-box { 
+      margin-top: 12px; 
+      width: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 6px; 
+    }
+    .url-row { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      background: #1e293b; 
+      padding: 6px 10px; 
+      border-radius: 6px; 
+      gap: 8px; 
+      font-size: 11px;
+    }
+    .url-row.local-row { background: #ffffff; border: 1px solid #cbd5e1; }
+    .url-label { color: #94a3b8; font-weight: 700; white-space: nowrap; }
+    .url-row.local-row .url-label { color: #475569; }
+    .url-link { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      direction: ltr; 
+      text-align: left;
+      flex: 1;
+    }
+    .url-link:hover { text-decoration: underline; color: #7dd3fc; }
+    .path-code { 
+      color: #0f172a; 
+      font-family: monospace; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      flex: 1;
+    }
+    .copy-pill { 
+      background: #334155; 
+      color: #f8fafc; 
+      border: none; 
+      padding: 3px 8px; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 10.5px; 
+      font-weight: 600; 
+      white-space: nowrap; 
+      transition: background 0.15s;
+    }
+    .url-row.local-row .copy-pill { background: #e2e8f0; color: #1e293b; }
+    .copy-pill:hover { background: var(--primary); color: #ffffff; }
     .card-content { display: flex; flex-direction: column; gap: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; }
     .card-num { font-family: monospace; font-size: 13px; font-weight: 700; color: var(--primary); }
-    .badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
-    .card-title { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .badge { 
+      font-size: 11px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+      text-transform: uppercase; 
+      background: #f1f5f9; 
+      color: #334155; 
+      border: 1px solid #cbd5e1; 
+    }
+    .card-title { font-size: 17.5px; font-weight: 800; color: var(--text-main); }
     .structures-box { display: flex; flex-wrap: wrap; gap: 6px; }
-    .struct-pill { background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-    .desc-en { font-size: 13.5px; color: #334155; line-height: 1.6; background: #f8fafc; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--primary); }
-    .desc-ar { font-size: 14px; color: #0f172a; line-height: 1.65; direction: rtl; text-align: right; background: #f0fdf4; padding: 12px 14px; border-radius: 8px; border-right: 3px solid #16a34a; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }
+    .struct-pill { 
+      background: #eff6ff; 
+      border: 1px solid #bfdbfe; 
+      color: #1d4ed8; 
+      font-size: 11.5px; 
+      font-weight: 600; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+    }
+    .desc-en { 
+      font-size: 13.5px; 
+      color: #334155; 
+      line-height: 1.6; 
+      background: #f8fafc; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-left: 3px solid var(--primary); 
+    }
+    .desc-ar { 
+      font-size: 14px; 
+      color: #0f172a; 
+      line-height: 1.65; 
+      direction: rtl; 
+      text-align: right; 
+      background: #f0fdf4; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-right: 3px solid #16a34a; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    .lightbox { 
+      display: none; 
+      position: fixed; 
+      inset: 0; 
+      background: rgba(0,0,0,0.85); 
+      z-index: 100; 
+      align-items: center; 
+      justify-content: center; 
+    }
     .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <div class="title-area">
-        <h1>📚 Clinoma 10 Renal Replacement Therapy - Visual Atlas</h1>
-        <p>13 Authentic Medical Figures | Mode: Local Atlas (Desktop Disk Primary)</p>
+        <h1>💻 Clinoma 10 Renal Replacement Therapy - الأطلس المكتبي المحلي</h1>
+        <p>13 Authentic Medical Figures | Source: <strong>Local Device Disk (Offline First)</strong></p>
       </div>
-      <div class="controls" style="display:flex; gap:12px; align-items:center;">
+      <div class="header-right">
+        <span class="mode-pill mode-local">💻 Local Machine Mode</span>
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search by structure, title, disease, drug..." onkeyup="filterCards()">
+          <input type="text" id="searchInput" placeholder="Search figures, pathology, anatomy... (بحث)" oninput="filterCards()" />
         </div>
-        <div class="stats-badge" id="countBadge">Showing: 13 / 13</div>
       </div>
     </div>
   </header>
-  <main class="container">
+
+  <div class="container">
     <div class="cards-grid" id="cardsGrid">
-      
+
       <div class="card" data-search="rrt_chat_img_13_renal_anatomy_and_physiology_-_nephrology_uworld_medical_lib.jpg kidney transplant anatomical schematic diagram 10_renal_replacement_therapy schematic diagram donor kidney recipient nonfunctional kidneys transplanted kidney ureter bladder incision schematic representation of a kidney transplant procedure showing the placement of the donor kidney in the right iliac fossa of the recipient, with vascular anastomoses to the iliac vessels and ureteral implantation into the urinary bladder. the native nonfunctional kidneys are typically left in place unless complications such as severe infection or hypertension arise. خد بالك يا دكتورنا إن الكلية المنقولة (transplanted kidney) بتتحط عادةً في الحوض (iliac fossa) عند العيان مش في مكانها الطبيعي، وبيتم توصيل شرايينها وأوردتها بالأوعية الحرقفية وتركيب الحالب في المثانة مباشرة، وكمان الكليتين القدام (nonfunctional kidneys) بيسيبوهم مكانهم في الغالب إلا لو عملوا مشاكل زي ضغط عالي مستعصي أو التهابات متكررة.">
         <div class="img-box">
-          <img src="./rrt_chat_img_13_Renal_Anatomy_And_Physiology_-_Nephrology_UWorld_Medical_Lib.jpg" data-filename="rrt_chat_img_13_Renal_Anatomy_And_Physiology_-_Nephrology_UWorld_Medical_Lib.jpg" alt="Kidney Transplant Anatomical Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_13_Renal_Anatomy_And_Physiology_-_Nephrology_UWorld_Medical_Lib.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_13_Renal_Anatomy_And_Physiology_-_Nephrology_UWorld_Medical_Lib.jpg</span>
+          <img src="./rrt_chat_img_13_Renal_Anatomy_And_Physiology_-_Nephrology_UWorld_Medical_Lib.jpg" alt="Kidney Transplant Anatomical Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_13_Renal_Anatomy_And_Physiology_-_Nephrology_UWorld_Medical_Lib.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_13_Renal_Anatomy_And_Physiology_-_Nephrology_UWorld_Medical_Lib.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -71,10 +254,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن الكلية المنقولة (Transplanted kidney) بتتحط عادةً في الحوض (Iliac fossa) عند العيان مش في مكانها الطبيعي، وبيتم توصيل شرايينها وأوردتها بالأوعية الحرقفية وتركيب الحالب في المثانة مباشرة، وكمان الكليتين القدام (Nonfunctional kidneys) بيسيبوهم مكانهم في الغالب إلا لو عملوا مشاكل زي ضغط عالي مستعصي أو التهابات متكررة.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_4.jpg hemodialysis circuit and dialyzer schematic 10_renal_replacement_therapy schematic diagram artery vein blood pump dialyzer strands of dialysis tubing dialysis fluid dialysis fluid pump this schematic illustrates the extracorporeal circuit used in hemodialysis. arterial blood is pumped through a dialyzer containing semipermeable strands, allowing the removal of metabolic waste products and excess fluid via countercurrent flow with dialysis fluid before purified blood is returned to the venous circulation. الرسم التوضيحي بيبين دورة الغسيل الكلوي (hemodialysis)، حيث يتم سحب الدم من الشريان ومروره عبر مضخة ومُرشح (dialyzer) يحتوي على أنابيب نصف نافذة (strands of dialysis tubing). يتم التخلص من السموم والسوائل الزائدة بطريقة التيار المعاكس (countercurrent flow) مع محلول الغسيل، ثم يعود الدم النقي للوريد.">
         <div class="img-box">
-          <img src="./rrt_chat_img_4.jpg" data-filename="rrt_chat_img_4.jpg" alt="Hemodialysis Circuit and Dialyzer Schematic" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_4.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_4.jpg</span>
+          <img src="./rrt_chat_img_4.jpg" alt="Hemodialysis Circuit and Dialyzer Schematic" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_4.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_4.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -89,10 +279,17 @@
           <p class="desc-ar" dir="rtl">الرسم التوضيحي بيبين دورة الغسيل الكلوي (Hemodialysis)، حيث يتم سحب الدم من الشريان ومروره عبر مضخة ومُرشح (Dialyzer) يحتوي على أنابيب نصف نافذة (Strands of dialysis tubing). يتم التخلص من السموم والسوائل الزائدة بطريقة التيار المعاكس (Countercurrent flow) مع محلول الغسيل، ثم يعود الدم النقي للوريد.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_10_fresenius_apd_peritoneal_dialysis_system.jpg home hemodialysis system setup with patient 10_renal_replacement_therapy clinical photo patient home hemodialysis machine bed a patient seated comfortably on a bed next to a compact home hemodialysis machine. home hemodialysis provides frequent or nocturnal treatments, improving uremic clearance, volume control, and overall quality of life for patients with end-stage renal disease. خد بالك يا دكتورنا إن الغسيل الكلوي المنزلي بيدي المريض استقلالية كبيرة وبيحسن التحكم في السوائل والسموم مقارنة بالغسيل التقليدي في المركز، وده بينعكس إيجابياً على جودة حياة مريض الفشل الكلوي المزمن.">
         <div class="img-box">
-          <img src="./rrt_chat_img_10_Fresenius_APD_Peritoneal_Dialysis_System.jpg" data-filename="rrt_chat_img_10_Fresenius_APD_Peritoneal_Dialysis_System.jpg" alt="Home Hemodialysis System Setup with Patient" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_10_Fresenius_APD_Peritoneal_Dialysis_System.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_10_Fresenius_APD_Peritoneal_Dialysis_System.jpg</span>
+          <img src="./rrt_chat_img_10_Fresenius_APD_Peritoneal_Dialysis_System.jpg" alt="Home Hemodialysis System Setup with Patient" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_10_Fresenius_APD_Peritoneal_Dialysis_System.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_10_Fresenius_APD_Peritoneal_Dialysis_System.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -107,10 +304,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن الغسيل الكلوي المنزلي بيدي المريض استقلالية كبيرة وبيحسن التحكم في السوائل والسموم مقارنة بالغسيل التقليدي في المركز، وده بينعكس إيجابياً على جودة حياة مريض الفشل الكلوي المزمن.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_2_kidney_dialysis_treatment_-_uchicago_medicine.jpg schematic diagram of peritoneal dialysis procedure and anatomy 10_renal_replacement_therapy schematic diagram abdominal cavity peritoneal catheter peritoneum dialysis solution drain this diagram illustrates the process of peritoneal dialysis, where a peritoneal catheter infuses dialysis solution into the abdominal cavity. the peritoneum acts as a semi-permeable membrane to filter waste products and excess fluid from the blood before the fluid is drained out. خد بالك يا دكتورنا، الرسم ده بيبين فكرة الغسيل الكلوي البريتوني؛ المحلول بيدخل جوه تجويف البطن عن طريق القسطرة، والبريتون بيشتغل كغشاء شبه منفذ عشان ينظف الدم من السموم والمياه الزائدة وبعدين يصرفهم في الكيس.">
         <div class="img-box">
-          <img src="./rrt_chat_img_2_Kidney_Dialysis_Treatment_-_UChicago_Medicine.jpg" data-filename="rrt_chat_img_2_Kidney_Dialysis_Treatment_-_UChicago_Medicine.jpg" alt="Schematic Diagram of Peritoneal Dialysis Procedure and Anatomy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_2_Kidney_Dialysis_Treatment_-_UChicago_Medicine.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_2_Kidney_Dialysis_Treatment_-_UChicago_Medicine.jpg</span>
+          <img src="./rrt_chat_img_2_Kidney_Dialysis_Treatment_-_UChicago_Medicine.jpg" alt="Schematic Diagram of Peritoneal Dialysis Procedure and Anatomy" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_2_Kidney_Dialysis_Treatment_-_UChicago_Medicine.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_2_Kidney_Dialysis_Treatment_-_UChicago_Medicine.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -125,10 +329,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الرسم ده بيبين فكرة الغسيل الكلوي البريتوني؛ المحلول بيدخل جوه تجويف البطن عن طريق القسطرة، والبريتون بيشتغل كغشاء شبه منفذ عشان ينظف الدم من السموم والمياه الزائدة وبعدين يصرفهم في الكيس.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_12_continuous_renal_replacement_therapy_crrt_a_clinical_referen.jpg continuous renal replacement therapy (crrt) circuit schematic diagram 10_renal_replacement_therapy schematic diagram hemofilter (hollow-fiber) double-lumen catheter blood pump air detector sampling port access pressure (mmhg) pre-filter pressure (mmhg) post-filter pressure (mmhg) schematic representation of a standard cvvh continuous renal replacement therapy circuit, outlining the extracorporeal blood circuit from the vascular access line through the blood pump, hemofilter, and return line. it details the countercurrent flow mechanics of dialysate, replacement fluid administration points, and essential pressure monitoring sites. خد بالك يا دكتورنا إن السيركوت بتاع الـ crrt بيمشي من الـ access line للـ blood pump وبعدين يعدي على الفلتر من تحت لفوق (arterial لـ venous port)، والدياليسات بيمشي بالعكس عشان يحصل countercurrent clearance مثالي، ومهم جداً تتابع الـ pressures (access, pre-filter, post-filter) عشان تعرف حالة الفلتر والجلطات بدري.">
         <div class="img-box">
-          <img src="./rrt_chat_img_12_Continuous_Renal_Replacement_Therapy_CRRT_A_Clinical_Referen.jpg" data-filename="rrt_chat_img_12_Continuous_Renal_Replacement_Therapy_CRRT_A_Clinical_Referen.jpg" alt="Continuous Renal Replacement Therapy (CRRT) Circuit Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_12_Continuous_Renal_Replacement_Therapy_CRRT_A_Clinical_Referen.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_12_Continuous_Renal_Replacement_Therapy_CRRT_A_Clinical_Referen.jpg</span>
+          <img src="./rrt_chat_img_12_Continuous_Renal_Replacement_Therapy_CRRT_A_Clinical_Referen.jpg" alt="Continuous Renal Replacement Therapy (CRRT) Circuit Schematic Diagram" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_12_Continuous_Renal_Replacement_Therapy_CRRT_A_Clinical_Referen.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_12_Continuous_Renal_Replacement_Therapy_CRRT_A_Clinical_Referen.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -143,10 +354,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن السيركوت بتاع الـ CRRT بيمشي من الـ Access line للـ Blood pump وبعدين يعدي على الفلتر من تحت لفوق (Arterial لـ Venous port)، والدياليسات بيمشي بالعكس عشان يحصل Countercurrent clearance مثالي، ومهم جداً تتابع الـ Pressures (Access, Pre-filter, Post-filter) عشان تعرف حالة الفلتر والجلطات بدري.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_11_do_you_know_about_the_unique_features_of_the_liberty_select.jpg automated peritoneal dialysis (apd) setup and cycler operation 10_renal_replacement_therapy clinical photo automated peritoneal dialysis cycler dialysate tubing cassette peritoneal dialysis tubing lines demonstration of a patient preparing an automated peritoneal dialysis (apd) cycler system for home treatment. the cycler automates the exchange of dialysis fluid through the peritoneal cavity to remove uremic toxins and excess fluid in patients with end-stage renal disease. تحضير جهاز الغسيل الكلوي البريتوني الآلي في البيت لعلاج الفشل الكلوي المزمن. الجهاز ده بيقوم بعملية تبديل السوائل بشكل آلي عشان ينضف الجسم من السموم والسوائل الزائدة وأنت نايم.">
         <div class="img-box">
-          <img src="./rrt_chat_img_11_Do_you_know_about_the_unique_features_of_the_Liberty_Select.jpg" data-filename="rrt_chat_img_11_Do_you_know_about_the_unique_features_of_the_Liberty_Select.jpg" alt="Automated Peritoneal Dialysis (APD) Setup and Cycler Operation" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_11_Do_you_know_about_the_unique_features_of_the_Liberty_Select.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_11_Do_you_know_about_the_unique_features_of_the_Liberty_Select.jpg</span>
+          <img src="./rrt_chat_img_11_Do_you_know_about_the_unique_features_of_the_Liberty_Select.jpg" alt="Automated Peritoneal Dialysis (APD) Setup and Cycler Operation" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_11_Do_you_know_about_the_unique_features_of_the_Liberty_Select.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_11_Do_you_know_about_the_unique_features_of_the_Liberty_Select.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -161,10 +379,17 @@
           <p class="desc-ar" dir="rtl">تحضير جهاز الغسيل الكلوي البريتوني الآلي في البيت لعلاج الفشل الكلوي المزمن. الجهاز ده بيقوم بعملية تبديل السوائل بشكل آلي عشان ينضف الجسم من السموم والسوائل الزائدة وأنت نايم.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_8_initiating_peritoneal_dialysis_after_catheter_insertion.jpg schematic diagram of peritoneal dialysis mechanism and setup 10_renal_replacement_therapy schematic diagram dialysate bag peritoneal space catheter peritoneum drainage bag this diagram illustrates the physiological principles of peritoneal dialysis, where a sterile dialysate solution is infused into the peritoneal cavity via an indwelling catheter. waste products and excess electrolytes diffuse across the semi-permeable peritoneal membrane from the blood into the dialysate before being drained out. خد بالك يا دكتورنا إن الغشاء البريتوني بيلعب دور الفلتر الطبيعي في الغسيل البريتوني؛ المحلول بينزل في التجويف البطني عن طريق القسطرة، وفضلات الجسم والسموم بتعدي بالانتشار من الشعيرات الدموية للمحلول، وبعدين بيتسحب في كيس الصرف.">
         <div class="img-box">
-          <img src="./rrt_chat_img_8_Initiating_Peritoneal_Dialysis_After_Catheter_Insertion.jpg" data-filename="rrt_chat_img_8_Initiating_Peritoneal_Dialysis_After_Catheter_Insertion.jpg" alt="Schematic Diagram of Peritoneal Dialysis Mechanism and Setup" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_8_Initiating_Peritoneal_Dialysis_After_Catheter_Insertion.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_8_Initiating_Peritoneal_Dialysis_After_Catheter_Insertion.jpg</span>
+          <img src="./rrt_chat_img_8_Initiating_Peritoneal_Dialysis_After_Catheter_Insertion.jpg" alt="Schematic Diagram of Peritoneal Dialysis Mechanism and Setup" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_8_Initiating_Peritoneal_Dialysis_After_Catheter_Insertion.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_8_Initiating_Peritoneal_Dialysis_After_Catheter_Insertion.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -179,10 +404,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن الغشاء البريتوني بيلعب دور الفلتر الطبيعي في الغسيل البريتوني؛ المحلول بينزل في التجويف البطني عن طريق القسطرة، وفضلات الجسم والسموم بتعدي بالانتشار من الشعيرات الدموية للمحلول، وبعدين بيتسحب في كيس الصرف.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_9_continuous_ambulatory_peritoneal_dialysis_capd_vector_illust.jpg continuous ambulatory peritoneal dialysis (capd) procedure steps 10_renal_replacement_therapy schematic diagram dialysate bag drainage bag peritoneal cavity transfer set and tubing continuous ambulatory peritoneal dialysis (capd) is a manual form of renal replacement therapy utilizing the patient's peritoneal membrane as a natural filter. the cyclical four-step process involves draining used dialysate, rinsing lines, filling fresh dialysate, and dwell time for solute and fluid exchange. الغسيل البريتوني المستمر المتجول بيعتمد على غشاء البريتون كمصفاة طبيعية لتنقية الدم من السموم والسوائل الزائدة. الخطوات الأربعة الأساسية هي: تصريف السائل القديم (drain)، غسيل الوصلة (rinse)، ملء سائل جديد (fill)، وأخيراً فترة الحضانة (dwell) اللي بيحصل خلالها تبادل السموم.">
         <div class="img-box">
-          <img src="./rrt_chat_img_9_Continuous_Ambulatory_Peritoneal_Dialysis_CAPD_vector_illust.jpg" data-filename="rrt_chat_img_9_Continuous_Ambulatory_Peritoneal_Dialysis_CAPD_vector_illust.jpg" alt="Continuous Ambulatory Peritoneal Dialysis (CAPD) Procedure Steps" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_9_Continuous_Ambulatory_Peritoneal_Dialysis_CAPD_vector_illust.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_9_Continuous_Ambulatory_Peritoneal_Dialysis_CAPD_vector_illust.jpg</span>
+          <img src="./rrt_chat_img_9_Continuous_Ambulatory_Peritoneal_Dialysis_CAPD_vector_illust.jpg" alt="Continuous Ambulatory Peritoneal Dialysis (CAPD) Procedure Steps" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_9_Continuous_Ambulatory_Peritoneal_Dialysis_CAPD_vector_illust.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_9_Continuous_Ambulatory_Peritoneal_Dialysis_CAPD_vector_illust.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -197,10 +429,17 @@
           <p class="desc-ar" dir="rtl">الغسيل البريتوني المستمر المتجول بيعتمد على غشاء البريتون كمصفاة طبيعية لتنقية الدم من السموم والسوائل الزائدة. الخطوات الأربعة الأساسية هي: تصريف السائل القديم (Drain)، غسيل الوصلة (Rinse)، ملء سائل جديد (Fill)، وأخيراً فترة الحضانة (Dwell) اللي بيحصل خلالها تبادل السموم.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_1_gorenjski_glas_-_arhiv_s_pomojo_dialize_lahko_ivim.jpg hemodialysis session in a patient with end-stage renal disease 10_renal_replacement_therapy clinical photo hemodialysis machine (gambro) dialyzer blood tubing lines arteriovenous fistula / vascular access site blood pressure cuff this clinical photograph demonstrates a patient undergoing standard hemodialysis therapy utilizing an extracorporeal circuit. blood is pumped through a dialyzer containing a semipermeable membrane to filter uremic toxins, excess electrolytes, and fluid overload before returning to the patient's vascular access. المريض هنا بيعمل جلسة غسيل كلوي باستخدام جهاز الكلى الصناعية وفلتر الدم لتنقية الجسم من السموم والسوائل الزائدة. خد بالك يا دكتورنا إن متابعة الوصلة الوعائية (av fistula) وفحص ضغط الدم بانتظام خطوة أساسية أثناء الجلسة لتجنب الهبوط المفاجئ.">
         <div class="img-box">
-          <img src="./rrt_chat_img_1_Gorenjski_glas_-_Arhiv_S_pomojo_dialize_lahko_ivim.jpg" data-filename="rrt_chat_img_1_Gorenjski_glas_-_Arhiv_S_pomojo_dialize_lahko_ivim.jpg" alt="Hemodialysis Session in a Patient with End-Stage Renal Disease" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_1_Gorenjski_glas_-_Arhiv_S_pomojo_dialize_lahko_ivim.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_1_Gorenjski_glas_-_Arhiv_S_pomojo_dialize_lahko_ivim.jpg</span>
+          <img src="./rrt_chat_img_1_Gorenjski_glas_-_Arhiv_S_pomojo_dialize_lahko_ivim.jpg" alt="Hemodialysis Session in a Patient with End-Stage Renal Disease" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_1_Gorenjski_glas_-_Arhiv_S_pomojo_dialize_lahko_ivim.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_1_Gorenjski_glas_-_Arhiv_S_pomojo_dialize_lahko_ivim.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -215,10 +454,17 @@
           <p class="desc-ar" dir="rtl">المريض هنا بيعمل جلسة غسيل كلوي باستخدام جهاز الكلى الصناعية وفلتر الدم لتنقية الجسم من السموم والسوائل الزائدة. خد بالك يا دكتورنا إن متابعة الوصلة الوعائية (AV Fistula) وفحص ضغط الدم بانتظام خطوة أساسية أثناء الجلسة لتجنب الهبوط المفاجئ.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_3_acute_kidney_injury_treatment_-_b_braun.jpg continuous renal replacement therapy (crrt) circuit and bedside nursing management 10_renal_replacement_therapy clinical photo crrt machine with touchscreen monitor hemofilter column infusion pump stack endotracheal tube and mechanical ventilation circuit intravenous fluid bags continuous renal replacement therapy is utilized in critically ill patients with acute kidney injury requiring hemodynamic stabilization. the bedside circuit incorporates a blood pump, hemofilter, effluent management, and multiple infusion pumps for precise fluid balance and solute clearance. العناية بالفشل الكلوي الحاد في العناية المركزة باستخدام الغسيل الكلوي المستمر crrt ودور التمريض في ضبط الماكينات. خد بالك يا دكتورنا إن مراقبة السوائل الداخلة والخارجة بدقة هي أساس حماية المريض الموصول بجهاز التنفس الصناعي.">
         <div class="img-box">
-          <img src="./rrt_chat_img_3_Acute_Kidney_Injury_Treatment_-_B_Braun.jpg" data-filename="rrt_chat_img_3_Acute_Kidney_Injury_Treatment_-_B_Braun.jpg" alt="Continuous Renal Replacement Therapy (CRRT) Circuit and Bedside Nursing Management" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_3_Acute_Kidney_Injury_Treatment_-_B_Braun.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_3_Acute_Kidney_Injury_Treatment_-_B_Braun.jpg</span>
+          <img src="./rrt_chat_img_3_Acute_Kidney_Injury_Treatment_-_B_Braun.jpg" alt="Continuous Renal Replacement Therapy (CRRT) Circuit and Bedside Nursing Management" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_3_Acute_Kidney_Injury_Treatment_-_B_Braun.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_3_Acute_Kidney_Injury_Treatment_-_B_Braun.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -233,10 +479,17 @@
           <p class="desc-ar" dir="rtl">العناية بالفشل الكلوي الحاد في العناية المركزة باستخدام الغسيل الكلوي المستمر CRRT ودور التمريض في ضبط الماكينات. خد بالك يا دكتورنا إن مراقبة السوائل الداخلة والخارجة بدقة هي أساس حماية المريض الموصول بجهاز التنفس الصناعي.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_7_preferred_temporary_dialysis_catheter_location_for_dialysis.jpg temporary hemodialysis catheter placement in internal jugular vein 10_renal_replacement_therapy schematic diagram temporary catheter internal jugular vein superior vena cava right atrium schematic representation of a temporary double-lumen hemodialysis catheter inserted via the right internal jugular vein. the catheter tip is positioned in the cavoatrial junction to ensure adequate blood flow rates for emergent renal replacement therapy. رسم توضيحي بيبين تركيب قسطرة غسيل كلوي مؤقتة (temporary dialysis catheter) عن طريق الوريد الوداجي الداخلي (internal jugular vein). خد بالك يا دكتور إن طرف القسطرة لازم يوصل لمنطقة اتصال الوريد الاجوف العلوي بالأذين الأيمن عشان يضمن تدفق دم كويس لجلسة الغسيل.">
         <div class="img-box">
-          <img src="./rrt_chat_img_7_PREFERRED_TEMPORARY_DIALYSIS_CATHETER_LOCATION_FOR_DIALYSIS.jpg" data-filename="rrt_chat_img_7_PREFERRED_TEMPORARY_DIALYSIS_CATHETER_LOCATION_FOR_DIALYSIS.jpg" alt="Temporary Hemodialysis Catheter Placement in Internal Jugular Vein" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_7_PREFERRED_TEMPORARY_DIALYSIS_CATHETER_LOCATION_FOR_DIALYSIS.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_7_PREFERRED_TEMPORARY_DIALYSIS_CATHETER_LOCATION_FOR_DIALYSIS.jpg</span>
+          <img src="./rrt_chat_img_7_PREFERRED_TEMPORARY_DIALYSIS_CATHETER_LOCATION_FOR_DIALYSIS.jpg" alt="Temporary Hemodialysis Catheter Placement in Internal Jugular Vein" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_7_PREFERRED_TEMPORARY_DIALYSIS_CATHETER_LOCATION_FOR_DIALYSIS.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_7_PREFERRED_TEMPORARY_DIALYSIS_CATHETER_LOCATION_FOR_DIALYSIS.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -251,10 +504,17 @@
           <p class="desc-ar" dir="rtl">رسم توضيحي بيبين تركيب قسطرة غسيل كلوي مؤقتة (Temporary Dialysis Catheter) عن طريق الوريد الوداجي الداخلي (Internal Jugular Vein). خد بالك يا دكتور إن طرف القسطرة لازم يوصل لمنطقة اتصال الوريد الاجوف العلوي بالأذين الأيمن عشان يضمن تدفق دم كويس لجلسة الغسيل.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_6_arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg arteriovenous (av) graft for hemodialysis access 10_renal_replacement_therapy schematic diagram artery vein arteriovenous (av) graft blood to dialysis machine blood from dialysis machine this schematic diagram illustrates an arteriovenous (av) graft placed surgically between an artery and a vein to provide vascular access for hemodialysis. the graft allows high blood flow rates required for effective dialysis treatment by shunting arterial blood into the venous system. خد بالك يا دكتورنا، رسمة الـ av graft دي بتوضح الوصلة الصناعية بين الشريان والوريد لما الـ native fistula متبقاش متاحة. بنسحب الدم للغسيل من ناحية الشريان ونرجعه تاني في الوريد، ولازم نتابع الـ thrill والbruit بانتظام عشان نتأكد إن الوصلة شغال تمام ومحصلش فيها thrombosis.">
         <div class="img-box">
-          <img src="./rrt_chat_img_6_Arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg" data-filename="rrt_chat_img_6_Arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg" alt="Arteriovenous (AV) Graft for Hemodialysis Access" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_6_Arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_6_Arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg</span>
+          <img src="./rrt_chat_img_6_Arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg" alt="Arteriovenous (AV) Graft for Hemodialysis Access" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_6_Arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_6_Arteriovenous_dialysis_shunt_graft_catheter_in_arm.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -269,10 +529,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، رسمة الـ AV graft دي بتوضح الوصلة الصناعية بين الشريان والوريد لما الـ native fistula متبقاش متاحة. بنسحب الدم للغسيل من ناحية الشريان ونرجعه تاني في الوريد، ولازم نتابع الـ thrill والbruit بانتظام عشان نتأكد إن الوصلة شغال تمام ومحصلش فيها thrombosis.</p>
         </div>
       </div>
+
       <div class="card" data-search="rrt_chat_img_5_kdoqi_vascular_access_guidelines_and_clinical_tools_nkf.jpg hemodialysis circuit with arteriovenous fistula (avf) vascular access 10_renal_replacement_therapy schematic diagram arteriovenous fistula (avf) artery vein hemodialysis machine dialyzer blood tubing lines schematic illustration of hemodialysis treatment utilizing a surgically created arteriovenous fistula (avf) in the forearm as vascular access. arterial blood is pumped through the dialyzer for filtration of metabolic waste products and excess fluid, and returned via the venous line. خد بالك يا دكتورنا إن الوصلة الشريانية الوريدية (avf) هي الـ gold standard للغسيل الكلوي لأنها بتدفع تدفق عالي (high blood flow) وبيقلل نسب العدوى مقارنة بالقسطرة المؤقتة. لازم نتأكد ديمًا من الـ thrill والـ bruit أثناء الفحص السريري.">
         <div class="img-box">
-          <img src="./rrt_chat_img_5_KDOQI_Vascular_Access_Guidelines_and_Clinical_Tools_NKF.jpg" data-filename="rrt_chat_img_5_KDOQI_Vascular_Access_Guidelines_and_Clinical_Tools_NKF.jpg" alt="Hemodialysis Circuit with Arteriovenous Fistula (AVF) Vascular Access" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/nephrology/10_renal_replacement_therapy/rrt_chat_img_5_KDOQI_Vascular_Access_Guidelines_and_Clinical_Tools_NKF.jpg';" />
-          <span class="img-meta-tag">rrt_chat_img_5_KDOQI_Vascular_Access_Guidelines_and_Clinical_Tools_NKF.jpg</span>
+          <img src="./rrt_chat_img_5_KDOQI_Vascular_Access_Guidelines_and_Clinical_Tools_NKF.jpg" alt="Hemodialysis Circuit with Arteriovenous Fistula (AVF) Vascular Access" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./rrt_chat_img_5_KDOQI_Vascular_Access_Guidelines_and_Clinical_Tools_NKF.jpg</code>
+              <button class="copy-pill" onclick="copyText('./rrt_chat_img_5_KDOQI_Vascular_Access_Guidelines_and_Clinical_Tools_NKF.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -288,33 +555,46 @@
         </div>
       </div>
     </div>
-  </main>
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="Zoomed view">
   </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged figure" />
+  </div>
+
   <script>
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const prev = btn.innerText;
+        btn.innerText = 'تم النسخ! ✓';
+        btn.style.background = '#16a34a';
+        btn.style.color = '#ffffff';
+        setTimeout(() => {
+          btn.innerText = prev;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(c => {
+        const text = c.getAttribute('data-search') || '';
+        c.style.display = text.includes(q) ? 'grid' : 'none';
+      });
+    }
     function openLightbox(src) {
-      document.getElementById('lightboxImg').src = src;
-      document.getElementById('lightbox').style.display = 'flex';
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      lb.style.display = 'flex';
     }
     function closeLightbox() {
       document.getElementById('lightbox').style.display = 'none';
     }
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-      let visible = 0;
-      cards.forEach(card => {
-        const search = card.getAttribute('data-search') || '';
-        if (!query || search.includes(query)) {
-          card.style.display = 'grid';
-          visible++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-      document.getElementById('countBadge').innerText = `Showing: ${visible} / ${cards.length}`;
-    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   </script>
 </body>
 </html>

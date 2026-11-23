@@ -3,60 +3,243 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinoma Gastric And Peptic Disorders Visual Atlas | 16 Images (Local Atlas (Desktop Disk Primary))</title>
+  <title>Clinoma Gastric And Peptic Disorders - Local Machine Atlas (الأطلس المكتبي المحلي)</title>
   <style>
-    :root { --primary: #2563eb; --accent: #dc2626; --bg: #f8fafc; --card-bg: #ffffff; --text-main: #0f172a; --text-muted: #64748b; --border: #e2e8f0; }
+
+    :root { 
+      --primary: #2563eb; 
+      --primary-dark: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text-main: #0f172a; 
+      --text-muted: #64748b; 
+      --border: #e2e8f0; 
+      --code-bg: #f1f5f9;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; padding-bottom: 80px; }
-    header { background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 16px 24px; }
-    .header-inner { max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
-    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); }
-    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
-    .search-box input { width: 340px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; outline: none; background: #f1f5f9; }
-    .search-box input:focus { background: white; border-color: var(--primary); }
-    .stats-badge { background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 9999px; }
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 20px; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+      background: var(--bg); 
+      color: var(--text-main); 
+      line-height: 1.6; 
+      padding-bottom: 80px; 
+    }
+    header { 
+      background: #ffffff; 
+      border-bottom: 1px solid var(--border); 
+      position: sticky; 
+      top: 0; 
+      z-index: 50; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04); 
+      padding: 16px 24px; 
+    }
+    .header-inner { 
+      max-width: 1440px; 
+      margin: 0 auto; 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      align-items: center; 
+      gap: 16px; 
+    }
+    .title-area h1 { font-size: 20px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px; }
+    .title-area p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
+    .header-right { display: flex; align-items: center; gap: 14px; }
+    .search-box input { 
+      width: 320px; 
+      padding: 10px 16px; 
+      border-radius: 10px; 
+      border: 1px solid var(--border); 
+      font-size: 13.5px; 
+      outline: none; 
+      background: #f1f5f9; 
+      transition: all 0.2s;
+    }
+    .search-box input:focus { background: #ffffff; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+    .mode-pill { 
+      font-size: 12px; 
+      font-weight: 700; 
+      padding: 6px 14px; 
+      border-radius: 9999px; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+    }
+    .mode-cloud { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .mode-local { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .container { max-width: 1440px; margin: 24px auto; padding: 0 20px; }
     .cards-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
-    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: grid; grid-template-columns: 360px 1fr; gap: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
-    @media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
-    .img-box { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-    .img-box img { max-width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; cursor: zoom-in; }
-    .img-meta-tag { font-family: monospace; font-size: 11px; color: var(--text-muted); margin-top: 10px; text-align: center; }
+    .card { 
+      background: var(--card-bg); 
+      border: 1px solid var(--border); 
+      border-radius: 16px; 
+      padding: 24px; 
+      display: grid; 
+      grid-template-columns: 380px 1fr; 
+      gap: 28px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02); 
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+    @media (max-width: 950px) { .card { grid-template-columns: 1fr; } }
+    .img-box { 
+      background: #0f172a; 
+      border: 1px solid var(--border); 
+      border-radius: 12px; 
+      padding: 12px; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      min-height: 280px;
+    }
+    .img-box img { 
+      max-width: 100%; 
+      max-height: 320px; 
+      object-fit: contain; 
+      border-radius: 6px; 
+      cursor: zoom-in; 
+    }
+    .url-badge-box { 
+      margin-top: 12px; 
+      width: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 6px; 
+    }
+    .url-row { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      background: #1e293b; 
+      padding: 6px 10px; 
+      border-radius: 6px; 
+      gap: 8px; 
+      font-size: 11px;
+    }
+    .url-row.local-row { background: #ffffff; border: 1px solid #cbd5e1; }
+    .url-label { color: #94a3b8; font-weight: 700; white-space: nowrap; }
+    .url-row.local-row .url-label { color: #475569; }
+    .url-link { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      direction: ltr; 
+      text-align: left;
+      flex: 1;
+    }
+    .url-link:hover { text-decoration: underline; color: #7dd3fc; }
+    .path-code { 
+      color: #0f172a; 
+      font-family: monospace; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+      flex: 1;
+    }
+    .copy-pill { 
+      background: #334155; 
+      color: #f8fafc; 
+      border: none; 
+      padding: 3px 8px; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      font-size: 10.5px; 
+      font-weight: 600; 
+      white-space: nowrap; 
+      transition: background 0.15s;
+    }
+    .url-row.local-row .copy-pill { background: #e2e8f0; color: #1e293b; }
+    .copy-pill:hover { background: var(--primary); color: #ffffff; }
     .card-content { display: flex; flex-direction: column; gap: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: center; }
     .card-num { font-family: monospace; font-size: 13px; font-weight: 700; color: var(--primary); }
-    .badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }
-    .card-title { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .badge { 
+      font-size: 11px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+      text-transform: uppercase; 
+      background: #f1f5f9; 
+      color: #334155; 
+      border: 1px solid #cbd5e1; 
+    }
+    .card-title { font-size: 17.5px; font-weight: 800; color: var(--text-main); }
     .structures-box { display: flex; flex-wrap: wrap; gap: 6px; }
-    .struct-pill { background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-    .desc-en { font-size: 13.5px; color: #334155; line-height: 1.6; background: #f8fafc; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--primary); }
-    .desc-ar { font-size: 14px; color: #0f172a; line-height: 1.65; direction: rtl; text-align: right; background: #f0fdf4; padding: 12px 14px; border-radius: 8px; border-right: 3px solid #16a34a; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; align-items: center; justify-content: center; }
+    .struct-pill { 
+      background: #eff6ff; 
+      border: 1px solid #bfdbfe; 
+      color: #1d4ed8; 
+      font-size: 11.5px; 
+      font-weight: 600; 
+      padding: 3px 8px; 
+      border-radius: 6px; 
+    }
+    .desc-en { 
+      font-size: 13.5px; 
+      color: #334155; 
+      line-height: 1.6; 
+      background: #f8fafc; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-left: 3px solid var(--primary); 
+    }
+    .desc-ar { 
+      font-size: 14px; 
+      color: #0f172a; 
+      line-height: 1.65; 
+      direction: rtl; 
+      text-align: right; 
+      background: #f0fdf4; 
+      padding: 12px 14px; 
+      border-radius: 8px; 
+      border-right: 3px solid #16a34a; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+    .lightbox { 
+      display: none; 
+      position: fixed; 
+      inset: 0; 
+      background: rgba(0,0,0,0.85); 
+      z-index: 100; 
+      align-items: center; 
+      justify-content: center; 
+    }
     .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <div class="title-area">
-        <h1>📚 Clinoma Gastric And Peptic Disorders - Visual Atlas</h1>
-        <p>16 Authentic Medical Figures | Mode: Local Atlas (Desktop Disk Primary)</p>
+        <h1>💻 Clinoma Gastric And Peptic Disorders - الأطلس المكتبي المحلي</h1>
+        <p>16 Authentic Medical Figures | Source: <strong>Local Device Disk (Offline First)</strong></p>
       </div>
-      <div class="controls" style="display:flex; gap:12px; align-items:center;">
+      <div class="header-right">
+        <span class="mode-pill mode-local">💻 Local Machine Mode</span>
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search by structure, title, disease, drug..." onkeyup="filterCards()">
+          <input type="text" id="searchInput" placeholder="Search figures, pathology, anatomy... (بحث)" oninput="filterCards()" />
         </div>
-        <div class="stats-badge" id="countBadge">Showing: 16 / 16</div>
       </div>
     </div>
   </header>
-  <main class="container">
+
+  <div class="container">
     <div class="cards-grid" id="cardsGrid">
-      
+
       <div class="card" data-search="gastric_gastric_anatomy.jpg gastric acid secretion regulation and neurohumoral pathways gastric_and_peptic_disorders schematic diagram parietal cell ecl-cell d cell g cell blood circulation this schematic illustrates the complex neurohumoral regulation of gastric acid secretion involving parietal cells, enterochromaffin-like (ecl) cells, d cells, and g cells. gastrin, histamine, and acetylcholine act as secretagogues promoting h+ release, while somatostatin provides inhibitory feedback control. الرسم التوضيحي بيشرح بدقة إزاي إفراز حمض المعدة بيتم تنظيمه عن طريق تفاعل معقد بين خلايا المعدة المختلفة زي خلايا parietal و ecl و g و d. خد بالك يا دكتورنا إن فهم مسارات الهستامين والـ gastrin والـ somatostatin هو المفتاح الأساسي لفهم ميكانيزم عمل أدوية الـ ppis ومثبطات مستقبلات h2 في علاج القرحة الهضمية.">
         <div class="img-box">
-          <img src="./gastric_gastric_anatomy.jpg" data-filename="gastric_gastric_anatomy.jpg" alt="Gastric Acid Secretion Regulation and Neurohumoral Pathways" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_gastric_anatomy.jpg';" />
-          <span class="img-meta-tag">gastric_gastric_anatomy.jpg</span>
+          <img src="./gastric_gastric_anatomy.jpg" alt="Gastric Acid Secretion Regulation and Neurohumoral Pathways" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_gastric_anatomy.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_gastric_anatomy.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -71,10 +254,17 @@
           <p class="desc-ar" dir="rtl">الرسم التوضيحي بيشرح بدقة إزاي إفراز حمض المعدة بيتم تنظيمه عن طريق تفاعل معقد بين خلايا المعدة المختلفة زي خلايا Parietal و ECL و G و D. خد بالك يا دكتورنا إن فهم مسارات الهستامين والـ Gastrin والـ Somatostatin هو المفتاح الأساسي لفهم ميكانيزم عمل أدوية الـ PPIs ومثبطات مستقبلات H2 في علاج القرحة الهضمية.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_fundic_gland_polyp.jpg gastric hyperplastic polyp histopathology gastric_and_peptic_disorders histological micrograph foveolar hyperplasia elongated and tortuous gastric glands cystic dilatation of glands inflammatory stroma this histological micrograph demonstrates a gastric hyperplastic polyp characterized by markedly elongated, tortuous foveolar epithelium and prominent cystic dilatation of gastric glands set within an inflamed and edematous lamina propria. these lesions commonly arise in the setting of chronic gastritis or mucosal injury and carry a low risk of malignant transformation. خد بالك يا دكتورنا، العينة هنا بتوضح غدد معدية متوسعة بشكل كيسى وتكاثر واضح في الخلايا الحرشفية (foveolar hyperplasia) ودي من العلامات الأساسية للـ hyperplastic polyps اللي غالباً بتظهر نتيجة التهاب معدي مزمن.">
         <div class="img-box">
-          <img src="./gastric_fundic_gland_polyp.jpg" data-filename="gastric_fundic_gland_polyp.jpg" alt="Gastric Hyperplastic Polyp Histopathology" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_fundic_gland_polyp.jpg';" />
-          <span class="img-meta-tag">gastric_fundic_gland_polyp.jpg</span>
+          <img src="./gastric_fundic_gland_polyp.jpg" alt="Gastric Hyperplastic Polyp Histopathology" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_fundic_gland_polyp.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_fundic_gland_polyp.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -89,10 +279,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة هنا بتوضح غدد معدية متوسعة بشكل كيسى وتكاثر واضح في الخلايا الحرشفية (Foveolar hyperplasia) ودي من العلامات الأساسية للـ Hyperplastic polyps اللي غالباً بتظهر نتيجة التهاب معدي مزمن.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_duodenal_ulcer_endoscopy.jpg biliary stent migration and displacement visible on abdominal radiograph gastric_and_peptic_disorders radiological imaging lumbar spine biliary stent abdominal bowel gas pattern plain abdominal radiograph demonstrating an aberrantly displaced metallic biliary stent within the right abdomen, indicative of stent migration. such mechanical complications require prompt endoscopic or radiological intervention to prevent luminal obstruction or perforation. خد بالك يا دكتورنا، الصورة دي بتوضح حالة تحرك stent (دعامة مرارة) من مكانها ونزولها في البطن. الحالات دي بتحتاج تدخل فوري ومنظار عشان نمنع أي انسداد أو مضاعفات خطيرة في الأمعاء.">
         <div class="img-box">
-          <img src="./gastric_duodenal_ulcer_endoscopy.jpg" data-filename="gastric_duodenal_ulcer_endoscopy.jpg" alt="Biliary Stent Migration and Displacement Visible on Abdominal Radiograph" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_duodenal_ulcer_endoscopy.jpg';" />
-          <span class="img-meta-tag">gastric_duodenal_ulcer_endoscopy.jpg</span>
+          <img src="./gastric_duodenal_ulcer_endoscopy.jpg" alt="Biliary Stent Migration and Displacement Visible on Abdominal Radiograph" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_duodenal_ulcer_endoscopy.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_duodenal_ulcer_endoscopy.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -107,10 +304,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الصورة دي بتوضح حالة تحرك stent (دعامة مرارة) من مكانها ونزولها في البطن. الحالات دي بتحتاج تدخل فوري ومنظار عشان نمنع أي انسداد أو مضاعفات خطيرة في الأمعاء.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_forrest_bleeding_matrix.jpg endoscopic hemostasis of bleeding peptic ulcer via coagulation and injection gastric_and_peptic_disorders endoscopy / laparoscopy gastric mucosa bleeding vessel hemostatic forceps coagulation zone these endoscopic views demonstrate active bleeding from a peptic ulcer managed via therapeutic intervention. endoscopic hemostasis utilizing thermal contact coagulation and injection therapy effectively achieves hemostasis and prevents recurrent upper gastrointestinal hemorrhage. خد بالك يا دكتورنا، النزيف النشط من القرحة المعدية بيحتاج تدخل منظار سريع بالكى أو الحقن لوقف النزيف وتجنب المضاعفات الخطيرة.">
         <div class="img-box">
-          <img src="./gastric_forrest_bleeding_matrix.jpg" data-filename="gastric_forrest_bleeding_matrix.jpg" alt="Endoscopic Hemostasis of Bleeding Peptic Ulcer via Coagulation and Injection" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_forrest_bleeding_matrix.jpg';" />
-          <span class="img-meta-tag">gastric_forrest_bleeding_matrix.jpg</span>
+          <img src="./gastric_forrest_bleeding_matrix.jpg" alt="Endoscopic Hemostasis of Bleeding Peptic Ulcer via Coagulation and Injection" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_forrest_bleeding_matrix.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_forrest_bleeding_matrix.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -125,10 +329,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، النزيف النشط من القرحة المعدية بيحتاج تدخل منظار سريع بالكى أو الحقن لوقف النزيف وتجنب المضاعفات الخطيرة.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_gastric_adenocarcinoma_ct.jpg gastric adenocarcinoma bordering normal stomach tissue on histology gastric_and_peptic_disorders histological micrograph adenocarcinoma normal stomach mucosa malignant glands gastric pits this histological micrograph shows the distinct transition zone between normal gastric mucosa and gastric adenocarcinoma, highlighting disorganized malignant glands with cellular atypia, pleomorphism, and architectural distortion. the boundary underscores the invasive front characteristic of gastric epithelial malignancies. خد بالك يا دكتورنا إن الصورة دي بتبين الفاصل الواضح بين الغشاء المخاطي الطبيعي للمعدة وسرطان الغدد (adenocarcinoma). الخلايا السرطانية واضحة بإنها عاملة غدد غير منظمة وفيها تغيرات شكلية (atypia)، ودي خطوط المعركة الأولى في تشخيص الأورام المعوية بالميكروسكوب.">
         <div class="img-box">
-          <img src="./gastric_gastric_adenocarcinoma_ct.jpg" data-filename="gastric_gastric_adenocarcinoma_ct.jpg" alt="Gastric Adenocarcinoma Bordering Normal Stomach Tissue on Histology" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_gastric_adenocarcinoma_ct.jpg';" />
-          <span class="img-meta-tag">gastric_gastric_adenocarcinoma_ct.jpg</span>
+          <img src="./gastric_gastric_adenocarcinoma_ct.jpg" alt="Gastric Adenocarcinoma Bordering Normal Stomach Tissue on Histology" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_gastric_adenocarcinoma_ct.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_gastric_adenocarcinoma_ct.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -143,10 +354,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن الصورة دي بتبين الفاصل الواضح بين الغشاء المخاطي الطبيعي للمعدة وسرطان الغدد (Adenocarcinoma). الخلايا السرطانية واضحة بإنها عاملة غدد غير منظمة وفيها تغيرات شكلية (Atypia)، ودي خطوط المعركة الأولى في تشخيص الأورام المعوية بالميكروسكوب.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_gastric_malt_lymphoma.jpg gastric ulcer with active bleeding and clot on upper endoscopy gastric_and_peptic_disorders endoscopy / laparoscopy gastric mucosa gastric ulcer base adherent dark blood clot periulcerative erythema and edema upper endoscopy reveals a prominent gastric ulcer crater characterized by surrounding mucosal erythema and an adherent dark blood clot within the base. this finding signifies recent or ongoing gastrointestinal bleeding, requiring immediate endoscopic hemostasis and medical intervention. خد بالك يا دكتورنا، القرحة المعدية دي واضح فيها جلطة دموية سمراء وملتصقة بقاع القرحة ودي علامة خطر لنزيف نشط أو حديث. الحالات دي بتلزم تدخل منظاري عاجل للحقن أو الكي عشان نمنع تكرار النزيف وحفظ حياة العيان.">
         <div class="img-box">
-          <img src="./gastric_gastric_malt_lymphoma.jpg" data-filename="gastric_gastric_malt_lymphoma.jpg" alt="Gastric Ulcer with Active Bleeding and Clot on Upper Endoscopy" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_gastric_malt_lymphoma.jpg';" />
-          <span class="img-meta-tag">gastric_gastric_malt_lymphoma.jpg</span>
+          <img src="./gastric_gastric_malt_lymphoma.jpg" alt="Gastric Ulcer with Active Bleeding and Clot on Upper Endoscopy" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_gastric_malt_lymphoma.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_gastric_malt_lymphoma.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -161,10 +379,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، القرحة المعدية دي واضح فيها جلطة دموية سمراء وملتصقة بقاع القرحة ودي علامة خطر لنزيف نشط أو حديث. الحالات دي بتلزم تدخل منظاري عاجل للحقن أو الكي عشان نمنع تكرار النزيف وحفظ حياة العيان.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_billroth_reconstructions.jpg anatomical schematic of the human stomach and pyloric sphincter gastric_and_peptic_disorders schematic diagram fundus body of stomach greater curvature lesser curvature cardia pyloric sphincter pyloric antrum duodenum rugae of mucosa this diagram illustrates the gross internal and external anatomy of the human stomach, highlighting structural landmarks such as the fundus, greater and lesser curvatures, rugae, and the pyloric sphincter. understanding these regional divisions is crucial for localizing peptic ulcer disease, evaluating gastric motility disorders, and planning surgical interventions. خد بالك يا دكتورنا إن معرفة المعالم التشريحية للمعدة زي الـ rugae والـ pyloric sphincter مهمة جداً عشان نقدر نحدد أماكن القرح المعدية ونتوقع شكل الـ endoscopy صح. التغيرات في الأجزاء دي بتبين لنا بداية أي pathology زي الـ peptic ulcers أو الـ gastritis.">
         <div class="img-box">
-          <img src="./gastric_billroth_reconstructions.jpg" data-filename="gastric_billroth_reconstructions.jpg" alt="Anatomical Schematic of the Human Stomach and Pyloric Sphincter" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_billroth_reconstructions.jpg';" />
-          <span class="img-meta-tag">gastric_billroth_reconstructions.jpg</span>
+          <img src="./gastric_billroth_reconstructions.jpg" alt="Anatomical Schematic of the Human Stomach and Pyloric Sphincter" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_billroth_reconstructions.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_billroth_reconstructions.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -179,10 +404,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا إن معرفة المعالم التشريحية للمعدة زي الـ Rugae والـ Pyloric Sphincter مهمة جداً عشان نقدر نحدد أماكن القرح المعدية ونتوقع شكل الـ Endoscopy صح. التغيرات في الأجزاء دي بتبين لنا بداية أي Pathology زي الـ Peptic Ulcers أو الـ Gastritis.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_gastric_ulcer_endoscopy.jpg gross pathology of gastric gastrointestinal stromal tumor (gist) cut surface gastric_and_peptic_disorders gross pathology well-circumscribed fleshy tumor mass cut surface with whorled white-tan appearance focal areas of hemorrhage and necrosis this gross specimen displays a well-demarcated gastric gastrointestinal stromal tumor (gist) featuring a tan-white, whorled cut surface with characteristic foci of hemorrhage and necrosis. gists originate from the interstitial cells of cajal and most frequently harbor gain-of-function mutations in kit (cd117) or pdgfra genes. recognition of these macroscopic findings is critical for surgical planning, risk stratification, and targeted tyrosine kinase inhibitor therapy such as imatinib. ده يا دكتورنا ورم gist في المعدة (gastrointestinal stromal tumor) باين في العينة الـ gross وله سطح مقطع لونه أبيض على بيج مع بقع نزف وتندب واضحة. الأورام دي بتطلع من خلايا كاجال (interstitial cells of cajal) وغالباً بتكون إيجابية لـ cd117، والتشخيص الدقيق مهم جداً عشان نقرر العلاج الموجه زي الـ imatinib.">
         <div class="img-box">
-          <img src="./gastric_gastric_ulcer_endoscopy.jpg" data-filename="gastric_gastric_ulcer_endoscopy.jpg" alt="Gross Pathology of Gastric Gastrointestinal Stromal Tumor (GIST) Cut Surface" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_gastric_ulcer_endoscopy.jpg';" />
-          <span class="img-meta-tag">gastric_gastric_ulcer_endoscopy.jpg</span>
+          <img src="./gastric_gastric_ulcer_endoscopy.jpg" alt="Gross Pathology of Gastric Gastrointestinal Stromal Tumor (GIST) Cut Surface" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_gastric_ulcer_endoscopy.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_gastric_ulcer_endoscopy.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -197,10 +429,17 @@
           <p class="desc-ar" dir="rtl">ده يا دكتورنا ورم GIST في المعدة (Gastrointestinal Stromal Tumor) باين في العينة الـ Gross وله سطح مقطع لونه أبيض على بيج مع بقع نزف وتندب واضحة. الأورام دي بتطلع من خلايا كاجال (Interstitial cells of Cajal) وغالباً بتكون إيجابية لـ CD117، والتشخيص الدقيق مهم جداً عشان نقرر العلاج الموجه زي الـ Imatinib.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_gist_c_kit.jpg gross pathology of gastrointestinal stromal tumor (gist) gastric_and_peptic_disorders gross pathology gastric wall gist tumor mass areas of hemorrhage and necrosis this gross pathology specimen demonstrates a well-circumscribed gastric stromal tumor (gist) on cut section, highlighting fleshy tan-pink tissue with characteristic scattered areas of hemorrhage and cystic degeneration. gists originate from the interstitial cells of cajal and most commonly occur in the stomach, presenting potential risks for gastrointestinal bleeding and malignant progression. خد بالك يا دكتورنا، العينة دي بتوضح ورم جدار المعدة الشهير (gist) اللي بيبان في القطع بلونه الوردي اللحمي مع بقع نزفية وتغيرات كيسية واضحة. الأورام دي بتطلع من الخلايا البينية لـ cajal، وغالباً بتيجي في المعدة وبتعمل نزيف في الجهاز الهضمي العلوي.">
         <div class="img-box">
-          <img src="./gastric_gist_c_kit.jpg" data-filename="gastric_gist_c_kit.jpg" alt="Gross Pathology of Gastrointestinal Stromal Tumor (GIST)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_gist_c_kit.jpg';" />
-          <span class="img-meta-tag">gastric_gist_c_kit.jpg</span>
+          <img src="./gastric_gist_c_kit.jpg" alt="Gross Pathology of Gastrointestinal Stromal Tumor (GIST)" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_gist_c_kit.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_gist_c_kit.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -215,10 +454,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة دي بتوضح ورم جدار المعدة الشهير (GIST) اللي بيبان في القطع بلونه الوردي اللحمي مع بقع نزفية وتغيرات كيسية واضحة. الأورام دي بتطلع من الخلايا البينية لـ Cajal، وغالباً بتيجي في المعدة وبتعمل نزيف في الجهاز الهضمي العلوي.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_gastric_emptying_scan.jpg gastric emptying scintigraphy demonstrating rapid gastric emptying (dumping syndrome) gastric_and_peptic_disorders radiological imaging stomach (anterior and posterior views) gastric emptying curve radioisotope activity levels this gastric emptying scintigraphy study illustrates accelerated gastric emptying, indicated by a half-time (t 1/2) of approximately 23 minutes on the power-exponential fit curve. rapid transit of radiolabeled contents into the small bowel is characteristic of dumping syndrome, commonly occurring post-gastrectomy or after bariatric procedures. خد بالك يا دكتورنا، الرسم البياني هنا بيوضح سرعة غير طبيعية في تفريغ المعدة (rapid gastric emptying) بنصف عمر أقل من 24 دقيقة، وده بيفسر أعراض الـ dumping syndrome اللي بتظهر بعد جراحات المعدة.">
         <div class="img-box">
-          <img src="./gastric_gastric_emptying_scan.jpg" data-filename="gastric_gastric_emptying_scan.jpg" alt="Gastric Emptying Scintigraphy Demonstrating Rapid Gastric Emptying (Dumping Syndrome)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_gastric_emptying_scan.jpg';" />
-          <span class="img-meta-tag">gastric_gastric_emptying_scan.jpg</span>
+          <img src="./gastric_gastric_emptying_scan.jpg" alt="Gastric Emptying Scintigraphy Demonstrating Rapid Gastric Emptying (Dumping Syndrome)" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_gastric_emptying_scan.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_gastric_emptying_scan.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -233,10 +479,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الرسم البياني هنا بيوضح سرعة غير طبيعية في تفريغ المعدة (Rapid Gastric Emptying) بنصف عمر أقل من 24 دقيقة، وده بيفسر أعراض الـ Dumping Syndrome اللي بتظهر بعد جراحات المعدة.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_krukenberg_tumor.jpg gross pathology of gastric gastrointestinal stromal tumor (gist) gastric_and_peptic_disorders gross pathology gastric wall gist tumor mass fleshy tan-yellow cut surface necrotic and hemorrhagic areas this gross pathology specimen shows a well-circumscribed, fleshy, tan-pink gastric gastrointestinal stromal tumor (gist) on cut section, characterized by whorled architecture and areas of secondary hemorrhage or cystic degeneration. gists are the most common mesenchymal neoplasms of the gastrointestinal tract, originating from the interstitial cells of cajal, and typically express kit (cd117) on immunohistochemistry. خد بالك يا دكتورنا، العينة دي بتورّي ورم stromal في المعدة (gist) قطعه بيبان لحمي ولونه اصفر مصفر مع نقط نزيف، وده أشهر ورم mesenchymal في الجهاز الهضمي وبيطلع من خلايا cajal.">
         <div class="img-box">
-          <img src="./gastric_krukenberg_tumor.jpg" data-filename="gastric_krukenberg_tumor.jpg" alt="Gross Pathology of Gastric Gastrointestinal Stromal Tumor (GIST)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_krukenberg_tumor.jpg';" />
-          <span class="img-meta-tag">gastric_krukenberg_tumor.jpg</span>
+          <img src="./gastric_krukenberg_tumor.jpg" alt="Gross Pathology of Gastric Gastrointestinal Stromal Tumor (GIST)" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_krukenberg_tumor.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_krukenberg_tumor.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -251,10 +504,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العينة دي بتورّي ورم stromal في المعدة (GIST) قطعه بيبان لحمي ولونه اصفر مصفر مع نقط نزيف، وده أشهر ورم mesenchymal في الجهاز الهضمي وبيطلع من خلايا Cajal.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_linitis_plastica_barium.jpg partial linitis plastica of the stomach gross specimen gastric_and_peptic_disorders gross pathology stomach wall gastric mucosa pylorus submucosa this gross pathology specimen demonstrates linitis plastica (diffuse gastric cancer), characterized by marked thickening and rigidity of the gastric wall due to infiltrative adenocarcinoma. the loss of normal mucosal folds and reduced luminal compliance (&quot;leather bottle stomach&quot;) lead to impaired motility and severe clinical presentations like early satiety and dysphagia. خد بالك يا دكتورنا، الحالة دي بتمثل 'linitis plastica' أو المعدة الجلدية اللي بتتميز بتورم وخشونة شديدة في جدار المعدة نتيجة انتشار ورم سرطاني خبيث (infiltrative adenocarcinoma). المنظر ده بيفقد المعدة مرونتها الطبيعية وبيخلي المريض يشتكي من شبع مبكر وصعوبة في الهضم.">
         <div class="img-box">
-          <img src="./gastric_linitis_plastica_barium.jpg" data-filename="gastric_linitis_plastica_barium.jpg" alt="Partial Linitis Plastica of the Stomach Gross Specimen" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_linitis_plastica_barium.jpg';" />
-          <span class="img-meta-tag">gastric_linitis_plastica_barium.jpg</span>
+          <img src="./gastric_linitis_plastica_barium.jpg" alt="Partial Linitis Plastica of the Stomach Gross Specimen" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_linitis_plastica_barium.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_linitis_plastica_barium.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -269,10 +529,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الحالة دي بتمثل 'Linitis Plastica' أو المعدة الجلدية اللي بتتميز بتورم وخشونة شديدة في جدار المعدة نتيجة انتشار ورم سرطاني خبيث (Infiltrative Adenocarcinoma). المنظر ده بيفقد المعدة مرونتها الطبيعية وبيخلي المريض يشتكي من شبع مبكر وصعوبة في الهضم.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_virchows_node.jpg ultrasound of left supraclavicular lymph node metastasis (troisier's sign) gastric_and_peptic_disorders radiological imaging left supraclavicular lymph node left internal jugular vein left hemithyroid left common carotid artery b-mode and color doppler ultrasound of the left supraclavicular fossa demonstrating virchow's node (troisier's sign), a classic metastatic sentinel lymph node enlargement highly indicative of occult intra-abdominal malignancies such as gastric adenocarcinoma. خد بالك يا دكتورنا، العقدة الليمفاوية دي (troisier's sign) في السوبرا كلافيكولار الشمال تعتبر علامة خطيرة جداً ومفتاح لتشخيص أورام المعدة المتقدمة اللي ممكن تكون صامتة إكلينيكياً.">
         <div class="img-box">
-          <img src="./gastric_virchows_node.jpg" data-filename="gastric_virchows_node.jpg" alt="Ultrasound of Left Supraclavicular Lymph Node Metastasis (Troisier's Sign)" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_virchows_node.jpg';" />
-          <span class="img-meta-tag">gastric_virchows_node.jpg</span>
+          <img src="./gastric_virchows_node.jpg" alt="Ultrasound of Left Supraclavicular Lymph Node Metastasis (Troisier's Sign)" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_virchows_node.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_virchows_node.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -287,10 +554,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، العقدة الليمفاوية دي (Troisier's sign) في السوبرا كلافيكولار الشمال تعتبر علامة خطيرة جداً ومفتاح لتشخيص أورام المعدة المتقدمة اللي ممكن تكون صامتة إكلينيكياً.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_h_pylori_giemsa.jpg helicobacter pylori colonization on gastric mucosa stained with giemsa gastric_and_peptic_disorders histological micrograph gastric mucosal epithelium glandular cells helicobacter pylori bacilli high-power histological micrograph demonstrating curved, spiral-shaped helicobacter pylori bacilli adherent to the apical surface of the gastric surface epithelium, highlighted by giemsa stain. this pathogen is a primary etiologic agent of chronic gastritis, peptic ulcer disease, and gastric malignancies. خد بالك يا دكتورنا، الصبغة دي بتوضح بوضوح بكتيريا الهيليكوباكتر بيلوري (الملوية البوابية) وهي لازقة على الخلايا المخاطية للمعدة. الوجود ده هو السبب الرئيسي للتهابات المعدة المزمنة والتقرحات ويستاهل علاج ثنائي أو ثلاثي فوري.">
         <div class="img-box">
-          <img src="./gastric_h_pylori_giemsa.jpg" data-filename="gastric_h_pylori_giemsa.jpg" alt="Helicobacter pylori Colonization on Gastric Mucosa Stained with Giemsa" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_h_pylori_giemsa.jpg';" />
-          <span class="img-meta-tag">gastric_h_pylori_giemsa.jpg</span>
+          <img src="./gastric_h_pylori_giemsa.jpg" alt="Helicobacter pylori Colonization on Gastric Mucosa Stained with Giemsa" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_h_pylori_giemsa.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_h_pylori_giemsa.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -305,10 +579,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الصبغة دي بتوضح بوضوح بكتيريا الهيليكوباكتر بيلوري (الملوية البوابية) وهي لازقة على الخلايا المخاطية للمعدة. الوجود ده هو السبب الرئيسي للتهابات المعدة المزمنة والتقرحات ويستاهل علاج ثنائي أو ثلاثي فوري.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_peptic_perforation_xray.jpg pneumoperitoneum and air under diaphragm secondary to perforated peptic ulcer on radiograph and ct gastric_and_peptic_disorders radiological imaging diaphragm pneumoperitoneum stomach liver subdiaphragmatic air chest radiography and corresponding abdominal computed tomography demonstrate free air under the right hemidiaphragm (pneumoperitoneum), indicative of hollow viscus perforation, most commonly secondary to a complicated peptic ulcer. this radiographic sign is an absolute surgical emergency requiring urgent exploratory laparotomy to prevent generalized peritonitis and septic shock. خد بالك يا دكتورنا، الهواء تحت الحجاب الحاجز في أشعة الصدر والبطن المقطعية بيعتبر علامة أكيدة لانفجار قرحة في المعدة أو الإثني عشر (perforated peptic ulcer). دي طوارئ جراحية قصوى تستوجب التدخل الجراحي الفوري لمنع التهاب البريتون الحاد والصدمة الإنتانية.">
         <div class="img-box">
-          <img src="./gastric_peptic_perforation_xray.jpg" data-filename="gastric_peptic_perforation_xray.jpg" alt="Pneumoperitoneum and Air Under Diaphragm Secondary to Perforated Peptic Ulcer on Radiograph and CT" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_peptic_perforation_xray.jpg';" />
-          <span class="img-meta-tag">gastric_peptic_perforation_xray.jpg</span>
+          <img src="./gastric_peptic_perforation_xray.jpg" alt="Pneumoperitoneum and Air Under Diaphragm Secondary to Perforated Peptic Ulcer on Radiograph and CT" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_peptic_perforation_xray.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_peptic_perforation_xray.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -323,10 +604,17 @@
           <p class="desc-ar" dir="rtl">خد بالك يا دكتورنا، الهواء تحت الحجاب الحاجز في أشعة الصدر والبطن المقطعية بيعتبر علامة أكيدة لانفجار قرحة في المعدة أو الإثني عشر (Perforated Peptic Ulcer). دي طوارئ جراحية قصوى تستوجب التدخل الجراحي الفوري لمنع التهاب البريتون الحاد والصدمة الإنتانية.</p>
         </div>
       </div>
+
       <div class="card" data-search="gastric_parietal_cell_acid.jpg gastric parietal cell acid secretion and proton pump inhibitor mechanism gastric_and_peptic_disorders schematic diagram parietal cell stomach lumen blood vessel / capillary h+/k+ atpase pump bicarbonate-chloride exchanger schematic diagram depicting the intracellular mechanisms of gastric acid secretion in a parietal cell, highlighting the h+/k+ atpase pump as the site of action for proton pump inhibitors (ppis). carbon dioxide and water combine to form carbonic acid, dissociating into hydrogen ions secreted into the lumen and bicarbonate entering the blood. الرسم بيوضح إزاي خلية الباريتايل في المعدة بتطلع الحامض عن طريق مضخة الـ h+/k+ atpase، ودي بالظبط النقطة اللي بتشتغل عليها أدوية الـ ppi عشان تقفل إفراز الحمض.">
         <div class="img-box">
-          <img src="./gastric_parietal_cell_acid.jpg" data-filename="gastric_parietal_cell_acid.jpg" alt="Gastric Parietal Cell Acid Secretion and Proton Pump Inhibitor Mechanism" loading="lazy" onclick="openLightbox(this.src)" onerror="this.onerror=null; this.src='https://cdn.jsdelivr.net/gh/clinomaofficial/clinoma-images@main/curriculum/clinical/internal-medicine/gastroenterology/gastric_and_peptic_disorders/gastric_parietal_cell_acid.jpg';" />
-          <span class="img-meta-tag">gastric_parietal_cell_acid.jpg</span>
+          <img src="./gastric_parietal_cell_acid.jpg" alt="Gastric Parietal Cell Acid Secretion and Proton Pump Inhibitor Mechanism" loading="lazy" onclick="openLightbox(this.src)" />
+          <div class="url-badge-box">
+            <div class="url-row local-row">
+              <span class="url-label">💻 Local File:</span>
+              <code class="path-code">./gastric_parietal_cell_acid.jpg</code>
+              <button class="copy-pill" onclick="copyText('./gastric_parietal_cell_acid.jpg', this)">نسخ المسار</button>
+            </div>
+          </div>
         </div>
         <div class="card-content">
           <div class="card-top">
@@ -342,33 +630,46 @@
         </div>
       </div>
     </div>
-  </main>
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="Zoomed view">
   </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged figure" />
+  </div>
+
   <script>
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const prev = btn.innerText;
+        btn.innerText = 'تم النسخ! ✓';
+        btn.style.background = '#16a34a';
+        btn.style.color = '#ffffff';
+        setTimeout(() => {
+          btn.innerText = prev;
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 2000);
+      });
+    }
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(c => {
+        const text = c.getAttribute('data-search') || '';
+        c.style.display = text.includes(q) ? 'grid' : 'none';
+      });
+    }
     function openLightbox(src) {
-      document.getElementById('lightboxImg').src = src;
-      document.getElementById('lightbox').style.display = 'flex';
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      img.src = src;
+      lb.style.display = 'flex';
     }
     function closeLightbox() {
       document.getElementById('lightbox').style.display = 'none';
     }
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-      let visible = 0;
-      cards.forEach(card => {
-        const search = card.getAttribute('data-search') || '';
-        if (!query || search.includes(query)) {
-          card.style.display = 'grid';
-          visible++;
-        } else {
-          card.style.display = 'none';
-        }
-      });
-      document.getElementById('countBadge').innerText = `Showing: ${visible} / ${cards.length}`;
-    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
   </script>
 </body>
 </html>
