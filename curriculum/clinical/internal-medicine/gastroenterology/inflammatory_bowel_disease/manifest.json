@@ -1,0 +1,216 @@
+{
+  "topic": "Inflammatory_Bowel_Disease",
+  "chatgpt_share": "https://chatgpt.com/share/6af0e9d8-70dc-83ea-9905-46bc4b96c98a",
+  "images": [
+    {
+      "filename": "img_01_Crohn_Skip_Map.jpg",
+      "width": 500,
+      "height": 379,
+      "format": "JPEG",
+      "size": 37015
+    },
+    {
+      "filename": "img_02_Pathology_Layers.jpg",
+      "width": 450,
+      "height": 450,
+      "format": "JPEG",
+      "size": 37773
+    },
+    {
+      "filename": "img_03_Cobblestone.jpg",
+      "width": 500,
+      "height": 373,
+      "format": "JPEG",
+      "size": 31007
+    },
+    {
+      "filename": "img_04_Granuloma.jpg",
+      "width": 600,
+      "height": 400,
+      "format": "JPEG",
+      "size": 92147
+    },
+    {
+      "filename": "img_05_Cytokine_Cascade.jpg",
+      "width": 499,
+      "height": 380,
+      "format": "JPEG",
+      "size": 50572
+    },
+    {
+      "filename": "img_06_Montreal_CD.jpg",
+      "width": 482,
+      "height": 380,
+      "format": "JPEG",
+      "size": 32037
+    },
+    {
+      "filename": "img_07_Perianal_Fistula.jpg",
+      "width": 499,
+      "height": 380,
+      "format": "JPEG",
+      "size": 50645
+    },
+    {
+      "filename": "img_08_Erythema_Nodosum.jpg",
+      "width": 500,
+      "height": 281,
+      "format": "JPEG",
+      "size": 24574
+    },
+    {
+      "filename": "img_09_Pyoderma_Gangrenosum.jpg",
+      "width": 500,
+      "height": 322,
+      "format": "JPEG",
+      "size": 36835
+    },
+    {
+      "filename": "img_10_Aphthous_Ulcer.jpg",
+      "width": 320,
+      "height": 320,
+      "format": "JPEG",
+      "size": 5677
+    },
+    {
+      "filename": "img_11_Serpiginous_Ulcer.jpg",
+      "width": 448,
+      "height": 384,
+      "format": "JPEG",
+      "size": 33040
+    },
+    {
+      "filename": "img_12_Comb_Sign_MRE.jpg",
+      "width": 500,
+      "height": 321,
+      "format": "JPEG",
+      "size": 31488
+    },
+    {
+      "filename": "img_13_Anti-TNF.jpg",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 28669
+    },
+    {
+      "filename": "img_14_Anti-Integrin.jpg",
+      "width": 380,
+      "height": 380,
+      "format": "JPEG",
+      "size": 13838
+    },
+    {
+      "filename": "img_16_JAK_Inhibitor.jpg",
+      "width": 453,
+      "height": 380,
+      "format": "JPEG",
+      "size": 36705
+    },
+    {
+      "filename": "img_17_UC_Continuous_Map.jpg",
+      "width": 500,
+      "height": 263,
+      "format": "JPEG",
+      "size": 18474
+    },
+    {
+      "filename": "img_18_Crypt_Abscess.jpg",
+      "width": 500,
+      "height": 349,
+      "format": "JPEG",
+      "size": 26997
+    },
+    {
+      "filename": "img_19_Montreal_UC.jpg",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 15590
+    },
+    {
+      "filename": "img_20_UC_Friability.jpg",
+      "width": 579,
+      "height": 440,
+      "format": "JPEG",
+      "size": 54407
+    },
+    {
+      "filename": "img_21_Pseudopolyps.jpg",
+      "width": 550,
+      "height": 354,
+      "format": "JPEG",
+      "size": 55761
+    },
+    {
+      "filename": "img_22_Toxic_Megacolon.jpg",
+      "width": 373,
+      "height": 450,
+      "format": "JPEG",
+      "size": 22223
+    },
+    {
+      "filename": "img_23_PSC_MRCP.jpg",
+      "width": 491,
+      "height": 380,
+      "format": "JPEG",
+      "size": 25162
+    },
+    {
+      "filename": "img_24_Mesalamine_Oral.jpg",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 23968
+    },
+    {
+      "filename": "img_25_Suppository.jpg",
+      "width": 427,
+      "height": 380,
+      "format": "JPEG",
+      "size": 29982
+    },
+    {
+      "filename": "img_26_Enema.jpg",
+      "width": 442,
+      "height": 380,
+      "format": "JPEG",
+      "size": 40446
+    },
+    {
+      "filename": "img_27_Infliximab_Infusion.jpg",
+      "width": 375,
+      "height": 380,
+      "format": "JPEG",
+      "size": 27704
+    },
+    {
+      "filename": "img_28_IPAA_J-Pouch.jpg",
+      "width": 307,
+      "height": 349,
+      "format": "JPEG",
+      "size": 14720
+    },
+    {
+      "filename": "img_29_J-Pouch_Reservoir.jpg",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 37689
+    },
+    {
+      "filename": "img_30_Crohn_Colitis.jpg",
+      "width": 500,
+      "height": 281,
+      "format": "JPEG",
+      "size": 29078
+    },
+    {
+      "filename": "img_31_Comparison_Matrix.jpg",
+      "width": 454,
+      "height": 380,
+      "format": "JPEG",
+      "size": 48123
+    }
+  ]
+}

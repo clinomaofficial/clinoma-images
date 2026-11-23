@@ -1,0 +1,720 @@
+{
+  "topic": "GIT_Master",
+  "chatgpt_share": "https://chatgpt.com/share/6aed0a49-f124-83e9-90b4-2dc4ad8ba336",
+  "images": [
+    {
+      "filename": "img_000.jpg",
+      "width": 1055,
+      "height": 799,
+      "format": "JPEG",
+      "size": 87877
+    },
+    {
+      "filename": "img_001.jpg",
+      "width": 1200,
+      "height": 630,
+      "format": "JPEG",
+      "size": 56975
+    },
+    {
+      "filename": "img_002.jpg",
+      "width": 1024,
+      "height": 768,
+      "format": "JPEG",
+      "size": 54377
+    },
+    {
+      "filename": "img_003.jpg",
+      "width": 1154,
+      "height": 860,
+      "format": "JPEG",
+      "size": 89526
+    },
+    {
+      "filename": "img_004.jpg",
+      "width": 960,
+      "height": 720,
+      "format": "JPEG",
+      "size": 89337
+    },
+    {
+      "filename": "img_005.jpg",
+      "width": 2083,
+      "height": 1587,
+      "format": "JPEG",
+      "size": 328145
+    },
+    {
+      "filename": "img_006.jpg",
+      "width": 1091,
+      "height": 860,
+      "format": "JPEG",
+      "size": 93094
+    },
+    {
+      "filename": "img_007.jpg",
+      "width": 1129,
+      "height": 860,
+      "format": "JPEG",
+      "size": 143812
+    },
+    {
+      "filename": "img_008.jpg",
+      "width": 635,
+      "height": 357,
+      "format": "JPEG",
+      "size": 30046
+    },
+    {
+      "filename": "img_009.jpg",
+      "width": 621,
+      "height": 400,
+      "format": "JPEG",
+      "size": 43820
+    },
+    {
+      "filename": "img_010.jpg",
+      "width": 720,
+      "height": 500,
+      "format": "JPEG",
+      "size": 75609
+    },
+    {
+      "filename": "img_011.jpg",
+      "width": 2048,
+      "height": 1152,
+      "format": "JPEG",
+      "size": 164978
+    },
+    {
+      "filename": "img_012.jpg",
+      "width": 320,
+      "height": 320,
+      "format": "JPEG",
+      "size": 5331
+    },
+    {
+      "filename": "img_013.jpg",
+      "width": 1000,
+      "height": 984,
+      "format": "JPEG",
+      "size": 123610
+    },
+    {
+      "filename": "img_014.jpg",
+      "width": 1024,
+      "height": 1024,
+      "format": "JPEG",
+      "size": 88692
+    },
+    {
+      "filename": "img_015.jpg",
+      "width": 746,
+      "height": 479,
+      "format": "JPEG",
+      "size": 49420
+    },
+    {
+      "filename": "img_016.jpg",
+      "width": 1377,
+      "height": 851,
+      "format": "JPEG",
+      "size": 181328
+    },
+    {
+      "filename": "img_017.jpg",
+      "width": 720,
+      "height": 540,
+      "format": "JPEG",
+      "size": 40400
+    },
+    {
+      "filename": "img_018.jpg",
+      "width": 1000,
+      "height": 1000,
+      "format": "JPEG",
+      "size": 47599
+    },
+    {
+      "filename": "img_019.jpg",
+      "width": 1280,
+      "height": 700,
+      "format": "JPEG",
+      "size": 79255
+    },
+    {
+      "filename": "img_020.jpg",
+      "width": 1280,
+      "height": 666,
+      "format": "JPEG",
+      "size": 77621
+    },
+    {
+      "filename": "img_021.jpg",
+      "width": 940,
+      "height": 788,
+      "format": "JPEG",
+      "size": 115236
+    },
+    {
+      "filename": "img_022.jpg",
+      "width": 800,
+      "height": 420,
+      "format": "JPEG",
+      "size": 46997
+    },
+    {
+      "filename": "img_023.jpg",
+      "width": 700,
+      "height": 525,
+      "format": "JPEG",
+      "size": 21693
+    },
+    {
+      "filename": "img_024.jpg",
+      "width": 1280,
+      "height": 666,
+      "format": "JPEG",
+      "size": 77621
+    },
+    {
+      "filename": "img_025.jpg",
+      "width": 1024,
+      "height": 792,
+      "format": "JPEG",
+      "size": 63441
+    },
+    {
+      "filename": "img_026.jpg",
+      "width": 800,
+      "height": 536,
+      "format": "JPEG",
+      "size": 67751
+    },
+    {
+      "filename": "img_027.jpg",
+      "width": 800,
+      "height": 600,
+      "format": "JPEG",
+      "size": 61575
+    },
+    {
+      "filename": "img_028.jpg",
+      "width": 784,
+      "height": 678,
+      "format": "JPEG",
+      "size": 69074
+    },
+    {
+      "filename": "img_029.jpg",
+      "width": 600,
+      "height": 419,
+      "format": "JPEG",
+      "size": 28556
+    },
+    {
+      "filename": "img_030.jpg",
+      "width": 500,
+      "height": 445,
+      "format": "JPEG",
+      "size": 32890
+    },
+    {
+      "filename": "img_031.jpg",
+      "width": 1024,
+      "height": 768,
+      "format": "JPEG",
+      "size": 54377
+    },
+    {
+      "filename": "img_032.jpg",
+      "width": 1024,
+      "height": 880,
+      "format": "JPEG",
+      "size": 116690
+    },
+    {
+      "filename": "img_033.jpg",
+      "width": 937,
+      "height": 949,
+      "format": "JPEG",
+      "size": 145203
+    },
+    {
+      "filename": "img_034.jpg",
+      "width": 600,
+      "height": 502,
+      "format": "JPEG",
+      "size": 63269
+    },
+    {
+      "filename": "img_035.jpg",
+      "width": 675,
+      "height": 506,
+      "format": "JPEG",
+      "size": 48898
+    },
+    {
+      "filename": "img_036.jpg",
+      "width": 1200,
+      "height": 675,
+      "format": "JPEG",
+      "size": 118649
+    },
+    {
+      "filename": "img_037.jpg",
+      "width": 600,
+      "height": 502,
+      "format": "JPEG",
+      "size": 63269
+    },
+    {
+      "filename": "img_038.jpg",
+      "width": 700,
+      "height": 525,
+      "format": "JPEG",
+      "size": 21693
+    },
+    {
+      "filename": "img_039.jpg",
+      "width": 1529,
+      "height": 860,
+      "format": "JPEG",
+      "size": 108416
+    },
+    {
+      "filename": "img_040.jpg",
+      "width": 557,
+      "height": 480,
+      "format": "JPEG",
+      "size": 70343
+    },
+    {
+      "filename": "img_041.jpg",
+      "width": 1288,
+      "height": 1117,
+      "format": "JPEG",
+      "size": 92954
+    },
+    {
+      "filename": "img_042.jpg",
+      "width": 600,
+      "height": 419,
+      "format": "JPEG",
+      "size": 28556
+    },
+    {
+      "filename": "img_043.jpg",
+      "width": 1200,
+      "height": 946,
+      "format": "JPEG",
+      "size": 112789
+    },
+    {
+      "filename": "img_044.jpg",
+      "width": 792,
+      "height": 594,
+      "format": "JPEG",
+      "size": 52880
+    },
+    {
+      "filename": "img_045.jpg",
+      "width": 698,
+      "height": 600,
+      "format": "JPEG",
+      "size": 64693
+    },
+    {
+      "filename": "img_046.jpg",
+      "width": 800,
+      "height": 536,
+      "format": "JPEG",
+      "size": 67751
+    },
+    {
+      "filename": "img_047.jpg",
+      "width": 1147,
+      "height": 860,
+      "format": "JPEG",
+      "size": 79756
+    },
+    {
+      "filename": "img_048.jpg",
+      "width": 1024,
+      "height": 768,
+      "format": "JPEG",
+      "size": 98042
+    },
+    {
+      "filename": "img_049.jpg",
+      "width": 1272,
+      "height": 1000,
+      "format": "JPEG",
+      "size": 132812
+    },
+    {
+      "filename": "img_050.jpg",
+      "width": 960,
+      "height": 720,
+      "format": "JPEG",
+      "size": 158996
+    },
+    {
+      "filename": "img_051.jpg",
+      "width": 2048,
+      "height": 1536,
+      "format": "JPEG",
+      "size": 177181
+    },
+    {
+      "filename": "img_052.jpg",
+      "width": 1024,
+      "height": 1024,
+      "format": "JPEG",
+      "size": 70083
+    },
+    {
+      "filename": "img_053.jpg",
+      "width": 635,
+      "height": 357,
+      "format": "JPEG",
+      "size": 30046
+    },
+    {
+      "filename": "img_054.jpg",
+      "width": 720,
+      "height": 500,
+      "format": "JPEG",
+      "size": 75609
+    },
+    {
+      "filename": "img_055.jpg",
+      "width": 500,
+      "height": 353,
+      "format": "JPEG",
+      "size": 42754
+    },
+    {
+      "filename": "img_056.jpg",
+      "width": 1280,
+      "height": 700,
+      "format": "JPEG",
+      "size": 79255
+    },
+    {
+      "filename": "img_057.jpg",
+      "width": 1024,
+      "height": 1024,
+      "format": "JPEG",
+      "size": 144451
+    },
+    {
+      "filename": "img_058.jpg",
+      "width": 800,
+      "height": 420,
+      "format": "JPEG",
+      "size": 46997
+    },
+    {
+      "filename": "img_059.jpg",
+      "width": 557,
+      "height": 480,
+      "format": "JPEG",
+      "size": 70343
+    },
+    {
+      "filename": "img_060.jpg",
+      "width": 800,
+      "height": 600,
+      "format": "JPEG",
+      "size": 61575
+    },
+    {
+      "filename": "img_061.jpg",
+      "width": 1529,
+      "height": 860,
+      "format": "JPEG",
+      "size": 108447
+    },
+    {
+      "filename": "img_062.jpg",
+      "width": 1024,
+      "height": 768,
+      "format": "JPEG",
+      "size": 69426
+    },
+    {
+      "filename": "img_063.jpg",
+      "width": 675,
+      "height": 506,
+      "format": "JPEG",
+      "size": 48898
+    },
+    {
+      "filename": "img_064.jpg",
+      "width": 621,
+      "height": 400,
+      "format": "JPEG",
+      "size": 43820
+    },
+    {
+      "filename": "img_065.jpg",
+      "width": 1500,
+      "height": 1500,
+      "format": "JPEG",
+      "size": 243830
+    },
+    {
+      "filename": "img_066.jpg",
+      "width": 1024,
+      "height": 768,
+      "format": "JPEG",
+      "size": 69426
+    },
+    {
+      "filename": "img_067.jpg",
+      "width": 500,
+      "height": 445,
+      "format": "JPEG",
+      "size": 32890
+    },
+    {
+      "filename": "img_068.jpg",
+      "width": 1055,
+      "height": 799,
+      "format": "JPEG",
+      "size": 87877
+    },
+    {
+      "filename": "img_069.jpg",
+      "width": 2048,
+      "height": 2048,
+      "format": "JPEG",
+      "size": 199930
+    },
+    {
+      "filename": "img_070.jpg",
+      "width": 1967,
+      "height": 1967,
+      "format": "JPEG",
+      "size": 274433
+    },
+    {
+      "filename": "img_071.jpg",
+      "width": 1094,
+      "height": 860,
+      "format": "JPEG",
+      "size": 100693
+    },
+    {
+      "filename": "img_072.jpg",
+      "width": 1200,
+      "height": 630,
+      "format": "JPEG",
+      "size": 56975
+    },
+    {
+      "filename": "img_073.jpg",
+      "width": 1024,
+      "height": 767,
+      "format": "JPEG",
+      "size": 50209
+    },
+    {
+      "filename": "img_074.jpg",
+      "width": 720,
+      "height": 540,
+      "format": "JPEG",
+      "size": 40400
+    },
+    {
+      "filename": "img_075.jpg",
+      "width": 1024,
+      "height": 888,
+      "format": "JPEG",
+      "size": 64985
+    },
+    {
+      "filename": "img_076.jpg",
+      "width": 792,
+      "height": 594,
+      "format": "JPEG",
+      "size": 52880
+    },
+    {
+      "filename": "img_077.jpg",
+      "width": 648,
+      "height": 565,
+      "format": "JPEG",
+      "size": 36344
+    },
+    {
+      "filename": "img_078.jpg",
+      "width": 800,
+      "height": 661,
+      "format": "JPEG",
+      "size": 88095
+    },
+    {
+      "filename": "img_079.jpg",
+      "width": 800,
+      "height": 661,
+      "format": "JPEG",
+      "size": 88095
+    },
+    {
+      "filename": "img_080.jpg",
+      "width": 1000,
+      "height": 984,
+      "format": "JPEG",
+      "size": 123610
+    },
+    {
+      "filename": "img_081.jpg",
+      "width": 1200,
+      "height": 675,
+      "format": "JPEG",
+      "size": 118649
+    },
+    {
+      "filename": "img_082.jpg",
+      "width": 746,
+      "height": 479,
+      "format": "JPEG",
+      "size": 49420
+    },
+    {
+      "filename": "img_083.jpg",
+      "width": 698,
+      "height": 600,
+      "format": "JPEG",
+      "size": 64693
+    },
+    {
+      "filename": "img_084.jpg",
+      "width": 1377,
+      "height": 851,
+      "format": "JPEG",
+      "size": 181328
+    },
+    {
+      "filename": "img_085.jpg",
+      "width": 1024,
+      "height": 792,
+      "format": "JPEG",
+      "size": 63441
+    },
+    {
+      "filename": "img_086.jpg",
+      "width": 1024,
+      "height": 767,
+      "format": "JPEG",
+      "size": 50209
+    },
+    {
+      "filename": "img_087.jpg",
+      "width": 500,
+      "height": 353,
+      "format": "JPEG",
+      "size": 42754
+    },
+    {
+      "filename": "img_088.jpg",
+      "width": 1280,
+      "height": 1100,
+      "format": "JPEG",
+      "size": 159972
+    },
+    {
+      "filename": "img_089.jpg",
+      "width": 1024,
+      "height": 768,
+      "format": "JPEG",
+      "size": 98042
+    },
+    {
+      "filename": "img_090.jpg",
+      "width": 648,
+      "height": 565,
+      "format": "JPEG",
+      "size": 36344
+    },
+    {
+      "filename": "img_091.jpg",
+      "width": 1024,
+      "height": 1024,
+      "format": "JPEG",
+      "size": 88692
+    },
+    {
+      "filename": "img_092.jpg",
+      "width": 784,
+      "height": 678,
+      "format": "JPEG",
+      "size": 69074
+    },
+    {
+      "filename": "img_093.jpg",
+      "width": 320,
+      "height": 320,
+      "format": "JPEG",
+      "size": 5331
+    },
+    {
+      "filename": "img_094.jpg",
+      "width": 960,
+      "height": 720,
+      "format": "JPEG",
+      "size": 89337
+    },
+    {
+      "filename": "img_095.jpg",
+      "width": 1000,
+      "height": 1000,
+      "format": "JPEG",
+      "size": 47599
+    },
+    {
+      "filename": "img_096.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "size": 169486
+    },
+    {
+      "filename": "img_097.jpg",
+      "width": 1024,
+      "height": 1024,
+      "format": "JPEG",
+      "size": 109870
+    },
+    {
+      "filename": "img_098.jpg",
+      "width": 1577,
+      "height": 1175,
+      "format": "JPEG",
+      "size": 142926
+    },
+    {
+      "filename": "img_099.jpg",
+      "width": 960,
+      "height": 720,
+      "format": "JPEG",
+      "size": 158996
+    },
+    {
+      "filename": "img_100.jpg",
+      "width": 940,
+      "height": 788,
+      "format": "JPEG",
+      "size": 115236
+    },
+    {
+      "filename": "img_101.jpg",
+      "width": 937,
+      "height": 949,
+      "format": "JPEG",
+      "size": 145203
+    }
+  ]
+}

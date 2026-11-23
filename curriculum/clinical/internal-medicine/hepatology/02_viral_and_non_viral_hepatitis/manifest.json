@@ -1,0 +1,139 @@
+{
+  "topic": "02_Viral_and_Non_Viral_Hepatitis",
+  "chatgpt_share": "https://chatgpt.com/share/6aee3856-6788-83e9-b1d3-89be1a312e67",
+  "images": [
+    {
+      "filename": "alcoholic_hepatitis_steatosis.png",
+      "width": 1000,
+      "height": 624,
+      "format": "JPEG",
+      "size": 39817
+    },
+    {
+      "filename": "autoimmune_hepatitis_interface.png",
+      "width": 810,
+      "height": 540,
+      "format": "JPEG",
+      "size": 113250
+    },
+    {
+      "filename": "dili_drug_liver_injury.png",
+      "width": 800,
+      "height": 560,
+      "format": "JPEG",
+      "size": 48967
+    },
+    {
+      "filename": "entecavir_tenofovir_drugs.png",
+      "width": 700,
+      "height": 700,
+      "format": "JPEG",
+      "size": 28365
+    },
+    {
+      "filename": "fibroscan_vcte_elastography.png",
+      "width": 1672,
+      "height": 941,
+      "format": "JPEG",
+      "size": 129442
+    },
+    {
+      "filename": "hav_structure_transmission.png",
+      "width": 2048,
+      "height": 1654,
+      "format": "JPEG",
+      "size": 239111
+    },
+    {
+      "filename": "hbv_serology_window_period.png",
+      "width": 3435,
+      "height": 1890,
+      "format": "JPEG",
+      "size": 256199
+    },
+    {
+      "filename": "hbv_virion_structure.png",
+      "width": 2404,
+      "height": 1301,
+      "format": "JPEG",
+      "size": 121071
+    },
+    {
+      "filename": "hcv_virion_flavivirus.png",
+      "width": 3164,
+      "height": 1779,
+      "format": "JPEG",
+      "size": 311497
+    },
+    {
+      "filename": "hcv_virion_hegasy.png",
+      "width": 2660,
+      "height": 2480,
+      "format": "JPEG",
+      "size": 1638316
+    },
+    {
+      "filename": "hepatitis_overview_symptoms.png",
+      "width": 700,
+      "height": 524,
+      "format": "JPEG",
+      "size": 27181
+    },
+    {
+      "filename": "hev_structure_virion.png",
+      "width": 1280,
+      "height": 537,
+      "format": "JPEG",
+      "size": 85507
+    },
+    {
+      "filename": "masld_mash_fatty_liver.png",
+      "width": 1508,
+      "height": 1056,
+      "format": "JPEG",
+      "size": 96791
+    },
+    {
+      "filename": "masld_pathogenesis_cascade.png",
+      "width": 2596,
+      "height": 1834,
+      "format": "JPEG",
+      "size": 309254
+    },
+    {
+      "filename": "n_acetylcysteine_antidote.png",
+      "width": 768,
+      "height": 768,
+      "format": "JPEG",
+      "size": 41373
+    },
+    {
+      "filename": "paracetamol_toxicity_napqi.png",
+      "width": 600,
+      "height": 397,
+      "format": "JPEG",
+      "size": 30177
+    },
+    {
+      "filename": "prodromal_icteric_phases.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "JPEG",
+      "size": 175209
+    },
+    {
+      "filename": "tenofovir_taf_hepbest.png",
+      "width": 1200,
+      "height": 1200,
+      "format": "JPEG",
+      "size": 166989
+    },
+    {
+      "filename": "tenofovir_tdf_bottle.png",
+      "width": 500,
+      "height": 500,
+      "format": "JPEG",
+      "size": 34568
+    }
+  ]
+}

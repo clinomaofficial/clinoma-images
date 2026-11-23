@@ -1,0 +1,350 @@
+{
+  "topic": "Cirrhosis_and_Portal_Hypertension",
+  "chatgpt_share": "https://chatgpt.com/share/6b00d54f-4788-83e8-98e9-ed8add729e0b",
+  "images": [
+    {
+      "filename": "cirrhosis_nodular_cirrhotic_liver_gross.jpg",
+      "key": "nodular_cirrhotic_liver_gross",
+      "width": 800,
+      "height": 533,
+      "format": "JPEG",
+      "size": 39942
+    },
+    {
+      "filename": "cirrhosis_fibroscan_probe_vcte.jpg",
+      "key": "fibroscan_probe_vcte",
+      "width": 800,
+      "height": 734,
+      "format": "JPEG",
+      "size": 89577
+    },
+    {
+      "filename": "cirrhosis_schistosomiasis_pipestem.jpg",
+      "key": "schistosomiasis_pipestem",
+      "width": 800,
+      "height": 523,
+      "format": "JPEG",
+      "size": 136678
+    },
+    {
+      "filename": "cirrhosis_hemochromatosis_iron_prussian_blue.jpg",
+      "key": "hemochromatosis_iron_prussian_blue",
+      "width": 800,
+      "height": 600,
+      "format": "JPEG",
+      "size": 195591
+    },
+    {
+      "filename": "cirrhosis_wilsons_kayser_fleischer_ring.jpg",
+      "key": "wilsons_kayser_fleischer_ring",
+      "width": 800,
+      "height": 330,
+      "format": "JPEG",
+      "size": 22009
+    },
+    {
+      "filename": "cirrhosis_caput_medusae_abdomen.jpg",
+      "key": "caput_medusae_abdomen",
+      "width": 577,
+      "height": 800,
+      "format": "JPEG",
+      "size": 103286
+    },
+    {
+      "filename": "cirrhosis_cirrhosis_ultrasound_nodular.jpg",
+      "key": "cirrhosis_ultrasound_nodular",
+      "width": 768,
+      "height": 576,
+      "format": "JPEG",
+      "size": 58934
+    },
+    {
+      "filename": "cirrhosis_esophageal_varices_endoscopy.jpg",
+      "key": "esophageal_varices_endoscopy",
+      "width": 800,
+      "height": 654,
+      "format": "JPEG",
+      "size": 60900
+    },
+    {
+      "filename": "cirrhosis_tips_stent_fluoroscopy.jpg",
+      "key": "tips_stent_fluoroscopy",
+      "width": 469,
+      "height": 549,
+      "format": "JPEG",
+      "size": 34014
+    },
+    {
+      "filename": "cirrhosis_hcc_milan_criteria_ct.jpg",
+      "key": "hcc_milan_criteria_ct",
+      "width": 791,
+      "height": 333,
+      "format": "JPEG",
+      "size": 58144
+    },
+    {
+      "filename": "cirrhosis_portal_vein_thrombosis_ct.jpg",
+      "key": "portal_vein_thrombosis_ct",
+      "width": 800,
+      "height": 353,
+      "format": "JPEG",
+      "size": 54063
+    },
+    {
+      "filename": "cirrhosis_budd_chiari_caudate_lobe_ct.jpg",
+      "key": "budd_chiari_caudate_lobe_ct",
+      "width": 800,
+      "height": 637,
+      "format": "JPEG",
+      "size": 67519
+    },
+    {
+      "filename": "cirrhosis_sos_vod_histology_centrilobular.jpg",
+      "key": "sos_vod_histology_centrilobular",
+      "width": 512,
+      "height": 512,
+      "format": "JPEG",
+      "size": 26389
+    },
+    {
+      "filename": "cirrhosis_bone_marrow_transplant_stem_cell.jpg",
+      "key": "bone_marrow_transplant_stem_cell",
+      "width": 601,
+      "height": 507,
+      "format": "JPEG",
+      "size": 34133
+    },
+    {
+      "filename": "cirrhosis_spider_angioma_skin.jpg",
+      "key": "spider_angioma_skin",
+      "width": 800,
+      "height": 521,
+      "format": "JPEG",
+      "size": 73972
+    },
+    {
+      "filename": "cirrhosis_palmar_erythema_hands.jpg",
+      "key": "palmar_erythema_hands",
+      "width": 800,
+      "height": 572,
+      "format": "JPEG",
+      "size": 49840
+    },
+    {
+      "filename": "cirrhosis_cirrhosis_stellate_cells.jpg",
+      "key": "cirrhosis_stellate_cells",
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "size": 169010
+    },
+    {
+      "filename": "cirrhosis_hyperdynamic_circulation.jpg",
+      "key": "hyperdynamic_circulation",
+      "width": 524,
+      "height": 800,
+      "format": "JPEG",
+      "size": 101698
+    },
+    {
+      "filename": "cirrhosis_child_pugh_meld_diagram.jpg",
+      "key": "child_pugh_meld_diagram",
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "size": 64834
+    },
+    {
+      "filename": "cirrhosis_ascites_paracentesis_fluid.jpg",
+      "key": "ascites_paracentesis_fluid",
+      "width": 603,
+      "height": 799,
+      "format": "JPEG",
+      "size": 72413
+    },
+    {
+      "filename": "cirrhosis_sarcopenia_muscle_wasting_ct.jpg",
+      "key": "sarcopenia_muscle_wasting_ct",
+      "width": 800,
+      "height": 473,
+      "format": "JPEG",
+      "size": 37578
+    },
+    {
+      "filename": "cirrhosis_liver_vascular_anatomy_diagram.jpg",
+      "key": "liver_vascular_anatomy_diagram",
+      "width": 799,
+      "height": 515,
+      "format": "JPEG",
+      "size": 79944
+    },
+    {
+      "filename": "cirrhosis_splenic_vein_thrombosis_gastric_varices.jpg",
+      "key": "splenic_vein_thrombosis_gastric_varices",
+      "width": 720,
+      "height": 576,
+      "format": "JPEG",
+      "size": 37834
+    },
+    {
+      "filename": "cirrhosis_portal_cavernoma_mri_or_us.jpg",
+      "key": "portal_cavernoma_mri_or_us",
+      "width": 800,
+      "height": 354,
+      "format": "JPEG",
+      "size": 55935
+    },
+    {
+      "filename": "cirrhosis_hepatic_vein_doppler_bcs.jpg",
+      "key": "hepatic_vein_doppler_bcs",
+      "width": 512,
+      "height": 512,
+      "format": "JPEG",
+      "size": 36549
+    },
+    {
+      "filename": "cirrhosis_splenomegaly_hypersplenism_ct.jpg",
+      "key": "splenomegaly_hypersplenism_ct",
+      "width": 651,
+      "height": 800,
+      "format": "JPEG",
+      "size": 132856
+    },
+    {
+      "filename": "cirrhosis_high_saag_ascites_algorithm.jpg",
+      "key": "high_saag_ascites_algorithm",
+      "width": 462,
+      "height": 421,
+      "format": "JPEG",
+      "size": 49396
+    },
+    {
+      "filename": "cirrhosis_cirrhosis_histology_nodules.jpg",
+      "key": "cirrhosis_histology_nodules",
+      "width": 900,
+      "height": 600,
+      "format": "JPEG",
+      "size": 53787
+    },
+    {
+      "filename": "cirrhosis_sinusoidal_capillarization_stellate.jpg",
+      "key": "sinusoidal_capillarization_stellate",
+      "width": 900,
+      "height": 508,
+      "format": "JPEG",
+      "size": 138535
+    },
+    {
+      "filename": "cirrhosis_compensated_vs_decompensated_stages.jpg",
+      "key": "compensated_vs_decompensated_stages",
+      "width": 900,
+      "height": 502,
+      "format": "JPEG",
+      "size": 77792
+    },
+    {
+      "filename": "cirrhosis_spider_angioma_clinical.jpg",
+      "key": "spider_angioma_clinical",
+      "width": 900,
+      "height": 590,
+      "format": "JPEG",
+      "size": 74059
+    },
+    {
+      "filename": "cirrhosis_palmar_erythema_clinical.jpg",
+      "key": "palmar_erythema_clinical",
+      "width": 755,
+      "height": 628,
+      "format": "JPEG",
+      "size": 35055
+    },
+    {
+      "filename": "cirrhosis_dupuytren_contracture_clinical.jpg",
+      "key": "dupuytren_contracture_clinical",
+      "width": 900,
+      "height": 726,
+      "format": "JPEG",
+      "size": 78965
+    },
+    {
+      "filename": "cirrhosis_caput_medusae_clinical.jpg",
+      "key": "caput_medusae_clinical",
+      "width": 698,
+      "height": 465,
+      "format": "JPEG",
+      "size": 31897
+    },
+    {
+      "filename": "cirrhosis_asterixis_flapping_tremor.jpg",
+      "key": "asterixis_flapping_tremor",
+      "width": 900,
+      "height": 709,
+      "format": "JPEG",
+      "size": 71900
+    },
+    {
+      "filename": "cirrhosis_cirrhosis_ultrasound_nodular_real.jpg",
+      "key": "cirrhosis_ultrasound_nodular_real",
+      "width": 900,
+      "height": 675,
+      "format": "JPEG",
+      "size": 81485
+    },
+    {
+      "filename": "cirrhosis_hepatic_dual_blood_supply.jpg",
+      "key": "hepatic_dual_blood_supply",
+      "width": 640,
+      "height": 450,
+      "format": "JPEG",
+      "size": 36812
+    },
+    {
+      "filename": "cirrhosis_acute_pvt_ct_scan.jpg",
+      "key": "acute_pvt_ct_scan",
+      "width": 500,
+      "height": 404,
+      "format": "JPEG",
+      "size": 32626
+    },
+    {
+      "filename": "cirrhosis_portal_cavernoma_doppler.jpg",
+      "key": "portal_cavernoma_doppler",
+      "width": 720,
+      "height": 540,
+      "format": "JPEG",
+      "size": 82069
+    },
+    {
+      "filename": "cirrhosis_budd_chiari_pathophysiology.jpg",
+      "key": "budd_chiari_pathophysiology",
+      "width": 879,
+      "height": 717,
+      "format": "JPEG",
+      "size": 75166
+    },
+    {
+      "filename": "cirrhosis_budd_chiari_caudate_ct.jpg",
+      "key": "budd_chiari_caudate_ct",
+      "width": 900,
+      "height": 675,
+      "format": "JPEG",
+      "size": 91905
+    },
+    {
+      "filename": "cirrhosis_sos_vod_histology_zone3.jpg",
+      "key": "sos_vod_histology_zone3",
+      "width": 900,
+      "height": 524,
+      "format": "JPEG",
+      "size": 49666
+    },
+    {
+      "filename": "cirrhosis_painful_hepatomegaly_sign.jpg",
+      "key": "painful_hepatomegaly_sign",
+      "width": 900,
+      "height": 720,
+      "format": "JPEG",
+      "size": 105643
+    }
+  ]
+}

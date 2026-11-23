@@ -1,0 +1,134 @@
+{
+  "topic": "Gastric_and_Peptic_Disorders",
+  "chatgpt_share": "https://chatgpt.com/share/6af0e9d8-70dc-83ea-9905-46bc4b96c98a",
+  "images": [
+    {
+      "filename": "gastric_parietal_cell_acid.jpg",
+      "key": "parietal_cell_acid",
+      "width": 450,
+      "height": 450,
+      "format": "JPEG",
+      "size": 24190
+    },
+    {
+      "filename": "gastric_gastric_ulcer_endoscopy.jpg",
+      "key": "gastric_ulcer_endoscopy",
+      "width": 600,
+      "height": 414,
+      "format": "JPEG",
+      "size": 51595
+    },
+    {
+      "filename": "gastric_duodenal_ulcer_endoscopy.jpg",
+      "key": "duodenal_ulcer_endoscopy",
+      "width": 319,
+      "height": 450,
+      "format": "JPEG",
+      "size": 18986
+    },
+    {
+      "filename": "gastric_h_pylori_giemsa.jpg",
+      "key": "h_pylori_giemsa",
+      "width": 450,
+      "height": 450,
+      "format": "JPEG",
+      "size": 52467
+    },
+    {
+      "filename": "gastric_peptic_perforation_xray.jpg",
+      "key": "peptic_perforation_xray",
+      "width": 600,
+      "height": 343,
+      "format": "JPEG",
+      "size": 38638
+    },
+    {
+      "filename": "gastric_gastric_anatomy.jpg",
+      "key": "gastric_anatomy",
+      "width": 372,
+      "height": 450,
+      "format": "JPEG",
+      "size": 30071
+    },
+    {
+      "filename": "gastric_gastric_adenocarcinoma_ct.jpg",
+      "key": "gastric_adenocarcinoma_ct",
+      "width": 600,
+      "height": 448,
+      "format": "JPEG",
+      "size": 128043
+    },
+    {
+      "filename": "gastric_billroth_reconstructions.jpg",
+      "key": "billroth_reconstructions",
+      "width": 300,
+      "height": 332,
+      "format": "JPEG",
+      "size": 32494
+    },
+    {
+      "filename": "gastric_forrest_bleeding_matrix.jpg",
+      "key": "forrest_bleeding_matrix",
+      "width": 500,
+      "height": 177,
+      "format": "JPEG",
+      "size": 19926
+    },
+    {
+      "filename": "gastric_linitis_plastica_barium.jpg",
+      "key": "linitis_plastica_barium",
+      "width": 316,
+      "height": 380,
+      "format": "JPEG",
+      "size": 14712
+    },
+    {
+      "filename": "gastric_virchows_node.jpg",
+      "key": "virchows_node",
+      "width": 500,
+      "height": 341,
+      "format": "JPEG",
+      "size": 34328
+    },
+    {
+      "filename": "gastric_krukenberg_tumor.jpg",
+      "key": "krukenberg_tumor",
+      "width": 443,
+      "height": 380,
+      "format": "JPEG",
+      "size": 29357
+    },
+    {
+      "filename": "gastric_gist_c_kit.jpg",
+      "key": "gist_c_kit",
+      "width": 500,
+      "height": 335,
+      "format": "JPEG",
+      "size": 32625
+    },
+    {
+      "filename": "gastric_gastric_malt_lymphoma.jpg",
+      "key": "gastric_malt_lymphoma",
+      "width": 475,
+      "height": 380,
+      "format": "JPEG",
+      "size": 46408
+    },
+    {
+      "filename": "gastric_gastric_emptying_scan.jpg",
+      "key": "gastric_emptying_scan",
+      "width": 409,
+      "height": 380,
+      "format": "JPEG",
+      "size": 25225
+    },
+    {
+      "filename": "gastric_fundic_gland_polyp.jpg",
+      "key": "fundic_gland_polyp",
+      "width": 500,
+      "height": 365,
+      "format": "JPEG",
+      "size": 60150
+    }
+  ]
+}

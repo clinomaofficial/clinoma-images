@@ -1,0 +1,742 @@
+{
+  "topic": "07_Acute_Glomerulonephritis",
+  "chatgpt_share": "https://chatgpt.com/share/6af5fa6d-e328-83e9-9be6-3a085ea0df52",
+  "images": [
+    {
+      "filename": "gn_1.jpg",
+      "key": "1",
+      "width": 1142,
+      "height": 860,
+      "format": "JPEG",
+      "size": 160697
+    },
+    {
+      "filename": "gn_chat_img_1.jpg",
+      "key": "chat_img_1",
+      "width": 1142,
+      "height": 860,
+      "format": "JPEG",
+      "size": 160697
+    },
+    {
+      "filename": "gn_img_01.jpg",
+      "key": "img_01",
+      "width": 1142,
+      "height": 860,
+      "format": "JPEG",
+      "size": 160697
+    },
+    {
+      "filename": "gn_2.jpg",
+      "key": "2",
+      "width": 500,
+      "height": 202,
+      "format": "JPEG",
+      "size": 32454
+    },
+    {
+      "filename": "gn_chat_img_2.jpg",
+      "key": "chat_img_2",
+      "width": 500,
+      "height": 202,
+      "format": "JPEG",
+      "size": 32454
+    },
+    {
+      "filename": "gn_img_02.jpg",
+      "key": "img_02",
+      "width": 500,
+      "height": 202,
+      "format": "JPEG",
+      "size": 32454
+    },
+    {
+      "filename": "gn_3.jpg",
+      "key": "3",
+      "width": 700,
+      "height": 412,
+      "format": "JPEG",
+      "size": 91745
+    },
+    {
+      "filename": "gn_chat_img_3.jpg",
+      "key": "chat_img_3",
+      "width": 700,
+      "height": 412,
+      "format": "JPEG",
+      "size": 91745
+    },
+    {
+      "filename": "gn_img_03.jpg",
+      "key": "img_03",
+      "width": 700,
+      "height": 412,
+      "format": "JPEG",
+      "size": 91745
+    },
+    {
+      "filename": "gn_4.jpg",
+      "key": "4",
+      "width": 800,
+      "height": 560,
+      "format": "JPEG",
+      "size": 73729
+    },
+    {
+      "filename": "gn_chat_img_4.jpg",
+      "key": "chat_img_4",
+      "width": 800,
+      "height": 560,
+      "format": "JPEG",
+      "size": 73729
+    },
+    {
+      "filename": "gn_img_04.jpg",
+      "key": "img_04",
+      "width": 800,
+      "height": 560,
+      "format": "JPEG",
+      "size": 73729
+    },
+    {
+      "filename": "gn_5.jpg",
+      "key": "5",
+      "width": 1100,
+      "height": 562,
+      "format": "JPEG",
+      "size": 166767
+    },
+    {
+      "filename": "gn_chat_img_5.jpg",
+      "key": "chat_img_5",
+      "width": 1100,
+      "height": 562,
+      "format": "JPEG",
+      "size": 166767
+    },
+    {
+      "filename": "gn_img_05.jpg",
+      "key": "img_05",
+      "width": 1100,
+      "height": 562,
+      "format": "JPEG",
+      "size": 166767
+    },
+    {
+      "filename": "gn_6.jpg",
+      "key": "6",
+      "width": 680,
+      "height": 444,
+      "format": "JPEG",
+      "size": 168917
+    },
+    {
+      "filename": "gn_chat_img_6.jpg",
+      "key": "chat_img_6",
+      "width": 680,
+      "height": 444,
+      "format": "JPEG",
+      "size": 168917
+    },
+    {
+      "filename": "gn_img_06.jpg",
+      "key": "img_06",
+      "width": 680,
+      "height": 444,
+      "format": "JPEG",
+      "size": 168917
+    },
+    {
+      "filename": "gn_7.jpg",
+      "key": "7",
+      "width": 1196,
+      "height": 720,
+      "format": "JPEG",
+      "size": 139728
+    },
+    {
+      "filename": "gn_chat_img_7.jpg",
+      "key": "chat_img_7",
+      "width": 1196,
+      "height": 720,
+      "format": "JPEG",
+      "size": 139728
+    },
+    {
+      "filename": "gn_img_07.jpg",
+      "key": "img_07",
+      "width": 1196,
+      "height": 720,
+      "format": "JPEG",
+      "size": 139728
+    },
+    {
+      "filename": "gn_8.jpg",
+      "key": "8",
+      "width": 673,
+      "height": 584,
+      "format": "JPEG",
+      "size": 85212
+    },
+    {
+      "filename": "gn_chat_img_8.jpg",
+      "key": "chat_img_8",
+      "width": 673,
+      "height": 584,
+      "format": "JPEG",
+      "size": 85212
+    },
+    {
+      "filename": "gn_img_08.jpg",
+      "key": "img_08",
+      "width": 673,
+      "height": 584,
+      "format": "JPEG",
+      "size": 85212
+    },
+    {
+      "filename": "gn_9.jpg",
+      "key": "9",
+      "width": 1156,
+      "height": 860,
+      "format": "JPEG",
+      "size": 169276
+    },
+    {
+      "filename": "gn_chat_img_9.jpg",
+      "key": "chat_img_9",
+      "width": 1156,
+      "height": 860,
+      "format": "JPEG",
+      "size": 169276
+    },
+    {
+      "filename": "gn_img_09.jpg",
+      "key": "img_09",
+      "width": 1156,
+      "height": 860,
+      "format": "JPEG",
+      "size": 169276
+    },
+    {
+      "filename": "gn_10.jpg",
+      "key": "10",
+      "width": 1080,
+      "height": 645,
+      "format": "JPEG",
+      "size": 285099
+    },
+    {
+      "filename": "gn_chat_img_10.jpg",
+      "key": "chat_img_10",
+      "width": 1080,
+      "height": 645,
+      "format": "JPEG",
+      "size": 285099
+    },
+    {
+      "filename": "gn_img_10.jpg",
+      "key": "img_10",
+      "width": 1080,
+      "height": 645,
+      "format": "JPEG",
+      "size": 285099
+    },
+    {
+      "filename": "gn_11.jpg",
+      "key": "11",
+      "width": 1097,
+      "height": 484,
+      "format": "JPEG",
+      "size": 214663
+    },
+    {
+      "filename": "gn_chat_img_11.jpg",
+      "key": "chat_img_11",
+      "width": 1097,
+      "height": 484,
+      "format": "JPEG",
+      "size": 214663
+    },
+    {
+      "filename": "gn_img_11.jpg",
+      "key": "img_11",
+      "width": 1097,
+      "height": 484,
+      "format": "JPEG",
+      "size": 214663
+    },
+    {
+      "filename": "gn_12.jpg",
+      "key": "12",
+      "width": 1597,
+      "height": 860,
+      "format": "JPEG",
+      "size": 469423
+    },
+    {
+      "filename": "gn_chat_img_12.jpg",
+      "key": "chat_img_12",
+      "width": 1597,
+      "height": 860,
+      "format": "JPEG",
+      "size": 469423
+    },
+    {
+      "filename": "gn_img_12.jpg",
+      "key": "img_12",
+      "width": 1597,
+      "height": 860,
+      "format": "JPEG",
+      "size": 469423
+    },
+    {
+      "filename": "gn_13.jpg",
+      "key": "13",
+      "width": 1319,
+      "height": 860,
+      "format": "JPEG",
+      "size": 206531
+    },
+    {
+      "filename": "gn_chat_img_13.jpg",
+      "key": "chat_img_13",
+      "width": 1319,
+      "height": 860,
+      "format": "JPEG",
+      "size": 206531
+    },
+    {
+      "filename": "gn_img_13.jpg",
+      "key": "img_13",
+      "width": 1319,
+      "height": 860,
+      "format": "JPEG",
+      "size": 206531
+    },
+    {
+      "filename": "gn_14.jpg",
+      "key": "14",
+      "width": 700,
+      "height": 488,
+      "format": "JPEG",
+      "size": 154635
+    },
+    {
+      "filename": "gn_chat_img_14.jpg",
+      "key": "chat_img_14",
+      "width": 700,
+      "height": 488,
+      "format": "JPEG",
+      "size": 154635
+    },
+    {
+      "filename": "gn_img_14.jpg",
+      "key": "img_14",
+      "width": 700,
+      "height": 488,
+      "format": "JPEG",
+      "size": 154635
+    },
+    {
+      "filename": "gn_15.jpg",
+      "key": "15",
+      "width": 869,
+      "height": 869,
+      "format": "JPEG",
+      "size": 229227
+    },
+    {
+      "filename": "gn_chat_img_15.jpg",
+      "key": "chat_img_15",
+      "width": 869,
+      "height": 869,
+      "format": "JPEG",
+      "size": 229227
+    },
+    {
+      "filename": "gn_img_15.jpg",
+      "key": "img_15",
+      "width": 869,
+      "height": 869,
+      "format": "JPEG",
+      "size": 229227
+    },
+    {
+      "filename": "gn_16.jpg",
+      "key": "16",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 41813
+    },
+    {
+      "filename": "gn_chat_img_16.jpg",
+      "key": "chat_img_16",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 41813
+    },
+    {
+      "filename": "gn_img_16.jpg",
+      "key": "img_16",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 41813
+    },
+    {
+      "filename": "gn_17.jpg",
+      "key": "17",
+      "width": 1009,
+      "height": 921,
+      "format": "JPEG",
+      "size": 433959
+    },
+    {
+      "filename": "gn_chat_img_17.jpg",
+      "key": "chat_img_17",
+      "width": 1009,
+      "height": 921,
+      "format": "JPEG",
+      "size": 433959
+    },
+    {
+      "filename": "gn_img_17.jpg",
+      "key": "img_17",
+      "width": 1009,
+      "height": 921,
+      "format": "JPEG",
+      "size": 433959
+    },
+    {
+      "filename": "gn_18.jpg",
+      "key": "18",
+      "width": 800,
+      "height": 602,
+      "format": "JPEG",
+      "size": 99285
+    },
+    {
+      "filename": "gn_chat_img_18.jpg",
+      "key": "chat_img_18",
+      "width": 800,
+      "height": 602,
+      "format": "JPEG",
+      "size": 99285
+    },
+    {
+      "filename": "gn_img_18.jpg",
+      "key": "img_18",
+      "width": 800,
+      "height": 602,
+      "format": "JPEG",
+      "size": 99285
+    },
+    {
+      "filename": "gn_19.jpg",
+      "key": "19",
+      "width": 1024,
+      "height": 884,
+      "format": "JPEG",
+      "size": 136448
+    },
+    {
+      "filename": "gn_chat_img_19.jpg",
+      "key": "chat_img_19",
+      "width": 1024,
+      "height": 884,
+      "format": "JPEG",
+      "size": 136448
+    },
+    {
+      "filename": "gn_img_19.jpg",
+      "key": "img_19",
+      "width": 1024,
+      "height": 884,
+      "format": "JPEG",
+      "size": 136448
+    },
+    {
+      "filename": "gn_20.jpg",
+      "key": "20",
+      "width": 800,
+      "height": 931,
+      "format": "JPEG",
+      "size": 132545
+    },
+    {
+      "filename": "gn_chat_img_20.jpg",
+      "key": "chat_img_20",
+      "width": 800,
+      "height": 931,
+      "format": "JPEG",
+      "size": 132545
+    },
+    {
+      "filename": "gn_img_20.jpg",
+      "key": "img_20",
+      "width": 800,
+      "height": 931,
+      "format": "JPEG",
+      "size": 132545
+    },
+    {
+      "filename": "gn_21.jpg",
+      "key": "21",
+      "width": 632,
+      "height": 409,
+      "format": "JPEG",
+      "size": 53217
+    },
+    {
+      "filename": "gn_chat_img_21.jpg",
+      "key": "chat_img_21",
+      "width": 632,
+      "height": 409,
+      "format": "JPEG",
+      "size": 53217
+    },
+    {
+      "filename": "gn_img_21.jpg",
+      "key": "img_21",
+      "width": 632,
+      "height": 409,
+      "format": "JPEG",
+      "size": 53217
+    },
+    {
+      "filename": "gn_22.jpg",
+      "key": "22",
+      "width": 1290,
+      "height": 860,
+      "format": "JPEG",
+      "size": 367057
+    },
+    {
+      "filename": "gn_chat_img_22.jpg",
+      "key": "chat_img_22",
+      "width": 1290,
+      "height": 860,
+      "format": "JPEG",
+      "size": 367057
+    },
+    {
+      "filename": "gn_img_22.jpg",
+      "key": "img_22",
+      "width": 1290,
+      "height": 860,
+      "format": "JPEG",
+      "size": 367057
+    },
+    {
+      "filename": "gn_23.jpg",
+      "key": "23",
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG",
+      "size": 141702
+    },
+    {
+      "filename": "gn_chat_img_23.jpg",
+      "key": "chat_img_23",
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG",
+      "size": 141702
+    },
+    {
+      "filename": "gn_img_23.jpg",
+      "key": "img_23",
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG",
+      "size": 141702
+    },
+    {
+      "filename": "gn_24.jpg",
+      "key": "24",
+      "width": 1024,
+      "height": 884,
+      "format": "JPEG",
+      "size": 440325
+    },
+    {
+      "filename": "gn_chat_img_24.jpg",
+      "key": "chat_img_24",
+      "width": 1024,
+      "height": 884,
+      "format": "JPEG",
+      "size": 440325
+    },
+    {
+      "filename": "gn_img_24.jpg",
+      "key": "img_24",
+      "width": 1024,
+      "height": 884,
+      "format": "JPEG",
+      "size": 440325
+    },
+    {
+      "filename": "gn_normal_glomerulus_lm.png",
+      "key": "normal_glomerulus_lm",
+      "width": 600,
+      "height": 411,
+      "format": "PNG",
+      "size": 509462
+    },
+    {
+      "filename": "gn_psgn_lm_endocapillary.png",
+      "key": "psgn_lm_endocapillary",
+      "width": 1023,
+      "height": 900,
+      "format": "PNG",
+      "size": 1320278
+    },
+    {
+      "filename": "gn_berger_mesangial_pas.png",
+      "key": "berger_mesangial_pas",
+      "width": 1200,
+      "height": 608,
+      "format": "PNG",
+      "size": 1089291
+    },
+    {
+      "filename": "gn_rpgn_crescent_silver.png",
+      "key": "rpgn_crescent_silver",
+      "width": 472,
+      "height": 354,
+      "format": "PNG",
+      "size": 351194
+    },
+    {
+      "filename": "gn_goodpasture_chest_ct.png",
+      "key": "goodpasture_chest_ct",
+      "width": 600,
+      "height": 706,
+      "format": "PNG",
+      "size": 298410
+    },
+    {
+      "filename": "gn_anca_c_vs_p_pattern.png",
+      "key": "anca_c_vs_p_pattern",
+      "width": 450,
+      "height": 320,
+      "format": "PNG",
+      "size": 103455
+    },
+    {
+      "filename": "gn_lupus_full_house_if.png",
+      "key": "lupus_full_house_if",
+      "width": 1200,
+      "height": 551,
+      "format": "PNG",
+      "size": 1026589
+    },
+    {
+      "filename": "gn_mpgn1_subendothelial_em.png",
+      "key": "mpgn1_subendothelial_em",
+      "width": 1200,
+      "height": 807,
+      "format": "PNG",
+      "size": 1139772
+    },
+    {
+      "filename": "gn_mcd_normal_lm.png",
+      "key": "mcd_normal_lm",
+      "width": 1200,
+      "height": 799,
+      "format": "PNG",
+      "size": 884445
+    },
+    {
+      "filename": "gn_fsgs_podocyte_detachment_em.png",
+      "key": "fsgs_podocyte_detachment_em",
+      "width": 1200,
+      "height": 900,
+      "format": "PNG",
+      "size": 1778678
+    },
+    {
+      "filename": "gn_membranous_if_granular.png",
+      "key": "membranous_if_granular",
+      "width": 1194,
+      "height": 900,
+      "format": "PNG",
+      "size": 1293311
+    },
+    {
+      "filename": "gn_diabetic_kw_nodules.png",
+      "key": "diabetic_kw_nodules",
+      "width": 1200,
+      "height": 900,
+      "format": "PNG",
+      "size": 2219343
+    },
+    {
+      "filename": "gn_amyloid_congo_red_polarized.png",
+      "key": "amyloid_congo_red_polarized",
+      "width": 638,
+      "height": 479,
+      "format": "PNG",
+      "size": 370130
+    },
+    {
+      "filename": "gn_maltese_cross_lipiduria.png",
+      "key": "maltese_cross_lipiduria",
+      "width": 900,
+      "height": 900,
+      "format": "PNG",
+      "size": 1045800
+    },
+    {
+      "filename": "gn_biopsy_core_needle_diagram.png",
+      "key": "biopsy_core_needle_diagram",
+      "width": 1200,
+      "height": 863,
+      "format": "PNG",
+      "size": 510265
+    },
+    {
+      "filename": "gn_plasmapheresis_circuit.png",
+      "key": "plasmapheresis_circuit",
+      "width": 1159,
+      "height": 900,
+      "format": "PNG",
+      "size": 508929
+    },
+    {
+      "filename": "gn_dialysis_console_catheter.png",
+      "key": "dialysis_console_catheter",
+      "width": 730,
+      "height": 900,
+      "format": "PNG",
+      "size": 513564
+    },
+    {
+      "filename": "gn_batwing_pulmonary_edema_cxr.png",
+      "key": "batwing_pulmonary_edema_cxr",
+      "width": 854,
+      "height": 900,
+      "format": "PNG",
+      "size": 625264
+    },
+    {
+      "filename": "gn_complement_cascade_gn.png",
+      "key": "complement_cascade_gn",
+      "width": 1142,
+      "height": 900,
+      "format": "PNG",
+      "size": 178891
+    },
+    {
+      "filename": "gn_hsp_skin_lcv.png",
+      "key": "hsp_skin_lcv",
+      "width": 380,
+      "height": 254,
+      "format": "PNG",
+      "size": 175372
+    }
+  ]
+}

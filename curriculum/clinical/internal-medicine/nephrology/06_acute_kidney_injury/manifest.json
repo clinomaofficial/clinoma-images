@@ -1,0 +1,54 @@
+{
+  "topic": "06_Acute_Kidney_Injury",
+  "chatgpt_share": "https://chatgpt.com/share/6af4ea90-4534-83e9-9b93-0bbef0f827e2",
+  "images": [
+    {
+      "filename": "aki_classification.jpg",
+      "key": "aki_classification",
+      "width": 1200,
+      "height": 672,
+      "format": "JPEG",
+      "size": 114222
+    },
+    {
+      "filename": "hydronephrosis_us.jpg",
+      "key": "hydronephrosis_us",
+      "width": 1024,
+      "height": 585,
+      "format": "JPEG",
+      "size": 87994
+    },
+    {
+      "filename": "aki_raw_03.jpg",
+      "key": "raw_03.jpg",
+      "width": 1024,
+      "height": 585,
+      "format": "JPEG",
+      "size": 87994
+    },
+    {
+      "filename": "aki_raw_04.jpg",
+      "key": "raw_04.jpg",
+      "width": 1024,
+      "height": 585,
+      "format": "JPEG",
+      "size": 87994
+    },
+    {
+      "filename": "aki_raw_05.jpg",
+      "key": "raw_05.jpg",
+      "width": 1200,
+      "height": 672,
+      "format": "JPEG",
+      "size": 109061
+    },
+    {
+      "filename": "aki_raw_06.jpg",
+      "key": "raw_06.jpg",
+      "width": 1200,
+      "height": 672,
+      "format": "JPEG",
+      "size": 114222
+    }
+  ]
+}

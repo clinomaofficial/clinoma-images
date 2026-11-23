@@ -1,0 +1,334 @@
+{
+  "topic": "Pancreatic_Diseases",
+  "chatgpt_share": "https://chatgpt.com/share/6af0f5d7-5ae4-83ea-9dd8-10a2de570ba7",
+  "images": [
+    {
+      "filename": "pancreas_pancreas_anatomy.jpg",
+      "key": "pancreas_anatomy",
+      "width": 347,
+      "height": 450,
+      "format": "JPEG",
+      "size": 48935
+    },
+    {
+      "filename": "pancreas_pancreas_divisum_mrcp.jpg",
+      "key": "pancreas_divisum_mrcp",
+      "width": 482,
+      "height": 450,
+      "format": "JPEG",
+      "size": 13530
+    },
+    {
+      "filename": "pancreas_cullens_sign.jpg",
+      "key": "cullens_sign",
+      "width": 561,
+      "height": 364,
+      "format": "JPEG",
+      "size": 34529
+    },
+    {
+      "filename": "pancreas_pancreatic_pseudocyst_ct.jpg",
+      "key": "pancreatic_pseudocyst_ct",
+      "width": 600,
+      "height": 242,
+      "format": "JPEG",
+      "size": 32821
+    },
+    {
+      "filename": "pancreas_chronic_pancreatitis_calc.jpg",
+      "key": "chronic_pancreatitis_calc",
+      "width": 543,
+      "height": 450,
+      "format": "JPEG",
+      "size": 45527
+    },
+    {
+      "filename": "pancreas_sausage_pancreas_aip.jpg",
+      "key": "sausage_pancreas_aip",
+      "width": 600,
+      "height": 450,
+      "format": "JPEG",
+      "size": 61554
+    },
+    {
+      "filename": "pancreas_cytopathology_spn.jpg",
+      "key": "cytopathology_spn",
+      "width": 327,
+      "height": 450,
+      "format": "JPEG",
+      "size": 50047
+    },
+    {
+      "filename": "pancreas_pancreatic_cancer_ct.jpg",
+      "key": "pancreatic_cancer_ct",
+      "width": 600,
+      "height": 428,
+      "format": "JPEG",
+      "size": 46743
+    },
+    {
+      "filename": "pancreas_whipple_reconstruction.jpg",
+      "key": "whipple_reconstruction",
+      "width": 342,
+      "height": 353,
+      "format": "JPEG",
+      "size": 20321
+    },
+    {
+      "filename": "pancreas_pancreatic_insulinoma_hist.jpg",
+      "key": "pancreatic_insulinoma_hist",
+      "width": 500,
+      "height": 376,
+      "format": "JPEG",
+      "size": 72529
+    },
+    {
+      "filename": "pancreas_pancreatic_calcifications_xray.jpg",
+      "key": "pancreatic_calcifications_xray",
+      "width": 415,
+      "height": 320,
+      "format": "JPEG",
+      "size": 27993
+    },
+    {
+      "filename": "pancreas_puestow_procedure.jpg",
+      "key": "puestow_procedure",
+      "width": 260,
+      "height": 272,
+      "format": "JPEG",
+      "size": 9562
+    },
+    {
+      "filename": "pancreas_double_duct_sign.jpg",
+      "key": "double_duct_sign",
+      "width": 355,
+      "height": 321,
+      "format": "JPEG",
+      "size": 26500
+    },
+    {
+      "filename": "pancreas_glucagonoma_nme_rash.jpg",
+      "key": "glucagonoma_nme_rash",
+      "width": 437,
+      "height": 380,
+      "format": "JPEG",
+      "size": 70435
+    },
+    {
+      "filename": "pancreas_ga68_dotatate_pet.jpg",
+      "key": "ga68_dotatate_pet",
+      "width": 500,
+      "height": 375,
+      "format": "JPEG",
+      "size": 26386
+    },
+    {
+      "filename": "pancreas_insulinoma_histology.jpg",
+      "key": "insulinoma_histology",
+      "width": 500,
+      "height": 376,
+      "format": "JPEG",
+      "size": 72529
+    },
+    {
+      "filename": "pancreas_pancreatic_fistula.jpg",
+      "key": "pancreatic_fistula",
+      "width": 475,
+      "height": 380,
+      "format": "JPEG",
+      "size": 26873
+    },
+    {
+      "filename": "pancreas_islets_langerhans_hist.jpg",
+      "key": "islets_langerhans_hist",
+      "width": 600,
+      "height": 450,
+      "format": "JPEG",
+      "size": 83541
+    },
+    {
+      "filename": "pancreas_pancreatic_acini_hist.jpg",
+      "key": "pancreatic_acini_hist",
+      "width": 554,
+      "height": 450,
+      "format": "JPEG",
+      "size": 50680
+    },
+    {
+      "filename": "pancreas_acute_pancreatitis_ct.jpg",
+      "key": "acute_pancreatitis_ct",
+      "width": 535,
+      "height": 450,
+      "format": "JPEG",
+      "size": 49339
+    },
+    {
+      "filename": "pancreas_serous_cystadenoma_ct.jpg",
+      "key": "serous_cystadenoma_ct",
+      "width": 598,
+      "height": 450,
+      "format": "JPEG",
+      "size": 81744
+    },
+    {
+      "filename": "pancreas_mucinous_cystic_neoplasm.jpg",
+      "key": "mucinous_cystic_neoplasm",
+      "width": 488,
+      "height": 450,
+      "format": "JPEG",
+      "size": 38654
+    },
+    {
+      "filename": "pancreas_pancreas_anatomy_detailed.jpg",
+      "key": "pancreas_anatomy_detailed",
+      "width": 900,
+      "height": 589,
+      "format": "JPEG",
+      "size": 77040
+    },
+    {
+      "filename": "pancreas_pancreas_gross_relations.jpg",
+      "key": "pancreas_gross_relations",
+      "width": 900,
+      "height": 505,
+      "format": "JPEG",
+      "size": 79883
+    },
+    {
+      "filename": "pancreas_wirsung_santorini_ducts.jpg",
+      "key": "wirsung_santorini_ducts",
+      "width": 799,
+      "height": 512,
+      "format": "JPEG",
+      "size": 38309
+    },
+    {
+      "filename": "pancreas_pancreas_divisum_diagram.jpg",
+      "key": "pancreas_divisum_diagram",
+      "width": 900,
+      "height": 631,
+      "format": "JPEG",
+      "size": 59253
+    },
+    {
+      "filename": "pancreas_annular_pancreas_diagram.jpg",
+      "key": "annular_pancreas_diagram",
+      "width": 826,
+      "height": 450,
+      "format": "JPEG",
+      "size": 52852
+    },
+    {
+      "filename": "pancreas_islets_langerhans_diagram.jpg",
+      "key": "islets_langerhans_diagram",
+      "width": 900,
+      "height": 750,
+      "format": "JPEG",
+      "size": 76531
+    },
+    {
+      "filename": "pancreas_trypsinogen_activation_diagram.jpg",
+      "key": "trypsinogen_activation_diagram",
+      "width": 645,
+      "height": 396,
+      "format": "JPEG",
+      "size": 24835
+    },
+    {
+      "filename": "pancreas_acute_pancreatitis_premature_activation.jpg",
+      "key": "acute_pancreatitis_premature_activation",
+      "width": 900,
+      "height": 587,
+      "format": "JPEG",
+      "size": 37698
+    },
+    {
+      "filename": "pancreas_gallstone_impacted_ampulla.jpg",
+      "key": "gallstone_impacted_ampulla",
+      "width": 900,
+      "height": 665,
+      "format": "JPEG",
+      "size": 90628
+    },
+    {
+      "filename": "pancreas_cullen_grey_turner_clinical.jpg",
+      "key": "cullen_grey_turner_clinical",
+      "width": 900,
+      "height": 900,
+      "format": "JPEG",
+      "size": 163684
+    },
+    {
+      "filename": "pancreas_contrast_ct_pancreatic_necrosis.jpg",
+      "key": "contrast_ct_pancreatic_necrosis",
+      "width": 900,
+      "height": 522,
+      "format": "JPEG",
+      "size": 90085
+    },
+    {
+      "filename": "pancreas_step_up_lams_won.jpg",
+      "key": "step_up_lams_won",
+      "width": 900,
+      "height": 669,
+      "format": "JPEG",
+      "size": 84229
+    },
+    {
+      "filename": "pancreas_chronic_pancreatitis_calc_illustration.jpg",
+      "key": "chronic_pancreatitis_calc_illustration",
+      "width": 850,
+      "height": 326,
+      "format": "JPEG",
+      "size": 64731
+    },
+    {
+      "filename": "pancreas_diffuse_pancreatic_calc_xray.jpg",
+      "key": "diffuse_pancreatic_calc_xray",
+      "width": 850,
+      "height": 550,
+      "format": "JPEG",
+      "size": 78058
+    },
+    {
+      "filename": "pancreas_double_duct_sign_pdac.jpg",
+      "key": "double_duct_sign_pdac",
+      "width": 750,
+      "height": 422,
+      "format": "JPEG",
+      "size": 52070
+    },
+    {
+      "filename": "pancreas_whipple_procedure_surgical_steps.jpg",
+      "key": "whipple_procedure_surgical_steps",
+      "width": 708,
+      "height": 563,
+      "format": "JPEG",
+      "size": 59524
+    },
+    {
+      "filename": "pancreas_serous_vs_mucinous_neoplasm.jpg",
+      "key": "serous_vs_mucinous_neoplasm",
+      "width": 900,
+      "height": 506,
+      "format": "JPEG",
+      "size": 82430
+    },
+    {
+      "filename": "pancreas_gastrinoma_triangle_passaro.jpg",
+      "key": "gastrinoma_triangle_passaro",
+      "width": 900,
+      "height": 743,
+      "format": "JPEG",
+      "size": 116308
+    },
+    {
+      "filename": "pancreas_vipoma_wdha_diagram.jpg",
+      "key": "vipoma_wdha_diagram",
+      "width": 868,
+      "height": 900,
+      "format": "JPEG",
+      "size": 85119
+    }
+  ]
+}

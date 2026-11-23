@@ -1,0 +1,83 @@
+{
+  "topic": "01_Malabsorption_Syndrome",
+  "chatgpt_share": "https://chatgpt.com/share/6aee37f8-7d3c-83e9-b3ce-96d19dd8d988",
+  "images": [
+    {
+      "filename": "absorption_physiology.png",
+      "width": 989,
+      "height": 795,
+      "format": "JPEG",
+      "size": 75602
+    },
+    {
+      "filename": "celiac_gluten_diet.png",
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG",
+      "size": 162997
+    },
+    {
+      "filename": "chronic_pancreatitis.png",
+      "width": 945,
+      "height": 641,
+      "format": "JPEG",
+      "size": 74739
+    },
+    {
+      "filename": "crohns_terminal_ileum.png",
+      "width": 1890,
+      "height": 1080,
+      "format": "JPEG",
+      "size": 178734
+    },
+    {
+      "filename": "dermatitis_herpetiformis.png",
+      "width": 1024,
+      "height": 576,
+      "format": "JPEG",
+      "size": 88785
+    },
+    {
+      "filename": "intestinal_lymphangiectasia.png",
+      "width": 638,
+      "height": 478,
+      "format": "JPEG",
+      "size": 47350
+    },
+    {
+      "filename": "nutritional_deficiency.png",
+      "width": 1677,
+      "height": 1357,
+      "format": "JPEG",
+      "size": 121498
+    },
+    {
+      "filename": "osteomalacia_vitamin_d.png",
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "size": 155637
+    },
+    {
+      "filename": "steatorrhea_fat_digestion.png",
+      "width": 1491,
+      "height": 994,
+      "format": "JPEG",
+      "size": 102649
+    },
+    {
+      "filename": "vitamin_a_night_blindness.png",
+      "width": 694,
+      "height": 555,
+      "format": "JPEG",
+      "size": 34037
+    },
+    {
+      "filename": "vitamin_b12_glossitis.png",
+      "width": 728,
+      "height": 485,
+      "format": "JPEG",
+      "size": 47499
+    }
+  ]
+}
